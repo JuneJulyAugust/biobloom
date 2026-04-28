@@ -1,134 +1,181 @@
-# BioBloom / Adaptive USABO Trainer — Proposal
+# BioBloom — Proposal
 
 ## 1. Purpose
 
-Build a private web-based learning system to help Cindy prepare for the USABO Open Exam while studying *Campbell Biology, 12th Edition*.
+BioBloom is a private learning system to help Cindy prepare for the USABO Open Exam while studying *Campbell Biology, 12th Edition*.
 
-The product should help her move from textbook understanding to olympiad-style reasoning by giving her high-quality multiple-choice practice, useful hints, clear explanations, wrong-answer review, and targeted follow-up questions based on her weaknesses.
+The goal is to help her move from textbook understanding to olympiad-style reasoning through high-quality multiple-choice practice, hints, explanations, wrong-answer review, and targeted follow-up practice.
 
-This proposal captures the project direction and core thinking. Detailed implementation choices should be handled later in a separate `design.md`.
+This document is intentionally a proposal, not a detailed design. Implementation details should live later in `design.md`.
 
 ---
 
-## 2. Core Idea
+## 2. Product Vision
 
-The project is not simply an AI quiz generator.
+BioBloom should feel like a supportive biology training companion, not an exam machine.
 
-The better framing is:
-
-> An AI-assisted question-quality pipeline plus an adaptive practice system.
-
-The system should eventually support this loop:
+Core experience:
 
 ```text
-Campbell study progress
-  → concept understanding
-  → USABO-style practice questions
-  → Cindy answers questions
-  → system diagnoses mistakes
-  → system suggests review and generates targeted repair questions
-  → spaced review strengthens retention
+Cindy studies a Campbell chapter
+  → practices related questions
+  → gets hints when stuck
+  → reviews explanations
+  → sees why wrong choices are wrong
+  → revisits weak concepts
+  → receives targeted repair practice
 ```
 
-The key challenge is not building the web app. The key challenge is making the questions **correct, unambiguous, useful, and close to USABO style**.
+The strong framing is:
+
+> An AI-assisted USABO calibration and question-quality pipeline plus an adaptive practice system.
+
+The weak framing to avoid is:
+
+> A generic AI chatbot that randomly generates biology quizzes.
 
 ---
 
-## 3. Student and Learning Context
+## 3. Key Context and Constraints
 
-Cindy is preparing for the USABO Open Exam. She is reading Campbell Biology and needs practice after each chapter.
+### USABO past exams are the calibration foundation
 
-For each chapter, the desired system should generate or provide roughly **60–80 questions**, with a flexible mix such as:
+The project should start by importing and parsing the available official USABO Open Exam materials for private study and calibration.
 
-- about 20 core-understanding questions
-- application and reasoning questions
-- data, graph, or experiment interpretation questions
-- quantitative questions when appropriate
-- misconception-targeted questions
+The official USABO Training Resource Center states that past Open Exams and answer keys are available for 2003–2018 and are useful for understanding the breadth and depth of USABO content. It also states that the exams are proprietary property of the Center for Excellence in Education and may not be distributed or stored electronically without permission.
 
-The exact split should vary by chapter. For example, genetics may need more calculation and data interpretation, while ecology may need more scenario reasoning.
+Therefore, BioBloom should use these materials carefully:
 
----
+- Use them privately for Cindy’s practice if permitted by the source terms.
+- Use them as the main calibration set for topic distribution, difficulty, style, and reasoning patterns.
+- Do not copy official questions into a public product.
+- Do not generate near-duplicates of official questions.
+- Generate original questions that imitate reasoning patterns, not wording.
 
-## 4. Product Vision
-
-The system should feel like a supportive biology training companion, not an exam machine.
-
-Core user experiences:
-
-- Cindy selects a Campbell chapter or weak topic
-- she answers multiple-choice questions
-- she can request hints in layers
-- after answering, she sees the correct reasoning
-- if she is wrong, the system explains the likely misconception
-- wrong questions are saved for review
-- the system tracks weak concepts and generates targeted follow-up practice
-
-A strong version of the product is:
-
-```text
-AI-powered USABO reasoning practice with misconception diagnosis and adaptive repair
-```
-
-A weak version to avoid is:
-
-```text
-Generic biology chatbot that generates random quizzes
-```
-
----
-
-## 5. Important Constraints
+This calibration bank is not optional. Without it, generated questions will likely drift toward generic AP Biology difficulty instead of real USABO style.
 
 ### Question quality is the main risk
 
-AI can easily generate many questions, but many will be too easy, ambiguous, repetitive, or subtly wrong. The project should optimize for question quality before scale.
+The web app is straightforward. The hard part is creating questions that are correct, unambiguous, useful, and close to USABO style.
 
-### Campbell and USABO copyright must be respected
+AI can produce many questions quickly, but many raw outputs will be too easy, repetitive, ambiguous, or subtly wrong. The project should optimize for quality before scale.
+
+### Runtime API cost should be avoided at first
+
+The preferred path is not to make direct paid API calls from the BioBloom app.
+
+Instead, use local AI coding/agent tools such as:
+
+- Codex CLI
+- Claude Code
+- Gemini CLI
+
+These tools can help parse, label, author, critique, validate, and organize question content during development. BioBloom itself should initially work without requiring paid AI API calls at runtime.
+
+### Copyright must be respected
 
 Campbell Biology and official USABO exams should not be copied into a public product or redistributed without permission.
 
 Safe usage direction:
 
-- use personal notes, summaries, concept cards, and page references
+- use original notes, summaries, concept cards, and page references
 - use official past USABO exams privately for practice and calibration
 - use past exams to understand style, topic distribution, difficulty, and reasoning patterns
 - generate original questions rather than copying official questions
 
-### Campbell is necessary but may not be sufficient long term
-
-Campbell is a strong foundation for the Open Exam, especially early on. If Cindy later targets Semifinals or very high performance, the system may need additional source summaries for plant physiology, animal physiology, biochemistry, ecology, and other advanced topics.
-
 ---
 
-## 6. Consensus From Brainstorming
+## 4. Core Strategy
 
-Across GPT, Claude, and Gemini responses, the main agreements were:
+BioBloom should be built as an **offline-first adaptive quiz system** with an **AI-assisted authoring and calibration pipeline**.
 
-1. The project is feasible.
-2. The hard part is question quality, not web development.
-3. Do not simply prompt: “generate 80 questions for this chapter.”
-4. Generate from structured concepts or blueprints instead.
-5. Use past USABO exams as calibration, not copied content.
-6. Use multiple AI models to review and criticize generated questions.
-7. Distractors should represent real misconceptions.
-8. Each question needs metadata: chapter, concept, skill, difficulty, reasoning type, and misconception tags.
-9. Hints should be layered so they guide without giving away the answer.
-10. Human review and flagging should exist, especially for high-confidence or mock-exam questions.
-
----
-
-## 7. Proposed Content Pipeline
-
-A good generation pipeline should be concept-first:
+That means:
 
 ```text
-chapter notes
+Past USABO exams calibrate style and difficulty.
+Campbell concepts provide the knowledge foundation.
+AI helps create and validate original content before use.
+The app serves reviewed content during practice.
+```
+
+This avoids the cost and reliability issues of live question generation while still benefiting from AI.
+
+Recommended principle:
+
+> AI-assisted content production, not AI-dependent runtime.
+
+---
+
+## 5. Phase 0: USABO Calibration Bank
+
+Before generating many new questions, BioBloom should build a private calibration bank from available past USABO Open Exams.
+
+Purpose:
+
+- understand real USABO difficulty
+- map topic distribution
+- identify recurring reasoning patterns
+- identify common traps and distractors
+- connect official-style questions back to Campbell chapters
+- provide benchmark examples for evaluating generated questions
+
+The calibration bank should store metadata, not just raw questions.
+
+Useful labels:
+
+- year
+- question number
+- answer key
+- USABO topic area
+- Campbell chapter mapping
+- concept and subskill
+- reasoning type
+- difficulty estimate
+- trap or misconception tested
+- whether it is recall, application, data interpretation, calculation, or cross-topic reasoning
+
+Example metadata shape:
+
+```json
+{
+  "source": "USABO Open Exam",
+  "year": 2018,
+  "question_number": 17,
+  "topic_area": "Genetics and Evolution",
+  "campbell_chapters": ["Meiosis", "Mendelian Genetics"],
+  "skill": "linkage_mapping",
+  "reasoning_type": "quantitative_inference",
+  "difficulty": 4,
+  "trap": "confuses recombinant and parental classes",
+  "usage": "private_calibration"
+}
+```
+
+This phase should produce a calibration dataset that can answer:
+
+```text
+What does a real USABO Open question look like?
+Which Campbell chapters are most represented?
+What reasoning patterns appear repeatedly?
+How hard should a generated question be to count as USABO-style?
+```
+
+---
+
+## 6. Campbell Content Pipeline
+
+After the calibration bank exists, build chapter-level content from Campbell.
+
+A good content pipeline should be concept-first:
+
+```text
+Campbell chapter
   → concept cards
   → question blueprints
-  → candidate questions
-  → validation
-  → accepted question bank
+  → candidate original questions
+  → AI critique and validation
+  → reviewed question bank
+  → practice and review
 ```
 
 ### Concept cards
@@ -145,7 +192,7 @@ It may include:
 
 ### Question blueprints
 
-A blueprint defines the question before wording is generated.
+A blueprint defines what a question should test before the final wording is generated.
 
 It may include:
 
@@ -157,52 +204,60 @@ It may include:
 - expected reasoning steps
 - question type, such as experiment interpretation or mechanism prediction
 
-This prevents the AI from producing shallow recall questions.
-
-### Candidate questions
-
-For each chapter, generate more questions than needed, then reject weak ones.
-
-A reasonable early expectation:
+This prevents shallow prompts like:
 
 ```text
-Generate 100–150 candidates → keep the best 60–80
+Generate 80 USABO questions for Chapter 7.
+```
+
+A better approach is:
+
+```text
+Generate question blueprints for membrane transport.
+Use the USABO calibration bank to match style and difficulty.
+Then generate original MCQs from those blueprints.
 ```
 
 ---
 
-## 8. Multi-Model Critique Strategy
+## 7. Local AI Pipeline
 
-Yes, GPT, Claude Opus, and Gemini can be used to criticize each other. But they should not be used as simple majority voters.
+Because paid runtime API calls are not desired, local agent tools should be used as the content production and review environment.
 
-Better approach:
+Possible workflow:
 
 ```text
-Model A: generate the question
-Model B: solve it independently without seeing the answer
-Model C: search for ambiguity or multiple correct answers
-Model D: check factual grounding
-Model E: improve explanation, hints, and misconception diagnosis
+1. Parse available USABO Open Exam PDFs into structured private calibration files.
+2. Use local AI tools to label each official question by topic, skill, difficulty, and reasoning pattern.
+3. Prepare Campbell chapter notes or concept cards.
+4. Generate question blueprints using both Campbell concept cards and USABO calibration patterns.
+5. Generate original candidate MCQs from the blueprints.
+6. Use another model/tool to solve the questions without seeing the answer key.
+7. Use another model/tool to critique ambiguity, factual grounding, and distractor quality.
+8. Save accepted questions as JSON or Markdown.
+9. Import reviewed questions into BioBloom.
 ```
 
-The goal is to make each model detect a different failure mode.
+The models should not simply vote. They should play different roles:
 
-Reject or rewrite a question if:
+```text
+Parser / Labeler      → extracts and tags calibration questions
+Generator             → creates original candidate questions
+Independent Solver    → answers without seeing the key
+Skeptic               → looks for ambiguity or multiple correct answers
+Fact Auditor          → checks whether biology claims are grounded
+USABO Calibrator      → checks whether difficulty/style match real Open Exam patterns
+Pedagogy Auditor      → improves hints, explanations, and misconception diagnosis
+Rewriter              → improves wording and clarity
+```
 
-- more than one answer could be correct
-- the correct answer depends on an unstated assumption
-- the explanation contradicts the answer
-- the question relies on unsupported biology facts
-- distractors are silly or non-diagnostic
-- difficulty comes from confusing wording rather than real reasoning
-- it is too similar to an official or existing question
-- it is AP-level recall while labeled as USABO-style
+This makes the AI pipeline useful even without a paid API backend.
 
 ---
 
-## 9. Question Quality Requirements
+## 8. Question Quality Requirements
 
-A high-quality question should have:
+A high-quality generated question should have:
 
 - one clearly correct answer
 - plausible distractors
@@ -213,75 +268,76 @@ A high-quality question should have:
 - chapter and concept tags
 - reasoning type
 - hint ladder
-- source basis from concept notes
+- source basis from notes or concept cards
+- calibration reference to a USABO-style reasoning pattern, without copying the official question
 
-Example misconception-tagged distractors:
+Reject or rewrite questions if:
 
-- confusing facilitated diffusion with active transport
-- thinking dominant traits are always common
-- assuming cholesterol always increases membrane fluidity
-- confusing sister chromatids with homologous chromosomes
-- thinking the Calvin cycle directly produces oxygen
-
-This metadata is what enables useful wrong-answer diagnosis later.
+- more than one answer could be correct
+- the answer depends on an unstated assumption
+- the explanation contradicts the answer
+- the question relies on unsupported facts
+- distractors are silly or non-diagnostic
+- difficulty comes from confusing wording rather than real reasoning
+- it is too similar to an official or existing question
+- it is AP-level recall while labeled as USABO-style
 
 ---
 
-## 10. Adaptive Learning Direction
+## 9. Adaptive Learning Direction
 
-The system should track more than correct or incorrect.
+BioBloom should track more than right or wrong.
 
-Useful signals:
+Useful signals include:
 
 - selected answer
 - wrong-answer misconception tag
 - time spent
 - hint level used
-- confidence level
-- repeated mistakes on similar concepts
-- improvement or regression over time
+- confidence level, if Cindy enters it
+- repeated mistakes across related concepts
 
-The adaptive loop should distinguish between:
-
-- missing a fact
-- misunderstanding a mechanism
-- misreading a graph
-- making a calculation error
-- falling for the same misconception repeatedly
-- knowing the idea but being too slow or uncertain
-
-When Cindy misses a question, the system should give specific feedback, for example:
+The adaptive logic can start simple and does not require live AI:
 
 ```text
-You may be associating all protein-mediated transport with active transport.
-But facilitated diffusion also uses proteins and does not require ATP when movement is down the gradient.
-Next, practice questions comparing simple diffusion, facilitated diffusion, primary active transport, and secondary active transport.
+If Cindy repeatedly misses questions tagged `membrane_transport`, show more membrane transport questions.
+
+If she repeatedly chooses distractors tagged `protein_transport_always_active`, show review material and targeted questions for that misconception.
 ```
+
+Later, AI can help generate new repair sets, but the MVP should work from the reviewed question bank.
 
 ---
 
-## 11. Product Scope
+## 10. MVP Scope
 
-### MVP goal
-
-Start small and prove the quality loop.
+The first useful version should be small and practical.
 
 Recommended MVP:
 
 - private web app
-- 3–5 high-yield Campbell chapters
-- 200–400 validated questions
-- chapter practice mode
-- hints
-- explanations
-- wrong-question review
-- basic weakness dashboard
-- question flag/review workflow
+- USABO calibration import/labeling workflow
+- chapter selection
+- multiple-choice practice
+- stored hints
+- stored explanations
+- wrong-answer review
+- skill and misconception tags
+- basic progress dashboard
+- import questions from JSON or Markdown
+- simple admin/review workflow
 
-Initial high-yield chapters may include:
+Start with two parallel tracks:
 
-- cell structure
-- membranes
+### Track A: Calibration
+
+Import and label available USABO Open Exam questions enough to understand style, difficulty, and topic distribution.
+
+### Track B: Campbell practice
+
+Start with a few high-yield Campbell areas:
+
+- cells and membranes
 - cellular respiration
 - photosynthesis
 - cell communication
@@ -289,132 +345,67 @@ Initial high-yield chapters may include:
 - meiosis
 - Mendelian genetics
 
-Do not start by covering the entire Campbell book. First prove that the system can generate 50 genuinely good questions from one chapter.
+For each chapter, aim for a reviewed set of roughly 60–80 original questions over time, not necessarily all at once.
 
 ---
 
-## 12. Suggested Development Phases
+## 11. Future Enhancements
 
-### Phase 0 — Calibration and taxonomy
+Possible later improvements:
 
-- collect official/public USABO past exams for private reference
-- study topic distribution and reasoning patterns
-- define initial topic, skill, difficulty, and misconception taxonomies
-- label a small sample of historical questions for calibration
+- timed USABO-style practice mode
+- mock Open Exam mode
+- spaced repetition scheduling
+- stronger mastery model
+- local AI-assisted admin tools
+- optional Gemini API free-tier automation
+- automated question validation reports
+- personalized repair-question generation
+- support for advanced sources beyond Campbell
+- deeper analysis of official exam trends by year and topic
 
-### Phase 1 — Concept cards
-
-- create concept cards for a few high-yield Campbell chapters
-- map each card to USABO topic areas and likely question types
-- identify common misconceptions
-
-### Phase 2 — Question generation and validation
-
-- generate question blueprints
-- generate candidate MCQs
-- run multi-model critique
-- reject, rewrite, or accept questions
-- manually inspect early outputs
-
-### Phase 3 — Practice web app
-
-- chapter practice UI
-- multiple-choice answering
-- hint ladder
-- explanation and wrong-answer feedback
-- attempt history
-- question flagging
-
-### Phase 4 — Adaptive review
-
-- track mastery by concept or skill
-- detect repeated misconception patterns
-- generate targeted repair questions
-- schedule spaced review
-
-### Phase 5 — Mock exam and gold bank
-
-- human-review best questions
-- mark trusted questions as Gold
-- build timed Open Exam simulation
-- generate performance reports by USABO topic area
+These should not block the MVP.
 
 ---
 
-## 13. Minimal Data Concepts
+## 12. Development Philosophy
 
-Detailed database design should go into `design.md`, but the system will likely need these core entities:
-
-- Student
-- Chapter
-- ConceptCard
-- QuestionBlueprint
-- Question
-- AnswerChoice
-- Attempt
-- MisconceptionTag
-- SkillMastery
-- ReviewFlag
-
-A question should store enough metadata to support diagnosis and adaptive review, not just stem, choices, and answer.
-
----
-
-## 14. Main Risks and Mitigations
-
-| Risk | Mitigation |
-|---|---|
-| Factual hallucination | source-grounded concept cards, factual audit, human review |
-| Ambiguous questions | independent solver, skeptic model, review flagging |
-| Too easy / AP-level questions | USABO calibration examples and difficulty rubric |
-| Weak distractors | require misconception-linked distractors |
-| Generic feedback | use selected wrong answer and misconception tag |
-| Repetitive generated questions | track question type, concept, reasoning pattern, and similarity |
-| Copyright issues | use private notes and original questions; avoid redistribution of protected content |
-
----
-
-## 15. Success Criteria
-
-The first milestone is not thousands of questions.
-
-The first milestone is:
-
-> Can the system produce 50 high-quality, validated, misconception-tagged questions from one Campbell chapter that Cindy finds useful?
-
-If yes, the project can scale.
-
-If no, generating more questions will only create a larger low-quality bank.
-
-Early success indicators:
-
-- Cindy enjoys using it
-- explanations are actually helpful
-- wrong-answer feedback feels specific, not generic
-- questions are challenging but fair
-- parent/admin can flag and improve weak questions
-- the system identifies recurring blind spots correctly
-
----
-
-## 16. Final Recommendation
-
-Start with the question-quality pipeline, not the full product.
-
-Recommended first sprint:
+Build the system in layers:
 
 ```text
-1. Pick one Campbell chapter.
-2. Create 10–20 concept cards.
-3. Generate 50–100 candidate questions.
-4. Use multi-model critique to filter them.
-5. Manually review the best 30–50.
-6. Build a simple practice UI.
-7. Let Cindy try it and collect feedback.
+1. USABO calibration bank
+2. Reviewed static original question bank
+3. Practice UI
+4. Wrong-answer review
+5. Tag-based adaptation
+6. AI-assisted authoring workflow
+7. Optional runtime AI features
 ```
 
-The long-term product can become an adaptive USABO training system, but the project should earn that complexity gradually.
+Avoid over-designing early. Keep the system flexible enough that `design.md` can later decide the exact stack, schema, storage format, and AI orchestration details.
 
-The guiding principle:
+The first milestone should be simple:
 
-> Quality first, adaptation second, scale third.
+> Cindy can select a chapter, answer reviewed MCQs, see hints and explanations, and review her mistakes.
+
+But the first project foundation should be:
+
+> BioBloom understands what real USABO Open questions look like through a private calibration bank.
+
+---
+
+## 13. Summary
+
+BioBloom is feasible and valuable, especially if the project focuses on quality-controlled practice rather than live AI generation.
+
+The best near-term path is:
+
+```text
+Import and label available USABO Open Exam materials for private calibration.
+Use local AI tools to produce and critique original content.
+Store reviewed content in the app.
+Use deterministic app logic for practice, review, and adaptation.
+Add optional AI automation only after the core system works.
+```
+
+This keeps cost low, avoids runtime API dependency, respects copyright boundaries, and makes the project immediately useful for Cindy.
