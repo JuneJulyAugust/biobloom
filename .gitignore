@@ -19,6 +19,11 @@
 # Cursor
 .cursor/
 
+# Local agent notes
+CLAUDE.md
+CODEX.md
+Gemini.md
+
 # Node / web
 node_modules/
 .npm/
