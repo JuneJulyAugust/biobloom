@@ -1,0 +1,63 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Local env
+.zshrc
+.env
+.env.*
+*.local
+.envrc
+.direnv/
+
+# IDE
+.vscode/
+.idea/
+.fleet/
+
+# Cursor
+.cursor/
+
+# Node / web
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+build/
+coverage/
+storybook-static/
+playwright-report/
+test-results/
+reports/
+.cache/
+.eslintcache
+.prettier-cache
+*.tsbuildinfo
+vite.svg
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Worktrees
+.worktrees/
