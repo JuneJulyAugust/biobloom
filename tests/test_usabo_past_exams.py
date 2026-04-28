@@ -17,6 +17,21 @@ def test_filter_open_exam_urls_keeps_exams_and_keys():
     ]
 
 
+def test_filter_open_exam_urls_keeps_2013_to_2018_patterns():
+    urls = [
+        "https://www.usabo-trc.org/sites/default/files/2013%20USABO%20Open%20Exam%20Final%20without%20%20Answers.pdf",
+        "https://www.usabo-trc.org/sites/default/files/2013%20USABO%20Open%20Exam%20Answers.pdf",
+        "https://www.usabo-trc.org/sites/default/files/allfiles/USABO%2017%20OE%20Key.pdf",
+        "https://www.usabo-trc.org/sites/default/files/USABO%2014%20Semifinal%20Final.pdf",
+    ]
+
+    assert filter_open_exam_urls(urls) == [
+        "https://www.usabo-trc.org/sites/default/files/2013%20USABO%20Open%20Exam%20Final%20without%20%20Answers.pdf",
+        "https://www.usabo-trc.org/sites/default/files/2013%20USABO%20Open%20Exam%20Answers.pdf",
+        "https://www.usabo-trc.org/sites/default/files/allfiles/USABO%2017%20OE%20Key.pdf",
+    ]
+
+
 def test_filter_open_exam_urls_normalizes_and_deduplicates():
     urls = [
         "https://www.usabo-trc.org/sites/default/files/images/pdf/exams/openexam/2003_OpenExam.pdf?download=1",

@@ -38,10 +38,19 @@ def _compact_text(value: str) -> str:
 def is_open_exam_pdf_url(url: str) -> bool:
     """Keep only URLs that refer to Open Exam PDFs, including answer keys."""
     normalized = normalize_pdf_url(url)
-    path = urlsplit(normalized).path
+    path = unquote(urlsplit(normalized).path)
     if not path.lower().endswith(".pdf"):
         return False
-    return "openexam" in _compact_text(path)
+
+    lowered = path.lower()
+    if "semifinal" in lowered:
+        return False
+
+    compact = _compact_text(path)
+    if "openexam" in compact:
+        return True
+
+    return bool(re.search(r"\boe\b", lowered) and "key" in lowered)
 
 
 def filter_open_exam_urls(urls: Iterable[str]) -> list[str]:
