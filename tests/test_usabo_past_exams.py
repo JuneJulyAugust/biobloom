@@ -51,6 +51,12 @@ def test_extract_filename_from_url_uses_path_basename():
     assert extract_filename_from_url(url) == "2003_OpenExam_Key.pdf"
 
 
+def test_extract_filename_from_url_normalizes_2012_spacing():
+    url = "https://www.usabo-trc.org/sites/default/files/images/pdf/exams/openexam/2012_Open%20Exam.pdf"
+
+    assert extract_filename_from_url(url) == "2012_OpenExam.pdf"
+
+
 def test_extract_filename_from_url_normalizes_2013_to_2018_names():
     assert extract_filename_from_url(
         "https://www.usabo-trc.org/sites/default/files/2013%20USABO%20Open%20Exam%20Answers.pdf"

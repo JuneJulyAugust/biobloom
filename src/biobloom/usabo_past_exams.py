@@ -16,6 +16,7 @@ import pymupdf
 import requests
 
 _YEARLESS_CANONICAL_FILENAMES = {
+    "2012_Open Exam.pdf": "2012_OpenExam.pdf",
     "USABO Open Exam.Finalwoans_1.pdf": "2015_OpenExam.pdf",
     "USABO Open Exam.Finalwans.pdf": "2015_OpenExam_AnsKey.pdf",
 }
