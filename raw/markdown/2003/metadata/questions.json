@@ -1,0 +1,967 @@
+[
+  {
+    "number": 1,
+    "stem_lines": [
+      "What enzyme does HIV use to convert RNA to DNA?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "DNA gyrase"
+      },
+      {
+        "letter": "B",
+        "text": "RNA polymerase"
+      },
+      {
+        "letter": "C",
+        "text": "Reverse transcriptase"
+      },
+      {
+        "letter": "D",
+        "text": "DNA helicase"
+      }
+    ],
+    "page": 1,
+    "answer": "C",
+    "answer_text": "Reverse transcriptase"
+  },
+  {
+    "number": 2,
+    "stem_lines": [
+      "The promoter region of a prokaryotic gene is located ______ to the gene and is the binding site for ______."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "3'...DNA polymerase"
+      },
+      {
+        "letter": "B",
+        "text": "3'...RNA polymerase"
+      },
+      {
+        "letter": "C",
+        "text": "5'...DNA polymerase"
+      },
+      {
+        "letter": "D",
+        "text": "5'...RNA polymerase"
+      }
+    ],
+    "page": 1,
+    "answer": "D",
+    "answer_text": "5'...RNA polymerase"
+  },
+  {
+    "number": 3,
+    "stem_lines": [
+      "Which of the following is TRUE of prokaryotes?",
+      "I. Simultaneous transcription and translation",
+      "II. Presence of intron sequences",
+      "III. Circular DNA"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "I and II only"
+      },
+      {
+        "letter": "B",
+        "text": "I and III only"
+      },
+      {
+        "letter": "C",
+        "text": "II and III only"
+      },
+      {
+        "letter": "D",
+        "text": "I, II, and III"
+      }
+    ],
+    "page": 1,
+    "answer": "B",
+    "answer_text": "I and III only"
+  },
+  {
+    "number": 4,
+    "stem_lines": [
+      "Integral transmembrane proteins are proteins imbedded in the cell membrane. Which of the following amino",
+      "acids would you MOST expect to find in the transmembrane region of such proteins?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Lysine"
+      },
+      {
+        "letter": "B",
+        "text": "Serine"
+      },
+      {
+        "letter": "C",
+        "text": "Tryptophan"
+      },
+      {
+        "letter": "D",
+        "text": "Arginine"
+      }
+    ],
+    "page": 1,
+    "answer": "C",
+    "answer_text": "Tryptophan"
+  },
+  {
+    "number": 5,
+    "stem_lines": [
+      "When the base composition of DNA from bacterium Mycobacterium tuberculosis was determined, 18% of the",
+      "bases were found to be adenine. What is the G + C content in M. tuberculosis?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "18%"
+      },
+      {
+        "letter": "B",
+        "text": "32%"
+      },
+      {
+        "letter": "C",
+        "text": "36%"
+      },
+      {
+        "letter": "D",
+        "text": "64%"
+      }
+    ],
+    "page": 1,
+    "answer": "D",
+    "answer_text": "64%"
+  },
+  {
+    "number": 6,
+    "stem_lines": [
+      "The frequency of individuals affected with an autosomally recessive inherited disorder is 1 in 4. Assuming that",
+      "the population affected by this disease is in Hardy-Weinberg equilibrium, what is the proportion of carrier",
+      "individuals in this population?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "12.5%"
+      },
+      {
+        "letter": "B",
+        "text": "25%"
+      },
+      {
+        "letter": "C",
+        "text": "50%"
+      },
+      {
+        "letter": "D",
+        "text": "100%"
+      }
+    ],
+    "page": 1,
+    "answer": "C",
+    "answer_text": "50%"
+  },
+  {
+    "number": 7,
+    "stem_lines": [
+      "The velocity of action potential conduction across a nerve axon is increased by the presence of the myelin",
+      "sheath. In the peripheral nervous system, what cell myelinates the axon?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Oligodendocyte"
+      },
+      {
+        "letter": "B",
+        "text": "Astrocyte"
+      },
+      {
+        "letter": "C",
+        "text": "Schwann cell"
+      },
+      {
+        "letter": "D",
+        "text": "Microglial cell"
+      }
+    ],
+    "page": 1,
+    "answer": "C",
+    "answer_text": "Schwann cell"
+  },
+  {
+    "number": 8,
+    "stem_lines": [
+      "The cell bodies of afferent (sensory) nerves involved in somatic reflexes are located in the"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dorsal root ganglion"
+      },
+      {
+        "letter": "B",
+        "text": "Ventral root ganglion"
+      },
+      {
+        "letter": "C",
+        "text": "Spinal nerve"
+      },
+      {
+        "letter": "D",
+        "text": "Grey matter of spinal cord"
+      }
+    ],
+    "page": 1,
+    "answer": "A",
+    "answer_text": "Dorsal root ganglion"
+  },
+  {
+    "number": 9,
+    "stem_lines": [
+      "Rods and cones are associated with _____ and _____ vision, respectively."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Light/dark...color"
+      },
+      {
+        "letter": "B",
+        "text": "Color...light/dark"
+      },
+      {
+        "letter": "C",
+        "text": "Near...far"
+      },
+      {
+        "letter": "D",
+        "text": "Far...near"
+      }
+    ],
+    "page": 2,
+    "answer": "A",
+    "answer_text": "Light/dark...color"
+  },
+  {
+    "number": 10,
+    "stem_lines": [
+      "Populations that are likely to be living at a density near the limit of their resources, are characterized as"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "r-selected"
+      },
+      {
+        "letter": "B",
+        "text": "p-selected"
+      },
+      {
+        "letter": "C",
+        "text": "Q-selected"
+      },
+      {
+        "letter": "D",
+        "text": "K-selected"
+      }
+    ],
+    "page": 2,
+    "answer": "D",
+    "answer_text": "K-selected"
+  },
+  {
+    "number": 11,
+    "stem_lines": [
+      "In many types of cancer, the function of the p53 gene is lost. Wild-type p53 is MOST likely to be a"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "proto-oncogene"
+      },
+      {
+        "letter": "B",
+        "text": "tumor suppressor"
+      },
+      {
+        "letter": "C",
+        "text": "positive regulator of cell cycle progression"
+      },
+      {
+        "letter": "D",
+        "text": "gene required for DNA replication"
+      }
+    ],
+    "page": 2,
+    "answer": "B",
+    "answer_text": "tumor suppressor"
+  },
+  {
+    "number": 12,
+    "stem_lines": [
+      "What glycolytic product is shuttled to the mitochondria in aerobic respiration?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Acetyl-CoA"
+      },
+      {
+        "letter": "B",
+        "text": "Fumarate"
+      },
+      {
+        "letter": "C",
+        "text": "Succinyl-CoA"
+      },
+      {
+        "letter": "D",
+        "text": "Pyruvate"
+      }
+    ],
+    "page": 2,
+    "answer": "D",
+    "answer_text": "Pyruvate"
+  },
+  {
+    "number": 13,
+    "stem_lines": [
+      "During human development, which process leads to the formation of three germ layers?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "gastrulation"
+      },
+      {
+        "letter": "B",
+        "text": "neurelation"
+      },
+      {
+        "letter": "C",
+        "text": "morulation"
+      },
+      {
+        "letter": "D",
+        "text": "cephalization"
+      }
+    ],
+    "page": 2,
+    "answer": "A",
+    "answer_text": "gastrulation"
+  },
+  {
+    "number": 14,
+    "stem_lines": [
+      "Telomerase is responsible for _____ the size of telomeres, and its function is often ____ in carcinogenesis."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "maintaining ... decreased"
+      },
+      {
+        "letter": "B",
+        "text": "maintaining ... increased"
+      },
+      {
+        "letter": "C",
+        "text": "decreasing ... decreased"
+      },
+      {
+        "letter": "D",
+        "text": "decreasing ... increased"
+      }
+    ],
+    "page": 2,
+    "answer": "B",
+    "answer_text": "maintaining ... increased"
+  },
+  {
+    "number": 15,
+    "stem_lines": [
+      "Which of the following is NOT a mode of natural selection?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "stabilizing selection"
+      },
+      {
+        "letter": "B",
+        "text": "sexual selection"
+      },
+      {
+        "letter": "C",
+        "text": "directional selection"
+      },
+      {
+        "letter": "D",
+        "text": "diversifying selection"
+      }
+    ],
+    "page": 2,
+    "answer": "B",
+    "answer_text": "sexual selection"
+  },
+  {
+    "number": 16,
+    "stem_lines": [
+      "Protostomes have _____ and _____ types of cleavage."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "spiral ... determinate"
+      },
+      {
+        "letter": "B",
+        "text": "spiral ... indeterminate"
+      },
+      {
+        "letter": "C",
+        "text": "radial ... determinate"
+      },
+      {
+        "letter": "D",
+        "text": "radial ... indeterminate"
+      }
+    ],
+    "page": 2,
+    "answer": "A",
+    "answer_text": "spiral ... determinate"
+  },
+  {
+    "number": 17,
+    "stem_lines": [
+      "Which of the following is NOT a characteristic of all chordates?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "notochord"
+      },
+      {
+        "letter": "B",
+        "text": "vertebrae"
+      },
+      {
+        "letter": "C",
+        "text": "pharyngeal slits"
+      },
+      {
+        "letter": "D",
+        "text": "postanal tail"
+      }
+    ],
+    "page": 2,
+    "answer": "B",
+    "answer_text": "vertebrae"
+  },
+  {
+    "number": 18,
+    "stem_lines": [
+      "In cardiac muscle, calcium ions can move freely between adjacent cells through which of the following?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "tight junctions"
+      },
+      {
+        "letter": "B",
+        "text": "gap junctions"
+      },
+      {
+        "letter": "C",
+        "text": "calcium pumps"
+      },
+      {
+        "letter": "D",
+        "text": "plasmodesmata"
+      }
+    ],
+    "page": 2,
+    "answer": "B",
+    "answer_text": "gap junctions"
+  },
+  {
+    "number": 19,
+    "stem_lines": [
+      "Unlike most polypeptide hormones, steroid hormones are unique in that they"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Activate gene transcription"
+      },
+      {
+        "letter": "B",
+        "text": "Diffuse across cell membranes"
+      },
+      {
+        "letter": "C",
+        "text": "Can bind proteins"
+      },
+      {
+        "letter": "D",
+        "text": "Can be used as therapeutic drugs"
+      }
+    ],
+    "page": 3,
+    "answer": "B",
+    "answer_text": "Diffuse across cell membranes"
+  },
+  {
+    "number": 20,
+    "stem_lines": [
+      "In superoxide dismutase 1, an enzyme implicated in amyotrophic lateral sclerosis (Lou Gehrig's disease), a",
+      "copper ion is bound to the active site and is important for enzyme activity. In this enzyme, copper most likely",
+      "functions as a(n)"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "coenzyme"
+      },
+      {
+        "letter": "B",
+        "text": "cofactor"
+      },
+      {
+        "letter": "C",
+        "text": "allosteric activator"
+      },
+      {
+        "letter": "D",
+        "text": "allosteric inhibitor"
+      }
+    ],
+    "page": 3,
+    "answer": "B",
+    "answer_text": "cofactor"
+  },
+  {
+    "number": 21,
+    "stem_lines": [
+      "The order of normal blood flow through the human heart is"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "right ventricle, right atrium, lungs, left ventricle, left atrium, body"
+      },
+      {
+        "letter": "B",
+        "text": "right ventricle, right atrium, body, left ventricle, left atrium, lungs"
+      },
+      {
+        "letter": "C",
+        "text": "right atrium, right ventricle, lungs, left atrium, left ventricle, body"
+      },
+      {
+        "letter": "D",
+        "text": "right atrium, right ventricle, body, left atrium, left ventricle, lungs"
+      }
+    ],
+    "page": 3,
+    "answer": "C",
+    "answer_text": "right atrium, right ventricle, lungs, left atrium, left ventricle, body"
+  },
+  {
+    "number": 22,
+    "stem_lines": [
+      "Allopatric speciation refers to species formed after which type of separation:"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "niche"
+      },
+      {
+        "letter": "B",
+        "text": "temporal"
+      },
+      {
+        "letter": "C",
+        "text": "behavioral"
+      },
+      {
+        "letter": "D",
+        "text": "geographic"
+      }
+    ],
+    "page": 3,
+    "answer": "D",
+    "answer_text": "geographic"
+  },
+  {
+    "number": 23,
+    "stem_lines": [
+      "Which two functional groups are always found in amino acids?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Amine and sulfhydryl"
+      },
+      {
+        "letter": "B",
+        "text": "Sulfhydryl and carboxyl"
+      },
+      {
+        "letter": "C",
+        "text": "Carboxyl and amine"
+      },
+      {
+        "letter": "D",
+        "text": "Alcohol and aldehyde"
+      }
+    ],
+    "page": 3,
+    "answer": "C",
+    "answer_text": "Carboxyl and amine"
+  },
+  {
+    "number": 24,
+    "stem_lines": [
+      "Movement of ions across the membrane from higher to lower concentrations through a channel protein is an",
+      "example of"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Simple diffusion"
+      },
+      {
+        "letter": "B",
+        "text": "Facilitated diffusion"
+      },
+      {
+        "letter": "C",
+        "text": "Active transport"
+      },
+      {
+        "letter": "D",
+        "text": "Osmosis"
+      }
+    ],
+    "page": 3,
+    "answer": "B",
+    "answer_text": "Facilitated diffusion"
+  },
+  {
+    "number": 25,
+    "stem_lines": [
+      "Which group of plants has vascular tissue but does not produce seeds?",
+      "I. Mosses",
+      "II. Ferns",
+      "III. Gymnosperms"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "I"
+      },
+      {
+        "letter": "B",
+        "text": "II"
+      },
+      {
+        "letter": "C",
+        "text": "III"
+      },
+      {
+        "letter": "D",
+        "text": "II & III"
+      }
+    ],
+    "page": 3,
+    "answer": "B",
+    "answer_text": "II"
+  },
+  {
+    "number": 26,
+    "stem_lines": [
+      "Which of the following is true for transport in xylem?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "The primary force involved is osmotic pressure"
+      },
+      {
+        "letter": "B",
+        "text": "Xylem is the primary site for transport of sucrose"
+      },
+      {
+        "letter": "C",
+        "text": "Movement through xylem depends mainly on transpiration"
+      },
+      {
+        "letter": "D",
+        "text": "All of the above"
+      }
+    ],
+    "page": 3,
+    "answer": "C",
+    "answer_text": "Movement through xylem depends mainly on transpiration"
+  },
+  {
+    "number": 27,
+    "stem_lines": [
+      "Predation is considered a _________ interaction, while Mutualism is considered a ___________ interaction."
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "+/+, +/+"
+      },
+      {
+        "letter": "B",
+        "text": "+/0, -/-"
+      },
+      {
+        "letter": "C",
+        "text": "-/-, +/+"
+      },
+      {
+        "letter": "D",
+        "text": "+/-, +/+"
+      }
+    ],
+    "page": 3,
+    "answer": "D",
+    "answer_text": "+/-, +/+"
+  },
+  {
+    "number": 28,
+    "stem_lines": [
+      "Which of the following organisms is INCORRECTLY paired with its trophic level?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Human - tertiary consumer"
+      },
+      {
+        "letter": "B",
+        "text": "Beetle - secondary consumer"
+      },
+      {
+        "letter": "C",
+        "text": "Grass - primary producer"
+      },
+      {
+        "letter": "D",
+        "text": "Cyanobacteria - primary producer"
+      }
+    ],
+    "page": 4,
+    "answer": "B",
+    "answer_text": "Beetle - secondary consumer"
+  },
+  {
+    "number": 29,
+    "stem_lines": [
+      "Which of the following is an example of habituation?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Chickadees learning new songs when they shift to living in large winter flocks from small family groups."
+      },
+      {
+        "letter": "B",
+        "text": "Stalking and attacking litter mates by lion cubs."
+      },
+      {
+        "letter": "C",
+        "text": "Hydra initially contract when gently touched, but soon stop responding."
+      },
+      {
+        "letter": "D",
+        "text": "Yearly migration of golden plovers from Arctic breeding grounds to southeastern South America."
+      }
+    ],
+    "page": 4,
+    "answer": "C",
+    "answer_text": "Hydra initially contract when gently touched, but soon stop responding."
+  },
+  {
+    "number": 30,
+    "stem_lines": [
+      "Suppose gene \"C\" is the gene for color. Its dominant allele has the effect of allowing the production of fur",
+      "color while its recessive allele interrupts color production. At another locus, there exists another gene that",
+      "influences color, at which black (B) is dominant to brown (b). What is the relationship between these genes",
+      "called?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Epistatic"
+      },
+      {
+        "letter": "B",
+        "text": "Peralogous"
+      },
+      {
+        "letter": "C",
+        "text": "Dominant"
+      },
+      {
+        "letter": "D",
+        "text": "Antagonistic"
+      }
+    ],
+    "page": 4,
+    "answer": "A",
+    "answer_text": "Epistatic"
+  },
+  {
+    "number": 31,
+    "stem_lines": [
+      "During migrations, some birds use which of the following as reference frameworks?",
+      "I. The sun",
+      "II. Constellations",
+      "III. Earth's magnetic field"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "I only"
+      },
+      {
+        "letter": "B",
+        "text": "I and II only"
+      },
+      {
+        "letter": "C",
+        "text": "I and III only"
+      },
+      {
+        "letter": "D",
+        "text": "I, II, and III"
+      }
+    ],
+    "page": 4,
+    "answer": "D",
+    "answer_text": "I, II, and III"
+  },
+  {
+    "number": 32,
+    "stem_lines": [
+      "Generally, there are more species per square kilometer in which of the following types of ecosystem?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "Temperate grassland"
+      },
+      {
+        "letter": "B",
+        "text": "Arctic tundra"
+      },
+      {
+        "letter": "C",
+        "text": "Boreal forest"
+      },
+      {
+        "letter": "D",
+        "text": "Coral reef"
+      }
+    ],
+    "page": 4,
+    "answer": "D",
+    "answer_text": "Coral reef"
+  },
+  {
+    "number": 33,
+    "stem_lines": [
+      "RUBP is used and PGA is formed in:"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "glycolysis"
+      },
+      {
+        "letter": "B",
+        "text": "the Kreb's cycle"
+      },
+      {
+        "letter": "C",
+        "text": "light reaction of photosynthesis"
+      },
+      {
+        "letter": "D",
+        "text": "dark reaction (Calvin cycle) of photosynthesis"
+      }
+    ],
+    "page": 4,
+    "answer": "D",
+    "answer_text": "dark reaction (Calvin cycle) of photosynthesis"
+  },
+  {
+    "number": 34,
+    "stem_lines": [
+      "Which is TRUE of the dark reaction (Calvin cycle) of photosynthesis?"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "It uses oxygen"
+      },
+      {
+        "letter": "B",
+        "text": "It uses carbon dioxide"
+      },
+      {
+        "letter": "C",
+        "text": "It produces sucrose"
+      },
+      {
+        "letter": "D",
+        "text": "Both b and c are correct"
+      }
+    ],
+    "page": 4,
+    "answer": "B",
+    "answer_text": "It uses carbon dioxide"
+  },
+  {
+    "number": 35,
+    "stem_lines": [
+      "In the fern life cycle, the dominant generation is the:"
+    ],
+    "options": [
+      {
+        "letter": "A",
+        "text": "haploid gametophyte"
+      },
+      {
+        "letter": "B",
+        "text": "diploid gametophyte"
+      },
+      {
+        "letter": "C",
+        "text": "haploid sporophyte"
+      },
+      {
+        "letter": "D",
+        "text": "diploid sporophyte"
+      }
+    ],
+    "page": 4,
+    "answer": "D",
+    "answer_text": "diploid sporophyte"
+  }
+]

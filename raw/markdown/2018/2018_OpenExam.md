@@ -1,0 +1,598 @@
+# USABO 2018 Open Exam
+
+## Introductory Text
+
+20% Cell Biology 10 questions (0 needed)
+
+Questions 1 and 2. Please use the following options to answer the following three questions. Each choice
+
+may be used once, more than once, or not at all.
+
+A. Actin.
+
+B. Myosin.
+
+C. Dynein.
+
+D. Kinesin.
+
+E. Cyclin.
+
+## Question 1
+
+In the extracellular matrix of an animal cell, you would like to test the binding partner of integrins in vitro. Integrins would most likely require firm attachment to which of the above option?
+
+## Question 2
+
+You are working with Dr. Lee at University of Wisconsin-Madison to investigate cytokinesis in a newly discovered marine worm. You generated antibodies to conserved proteins involved in cell division in other organism to look for proteins that localize to important structures during cell division. What molecular motor protein should you look for in the contractile ring?
+
+## Question 3
+
+An unnamed acid has a pKa value of 4.76. Which of the following is closest to the ratio of the concentration of its protonated to deprotonated forms in a pH environment of 6.8?
+
+- A. 100 : 1.
+- B. 10 : 1.
+- C. 1 : 1.
+- D. 1 : 10.
+- E. 1 : 100.
+
+## Question 4
+
+Select the answer choice that correctly describes which chemical species are oxidized, reduced, and phosphorylated in the process of oxidative phosphorylation.
+
+| Choice | Oxidized | Reduced | Phosphorylated |
+
+|---|---|---|---|
+
+| A | H2O only | NAD+ and FAD | ADP |
+
+| B | NADH and FADH2 | O2 | ADP |
+
+| C | NADH and FADH2 | CO2 | ATP |
+
+| D | H2O only | NAD+ only | ADP |
+
+| E | NADPH only | FAD only | ATP |
+
+## Question 5
+
+Which scientist(s) is incorrectly matched with his/her/their discoveries?
+
+- A. Frederick Griffith - discovery of transformation through bacteriophages.
+- B. Hershey and Chase - discovery of DNA as the hereditary material of cells.
+- C. Chargaff - discovery that relative amounts of nucleotide bases varies among organisms.
+- D. Watson and Crick - discovery of the double-helix structure of DNA.
+- E. Meselson and Stahl - discovery of the semi-conservative replication of DNA.
+
+## Question 6
+
+You discover a transmembrane protein ALPHA that, like most transmembrane proteins, exhibits a transmembrane domain composed of alpha helices. You next discover that ALPHA serves as a channel. What is a likely amino acid sequence for some portion of the transmembrane domain? (See chart below for one-letter abbreviations).
+
+- A. ALQQMMDSILDY.
+- B. ALILALMWWLLF.
+- C. FPPALGGLPFAMG.
+- D. LMQKPMDSLPDY.
+- E. LKMELAKMILLA. Abbreviation 1 letter abbreviation Amino acid name Ala A Alanine Arg R Arginine Asn N Asparagine Asp D Aspartic acid Cys C Cysteine Gln Q Glutamine Glu E Glutamic acid Gly G Glycine His H Histidine Ile I Isoleucine Leu L Leucine Lys K Lysine Met M Methionine Phe F Phenylalanine Pro P Proline Pyl O Pyrrolysine Ser S Serine Sec U Selenocysteine Thr T Threonine Trp W Tryptophan Tyr Y Tyrosine Val V Valine Questions 7 to 10. Indicate if each of the following statements is TRUE or FALSE about the electron transport chain in cellular respiration. Use “A” for True and “B” for False.
+
+## Question 7
+
+Ubiquinone proteins have a heme group to facilitate electron transport.
+
+## Question 8
+
+FADH2 adds its electrons to complex III while NADH adds its electrons in complex I.
+
+## Question 9
+
+Cytochrome a is more electronegative than cytochrome b.
+
+## Question 10
+
+Cytochrome c is more electronegative than cytochrome b.
+
+15% Plant Anatomy and Physiology 8 questions (0 needed)
+
+## Question 11
+
+Observe the seedlings growing below which have a loss of function mutation in the ethylene receptor.
+
+Source: University of Queensland, Australia.
+
+Which of the following statement(s) is (are) TRUE regarding this mutant’s growth response NOT being related to a triple response? Select one response A, B, C, D, or E.
+
+I. This mutant will not respond to the exposure of ethylene under any circumstances.
+
+II. This mutant has a constitutive activity where it leads to the activation of kinase, which is important for the
+
+triple response.
+
+III. This mutant has a constitutive activity where it leads to the inactivation of kinase, which is important for
+
+the triple response.
+
+IV. If this mutant is treated with aminoethoxyvinylglycine (ethylene synthesis inhibitor), this mutant will be
+
+able to undergo triple response.
+
+V. If this mutant is treated with aminoethoxyvinylglycine (ethylene synthesis inhibitor), this mutant will not
+
+respond to the treatment and not undergo triple response.
+
+![Question 11 figure 1](images/page04_image01.png)
+
+- A. I.
+- B. II, IV.
+- C. III, V.
+- D. I, II, IV.
+- E. I, III, V. .
+
+## Question 12
+
+Three groups of Arabidopsis seedlings are subjected to a short burst of ethylene. Group A is comprised of ethylene-insensitive (ein) mutants. Group B consists of constitutive triple-response (ctr) mutants. Group C is also subjected to high levels of abscisic acid. Group D serves as a control (wild type) and receives the ethylene treatment. Which group is likely to be the tallest after a few days of the treatment?
+
+- A. Group A.
+- B. Group B.
+- C. Group C.
+- D. Group D.
+- E. They will be equally as tall.
+
+## Question 13
+
+Today’s corn plants evolved from an ancestral plant known as teosinte. One genetic change that occurred in modern corn is a mutation in the regulatory DNA associated with the gene tb1. As a result of this change, teosinte has low levels of tb1 expression, and corn has high levels of tb1 expression. High levels of tb1 expression in plant axillary buds inhibit the growth of branches, leading to tall, unbranched corn plants in farmer’s fields. In contrast, teosinte is highly branched. The tb1 gene is also required for the development of ears of corn on the plant; both modern corn and teosinte produce ears of corn that carry the seeds of the plant.
+
+Based on this information, which of the following statements is NOT true?
+
+- A. The replacement of the tb1 protein-coding sequence of corn with the tb1 protein-coding sequence of teosinte would be expected to result in a plant that is able to produce ears of corn.
+- B. A corn plant with a synonymous substitution mutation in the tb1 gene would produce ears of corn.
+- C. Deletion of the tb1 gene from modern corn would result in a plant resembling teosinte in its shape and production.
+- D. A corn plant with a nonsense mutation at the beginning of the tb1 gene would be expected to exhibit increased branching.
+- E. A missense mutation in tb1 that led to a nonfunctional protein product could be considered a loss-of- function mutation.
+
+## Question 14
+
+A plant geneticist uses an RNA microarray to assess gene expression in two populations of cabbage plants: a wild-type cabbage line, and a line carrying a deletion in gene “X”. The geneticist calculates the relative signal for each gene expressed by the cabbages, relative to a reference gene that is known to be unaffected by gene X. In the gene X mutant line, the relative levels of expression of genes A, B, and C are drastically reduced (as compared to their relative expression level in the wild-type cabbages).
+
+Which of the following potential explanations for the effect of gene X is NOT directly consistent with the microarray data?
+
+- A. Gene X produces a helix-turn-helix transcription factor that binds to the promoters of genes A, B, and C.
+- B. The product of gene X binds to enhancer sequences located 100,000 base pairs upstream of each of the genes A, B, and C.
+- C. The product of gene X inhibits a ubiquitin ligase that targets the products of genes A, B, and C to the proteasome.
+- D. The product of gene X binds to the 3’ untranslated region of gene A, B, and C mRNAs to regulate stability.
+- E. The product of gene X binds to and inhibits a repressor of gene A, B, and C transcription.
+
+## Question 15
+
+Tissue culture can be used to generate whole plants from single cells in the laboratory. In the “doubled haploid” technique, a haploid cell is obtained from a plant and induced to double in chromosome number without cell division. A plant breeder would like to try the method on a diploid rose variety. Which of the following would be a suitable source of haploid cells to begin this procedure?
+
+- A. Endosperm.
+- B. Meristem.
+- C. Sporophyte.
+- D. Pollen grains.
+- E. Flower buds.
+
+## Question 16
+
+The Arabidopsis plant utilizes a range of posttranslational modifications to the genome as a means of regulating gene expression. These include activation of genes by histone acetylation, and methylation of DNA. Which of the following statements does NOT correctly describe the mechanism or impacts of these modifications in the plant cell?
+
+- A. Addition of DNA and histone modifications in the cell is performed by protein-based enzymes.
+- B. Lysine acetylation leads to a tighter association of histone proteins with DNA in the promoter regions.
+- C. DNA methylation patterns can be propagated to daughter strands after DNA replication.
+- D. The covalent addition of methyl groups to plant DNA is reversible in the cell.
+- E. More than one of the above does NOT correctly describe the impacts of these modifications.
+
+## Question 17
+
+Nitrogen fixation has the following net chemical reaction: N2 + 8e- + 8H+ + 16 ATP  2NH3 + H2 + 16ADP + 16○Pi If 1 kg of ATP (molar mass 507.2 g/mol) and 3 g of nitrogen gas (molar mass 28 g/mol) are supplied as input, what is the maximum yield of ammonia (molecular mass 17 g/mol)?
+
+- A. 1.8 g.
+- B. 2.5 g.
+- C. 3.6 g.
+- D. 4.2 g.
+- E. 4.9 g.
+
+## Question 18
+
+Order the following elements of a tree trunk from the center of the trunk outward:
+
+1. Sapwood
+
+2. Secondary phloem
+
+3. Vascular cambium
+
+4. Heartwood
+
+5. Periderm
+
+- A. 1, 2, 4, 5, 3.
+- B. 4, 1, 3, 2, 5.
+- C. 5, 2, 3, 1, 4.
+- D. 3, 5, 4, 2, 1.
+- E. 4, 1, 5, 2, 3. 25% Animal Anatomy and Physiology 12 questions (0 Needed)
+
+## Question 19
+
+A woman experiencing rickets is diagnosed with a deficiency of a particular vitamin and given a diet guideline. Which of the following food is most likely to help with the condition?
+
+- A. Carrot.
+- B. Butter.
+- C. Whole grains.
+- D. Oranges.
+- E. Tomatoes.
+
+## Question 20
+
+Consider the following figure that describes the structure of an antibody.
+
+Select the letter for the area where an antibody bound to a pathogen in the bloodstream would be recognized by a hunting macrophage.
+
+Questions 21 & 22. As a winter intern at an animal development lab at University of Wisconsin-Madison,
+
+you would like to investigate how different treatments may alter the outcomes of fertilization in sea urchins.
+
+![Question 20 figure 1](images/page07_image01.png)
+
+## Question 21
+
+You would like to test different conditions in which fertilization is blocked in sea urchin eggs. All of the following conditions would result in unsuccessful fertilizations EXCEPT FOR
+
+- A. When the sea urchin sperm not exposed to egg jelly interacts with sea urchin egg stripped of its egg jelly.
+- B. When the normal sea urchin sperm interacts with sea urchin egg held at a constant +20 mv by using an electrophysiological voltage camp.
+- C. When the sea urchin sperm treated with calcium ionophore interacts with the normal sea urchin egg from same species with its egg jelly removed.
+- D. When the sea urchin egg is prematurely exposed to IP3 and DAG, this triggers the release of calcium from the smooth endoplasmic reticulum and triggers the cortical reaction.
+- E. When the sea urchin sperm exposed to egg jelly interacts with sea urchin egg from same species pretreated with purified bindin, a protein responsible for the specific adhesion of the sperm acrosomal process in sea urchin.
+
+## Question 22
+
+As a side project, you would also like to work on fertilization in mouse embryos using CRISPR/cas9 technology by conducting in vitro fertilization (IVF). At which phase of the embryo should you return the embryo to the mouse uterus?
+
+- A. 2-cell stage.
+- B. 4-cell stage.
+- C. 8-cell stage.
+- D. Blastocysts.
+- E. Fertilized egg (zygote).
+
+## Question 23
+
+By blindfolding fish, Brian Partridge and Tony Pitcher demonstrated in 1979 that schooling behavior is dependent not on vision, but instead on the proper functioning of a different organ: the lateral line.
+
+Given this knowledge, which of the following structures, when damaged, would lead to a loss in the ability for fish to school?
+
+- A. Fovea.
+- B. Cupula.
+- C. Ruffini ending.
+- D. Zonule.
+- E. Eustachian tube.
+
+## Question 24
+
+Dr. Ross has developed a new drug, Rossazole that prevents the presentation of antigens to CD4 helper T cells. She administers the drug to a lab mouse. Which one of the following immune cell types would have its functions LEAST disrupted by the drug?
+
+A Cytotoxic T Cell B Memory B Cell C Macrophage D Neutrophil E Dendritic Cell
+
+## Question 25
+
+Which of the following is most accurate regarding the anatomy and physiology of the vertebrate vascular system?
+
+- A. The thin walls of veins are an adaptation that allows the tissues of the vein itself to obtain, via diffusion, sufficient oxygen from oxygen-poor venous blood. Otherwise, the tissue of thick-walled vessels carrying deoxygenated blood would experience inadequate oxygenation and die.
+- B. Arteries and veins contain valves to prevent backflow of blood.
+- C. Elastic fibers made of the protein elastin in the tunica media allow arteries to accommodate fluctuating blood pressures. They are almost absent in the tunica media of veins.
+- D. The larger arteries have a thick layer of smooth muscle, the motion of which helps propel blood forward.
+- E. Vascular endothelial growth factor (VEGF) is a signaling protein that stimulates branching and growth of capillaries. The gene encoding VEGF is often lost or inhibited in solid tissue cancers.
+
+## Question 26
+
+In tetrapods, neural pathways carrying information from all the senses, except for the sense of smell, pass through and synapse in a particular anatomical structure in the brain, which is embryonically derived from the diencephalon. This structure is the:
+
+- A. Medulla.
+- B. Thalamus.
+- C. Amygdala.
+- D. Occipital lobe.
+- E. Somatosensory cortex.
+
+## Question 27
+
+Which of the following are most responsible for carrying and transporting triacylglycerols in the body?
+
+- A. IDL and LDL.
+- B. Chylomicrons and LDL.
+- C. Chylomicrons and VLDL.
+- D. HDL and LDL.
+- E. IDL and VLDL.
+
+## Question 28
+
+A patient complains to his neurologist that he is experiencing powerful headaches and double vision.
+
+An MRI confirms that he is suffering from prolactinoma. Which substance should the neurologist prescribe to control the release of prolactin from the pituitary gland?
+
+- A. Renin.
+- B. Dopamine.
+- C. Angiotensin-2.
+- D. Endorphins.
+- E. Caffeine.
+
+## Question 29
+
+A mutant Drosophila is engineered to be unable to efficiently produce certain amino acids. Metabolic analysis finds the mutant contains very low levels of alpha-ketoglutarate, an important intermediate in the Krebs cycle. Which amino acid is most likely to NOT be produced?
+
+- A. Argnine.
+- B. Glycine.
+- C. Phenylalanine.
+- D. Histidine.
+- E. Tyrosine.
+
+## Question 30
+
+Which two amino acids are the least likely to occur in the middle of an alpha helical protein structure?
+
+- A. Glycine and lysine.
+- B. Glycine and proline.
+- C. Lysine and proline.
+- D. Methionine and lysine.
+- E. Methionine and proline. 5%Ethology 3 questions (0 needed)
+
+## Question 31
+
+Some herding animals develop matriarchal leadership systems led by the oldest female. Which of the following hypothetical reasons could NOT be a proximate cause of this social behavior?
+
+- A. Older individuals are more able to distinguish between friendly and hostile family groups.
+- B. Older individuals confer onto the herd increased chances of survival and reproduction.
+- C. Older individuals have more time to develop ties with other herd members.
+- D. Older individuals hold more knowledge of safe watering grounds and territorial boundaries.
+- E. Older individuals have enhanced social and emotional intelligence.
+
+## Question 32
+
+A female guppy has a choice of three mates: (1) an unpaired, dull-colored guppy; (2) an unpaired, brightly-colored guppy; (3) a paired, dull-colored guppy. Which of the mates would the guppy prefer?
+
+- A. Mate 1, because its dull coloration confers on it a selective advantage against predation.
+- B. Mate 2, because its bright coloration indicates robust health and ready access to nutrition.
+- C. Mate 2, because its bright coloration reflects increased genetic variation.
+- D. Mate 3, because guppies prefer to engage in polygynous behavior.
+- E. Mate 3, because its current courtship will induce mate choice copying.
+
+## Question 33
+
+Dr. T is a famous lecturer on ethology, and his favorite topic happens to be agonistic behavior. Which of the following are examples of agonistic behavior?
+
+I. A female guppy picking a mate based on the males’ external features.
+
+II. Two grey kangaroos boxing with each other to decide who gets the mate.
+
+III. Two male stalk-eyed flies comparing eye-stalk lengths for rights to a mate.
+
+IV. Male grey catbirds fluffing their feathers when their territory is threatened by another male.
+
+- A. I, II, IV.
+- B. I, III, V.
+- C. II, III.
+- D. II, III, IV.
+- E. III, IV. 20 % Genetics and Evolution 10 questions (0 needed)
+
+## Question 34
+
+Which of the following amino-acid substitutions is LEAST likely to be disruptive to protein function?
+
+- A. Lysine to glycine.
+- B. Cysteine to leucine.
+- C. Alanine to proline.
+- D. Aspartate to valine.
+- E. Alanine to valine.
+
+## Question 35
+
+Prader-Willi syndrome and Angelman Syndrome can each occur due to a deletion in the same part of chromosome 15. However, Prader-Willi syndrome will result if the defective chromosome was inherited from the father, while Angelman syndrome results if it was inherited from the mother.
+
+Identify the answer choice below that also exemplifies a similar inheritance pattern.
+
+Choice
+
+A Inheritance of Flower Color in Peas B Inheritance of Flower Color in Snapdragons C Inheritance of the Igf-2 gene in Mice D Inheritance of X-linked Color Blindness in Humans E Inheritance of Height in Humans
+
+## Question 36
+
+A 30-year old woman (is planning to have a child and visits a genetic counselor. The only observed genetic disorder in her immediate family is that her brother was afflicted by Hurler syndrome (also known as mucopolysaccharidosis type I), a monogenic, autosomal recessive metabolic disorder caused by a loss of function of a lysosomal enzyme named alpha-L iduronidase. Hurler syndrome manifests itself early in childhood and is often fatal. What is the probability that the woman is a carrier for a disease-causing allele of alpha-L iduronidase?
+
+- A. ¼.
+- B. ½.
+- C. 9/16.
+- D. 2/3.
+- E. ¾.
+
+## Question 37
+
+Which of the following is incorrect about operons?
+
+- A. Operons can be switched off with a repressor.
+- B. The lac operon is an inducible operon.
+- C. In the presence of lactose and glucose, the lac operon will not be repressed.
+- D. CAP is an activator of transcription when not bound to cAMP.
+- E. A mutation in the operator of the trp operon can lead to overproduction of tryptophan.
+
+## Question 38
+
+The ratio of synonymous to nonsynonymous mutations that a protein-coding gene experiences in a given period of time is frequently used to infer the evolutionary pressures acting upon that gene. In particular, let ω = dN / dS, where dN is the number of nonsynonymous mutations per nonsynonymous site, and dS is the number of synonymous mutations per synonymous site. Which of the following statements about ω and protein evolution is NOT correct?
+
+- A. A viral protein that experiences strong selection from the host immune system is likely to have ω > 1.
+- B. In the absence of selection, nonsynonymous changes are more likely to occur than synonymous changes at any given codon site.
+- C. A gene paralog that is no longer expressed is likely to have ω = 1.
+- D. For most genes, ω = 1.
+- E. A highly conserved housekeeping gene is likely to have ω < 1.
+
+## Question 39
+
+Each of the five phylogenies below displays a set of relationships between species A through M.
+
+Which of the phylogenies represents a DIFFERENT set of relationships from the others?
+
+![Question 39 figure 1](images/page13_image01.png)
+
+## Question 40
+
+Eye color in fruit fly shows an X linked recessive mode of inheritance with red being the dominant phenotype and white being the recessive phenotype. Which of the following mating experiments best prove this observation?
+
+- A. Mate a heterozygous red-eye female fly with a red-eye male fly.
+- B. Mate a homozygous red-eye female fly with a white-eye male fly.
+- C. Mate a white-eye female fly with a red-eye male fly.
+- D. Mate a white- eye female fly with a white-eye male fly.
+- E. Mate a heterozygous red-eye female fly with a white-eye male fly.
+
+## Question 41
+
+After Pete was infected with Chikungunya virus, his immune system developed immunoglobulins against the virus’s epitope with a peptide sequence VPRNAELGD. Which of the following mutated sequences will most likely lead to immune evasion? (Assume that the mutated virus retains function)
+
+- A. APRNAELGD
+- B. VPRQAELGD
+- C. VPRNAELAD
+- D. VPRNYELAD
+- E. VPRNAEIGD
+
+## Question 42
+
+Which process likely explains why exons of the tissue plasminogen activator (TPA) are also found in other proteins?
+
+- A. Exon shuffling.
+- B. Clonal selection.
+- C. Translocation.
+- D. Heterochrony.
+- E. Transposition. .
+
+## Question 43
+
+The following are the results of a trihybrid cross. vcv+ct+ 580 v+cvct 592 vcvct+ v+cv+ct Vcvct v+cv+ct+ vcv+ct v+cvct+ Which of the following correctly shows the correct chromosomal map and distance (in CM) between the three genes?
+
+- A. v(13.2)ct(6.4)cv.
+- B. cv(13.2)ct(6.4)v.
+- C. ct(13.2)v(6.4)cv.
+- D. ct(6.4)v(13.2)cv.
+- E. v(6.4)cv(13.2)ct. 10 % Ecology 5 questions (0 needed)
+
+## Question 44
+
+A microbiologist inoculates a clump of yeast cells into a large, sterile, closed flask full of growth media. Every hour, she uses a measure of the cloudiness of the liquid (known as the optical density) to estimate the number of yeast present. Initially, the yeast in the flask doubled in number every hour.
+
+After 24 hours, however, the growth of the yeast population slowed down; after 36 hours of measurement, the population size remained steady for the next 6 hours. Which of the following is NOT true about this experiment?
+
+- A. One possible explanation for the results is the accumulation of high levels of ethanol in the flask over time.
+- B. For the first day, the yeast exhibit exponential growth.
+- C. At time = 36 hours, the yeast culture has reached a state of approximately zero population growth.
+- D. The plateau in population size at 36 hours is likely to be due to density-dependent regulation.
+- E. A graph of the yeast population over time (using a linear scale) has a constant slope for the first day, with a steadily decreasing slope from 24-36 hrs. and zero slope after 36 hrs.
+
+## Question 45
+
+Microbiologists from around the world travel to Hawaii to study the interaction of Euprymna scolopes, the Hawaiian squid, with the bacterium Vibrio fischeri. Vibrio bacteria live inside the light organ and obtain nutrients from the squid. The bacteria produce light through a process known as bioluminescence, providing a mechanism for camouflage for the squid in the ocean. This is an example of:
+
+- A. Commensalism.
+- B. Parasitism.
+- C. Behavioral Imprinting.
+- D. Epigenetic modification.
+- E. Mutualism.
+
+## Question 46
+
+Which of the following is FALSE regarding the cycling of water and nutrients in the ecosystems?
+
+- A. Prokaryotic nitrogen fixation is a mode for nitrogen entrance into ecosystems.
+- B. Solar energy is the force that causes water to move in a global cycle.
+- C. The carbon cycle mirrors the shared processes of cellular respiration and photosynthesis.
+- D. The proportion of a particular nutrient form and its cycling in that form is consistent within ecosystems.
+- E. Vegetation regulates nutrient cycling.
+
+## Question 47
+
+A meaningful estimate of the minimum viable population for a species requires computing the effective population size. Which of the following statements is NOT true regarding factors that affect effective population size?
+
+- A. An uneven breeding sex ratio can lower the effective population size.
+- B. In an ideal population, the number of breeding individuals is constant between generations.
+- C. Effective population size calculations assume that all members of a generation are born at the same time.
+- D. In natural populations, the number of offspring for each individual often does not follow a Poisson distribution. This lowers the effective population size.
+- E. Genetic drift can lower the effective population size.
+
+## Question 48
+
+A certain caterpillar has a net production efficiency of 28%, assimilation efficiency of 39%, exploitation efficiency of 50%, and a gross production efficiency of 10.92%. If there are 900 calories in the form of leaves (which this certain caterpillar loves to eat), how many calories will actually be used for production by this caterpillar?
+
+- A. 5.405 calories.
+- B. 90 calories.
+- C. 49.14 calories.
+- D. 10.81 calories.
+- E. 19.305 calories. 5 %Biosystematics 2 questions (0 needed)
+
+## Question 49
+
+Which is not a difference between bacteria and archaea?
+
+- A. Presence of introns in archaea.
+- B. Presence of some histones in archaea.
+- C. Extremophilic growth of archaea.
+- D. Bacterial presence of peptidoglycan.
+- E. All of the above are differences.
+
+## Question 50
+
+Which is not a similarity between land plants and green algae?
+
+- A. Rosette complexes for cellulose synthesis.
+- B. Lignified cell walls.
+- C. Peroxisome enzymes.
+- D. Structure of flagellated sperm.
+- E. Formation of a phragmoplast.
+
+# Answer Key
+
+Extraction method: `yellow-highlight extraction from answer-key PDF`
+
+| Question | Answer |
+|---:|:---|
+| 1 | A |
+| 2 | B |
+| 3 | E |
+| 4 | B |
+| 5 | A |
+| 6 | A |
+| 7 | B |
+| 8 | B |
+| 9 | A |
+| 10 | A |
+| 11 | E |
+| 12 | A |
+| 13 | C |
+| 14 | C |
+| 15 | D |
+| 16 | B |
+| 17 | C |
+| 18 | B |
+| 19 | B |
+| 20 | D |
+| 21 | C |
+| 22 | C |
+| 23 | B |
+| 24 | D |
+| 25 | C |
+| 26 | B |
+| 27 | C |
+| 28 | B |
+| 29 | D |
+| 30 | B |
+| 31 | B |
+| 32 | E |
+| 33 | D |
+| 34 | E |
+| 35 | C |
+| 36 | D |
+| 37 | D |
+| 38 | D |
+| 39 | A |
+| 40 | C |
+| 41 | D |
+| 42 | A |
+| 43 | A |
+| 44 | E |
+| 45 | E |
+| 46 | D |
+| 47 | E |
+| 48 | C |
+| 49 | E |
+| 50 | B |

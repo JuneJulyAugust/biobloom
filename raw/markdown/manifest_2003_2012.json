@@ -1,0 +1,110 @@
+{
+  "package": "usabo_open_exams_2003_2012_all_markdown",
+  "years": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "description": "Combined processed Markdown package for USABO Open Exams 2003-2012.",
+  "folders": {
+    "2003": {
+      "markdown_files": [
+        "2003_OpenExam.md",
+        "extraction_report.md"
+      ],
+      "image_files_count": 1,
+      "metadata_files": [
+        "metadata/questions.json",
+        "metadata/highlight_answer_detection.json",
+        "metadata/answer_key.csv"
+      ]
+    },
+    "2004": {
+      "markdown_files": [
+        "2004_OpenExam.md"
+      ],
+      "image_files_count": 1,
+      "metadata_files": [
+        "2004_answer_key.json"
+      ]
+    },
+    "2005": {
+      "markdown_files": [
+        "2005_OpenExam_AnswerKey.md",
+        "README.md"
+      ],
+      "image_files_count": 4,
+      "metadata_files": []
+    },
+    "2006": {
+      "markdown_files": [
+        "2006_OpenExam.md"
+      ],
+      "image_files_count": 1,
+      "metadata_files": [
+        "2006_answer_key.json"
+      ]
+    },
+    "2007": {
+      "markdown_files": [
+        "2007_OpenExam.md"
+      ],
+      "image_files_count": 8,
+      "metadata_files": [
+        "2007_answer_key.json"
+      ]
+    },
+    "2008": {
+      "markdown_files": [
+        "2008_OpenExam.md"
+      ],
+      "image_files_count": 8,
+      "metadata_files": [
+        "2008_answer_key.json"
+      ]
+    },
+    "2009": {
+      "markdown_files": [
+        "2009_OpenExam.md"
+      ],
+      "image_files_count": 8,
+      "metadata_files": [
+        "2009_answer_key.json"
+      ]
+    },
+    "2010": {
+      "markdown_files": [
+        "2010_OpenExam.md"
+      ],
+      "image_files_count": 1,
+      "metadata_files": [
+        "2010_answer_key.json"
+      ]
+    },
+    "2011": {
+      "markdown_files": [
+        "2011_OpenExam.md"
+      ],
+      "image_files_count": 12,
+      "metadata_files": [
+        "2011_answer_key.json"
+      ]
+    },
+    "2012": {
+      "markdown_files": [
+        "2012_OpenExam.md"
+      ],
+      "image_files_count": 13,
+      "metadata_files": [
+        "2012_answer_key.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "processed": [
+    {
+      "year": 2013,
+      "questions_parsed": 50,
+      "answers_parsed": 49,
+      "images": 20,
+      "notes": [
+        "Question 33 is missing from the source answer-key PDF; left blank with a TODO in the table."
+      ]
+    },
+    {
+      "year": 2014,
+      "questions_parsed": 50,
+      "answers_parsed": 50,
+      "images": 16,
+      "notes": []
+    },
+    {
+      "year": 2015,
+      "questions_parsed": 50,
+      "answers_parsed": 50,
+      "images": 1,
+      "notes": []
+    },
+    {
+      "year": 2016,
+      "questions_parsed": 50,
+      "answers_parsed": 50,
+      "images": 16,
+      "notes": []
+    },
+    {
+      "year": 2017,
+      "questions_parsed": 50,
+      "answers_parsed": 50,
+      "images": 5,
+      "notes": []
+    },
+    {
+      "year": 2018,
+      "questions_parsed": 50,
+      "answers_parsed": 50,
+      "images": 3,
+      "notes": []
+    }
+  ]
+}

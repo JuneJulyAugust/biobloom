@@ -1,0 +1,165 @@
+{
+  "year": 2007,
+  "source_exam_pdf": "2007_OpenExam.pdf",
+  "source_answer_key_pdf": "2007_OpenExam_AnsKey.pdf",
+  "key_method": "plain_key",
+  "answers": {
+    "1": "D",
+    "26": "C",
+    "2": "C",
+    "27": "E",
+    "3": "B",
+    "28": "C",
+    "4": "D",
+    "29": "B",
+    "5": "A",
+    "30": "E",
+    "6": "B",
+    "31": "C",
+    "7": "D",
+    "32": "D",
+    "8": "A",
+    "33": "C",
+    "9": "A",
+    "34": "C",
+    "10": "C",
+    "35": "B",
+    "11": "D",
+    "36": "A",
+    "12": "B",
+    "37": "E",
+    "13": "E",
+    "38": "D",
+    "14": "DISREGARDED",
+    "39": "E",
+    "15": "C",
+    "40": "C",
+    "16": "B",
+    "41": "B",
+    "17": "E",
+    "42": "E",
+    "18": "A",
+    "43": "A",
+    "19": "B",
+    "44": "D",
+    "20": "B",
+    "45": "B",
+    "21": "A",
+    "46": "A",
+    "22": "C",
+    "47": "E",
+    "23": "E",
+    "48": "E",
+    "24": "D",
+    "49": "B",
+    "25": "D",
+    "50": "C"
+  },
+  "notes": [],
+  "images": [
+    {
+      "page": 2,
+      "filename": "images/page02_image01.png",
+      "bbox": [
+        72.0,
+        167.82,
+        381.9,
+        323.04
+      ],
+      "width_px": 444,
+      "height_px": 222,
+      "ext": "png"
+    },
+    {
+      "page": 3,
+      "filename": "images/page03_image01.png",
+      "bbox": [
+        72.0,
+        420.84,
+        378.0,
+        506.34
+      ],
+      "width_px": 512,
+      "height_px": 163,
+      "ext": "png"
+    },
+    {
+      "page": 7,
+      "filename": "images/page07_image01.png",
+      "bbox": [
+        72.0,
+        91.92,
+        540.0,
+        264.54
+      ],
+      "width_px": 800,
+      "height_px": 295,
+      "ext": "png"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image01.png",
+      "bbox": [
+        72.0,
+        408.12,
+        168.84,
+        501.84
+      ],
+      "width_px": 186,
+      "height_px": 180,
+      "ext": "png"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image02.png",
+      "bbox": [
+        288.0,
+        414.12,
+        360.84,
+        501.84
+      ],
+      "width_px": 136,
+      "height_px": 165,
+      "ext": "png"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image03.png",
+      "bbox": [
+        288.0,
+        527.16,
+        372.0,
+        611.16
+      ],
+      "width_px": 186,
+      "height_px": 186,
+      "ext": "png"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image04.png",
+      "bbox": [
+        72.0,
+        536.88,
+        150.84,
+        611.16
+      ],
+      "width_px": 152,
+      "height_px": 144,
+      "ext": "png"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image05.png",
+      "bbox": [
+        77.52,
+        636.42,
+        167.52,
+        706.2
+      ],
+      "width_px": 186,
+      "height_px": 144,
+      "ext": "png"
+    }
+  ]
+}

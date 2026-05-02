@@ -1,0 +1,167 @@
+{
+  "year": 2008,
+  "source_exam_pdf": "2008_OpenExam.pdf",
+  "source_answer_key_pdf": "2008_OpenExam_AnsKey.pdf",
+  "key_method": "yellow_highlight",
+  "answers": {
+    "1": "B",
+    "2": "D",
+    "3": "E",
+    "4": "B",
+    "5": "C",
+    "6": "C",
+    "7": "C",
+    "8": "B",
+    "9": "E",
+    "10": "A",
+    "11": "E",
+    "12": "D",
+    "13": "D",
+    "14": "D",
+    "15": "C",
+    "16": "A",
+    "17": "E",
+    "18": "A",
+    "19": "B",
+    "20": "B",
+    "21": "A",
+    "22": "A",
+    "23": "A",
+    "24": "E",
+    "25": "E",
+    "26": "C",
+    "27": "B",
+    "28": "D",
+    "29": "E",
+    "30": "C",
+    "31": "C",
+    "32": "C",
+    "33": "E",
+    "34": "A",
+    "35": "D",
+    "36": "E",
+    "37": "D",
+    "38": "B",
+    "39": "B",
+    "40": "A",
+    "41": "C",
+    "42": "B",
+    "43": "A",
+    "44": "B OR E",
+    "45": "C",
+    "46": "D",
+    "47": "D",
+    "48": "B",
+    "49": "E",
+    "50": "A"
+  },
+  "notes": [
+    "Question 44 had two yellow-highlighted choices in the provided answer-key PDF: B and E. Both are preserved as `B OR E`."
+  ],
+  "images": [
+    {
+      "page": 3,
+      "filename": "images/page03_image01.png",
+      "bbox": [
+        90.0,
+        422.64,
+        479.94,
+        652.08
+      ],
+      "width_px": 518,
+      "height_px": 306,
+      "ext": "png"
+    },
+    {
+      "page": 5,
+      "filename": "images/page05_image01.png",
+      "bbox": [
+        72.0,
+        239.82,
+        504.78,
+        473.7
+      ],
+      "width_px": 609,
+      "height_px": 331,
+      "ext": "png"
+    },
+    {
+      "page": 6,
+      "filename": "images/page06_image01.png",
+      "bbox": [
+        72.0,
+        228.72,
+        398.82,
+        697.5
+      ],
+      "width_px": 503,
+      "height_px": 725,
+      "ext": "png"
+    },
+    {
+      "page": 7,
+      "filename": "images/page07_image01.png",
+      "bbox": [
+        90.0,
+        349.92,
+        473.04,
+        565.08
+      ],
+      "width_px": 503,
+      "height_px": 277,
+      "ext": "png"
+    },
+    {
+      "page": 9,
+      "filename": "images/page09_image01.png",
+      "bbox": [
+        72.0,
+        265.68,
+        488.94,
+        583.62
+      ],
+      "width_px": 553,
+      "height_px": 424,
+      "ext": "png"
+    },
+    {
+      "page": 12,
+      "filename": "images/page12_image01.png",
+      "bbox": [
+        99.0,
+        238.56,
+        491.4,
+        446.64
+      ],
+      "width_px": 593,
+      "height_px": 316,
+      "ext": "png"
+    },
+    {
+      "page": 13,
+      "filename": "images/page13_image01.png",
+      "bbox": [
+        72.0,
+        371.34,
+        504.42,
+        589.5
+      ],
+      "width_px": 653,
+      "height_px": 331,
+      "ext": "png"
+    },
+    {
+      "page": 16,
+      "filename": "images/page16_image01.png",
+      "bbox": [
+        72.0,
+        123.66,
+        504.78,
+        366.3
+      ],
+      "width_px": 692,
+      "height_px": 389,
+      "ext": "png"
+    }
+  ]
+}

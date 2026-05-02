@@ -1,0 +1,230 @@
+{
+  "year": 2012,
+  "source_exam_pdf": "2012_OpenExam.pdf",
+  "source_answer_key_pdf": "2012_OpenExam_AnsKey.pdf",
+  "key_method": "yellow_highlight",
+  "answers": {
+    "1": "D",
+    "2": "C",
+    "3": "E",
+    "4": "D",
+    "5": "C",
+    "6": "C",
+    "7": "D",
+    "8": "E",
+    "9": "C",
+    "10": "B",
+    "11": "B",
+    "12": "E",
+    "13": "B",
+    "14": "C",
+    "15": "B",
+    "16": "D",
+    "17": "B",
+    "18": "A",
+    "19": "E",
+    "20": "C",
+    "21": "B",
+    "22": "E",
+    "23": "A",
+    "24": "B",
+    "25": "D",
+    "26": "E",
+    "27": "C",
+    "28": "D",
+    "29": "E",
+    "30": "D",
+    "31": "C",
+    "32": "C",
+    "33": "B",
+    "34": "E",
+    "35": "D",
+    "36": "A",
+    "37": "B",
+    "38": "C",
+    "39": "B",
+    "40": "E",
+    "41": "A",
+    "42": "C",
+    "43": "B",
+    "44": "A",
+    "45": "B",
+    "46": "E",
+    "47": "A",
+    "48": "B",
+    "49": "C",
+    "50": "C"
+  },
+  "notes": [],
+  "images": [
+    {
+      "page": 1,
+      "filename": "images/page01_image01.png",
+      "bbox": [
+        162.0,
+        425.34,
+        248.28,
+        514.56
+      ],
+      "width_px": 116,
+      "height_px": 120,
+      "ext": "png"
+    },
+    {
+      "page": 1,
+      "filename": "images/page01_image02.png",
+      "bbox": [
+        396.0,
+        425.34,
+        467.34,
+        513.84
+      ],
+      "width_px": 95,
+      "height_px": 119,
+      "ext": "png"
+    },
+    {
+      "page": 1,
+      "filename": "images/page01_image03.png",
+      "bbox": [
+        422.22,
+        525.06,
+        511.5,
+        600.84
+      ],
+      "width_px": 120,
+      "height_px": 102,
+      "ext": "png"
+    },
+    {
+      "page": 1,
+      "filename": "images/page01_image04.png",
+      "bbox": [
+        198.3,
+        525.72,
+        284.58,
+        615.0
+      ],
+      "width_px": 116,
+      "height_px": 120,
+      "ext": "png"
+    },
+    {
+      "page": 1,
+      "filename": "images/page01_image05.png",
+      "bbox": [
+        189.12,
+        629.04,
+        278.4,
+        701.82
+      ],
+      "width_px": 120,
+      "height_px": 98,
+      "ext": "png"
+    },
+    {
+      "page": 3,
+      "filename": "images/page03_image01.png",
+      "bbox": [
+        162.0,
+        121.44,
+        409.38,
+        184.74
+      ],
+      "width_px": 434,
+      "height_px": 111,
+      "ext": "png"
+    },
+    {
+      "page": 3,
+      "filename": "images/page03_image02.png",
+      "bbox": [
+        162.0,
+        186.84,
+        435.78,
+        259.38
+      ],
+      "width_px": 849,
+      "height_px": 225,
+      "ext": "png"
+    },
+    {
+      "page": 3,
+      "filename": "images/page03_image03.jpeg",
+      "bbox": [
+        162.0,
+        261.42,
+        538.38,
+        335.4
+      ],
+      "width_px": 1150,
+      "height_px": 226,
+      "ext": "jpeg"
+    },
+    {
+      "page": 3,
+      "filename": "images/page03_image04.png",
+      "bbox": [
+        162.0,
+        337.5,
+        507.42,
+        469.08
+      ],
+      "width_px": 1071,
+      "height_px": 408,
+      "ext": "png"
+    },
+    {
+      "page": 3,
+      "filename": "images/page03_image05.png",
+      "bbox": [
+        156.36,
+        481.14,
+        431.64,
+        692.52
+      ],
+      "width_px": 453,
+      "height_px": 348,
+      "ext": "png"
+    },
+    {
+      "page": 7,
+      "filename": "images/page07_image01.jpeg",
+      "bbox": [
+        92.76,
+        96.78,
+        387.54,
+        317.82
+      ],
+      "width_px": 640,
+      "height_px": 480,
+      "ext": "jpeg"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image01.jpeg",
+      "bbox": [
+        108.0,
+        220.5,
+        335.52,
+        318.66
+      ],
+      "width_px": 350,
+      "height_px": 151,
+      "ext": "jpeg"
+    },
+    {
+      "page": 8,
+      "filename": "images/page08_image02.jpeg",
+      "bbox": [
+        108.0,
+        318.66,
+        335.52,
+        416.16
+      ],
+      "width_px": 350,
+      "height_px": 150,
+      "ext": "jpeg"
+    }
+  ]
+}

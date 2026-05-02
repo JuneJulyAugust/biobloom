@@ -1,0 +1,457 @@
+[
+  {
+    "question": 1,
+    "answer": "C",
+    "answer_text": "Reverse transcriptase",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      95.64,
+      216.0,
+      106.86
+    ],
+    "matched_line": "[ ] C. Reverse transcriptase"
+  },
+  {
+    "question": 2,
+    "answer": "D",
+    "answer_text": "5'...RNA polymerase",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      175.14,
+      214.02,
+      186.36
+    ],
+    "matched_line": "[ ] D. 5'...RNA polymerase"
+  },
+  {
+    "question": 3,
+    "answer": "B",
+    "answer_text": "I and III only",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      265.86,
+      183.18,
+      277.14
+    ],
+    "matched_line": "[ ] B. I and III only"
+  },
+  {
+    "question": 4,
+    "answer": "C",
+    "answer_text": "Tryptophan",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      356.64,
+      176.22,
+      367.86
+    ],
+    "matched_line": "[ ] C. Tryptophan"
+  },
+  {
+    "question": 5,
+    "answer": "D",
+    "answer_text": "64%",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      447.36,
+      143.58,
+      458.64
+    ],
+    "matched_line": "[ ] D. 64%"
+  },
+  {
+    "question": 6,
+    "answer": "C",
+    "answer_text": "50%",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      526.86,
+      143.7,
+      538.14
+    ],
+    "matched_line": "[ ] C. 50%"
+  },
+  {
+    "question": 7,
+    "answer": "C",
+    "answer_text": "Schwann cell",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      606.36,
+      181.26,
+      617.64
+    ],
+    "matched_line": "[ ] C. Schwann cell"
+  },
+  {
+    "question": 8,
+    "answer": "A",
+    "answer_text": "Dorsal root ganglion",
+    "page": 1,
+    "highlight_rect": [
+      126.0,
+      652.14,
+      213.24,
+      663.36
+    ],
+    "matched_line": "[ ] A. Dorsal root ganglion"
+  },
+  {
+    "question": 9,
+    "answer": "A",
+    "answer_text": "Light/dark...color",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      77.64,
+      202.74,
+      88.86
+    ],
+    "matched_line": "[ ] A. Light/dark...color"
+  },
+  {
+    "question": 10,
+    "answer": "D",
+    "answer_text": "K-selected",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      179.64,
+      170.28,
+      190.86
+    ],
+    "matched_line": "[ ] D. K-selected"
+  },
+  {
+    "question": 11,
+    "answer": "B",
+    "answer_text": "tumor suppressor",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      225.36,
+      200.1,
+      236.64
+    ],
+    "matched_line": "[ ] B. tumor suppressor"
+  },
+  {
+    "question": 12,
+    "answer": "D",
+    "answer_text": "Pyruvate",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      316.14,
+      163.02,
+      327.36
+    ],
+    "matched_line": "[ ] D. Pyruvate"
+  },
+  {
+    "question": 13,
+    "answer": "A",
+    "answer_text": "gastrulation",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      350.64,
+      176.52,
+      361.86
+    ],
+    "matched_line": "[ ] A. gastrulation"
+  },
+  {
+    "question": 14,
+    "answer": "B",
+    "answer_text": "maintaining ... increased",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      430.14,
+      230.7,
+      441.36
+    ],
+    "matched_line": "[ ] B. maintaining ... increased"
+  },
+  {
+    "question": 15,
+    "answer": "B",
+    "answer_text": "sexual selection",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      498.36,
+      192.78,
+      509.64
+    ],
+    "matched_line": "[ ] B. sexual selection"
+  },
+  {
+    "question": 16,
+    "answer": "A",
+    "answer_text": "spiral ... determinate",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      555.36,
+      213.0,
+      566.64
+    ],
+    "matched_line": "[ ] A. spiral ... determinate"
+  },
+  {
+    "question": 17,
+    "answer": "B",
+    "answer_text": "vertebrae",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      634.86,
+      164.94,
+      646.14
+    ],
+    "matched_line": "[ ] B. vertebrae"
+  },
+  {
+    "question": 18,
+    "answer": "B",
+    "answer_text": "gap junctions",
+    "page": 2,
+    "highlight_rect": [
+      126.0,
+      703.14,
+      183.42,
+      714.36
+    ],
+    "matched_line": "[ ] B. gap junctions"
+  },
+  {
+    "question": 19,
+    "answer": "B",
+    "answer_text": "Diffuse across cell membranes",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      72.36,
+      255.3,
+      83.64
+    ],
+    "matched_line": "[ ] B. Diffuse across cell membranes"
+  },
+  {
+    "question": 20,
+    "answer": "B",
+    "answer_text": "cofactor",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      163.14,
+      160.14,
+      174.36
+    ],
+    "matched_line": "[ ] B. cofactor"
+  },
+  {
+    "question": 21,
+    "answer": "C",
+    "answer_text": "right atrium, right ventricle, lungs, left atrium, left ventricle, body",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      242.64,
+      401.64,
+      253.86
+    ],
+    "matched_line": "[ ] C. right atrium, right ventricle, lungs, left atrium, left ventricle, body"
+  },
+  {
+    "question": 22,
+    "answer": "D",
+    "answer_text": "geographic",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      322.14,
+      173.46,
+      333.36
+    ],
+    "matched_line": "[ ] D. geographic"
+  },
+  {
+    "question": 23,
+    "answer": "C",
+    "answer_text": "Carboxyl and amine",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      379.14,
+      211.14,
+      390.36
+    ],
+    "matched_line": "[ ] C. Carboxyl and amine"
+  },
+  {
+    "question": 24,
+    "answer": "B",
+    "answer_text": "Facilitated diffusion",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      447.36,
+      211.26,
+      458.64
+    ],
+    "matched_line": "[ ] B. Facilitated diffusion"
+  },
+  {
+    "question": 25,
+    "answer": "B",
+    "answer_text": "II",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      560.64,
+      133.92,
+      571.86
+    ],
+    "matched_line": "[ ] B. II"
+  },
+  {
+    "question": 26,
+    "answer": "C",
+    "answer_text": "Movement through xylem depends mainly on transpiration",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      640.14,
+      375.06,
+      651.36
+    ],
+    "matched_line": "[ ] C. Movement through xylem depends mainly on transpiration"
+  },
+  {
+    "question": 27,
+    "answer": "D",
+    "answer_text": "+/-, +/+",
+    "page": 3,
+    "highlight_rect": [
+      126.0,
+      719.64,
+      165.48,
+      730.86
+    ],
+    "matched_line": "[ ] D. +/-, +/+"
+  },
+  {
+    "question": 28,
+    "answer": "B",
+    "answer_text": "Beetle - secondary consumer",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      72.36,
+      247.74,
+      83.64
+    ],
+    "matched_line": "[ ] B. Beetle - secondary consumer"
+  },
+  {
+    "question": 29,
+    "answer": "C",
+    "answer_text": "Hydra initially contract when gently touched, but soon stop responding.",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      151.86,
+      403.98,
+      163.14
+    ],
+    "matched_line": "[ ] C. Hydra initially contract when gently touched, but soon stop responding."
+  },
+  {
+    "question": 30,
+    "answer": "A",
+    "answer_text": "Epistatic",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      231.36,
+      164.16,
+      242.64
+    ],
+    "matched_line": "[ ] A. Epistatic"
+  },
+  {
+    "question": 31,
+    "answer": "D",
+    "answer_text": "I, II, and III",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      367.14,
+      173.34,
+      378.36
+    ],
+    "matched_line": "[ ] D. I, II, and III"
+  },
+  {
+    "question": 32,
+    "answer": "D",
+    "answer_text": "Coral reef",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      435.36,
+      167.1,
+      446.64
+    ],
+    "matched_line": "[ ] D. Coral reef"
+  },
+  {
+    "question": 33,
+    "answer": "D",
+    "answer_text": "dark reaction (Calvin cycle) of photosynthesis",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      503.64,
+      319.02,
+      514.86
+    ],
+    "matched_line": "[ ] D. dark reaction (Calvin cycle) of photosynthesis"
+  },
+  {
+    "question": 34,
+    "answer": "B",
+    "answer_text": "It uses carbon dioxide",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      549.36,
+      219.96,
+      560.64
+    ],
+    "matched_line": "[ ] B. It uses carbon dioxide"
+  },
+  {
+    "question": 35,
+    "answer": "D",
+    "answer_text": "diploid sporophyte",
+    "page": 4,
+    "highlight_rect": [
+      126.0,
+      640.14,
+      205.56,
+      651.36
+    ],
+    "matched_line": "[ ] D. diploid sporophyte"
+  }
+]
