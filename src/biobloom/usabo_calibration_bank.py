@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections import defaultdict
 from pathlib import Path
 from typing import Iterable
+import csv
 import json
 import re
 
@@ -15,6 +16,8 @@ import pymupdf
 
 QUESTION_START_RE = re.compile(r"(?m)^\s*(\d{1,2})\.\s*(.*)$")
 YEAR_EXAM_RE = re.compile(r"^(20\d{2})_OpenExam\.pdf$")
+CHOICE_RE = re.compile(r"(?m)^\s*([A-E])\.")
+SECTION_HEADER_RE = re.compile(r"\b\d+\s*%\s*[A-Za-z][A-Za-z ]+\s+\d+\s+questions\b")
 
 
 def extract_year_from_exam_path(path: str | Path) -> int:
@@ -146,11 +149,113 @@ def write_json(data: object, path: str | Path) -> None:
     )
 
 
+def read_jsonl(path: str | Path) -> list[dict[str, object]]:
+    with Path(path).open(encoding="utf-8") as handle:
+        return [json.loads(line) for line in handle if line.strip()]
+
+
 def _records_by_year(records: Iterable[dict[str, object]]) -> dict[int, list[dict[str, object]]]:
     grouped: dict[int, list[dict[str, object]]] = defaultdict(list)
     for record in records:
         grouped[int(record["year"])].append(record)
     return dict(sorted(grouped.items()))
+
+
+def _compact_preview(text: str, max_length: int = 180) -> str:
+    compacted = " ".join(text.split())
+    if len(compacted) <= max_length:
+        return compacted
+    return compacted[: max_length - 1].rstrip() + "..."
+
+
+def _audit_warnings(record: dict[str, object]) -> list[str]:
+    text = str(record.get("question_text", ""))
+    warnings: list[str] = []
+
+    if SECTION_HEADER_RE.search(text):
+        warnings.append("section_header")
+
+    found_choices = set(CHOICE_RE.findall(text))
+    missing_choices = [choice for choice in "ABCDE" if choice not in found_choices]
+    if missing_choices:
+        warnings.append(f"missing_choices:{','.join(missing_choices)}")
+
+    return warnings
+
+
+def _page_range(record: dict[str, object]) -> str:
+    return f"{record.get('source_page_start', '')}-{record.get('source_page_end', '')}"
+
+
+def _markdown_cell(value: object) -> str:
+    return str(value).replace("|", "\\|").replace("\n", " ")
+
+
+def _audit_row(record: dict[str, object]) -> dict[str, object]:
+    warnings = _audit_warnings(record)
+    return {
+        "question_id": record["question_id"],
+        "year": record["year"],
+        "question_number": record["question_number"],
+        "pages": _page_range(record),
+        "warnings": ",".join(warnings) if warnings else "ok",
+        "preview": _compact_preview(str(record.get("question_text", ""))),
+    }
+
+
+def write_audit_files(
+    records: Iterable[dict[str, object]],
+    output_dir: str | Path = "data/usabo_calibration/audit",
+) -> dict[str, int]:
+    grouped = _records_by_year(records)
+    output_base = Path(output_dir)
+    output_base.mkdir(parents=True, exist_ok=True)
+    fields = ["question_id", "year", "question_number", "pages", "warnings", "preview"]
+    file_count = 0
+
+    for year, year_records in grouped.items():
+        rows = [_audit_row(record) for record in year_records]
+
+        markdown_lines = [
+            f"# {year} Open Exam Extraction Audit",
+            "",
+            "| Question | Number | Pages | Warnings | Preview |",
+            "| --- | ---: | --- | --- | --- |",
+        ]
+        for row in rows:
+            markdown_lines.append(
+                "| "
+                + " | ".join(
+                    _markdown_cell(row[field])
+                    for field in ["question_id", "question_number", "pages", "warnings", "preview"]
+                )
+                + " |"
+            )
+        (output_base / f"{year}.md").write_text(
+            "\n".join(markdown_lines) + "\n",
+            encoding="utf-8",
+        )
+        file_count += 1
+
+        with (output_base / f"{year}.tsv").open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(
+                handle,
+                fieldnames=fields,
+                delimiter="\t",
+                lineterminator="\n",
+            )
+            writer.writeheader()
+            writer.writerows(rows)
+        file_count += 1
+
+    return {"year_count": len(grouped), "file_count": file_count}
+
+
+def build_audit_files(
+    questions_path: str | Path = "data/usabo_calibration/open_exam_questions.jsonl",
+    output_dir: str | Path = "data/usabo_calibration/audit",
+) -> dict[str, int]:
+    return write_audit_files(read_jsonl(questions_path), output_dir)
 
 
 def write_manual_answer_tasks(
@@ -291,7 +396,7 @@ def build_calibration_bank(
 
 
 def main() -> None:
-    fire.Fire({"build": build_calibration_bank})
+    fire.Fire({"build": build_calibration_bank, "audit": build_audit_files})
 
 
 if __name__ == "__main__":
