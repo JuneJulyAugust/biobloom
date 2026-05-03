@@ -64,7 +64,7 @@
 - [ ] **D.** nuclei
 - [ ] **E.** plasma membrane
 
-### 9. Questions 9 & 10 refer to the following information.
+## Questions 9 & 10 refer to the following information.
 
 The concentration of ions inside an amoeba is expressed below as ion-units per milliliter. The composition of the extracellular environment (ECE) is given for comparison. Assume the amoeba has been in the environment for some time.
 
@@ -73,7 +73,7 @@ The concentration of ions inside an amoeba is expressed below as ion-units per m
 | Amoeba |    1 |   42 |    3 |   119 |
 | ECE    |   21 |   16 |   41 |   119 |
 
-As the number of (+) and (-) ions in the amoeba and in the ECE are not equal, one might assume that:
+### 9. As the number of (+) and (-) ions in the amoeba and in the ECE are not equal, one might assume that:
 
 - [ ] **A.** the amoeba and the ECE are very acidic.
 - [ ] **B.** the amoeba and the ECE are very basic.
@@ -319,13 +319,13 @@ How would you best explain these research findings? The:
 
 ### 36. A scientist established a controlled squirrel population within a woods containing 60 Oak trees and one pair of squirrels in 1975. She did a count of squirrels each year for five years. The data that she collected are shown below.
 
-| Year | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Average |
-| :--: | :---: | :---: | :---: | :---: | :---: | :-----: |
-|  75  |   2   |   2   |   2   |   2   |   2   |    2    |
-|  76  |   6   |   5   |   6   |   4   |   5   |   5.2   |
-|  77  |  16   |  11   |  16   |   9   |  11   |  12.6   |
-|  78  |  40   |  27   |  41   |  21   |  27   |  31.2   |
-|  79  |  101  |  67   |  100  |  52   |  67   |  77.4   |
+| Year  | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Average |
+| :---: | :---: | :---: | :---: | :---: | :---: | :-----: |
+|  75   |   2   |   2   |   2   |   2   |   2   |    2    |
+|  76   |   6   |   5   |   6   |   4   |   5   |   5.2   |
+|  77   |  16   |  11   |  16   |   9   |  11   |  12.6   |
+|  78   |  40   |  27   |  41   |  21   |  27   |  31.2   |
+|  79   |  101  |  67   |  100  |  52   |  67   |  77.4   |
 
 Assuming no emigration or immigration, what is the closest approximation of the natural rate of increase of this population?
 
