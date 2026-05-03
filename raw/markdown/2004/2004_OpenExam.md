@@ -4,511 +4,411 @@
 
 Note: This answer key is based on Exam Version 101. However, all questions on each version of the exams are identical.
 
-## Question 1
+### 1. Assume a person is placed on cortisol medication, a glucocorticoid. How would you expect the rates of ACTH and CRF hormone production to change in the person?
+
+- [ ] **A.** ACTH production would increase, CRF production would increase
+- [ ] **B.** ACTH production would increase, CRF production would decrease
+- [ ] **C.** ACTH production would decrease, CRF production would decreas
+- [ ] **D.** ACTH production would decrease, CRF production would increase
+- [ ] **E.** ACTH and CRF production would not change
 
-Assume a person is placed on cortisol medication, a glucocorticoid. How would you expect the rates of ACTH and CRF hormone production to change in the person?
+### 2. Carbon particles were injected into the blood of mice. In which of the following places would you most likely find the particles?
+
+- [ ] **A.** In the glomerular filtrate
+- [ ] **B.** In the adipose tissue of the liver
+- [ ] **C.** In monocytes of the spleen
+- [ ] **D.** In plasma cells of the bone marrow
+- [ ] **E.** In the loops of Henle
 
-- A. ACTH production would increase, CRF production would increase
-- B. ACTH production would increase, CRF production would decrease
-- C. ACTH production would decrease, CRF production would decreas
-- D. ACTH production would decrease, CRF production would increase
-- E. ACTH and CRF production would not change
+### 3. Kidneys provide osmoregulation for the body. Consumption of which nutrient creates the greatest need for osmoregulation?
+
+- [ ] **A.** Cellulose
+- [ ] **B.** Fat
+- [ ] **C.** Oil
+- [ ] **D.** Protein
+- [ ] **E.** Starch
 
-## Question 2
+### 4. During translation in prokaryotes, the ribosome binds to:
+
+- [ ] **A.** the TATA box.
+- [ ] **B.** the mRNA cap.
+- [ ] **C.** the terminator sequence.
+- [ ] **D.** an enhancer sequence.
+- [ ] **E.** the Shine-Dalgarno sequence.
 
-Carbon particles were injected into the blood of mice. In which of the following places would you most likely find the particles?
+### 5. The quaternary structure of a protein is determined by:
+
+- [ ] **A.** interactions between distant amino acids of the same polypeptide.
+- [ ] **B.** interactions between close amino acids of the same polypeptide.
+- [ ] **C.** interactions between amino acids of different polypeptide chains.
+- [ ] **D.** the arrangement of the alpha helices and beta sheets in the protein.
+- [ ] **E.** binding of a coenzyme or cofactor to the protein.
 
-- A. In the glomerular filtrate
-- B. In the adipose tissue of the liver
-- C. In monocytes of the spleen
-- D. In plasma cells of the bone marrow
-- E. In the loops of Henle
+### 6. Which of the following is not a function of the parasympathetic division of the nervous system?
+
+- [ ] **A.** Constriction of the bronchii in the lungs
+- [ ] **B.** Constriction of the pupil of the eye
+- [ ] **C.** Slowing of the heart rate
+- [ ] **D.** Stimulation of the adrenal medulla
+- [ ] **E.** Stimulation of activity of the stomach and the intestines
 
-## Question 3
+### 7. You place a growing seedling in an east-facing window. On which side of the plant will active auxin accumulate?
+
+- [ ] **A.** North side
+- [ ] **B.** South side
+- [ ] **C.** East side
+- [ ] **D.** West side
+- [ ] **E.** Equally distributed on all sides of the plant
 
-Kidneys provide osmoregulation for the body. Consumption of which nutrient creates the greatest need for osmoregulation?
+### 8. Which of the following is NOT a characteristic of all mammalian species?
+
+- [ ] **A.** Dorsal nerve cord
+- [ ] **B.** Endothermic metabolism
+- [ ] **C.** Lungs
+- [ ] **D.** Mammary glands
+- [ ] **E.** Placenta
 
-- A. Cellulose
-- B. Fat
-- C. Oil
-- D. Protein
-- E. Starch
+### 9. Suppose the lac repressor of E. coli is mutated so that it never binds to the operator. Which of the following is true?
+
+- [ ] **A.** Glucose digesting enzymes are never produced
+- [ ] **B.** Lactose digesting enzymes are never produced
+- [ ] **C.** Lactose digesting enzymes are always produced
+- [ ] **D.** The result depends on the concentration of glucose
+- [ ] **E.** The result depends on the concentration of lactose
 
-## Question 4
+### 10. You examine a leaf cross-section under a microscope and find many loosely packed cells. These cells have many chloroplasts and relatively thin cell walls. These cells are:
+
+- [ ] **A.** collenchyma.
+- [ ] **B.** endodermis.
+- [ ] **C.** parenchyma.
+- [ ] **D.** schlerenchyma.
+- [ ] **E.** xylem.
 
-During translation in prokaryotes, the ribosome binds to:
+### 11. For the biomass pyramid shown below, choose the correct statement. secondary consumer primary consumer producer
+
+- [ ] **A.** Producers reproduce quickly but are also consumed at a rapid rate
+- [ ] **B.** Biomass decreases with higher trophic levels
+- [ ] **C.** Humans represent the lowest trophic level (bottom rectangle)
+- [ ] **D.** This biomass pyramid is consistent with an algal bloom
+- [ ] **E.** This biomass pyramid is not possible
 
-- A. the TATA box.
-- B. the mRNA cap.
-- C. the terminator sequence.
-- D. an enhancer sequence.
-- E. the Shine-Dalgarno sequence.
-
-## Question 5
-
-The quaternary structure of a protein is determined by:
-
-- A. interactions between distant amino acids of the same polypeptide.
-- B. interactions between close amino acids of the same polypeptide.
-- C. interactions between amino acids of different polypeptide chains.
-- D. the arrangement of the alpha helices and beta sheets in the protein.
-- E. binding of a coenzyme or cofactor to the protein.
-
-## Question 6
-
-Which of the following is not a function of the parasympathetic division of the nervous system?
-
-- A. Constriction of the bronchii in the lungs
-- B. Constriction of the pupil of the eye
-- C. Slowing of the heart rate
-- D. Stimulation of the adrenal medulla
-- E. Stimulation of activity of the stomach and the intestines
-
-## Question 7
-
-You place a growing seedling in an east-facing window. On which side of the plant will active auxin accumulate?
-
-- A. North side
-- B. South side
-- C. East side
-- D. West side
-- E. Equally distributed on all sides of the plant
-
-## Question 8
-
-Which of the following is NOT a characteristic of all mammalian species?
-
-- A. Dorsal nerve cord
-- B. Endothermic metabolism
-- C. Lungs
-- D. Mammary glands
-- E. Placenta
-
-## Question 9
-
-Suppose the lac repressor of E. coli is mutated so that it never binds to the operator. Which of the following is true?
-
-- A. Glucose digesting enzymes are never produced
-- B. Lactose digesting enzymes are never produced
-- C. Lactose digesting enzymes are always produced
-- D. The result depends on the concentration of glucose
-- E. The result depends on the concentration of lactose
-
-## Question 10
-
-You examine a leaf cross-section under a microscope and find many loosely packed cells. These cells have many chloroplasts and relatively thin cell walls. These cells are:
-
-- A. collenchyma.
-- B. endodermis.
-- C. parenchyma.
-- D. schlerenchyma.
-- E. xylem.
-
-## Question 11
-
-For the biomass pyramid shown below, choose the correct statement. secondary consumer primary consumer producer
-
-- A. Producers reproduce quickly but are also consumed at a rapid rate
-- B. Biomass decreases with higher trophic levels
-- C. Humans represent the lowest trophic level (bottom rectangle)
-- D. This biomass pyramid is consistent with an algal bloom
-- E. This biomass pyramid is not possible
-
-## Question 12
-
-Which of the following would be most likely to increase competition among the members of the vole population in a given area?
-
-- A. An increase in the number of hawk predators
-- B. An increase in the reproduction rate of voles
-- C. An increase in temperature
-- D. An increase in the food supply
-- E. An epidemic of rabies within the vole population
-
-## Question 13
-
-Tobacco mosaic virus has RNA rather than DNA as its genetic material. If the RNA genome from a tobacco mosaic virus is mixed with proteins from a human rhinovirus, the result is a mixed virus. If that virus could infect a cell and reproduce, what would you expect the resulting viruses to be like?
-
-- A. A hybrid including genetic material from tobacco mosaic virus and proteins from the rhinovirus
-- B. A hybrid including proteins from tobacco mosaic virus and genetic material from the rhinovirus
-- C. Rhinovirus
-- D. Tobacco mosaic virus
-- E. No viruses would result because no viral DNA was present
-
-## Question 14
-
-An amphipathic molecule is a molecule that is characterized by:
-
-- A. 2 different forms that are mirror images of each othe.
-- B. an amino group.
-- C. a hydrophilic end and a hydrophobic end.
-- D. a positively charged end and a negatively charged end.
-- E. rarely being found in cell membranes.
-
-## Question 15
-
-The function of a molecular chaperone is to:
-
-- A. act as an energy source during the polymerization of amino acids into a polypeptide.
-- B. act as a carrier molecule and bring “activated” monomers to a polymer for incorporation.
-- C. bind to specific structures on the polypeptide in order to assist the folding of a protein into its correct three dimensional shape.
-- D. unfold proteins with the incorrect three-dimensional shape and refold them into the proper shape.
-- E. transport rRNA from the nucleus to the cytoplasm.
-
-## Question 16
-
-Ethidium Bromide is used in electrophoresis of DNA fragments because it:
-
-- A. makes the fragments visible under UV light.
-- B. makes the DNA fragments more mobile in the gel.
-- C. increases the conductivity of electricity through the gel.
-- D. helps determine the size of the fragments.
-- E. maintains a stable pH.
-
-## Question 17
-
-The species Homo sapiens first appeared in which geologic epoch?
-
-- A. Miocene
-- B. Paleocene
-- C. Pleistocene
-- D. Pliocene
-- E. Eocene
-
-## Question 18
-
-Which of the following marine communities would be LEAST affected by a volcanic eruption or meteor impact that injected enough debris into the atmosphere to reduce sunlight by 50% for two years?
-
-- A. Benthic community
-- B. Coral reef community
-- C. Deep sea vent community
-- D. Estuary community
-- E. Pelagic community
-
-## Question 19
-
-19. A unique feature of fertilization in angiosperms is that:
-
-- A. it is a double fusion event; one sperm fertilizes the egg, the other sperm combines with the polar or fusion nucleus.
-- B. the sperm may be carried by the wind to the female gametophyte.
-- C. a pollen tube carries two sperm nuclei into the female gametophyte.
-- D. a chemical attractant guides the sperm toward the egg.
-- E. the sperm cells have flagella for locomotion.
-
-## Question 20
-
-Which statement describing plant structure is appropriate?
-
-- A. Sclerenchyma cells provide support for the plant body
-- B. Collenchyma cells may form the outer cell layer of the plant
-- C. Wood is formed from old epidermal cells
-- D. Stomates are pores in the roots that allow nutrients to enter
-- E. Parenchyma cells have thicker cell walls than other plant cells
-
-## Question 21
-
-The Hardy-Weinberg equilibrium principle assumes all of the following statements EXCEPT:
-
-- A. the proportion of alleles in a population tends to remain stable.
-- B. the frequencies of dominant and recessive alleles for a given trait in a gene pool of a large population can be determined mathematically.
-- C. genotype frequencies in a large population are unaffected by Mendelian segregation and recombination of alleles.
-- D. for a given trait the frequency of dominant alleles is greater than that of recessive alleles.
-- E. for a given trait the frequency of the genotype of the heterozygous population can be determined mathematically. Answer D: (The evolution of populations, pp. 448–449) When a population’s gene pool is in a state of equilibrium, it is referred to as Hardy-Weinberg equilibrium. Allele frequencies in a gene pool can be calculated with the Hardy-Weinberg equation (p2 + 2pq + q2 = 1). The dominant allele has no tendency to increase in frequency from one generation to the next related to the recessive allele. The allele frequencies tend to remain relatively constant.
-
-## Question 22
-
-Professor Jones is running an experiment with his graduate students in his physiology lab. One group of students drinks a liter of water, another group drinks a liter of coffee, and a third group drinks a liter of concentrated salt solution. The volume of urine produced by all individuals in the three groups is measured over a period of several hours. At the end of the monitoring period, which group will have produced the greatest volume of urine and which group the least?
-
-- A. Those who drank coffee will produce the most urine, while those who drank water will produce the least
-- B. Those who drank coffee will produce the most urine, while those who drank the salt solution will produce the least
-- C. Those who drank the salt solution will produce the most urine, while those who drank water will produce the least
-- D. Those who drank the salt solution will produce the most urine, while those who drank coffee will produce the least
-- E. There will be no difference between the three groups
-
-## Question 23
-
-A protein is usually tagged for degradation by proteasome activity by which of the following proteins?
-
-- A. Caspase
-- B. Kinase
-- C. Protease
-- D. Ubiquinone
-- E. Ubiquitin
-
-## Question 24
-
-Which of the following statements is true of territorial behavior?
-
-- A. Intruders win the majority of confrontations
-- B. Intruders are most likely to escalate a battle
-- C. “Owners” defend mainly against male intruders
-- D. “Owners” defend mainly against conspecifics
-- E. Contests are seldom “ritualized”
-
-## Question 25
-
-You extract RNA from liver cells and then carry out an agarose gel electrophoresis of the liver RNA.
+### 12. Which of the following would be most likely to increase competition among the members of the vole population in a given area?
+
+- [ ] **A.** An increase in the number of hawk predators
+- [ ] **B.** An increase in the reproduction rate of voles
+- [ ] **C.** An increase in temperature
+- [ ] **D.** An increase in the food supply
+- [ ] **E.** An epidemic of rabies within the vole population
+
+### 13. Tobacco mosaic virus has RNA rather than DNA as its genetic material. If the RNA genome from a tobacco mosaic virus is mixed with proteins from a human rhinovirus, the result is a mixed virus. If that virus could infect a cell and reproduce, what would you expect the resulting viruses to be like?
+
+- [ ] **A.** A hybrid including genetic material from tobacco mosaic virus and proteins from the rhinovirus
+- [ ] **B.** A hybrid including proteins from tobacco mosaic virus and genetic material from the rhinovirus
+- [ ] **C.** Rhinovirus
+- [ ] **D.** Tobacco mosaic virus
+- [ ] **E.** No viruses would result because no viral DNA was present
+
+### 14. An amphipathic molecule is a molecule that is characterized by:
+
+- [ ] **A.** 2 different forms that are mirror images of each othe.
+- [ ] **B.** an amino group.
+- [ ] **C.** a hydrophilic end and a hydrophobic end.
+- [ ] **D.** a positively charged end and a negatively charged end.
+- [ ] **E.** rarely being found in cell membranes.
+
+### 15. The function of a molecular chaperone is to:
+
+- [ ] **A.** act as an energy source during the polymerization of amino acids into a polypeptide.
+- [ ] **B.** act as a carrier molecule and bring “activated” monomers to a polymer for incorporation.
+- [ ] **C.** bind to specific structures on the polypeptide in order to assist the folding of a protein into its correct three dimensional shape.
+- [ ] **D.** unfold proteins with the incorrect three-dimensional shape and refold them into the proper shape.
+- [ ] **E.** transport rRNA from the nucleus to the cytoplasm.
+
+### 16. Ethidium Bromide is used in electrophoresis of DNA fragments because it:
+
+- [ ] **A.** makes the fragments visible under UV light.
+- [ ] **B.** makes the DNA fragments more mobile in the gel.
+- [ ] **C.** increases the conductivity of electricity through the gel.
+- [ ] **D.** helps determine the size of the fragments.
+- [ ] **E.** maintains a stable pH.
+
+### 17. The species Homo sapiens first appeared in which geologic epoch?
+
+- [ ] **A.** Miocene
+- [ ] **B.** Paleocene
+- [ ] **C.** Pleistocene
+- [ ] **D.** Pliocene
+- [ ] **E.** Eocene
+
+### 18. Which of the following marine communities would be LEAST affected by a volcanic eruption or meteor impact that injected enough debris into the atmosphere to reduce sunlight by 50% for two years?
+
+- [ ] **A.** Benthic community
+- [ ] **B.** Coral reef community
+- [ ] **C.** Deep sea vent community
+- [ ] **D.** Estuary community
+- [ ] **E.** Pelagic community
+
+### 19. 19. A unique feature of fertilization in angiosperms is that:
+
+- [ ] **A.** it is a double fusion event; one sperm fertilizes the egg, the other sperm combines with the polar or fusion nucleus.
+- [ ] **B.** the sperm may be carried by the wind to the female gametophyte.
+- [ ] **C.** a pollen tube carries two sperm nuclei into the female gametophyte.
+- [ ] **D.** a chemical attractant guides the sperm toward the egg.
+- [ ] **E.** the sperm cells have flagella for locomotion.
+
+### 20. Which statement describing plant structure is appropriate?
+
+- [ ] **A.** Sclerenchyma cells provide support for the plant body
+- [ ] **B.** Collenchyma cells may form the outer cell layer of the plant
+- [ ] **C.** Wood is formed from old epidermal cells
+- [ ] **D.** Stomates are pores in the roots that allow nutrients to enter
+- [ ] **E.** Parenchyma cells have thicker cell walls than other plant cells
+
+### 21. The Hardy-Weinberg equilibrium principle assumes all of the following statements EXCEPT:
+
+- [ ] **A.** the proportion of alleles in a population tends to remain stable.
+- [ ] **B.** the frequencies of dominant and recessive alleles for a given trait in a gene pool of a large population can be determined mathematically.
+- [ ] **C.** genotype frequencies in a large population are unaffected by Mendelian segregation and recombination of alleles.
+- [ ] **D.** for a given trait the frequency of dominant alleles is greater than that of recessive alleles.
+- [ ] **E.** for a given trait the frequency of the genotype of the heterozygous population can be determined mathematically. Answer D: (The evolution of populations, pp. 448–449) When a population’s gene pool is in a state of equilibrium, it is referred to as Hardy-Weinberg equilibrium. Allele frequencies in a gene pool can be calculated with the Hardy-Weinberg equation (p2 + 2pq + q2 = 1). The dominant allele has no tendency to increase in frequency from one generation to the next related to the recessive allele. The allele frequencies tend to remain relatively constant.
+
+### 22. Professor Jones is running an experiment with his graduate students in his physiology lab. One group of students drinks a liter of water, another group drinks a liter of coffee, and a third group drinks a liter of concentrated salt solution. The volume of urine produced by all individuals in the three groups is measured over a period of several hours. At the end of the monitoring period, which group will have produced the greatest volume of urine and which group the least?
+
+- [ ] **A.** Those who drank coffee will produce the most urine, while those who drank water will produce the least
+- [ ] **B.** Those who drank coffee will produce the most urine, while those who drank the salt solution will produce the least
+- [ ] **C.** Those who drank the salt solution will produce the most urine, while those who drank water will produce the least
+- [ ] **D.** Those who drank the salt solution will produce the most urine, while those who drank coffee will produce the least
+- [ ] **E.** There will be no difference between the three groups
+
+### 23. A protein is usually tagged for degradation by proteasome activity by which of the following proteins?
+
+- [ ] **A.** Caspase
+- [ ] **B.** Kinase
+- [ ] **C.** Protease
+- [ ] **D.** Ubiquinone
+- [ ] **E.** Ubiquitin
+
+### 24. Which of the following statements is true of territorial behavior?
+
+- [ ] **A.** Intruders win the majority of confrontations
+- [ ] **B.** Intruders are most likely to escalate a battle
+- [ ] **C.** “Owners” defend mainly against male intruders
+- [ ] **D.** “Owners” defend mainly against conspecifics
+- [ ] **E.** Contests are seldom “ritualized”
+
+### 25. You extract RNA from liver cells and then carry out an agarose gel electrophoresis of the liver RNA.
 
 The RNA fragments are then transferred to an RNA-binding membrane (nitrocellulose or nylon) using capillary action. Next, you hybridize a probe for gene X to the RNA on the membrane. Which of the following statements regarding your experiment is true?
 
-- A. You are trying to determine how many copies of Gene X are in liver cells
-- B. You are trying to determine if the Gene X protein is present in liver cells
-- C. You are trying to determine if Gene X is expressed in liver cells
-- D. You are trying to determine the chromosomal location of Gene X
-- E. You are trying to determine whether Gene X has a mutant sequence
+- [ ] **A.** You are trying to determine how many copies of Gene X are in liver cells
+- [ ] **B.** You are trying to determine if the Gene X protein is present in liver cells
+- [ ] **C.** You are trying to determine if Gene X is expressed in liver cells
+- [ ] **D.** You are trying to determine the chromosomal location of Gene X
+- [ ] **E.** You are trying to determine whether Gene X has a mutant sequence
 
-## Question 26
+### 26. A toxin exists that inhibits the enzyme succinate dehydrogenase. If this were used in an experiment to stop respiration, how many net NADH and ATP molecules would be generated from each pyruvate molecule during pyruvate oxidation and the citric acid cycle up to that stage?
 
-A toxin exists that inhibits the enzyme succinate dehydrogenase. If this were used in an experiment to stop respiration, how many net NADH and ATP molecules would be generated from each pyruvate molecule during pyruvate oxidation and the citric acid cycle up to that stage?
+- [ ] **A.** 3, 1
+- [ ] **B.** 3, 2
+- [ ] **C.** 4, 1
+- [ ] **D.** 4, 2
+- [ ] **E.** 6, 2
 
-- A. 3, 1
-- B. 3, 2
-- C. 4, 1
-- D. 4, 2
-- E. 6, 2
+### 27. Which of the following characteristics is an adaptation of temperate climatic zone plants?
 
-## Question 27
+- [ ] **A.** Leaves with drip tips
+- [ ] **B.** Sunken stomata
+- [ ] **C.** Succulent leaves
+- [ ] **D.** Dormant buds
+- [ ] **E.** Very shallow roots
 
-Which of the following characteristics is an adaptation of temperate climatic zone plants?
+### 28. Which of the following statements is acceptable?
 
-- A. Leaves with drip tips
-- B. Sunken stomata
-- C. Succulent leaves
-- D. Dormant buds
-- E. Very shallow roots
+- [ ] **A.** A short day plant will flower if it has over a half day of darkness interrupted by a short flash of light
+- [ ] **B.** A long night plant will flower if it has over a half day of darkness interrupted by a short flash of light
+- [ ] **C.** A long day plant will flower if it has over a half day of darkness interrupted by a short flash of light
+- [ ] **D.** A long day plant will flower if it has over a half day of uninterrupted darkness A
+- [ ] **E.** A short day plant will flower if day length is less than 16 hours.
 
-## Question 28
+### 29. Which of the following is NOT a second messenger?
 
-Which of the following statements is acceptable?
+- [ ] **A.** Calcium ion
+- [ ] **B.** Magnesium ion
+- [ ] **C.** Diacyl glycerol
+- [ ] **D.** Inositol trisphosphate (IP3)
+- [ ] **E.** Cyclic AMP
 
-- A. A short day plant will flower if it has over a half day of darkness interrupted by a short flash of light
-- B. A long night plant will flower if it has over a half day of darkness interrupted by a short flash of light
-- C. A long day plant will flower if it has over a half day of darkness interrupted by a short flash of light
-- D. A long day plant will flower if it has over a half day of uninterrupted darkness A
-- E. A short day plant will flower if day length is less than 16 hours.
+### 30. The reduction phase of the Calvin cycle is equivalent to which of the following processes in reverse?
 
-## Question 29
+- [ ] **A.** Electron transport chain
+- [ ] **B.** Krebs cycle
+- [ ] **C.** Light reactions of photosynthesis
+- [ ] **D.** Energy investment phase of glycolysis
+- [ ] **E.** Energy payoff phase of glycolysis
 
-Which of the following is NOT a second messenger?
+### 31. Which of the choices below correctly ranks [from least to greatest] the contribution of the various ecosystems as to their “Average Net Primary Production per unit area (kcal/m2/yr)”?
 
-- A. Calcium ion
-- B. Magnesium ion
-- C. Diacyl glycerol
-- D. Inositol trisphosphate (IP3)
-- E. Cyclic AMP
+- [ ] **A.** Open ocean, tropical rainforest, savanna, temperate forest
+- [ ] **B.** Tropical rain forest, open ocean, savanna, temperate forest
+- [ ] **C.** Open ocean, savanna, temperate forest, tropical rain forest
+- [ ] **D.** Savanna, tropical rainforest, temperate forest, open ocean
+- [ ] **E.** Open ocean, tropical rainforest, temperate forest, open ocean
 
-## Question 30
+### 32. In most terrestrial mammalian species, parental investment is greater for female parents than for male parents. This is because:
 
-The reduction phase of the Calvin cycle is equivalent to which of the following processes in reverse?
+- [ ] **A.** females often court and mate with multiple males.
+- [ ] **B.** females often choose poor quality mates.
+- [ ] **C.** females are often injured in fighting for mates.
+- [ ] **D.** males are typically polyandrous.
+- [ ] **E.** females are typically ‘K-selected’, whereas males are more often ‘r-selected’.
 
-- A. Electron transport chain
-- B. Krebs cycle
-- C. Light reactions of photosynthesis
-- D. Energy investment phase of glycolysis
-- E. Energy payoff phase of glycolysis
+### 33. Which of the following is part of the egg-producing structure in plants?
 
-## Question 31
+- [ ] **A.** The megagametophyte of angiosperms
+- [ ] **B.** The plasmodesmata of angiosperms
+- [ ] **C.** The microgametophyte in gymnosperms
+- [ ] **D.** The anthridium of mosses
+- [ ] **E.** The sori of ferns
 
-Which of the choices below correctly ranks [from least to greatest] the contribution of the various ecosystems as to their “Average Net Primary Production per unit area (kcal/m2/yr)”?
+### 34. A booster dose of a vaccination helps to:
 
-- A. Open ocean, tropical rainforest, savanna, temperate forest
-- B. Tropical rain forest, open ocean, savanna, temperate forest
-- C. Open ocean, savanna, temperate forest, tropical rain forest
-- D. Savanna, tropical rainforest, temperate forest, open ocean
-- E. Open ocean, tropical rainforest, temperate forest, open ocean
+- [ ] **A.** increase the blood antibody level by increasing the number of effector cells.
+- [ ] **B.** increase the blood antibody level by decreasing the number of T-suppressor cells.
+- [ ] **C.** increase the MHC recognition sites by increasing effector cells.
+- [ ] **D.** maintain a high monocyte count.
+- [ ] **E.** decrease the number of monocytes.
 
-## Question 32
+### 35. In mice, one gene regulates color. Homozygous recessive organisms are white, homozygous dominant organisms are black, and some organisms exhibit incomplete dominance (gray fur). A gray male and a gray female produce an offspring of unknown gender. What is the probability that the mouse will NOT be born with white fur?
 
-In most terrestrial mammalian species, parental investment is greater for female parents than for male parents. This is because:
+- [ ] **A.** ¼
+- [ ] **B.** ⅓
+- [ ] **C.** ¾
+- [ ] **D.** 1
+- [ ] **E.** ½
 
-- A. females often court and mate with multiple males.
-- B. females often choose poor quality mates.
-- C. females are often injured in fighting for mates.
-- D. males are typically polyandrous.
-- E. females are typically ‘K-selected’, whereas males are more often ‘r-selected’.
+### 36. The most phytoplankton in a lake would be found in which zone?
 
-## Question 33
+- [ ] **A.** Aphotic zone
+- [ ] **B.** Benthic zone
+- [ ] **C.** Limnetic zone
+- [ ] **D.** Oligotrophic zone
+- [ ] **E.** Profundal zone
 
-Which of the following is part of the egg-producing structure in plants?
+### 37. Hemoglobin, an iron-containing protein in erythrocytes, binds oxygen molecules. Myoglobin, a protein in muscle cells, is used for oxygen storage. What can be deduced about the relative oxygen affinities of hemoglobin and myoglobin?
 
-- A. The megagametophyte of angiosperms
-- B. The plasmodesmata of angiosperms
-- C. The microgametophyte in gymnosperms
-- D. The anthridium of mosses
-- E. The sori of ferns
+- [ ] **A.** Myoglobin has greater oxygen affinity than hemoglobin
+- [ ] **B.** Hemoglobin has greater oxygen affinity than myoglobin
+- [ ] **C.** Both have roughly the same oxygen affinity
+- [ ] **D.** Neither has a significant oxygen affinity
+- [ ] **E.** The two cannot be compared as one is associated with binding the other with storage
 
-## Question 34
-
-A booster dose of a vaccination helps to:
-
-- A. increase the blood antibody level by increasing the number of effector cells.
-- B. increase the blood antibody level by decreasing the number of T-suppressor cells.
-- C. increase the MHC recognition sites by increasing effector cells.
-- D. maintain a high monocyte count.
-- E. decrease the number of monocytes.
-
-## Question 35
-
-In mice, one gene regulates color. Homozygous recessive organisms are white, homozygous dominant organisms are black, and some organisms exhibit incomplete dominance (gray fur). A gray male and a gray female produce an offspring of unknown gender. What is the probability that the mouse will NOT be born with white fur?
-
-- A. ¼
-- B. ⅓
-- C. ¾
-- D. 1
-- E. ½
-
-## Question 36
-
-The most phytoplankton in a lake would be found in which zone?
-
-- A. Aphotic zone
-- B. Benthic zone
-- C. Limnetic zone
-- D. Oligotrophic zone
-- E. Profundal zone
-
-## Question 37
-
-Hemoglobin, an iron-containing protein in erythrocytes, binds oxygen molecules. Myoglobin, a protein in muscle cells, is used for oxygen storage. What can be deduced about the relative oxygen affinities of hemoglobin and myoglobin?
-
-- A. Myoglobin has greater oxygen affinity than hemoglobin
-- B. Hemoglobin has greater oxygen affinity than myoglobin
-- C. Both have roughly the same oxygen affinity
-- D. Neither has a significant oxygen affinity
-- E. The two cannot be compared as one is associated with binding the other with storage
-
-## Question 38
-
-In an experiment, a plant is grown at a particular level of light and in a certain concentration of CO2.
+### 38. In an experiment, a plant is grown at a particular level of light and in a certain concentration of CO2.
 
 With CO2 constant and light intensity gradually increasing to a preset level, oxygen production increases up to a point and then levels off. If light is increased beyond the preset level, no further increase in oxygen production is noted. In a second experiment, the same increasing regimen of light is used, but a higher level of CO2 is supplied. O2 production in the second experiment continues to increase beyond the point where it leveled off in the first experiment. From these observations, one might conclude:
 
-- A. light is the only limiting factor.
-- B. CO2 concentration is the only limiting factor.
-- C. both light and CO2 concentration are limiting factors throughout the time course of the reaction.
-- D. light is limiting up to a point and then CO2 becomes a limiting factor.
-- E. neither light nor CO2 concentration are limiting.
+- [ ] **A.** light is the only limiting factor.
+- [ ] **B.** CO2 concentration is the only limiting factor.
+- [ ] **C.** both light and CO2 concentration are limiting factors throughout the time course of the reaction.
+- [ ] **D.** light is limiting up to a point and then CO2 becomes a limiting factor.
+- [ ] **E.** neither light nor CO2 concentration are limiting.
 
-## Question 39
+### 39. Plant systematicists have found that monocots were not the first flowering plants to evolve. This would suggest that:
 
-Plant systematicists have found that monocots were not the first flowering plants to evolve. This would suggest that:
+- [ ] **A.** they must be more complex than previously thought.
+- [ ] **B.** they were misplaced in their lineage.
+- [ ] **C.** evolution does not always proceed from simple to complex.
+- [ ] **D.** they do not represent a true clade.
+- [ ] **E.** they evolved from a different ancestral group than other flowering plants did.
 
-- A. they must be more complex than previously thought.
-- B. they were misplaced in their lineage.
-- C. evolution does not always proceed from simple to complex.
-- D. they do not represent a true clade.
-- E. they evolved from a different ancestral group than other flowering plants did.
+### 40. In a certain population of 100 deer, 34 births and 25 deaths were recorded in one year. Assuming no immigration or emigration occurred, what is r for that population?
 
-## Question 40
+- [ ] **A.** 0.09
+- [ ] **B.** 0.25
+- [ ] **C.** 0.34
+- [ ] **D.** 0.66
+- [ ] **E.** 0.90
 
-In a certain population of 100 deer, 34 births and 25 deaths were recorded in one year. Assuming no immigration or emigration occurred, what is r for that population?
+### 41. A patient is suffering from kidney failure. Which of the following symptoms will most likely be present in this patient?
 
-- A. 0.09
-- B. 0.25
-- C. 0.34
-- D. 0.66
-- E. 0.90
+- [ ] **A.** A collapse of blood glucose level
+- [ ] **B.** An accumulation of uric acid in the blood
+- [ ] **C.** A higher salt concentration in the blood
+- [ ] **D.** A swelling of the liver
+- [ ] **E.** An excretion of vital amino acids
 
-## Question 41
+### 42. An investigator found 150 different diatom species in one mile of a stream. None of the species comprised more than 5% of the total population. In a second observation twenty-five miles downstream, there were only 20 different diatom species, with 2 species representing 80% of the total population. What is the best explanation of these two observations?
 
-A patient is suffering from kidney failure. Which of the following symptoms will most likely be present in this patient?
+- [ ] **A.** The stream is bigger at mile 25
+- [ ] **B.** The nature of the stream bottom changed
+- [ ] **C.** The stream velocity changed
+- [ ] **D.** Organic wastes high in nitrates and phosphates entered the stream somewhere between the two sampling stations
+- [ ] **E.** There must have been something wrong with the sampling methods
 
-- A. A collapse of blood glucose level
-- B. An accumulation of uric acid in the blood
-- C. A higher salt concentration in the blood
-- D. A swelling of the liver
-- E. An excretion of vital amino acids
+### 43. Which of the following statements is an acceptable statement about growth in plants?
 
-## Question 42
+- [ ] **A.** Only primary growth is localized in meristems.
+- [ ] **B.** Only stems have secondary growth.
+- [ ] **C.** Only secondary growth produces reproductive structures.
+- [ ] **D.** Monocots have only primary growth and dicots have only secondary growth.
+- [ ] **E.** Some plants lack secondary growth.
 
-An investigator found 150 different diatom species in one mile of a stream. None of the species comprised more than 5% of the total population. In a second observation twenty-five miles downstream, there were only 20 different diatom species, with 2 species representing 80% of the total population. What is the best explanation of these two observations?
+### 44. ATP is an important molecule in metabolism because it:
 
-- A. The stream is bigger at mile 25
-- B. The nature of the stream bottom changed
-- C. The stream velocity changed
-- D. Organic wastes high in nitrates and phosphates entered the stream somewhere between the two sampling stations
-- E. There must have been something wrong with the sampling methods
+- [ ] **A.** is readily obtained from an organism’s environment.
+- [ ] **B.** is extremely stable.
+- [ ] **C.** contains valuable nutrients.
+- [ ] **D.** has high-energy phosphate bonds.
+- [ ] **E.** has phosphate bonds that are very easily formed but not easily broken.
 
-## Question 43
+### 45. Crossing over contributes to the genetic variation of a species by exchanging chromosomal segments between nonsister chromatids of homologous chromosomes. In the production of which type of cell does the crossing over occur?
 
-Which of the following statements is an acceptable statement about growth in plants?
+- [ ] **A.** Chondrocytes
+- [ ] **B.** Gametes
+- [ ] **C.** Leukocytes
+- [ ] **D.** Osteoblasts
+- [ ] **E.** Sporophytes
 
-- A. Only primary growth is localized in meristems.
-- B. Only stems have secondary growth.
-- C. Only secondary growth produces reproductive structures.
-- D. Monocots have only primary growth and dicots have only secondary growth.
-- E. Some plants lack secondary growth.
+### 46. In a population of 15 AA, 25 Aa, and 10 aa individuals, the frequency of the a allele is:
 
-## Question 44
+- [ ] **A.** 0.20.
+- [ ] **B.** 0.30.
+- [ ] **C.** 0.45.
+- [ ] **D.** 0.50.
+- [ ] **E.** 0.55.
 
-ATP is an important molecule in metabolism because it:
-
-- A. is readily obtained from an organism’s environment.
-- B. is extremely stable.
-- C. contains valuable nutrients.
-- D. has high-energy phosphate bonds.
-- E. has phosphate bonds that are very easily formed but not easily broken.
-
-## Question 45
-
-Crossing over contributes to the genetic variation of a species by exchanging chromosomal segments between nonsister chromatids of homologous chromosomes. In the production of which type of cell does the crossing over occur?
-
-- A. Chondrocytes
-- B. Gametes
-- C. Leukocytes
-- D. Osteoblasts
-- E. Sporophytes
-
-## Question 46
-
-In a population of 15 AA, 25 Aa, and 10 aa individuals, the frequency of the a allele is:
-
-- A. 0.20.
-- B. 0.30.
-- C. 0.45.
-- D. 0.50.
-- E. 0.55.
-
-## Question 47
-
-Use the cladogram below to answer the following question. Which group(s) represent(s) a monophyletic taxon?
+### 47. Use the cladogram below to answer the following question. Which group(s) represent(s) a monophyletic taxon?
 
 ![Question 47 figure 1](images/page14_image01.png)
 
-- A. A and B
-- B. A, B, D, and E
-- C. D, E, F, and G
-- D. H, I, J, and K
-- E. A, B, C, D, E, F, and G
+- [ ] **A.** A and B
+- [ ] **B.** A, B, D, and E
+- [ ] **C.** D, E, F, and G
+- [ ] **D.** H, I, J, and K
+- [ ] **E.** A, B, C, D, E, F, and G
 
-## Question 48
+### 48. A ribozyme is a(an):
 
-A ribozyme is a(an):
+- [ ] **A.** precursor form of an rRNA molecule
+- [ ] **B.** enzyme involved in the synthesis of RNA molecules.
+- [ ] **C.** protein that digests RNA molecules.
+- [ ] **D.** ribose molecule linked to an enzyme.
+- [ ] **E.** RNA molecule that functions as a enzyme.
 
-- A. precursor form of an rRNA molecule
-- B. enzyme involved in the synthesis of RNA molecules.
-- C. protein that digests RNA molecules.
-- D. ribose molecule linked to an enzyme.
-- E. RNA molecule that functions as a enzyme.
+### 49. When an ant in a colony dies, the live ants will throw the dead ant out of the anthill. If a live ant from the colony, Ant X, is sprayed with a chemical characteristic of dead ants, the live ants will repeatedly throw Ant X out of the anthill, until the chemical on Ant X wears off. What is the best behavioral explanation of ant colony?
 
-## Question 49
+- [ ] **A.** The ants are exhibiting a negative taxis triggered by the chemical
+- [ ] **B.** The other ants can learn only through trial and error
+- [ ] **C.** The ants exhibit a learned behavior
+- [ ] **D.** The live ants continue the behavior until they have been habituated
+- [ ] **E.** The chemical acts as a sign stimulus for a fixed action pattern
 
-When an ant in a colony dies, the live ants will throw the dead ant out of the anthill. If a live ant from the colony, Ant X, is sprayed with a chemical characteristic of dead ants, the live ants will repeatedly throw Ant X out of the anthill, until the chemical on Ant X wears off. What is the best behavioral explanation of ant colony?
+### 50. Vascular plants share all of the following characteristics EXCEPT:
 
-- A. The ants are exhibiting a negative taxis triggered by the chemical
-- B. The other ants can learn only through trial and error
-- C. The ants exhibit a learned behavior
-- D. The live ants continue the behavior until they have been habituated
-- E. The chemical acts as a sign stimulus for a fixed action pattern
-
-## Question 50
-
-Vascular plants share all of the following characteristics EXCEPT:
-
-- A. alternation of generations.
-- B. development of seeds.
-- C. dominance of the sporophyte.
-- D. lignin in cell walls.
-- E. xylem and phloem.
+- [ ] **A.** alternation of generations.
+- [ ] **B.** development of seeds.
+- [ ] **C.** dominance of the sporophyte.
+- [ ] **D.** lignin in cell walls.
+- [ ] **E.** xylem and phloem.
 
 # Explanations
 
