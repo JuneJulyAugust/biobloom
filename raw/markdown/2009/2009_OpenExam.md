@@ -1,10 +1,10 @@
 # USABO 2009 Open Exam
 
-### 1. Questions 1 and 2 pertain to the following information:
+## Questions 1 and 2 pertain to the following information:
 
 Sunflower chromosomes have been isolated and their DNA/NT analyzed. It was found that chromosome 2 has unusually high content of Adenine (40%).
 
-How many percent of Guanine is present in chromosome 2?
+### 1. How many percent of Guanine is present in chromosome 2?
 
 - [ ] **A.** 10%
 - [ ] **B.** 20%
@@ -183,9 +183,13 @@ To which one of the following orders will you assign this insect?
 - [ ] **B.** the rainforests of southeast Asia.
 - [ ] **C.** the underground petroleum supplies of Siberia.
 - [ ] **D.** photosynthetic oceanic microorganisms.
-- [ ] **E.** stable isotopes found in igneous rock. The shown family pedigree reflects the inheritance pattern of a rare form of anemia. *
+- [ ] **E.** stable isotopes found in igneous rock.
+
 
 ### 23. What is the pattern of inheritance?
+
+The shown family pedigree reflects the inheritance pattern of a rare form of anemia.
+![Question 23 figure 1](images/question23_image01.png)
 
 - [ ] **A.** Autosomal recessive
 - [ ] **B.** Autosomal dominant
@@ -235,9 +239,7 @@ To which one of the following orders will you assign this insect?
 
 ### 29. Imagine that you are a molecule of RNA polymerase that is sliding along DNA and encountering a gene with typical structure (promoter, coding sequence and terminator) depicted below. Which of the choices below presents the most accurate order of DNA segments (labeled 1, 2, 3……) in which the affinity of the RNA polymerase binding to DNA progressively diminishes?
 
-5’ 3’ 3’ 5’ 1 2 3 4 5 6
-
-![Question 29 figure 1](images/page08_image01.png)
+![Question 29 figure 1](images/question29_image01.png)
 
 - [ ] **A.** 2, 1, 4
 - [ ] **B.** 2, 5, 3
@@ -381,13 +383,15 @@ Which of the following statements is acceptable concerning this ecosystem?
 
 ### 46. The best description of the relationships between fundamental niches (FN) and realized niches (RN) of two competing species that coexist is:
 
-- [ ] **A.** FNA = RNA; FNB = RN B B
-- [ ] **B.** FNA > RNA; FNB = RN B B
-- [ ] **C.** FNA < RNA; FNB < RN B B
-- [ ] **D.** FNA > RNA; FNB > RN B B B
-- [ ] **E.** FNA = RNA; FNS > RNS
+- [ ] **A.** $FN_{A} = RN_{A}$; $FN_{B} = RN_{B}$
+- [ ] **B.** $FN_{A} > RN_{A}$; $FN_{B} = RN_{B}$
+- [ ] **C.** $FN_{A} < RN_{A}$; $FN_{B} < RN_{B}$
+- [ ] **D.** $FN_{A} > RN_{A}$; $FN_{B} > RN_{B}$
+- [ ] **E.** $FN_{A} = RN_{A}$; $FN_{S} > RN_{S}$
 
 ### 47. The diagram below represents a section of undisturbed layers of sedimentary rock in New York State and shows the location of fossils of several closely related species. According to currently accepted evolutionary theory, which is the most probable assumption about species A, B and C?
+
+![Question 47 figure 1](images/question47_image01.png)
 
 - [ ] **A.** Species B is more abundant than species C.
 - [ ] **B.** Species A and B are genetically identical.
@@ -397,15 +401,7 @@ Which of the following statements is acceptable concerning this ecosystem?
 
 ### 48. Population genetics shows us that certain traits of a species will become more abundant if they benefit the species. The diagram below illustrates the change that occurred in the frequency of phenotypes in an insect population over 10 generations. A probable explanation for this change would be that over time there was:
 
-![Question 48 figure 1](images/page13_image02.png)
-
-![Question 48 figure 2](images/page13_image01.png)
-
-![Question 48 figure 3](images/page13_image03.png)
-
-![Question 48 figure 4](images/page13_image04.png)
-
-![Question 48 figure 5](images/page13_image05.png)
+![Question 48 figure 1](images/question48_image01.png)
 
 - [ ] **A.** a decrease in the population of this insect.
 - [ ] **B.** an increase in the population of this insect.
