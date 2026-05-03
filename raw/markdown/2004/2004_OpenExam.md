@@ -80,7 +80,9 @@
 - [ ] **D.** schlerenchyma.
 - [ ] **E.** xylem.
 
-### 11. For the biomass pyramid shown below, choose the correct statement. secondary consumer primary consumer producer
+### 11. For the biomass pyramid shown below, choose the correct statement. 
+![Question 11 figure 1](./images/question11_image01.png)
+secondary consumer primary consumer producer
 
 - [ ] **A.** Producers reproduce quickly but are also consumed at a rapid rate
 - [ ] **B.** Biomass decreases with higher trophic levels
@@ -364,7 +366,7 @@ With CO2 constant and light intensity gradually increasing to a preset level, ox
 - [ ] **D.** Osteoblasts
 - [ ] **E.** Sporophytes
 
-### 46. In a population of 15 AA, 25 Aa, and 10 aa individuals, the frequency of the a allele is:
+### 46. In a population of 15 **AA**, 25 **Aa**, and 10 **aa** individuals, the frequency of the a allele is:
 
 - [ ] **A.** 0.20.
 - [ ] **B.** 0.30.
