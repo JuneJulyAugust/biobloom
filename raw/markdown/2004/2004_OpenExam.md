@@ -1,9 +1,5 @@
 # USABO 2004 Open Exam
 
-## Introductory Text
-
-Note: This answer key is based on Exam Version 101. However, all questions on each version of the exams are identical.
-
 ### 1. Assume a person is placed on cortisol medication, a glucocorticoid. How would you expect the rates of ACTH and CRF hormone production to change in the person?
 
 - [ ] **A.** ACTH production would increase, CRF production would increase

@@ -1,17 +1,5 @@
 # USABO Open Exam 2003
 
-Source files:
-- `2003_OpenExam.pdf` - unmarked exam
-- `2003_OpenExam_AnswerKey.pdf` - answer-key PDF with yellow-highlighted correct choices
-
-Notes:
-- Correct choices were extracted from yellow highlight rectangles in the answer-key PDF.
-- No embedded figures/images were detected in the 2003 exam PDF, so `images/` is intentionally empty except for `.gitkeep`.
-
----
-
-## Questions
-
 ### 1. What enzyme does HIV use to convert RNA to DNA?
 
 - [ ] **A.** DNA gyrase

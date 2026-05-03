@@ -1,19 +1,5 @@
 # USABO 2008 Open Exam
 
-## Introductory Text
-
-Congratulations! You are about to take the 2008 USABO Open Exam, the first exam in a series of competitions to qualify you for the USA Biology Olympiad and the International Biology Olympiad.
-
-Please try to complete as much of this multiple-choice exam as you can.
-
-The fact that you are taking this exam marks you as an outstanding biology student. By taking this exam, you may qualify to be one of the top 10% who will be invited to take the USABO Semifinal Exam in March 2008. The top 20 students from the Semifinal Exam will be selected to attend the all- expenses-paid USABO National Finals at a major university. From the National Finals, four students will represent the United States at the International Biology Olympiad in Mumbai, India from July 13 to 20, 2008.
-
-Please put away your books and other materials. Clear your desk of all but the following items: • USA Biology Olympiad Open Exam • Number 2 pencils and erasers You have 50 minutes to take this exam. Please wait until your teacher tells you before beginning the exam. Indicate your answer by filling in the correct box on your Scantron sheet, choice A, B, C, D or E. Without an ID number the exam will not be graded.
-
-Please sign and date this exam, certifying your identity, acknowledging your participation in the 2008 USA Biology Olympiad and pledging that you have followed the rules governing this competition.
-
-Please Print Carefully Full Name: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; Teacher Name: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; School Name: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; Student I.D. Number: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; Date: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; Signature: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;
-
 ### 1. In certain areas of Sub-Saharan Africa high levels of anemia are exhibited as a consequence of iron deficiency. What other symptom would you expect might be found in these peoples?
 
 - [ ] **A.** goiter
@@ -64,19 +50,13 @@ Please Print Carefully Full Name: &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&
 
 ### 7. Blood glucose level is regulated by two antagonistic hormones, glucagon and insulin. The following graph shows the fluctuations in an individual’s blood glucose level over a five hour period.
 
+![Question 7 figure 1](images/page03_image01.png)
 From the information provided above and your knowledge of physiology, which of the following statements are appropriate?
 
-I. Normal homeostatic mechanisms maintain a glucose
-
-concentration of approximately 1 mg/ml.
-
+I. Normal homeostatic mechanisms maintain a glucoseconcentration of approximately 1 mg/ml.
 II. Glucagon is released at points A and C.
-
 III. The individual eats a meal at point D.
-
 IV. Insulin is being released at points B and E.
-
-![Question 7 figure 1](images/page03_image01.png)
 
 - [ ] **A.** I only
 - [ ] **B.** I and II only
@@ -272,7 +252,14 @@ What could you try to do to fix the problem?
 
 ### 30. Scientists have determined that three classes of genes (named A, B, and C) control development of the four flower parts: Sepals, Petals, Stamen, and Carpels. Genes A and C mutually repress each other. Gene B is not regulated by either gene A or C. The expression pattern of these genes in wild-type flowers is shown below, where +++ indicates gene activity.
 
-Flower Formation Sepals Petals Stamens Carpels Gene A +++ +++ Gene B +++ +++ Gene C +++ +++ A mutation in Gene C, which prevents its expression, will result in which of the following floral patterns?
+Flower Formation
+|        | Sepals | Petals | Stamens | Carpels |
+| ------ | -----: | -----: | ------: | ------: |
+| Gene A |    +++ |    +++ |         |         |
+| Gene B |        |    +++ |     +++ |         |
+| Gene C |        |        |     +++ |     +++ |
+
+A mutation in Gene C, which prevents its expression, will result in which of the following floral patterns?
 
 - [ ] **A.** Sepals-Petals-Stamen-Carpels
 - [ ] **B.** Sepals-Petals-Petals

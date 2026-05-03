@@ -1,9 +1,5 @@
 # USABO 2014 Open Exam
 
-## Introductory Text
-
-Addendum: Directions for all USABO Open Exam questions are included in the “Student Certification Form” with the exception of Questions 6, 14, 22, 27, 28, 32, 35, 39, 41, and 46. These questions use a different question format-Multiple True-False. Directions for answering each of these questions are included with each question.
-
 ### 1. Why is myelin important in the nervous system?
 
 - [ ] **A.** It allows signals to travel faster along axons because depolarization occurs only at myelinated locations.

@@ -1,21 +1,11 @@
 # USABO 2018 Open Exam
 
-## Introductory Text
-
-20% Cell Biology 10 questions (0 needed)
-
-Questions 1 and 2. Please use the following options to answer the following three questions. Each choice
-
-may be used once, more than once, or not at all.
+Questions 1 and 2. Please use the following options to answer the following three questions. Each choice may be used once, more than once, or not at all.
 
 - [ ] **A.** Actin.
-
 - [ ] **B.** Myosin.
-
 - [ ] **C.** Dynein.
-
 - [ ] **D.** Kinesin.
-
 - [ ] **E.** Cyclin.
 
 ### 1. In the extracellular matrix of an animal cell, you would like to test the binding partner of integrins in vitro. Integrins would most likely require firm attachment to which of the above option?
@@ -32,19 +22,13 @@ may be used once, more than once, or not at all.
 
 ### 4. Select the answer choice that correctly describes which chemical species are oxidized, reduced, and phosphorylated in the process of oxidative phosphorylation.
 
-| Choice | Oxidized | Reduced | Phosphorylated |
-
-|---|---|---|---|
-
-| A | H2O only | NAD+ and FAD | ADP |
-
-| B | NADH and FADH2 | O2 | ADP |
-
-| C | NADH and FADH2 | CO2 | ATP |
-
-| D | H2O only | NAD+ only | ADP |
-
-| E | NADPH only | FAD only | ATP |
+| Choice | Oxidized       | Reduced      | Phosphorylated |
+| ------ | -------------- | ------------ | -------------- |
+| A      | H2O only       | NAD+ and FAD | ADP            |
+| B      | NADH and FADH2 | O2           | ADP            |
+| C      | NADH and FADH2 | CO2          | ATP            |
+| D      | H2O only       | NAD+ only    | ADP            |
+| E      | NADPH only     | FAD only     | ATP            |
 
 ### 5. Which scientist(s) is incorrectly matched with his/her/their discoveries?
 

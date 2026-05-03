@@ -1,9 +1,5 @@
 # USABO 2006 Open Exam
 
-## Introductory Text
-
-For each of the following questions, choose the best answer among the five choices, A-E.
-
 ### 1. Insulin injected by diabetics to control blood sugar levels is derived from bacteria whose DNA has been modified by the addition of the human gene for insulin, which is then produced by the prokaryotes. This is an example of:
 
 - [ ] **A.** acid therapy.

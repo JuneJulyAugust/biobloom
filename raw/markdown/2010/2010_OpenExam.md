@@ -51,13 +51,9 @@
 ### 7. Which set of the following statements are correct?
 
 1. Osmosis can be used to measure the molecular weight of macromolecules.
-
 2. Aquaporins affect the rate of water transport across membranes.
-
 3. Antidiuretic hormone (ADH) controls aquaporins and the reabsorption of water in the kidney.
-
 4. Reverse osmosis is a process that uses a pressure greater than the osmotic pressure to force the solvent through a semi-permeable membrane from the side with a high solute concentration.
-
 5. Passive proton pumps in plant cell membranes establish proton gradients.
 
 - [ ] **A.** Only statements 2, 3 & 4 are correct.
