@@ -92,13 +92,9 @@ As the number of (+) and (-) ions in the amoeba and in the ECE are not equal, on
 ### 11. Five events occur in a cell constituting a cause-and-effect sequence:
 
 1. an enzyme is manufactured at the ribosomes
-
 2. cellulose is deposited in a cell wall
-
 3. a molecule of RNA is transcribed
-
 4. a carbohydrate polymer is synthesized
-
 5. a nucleic acid migrates from nucleus to ribosome
 
 The order in which these events occur is:
@@ -109,7 +105,7 @@ The order in which these events occur is:
 - [ ] **D.** 4, 2, 1, 3, 5
 - [ ] **E.** 5, 3, 4, 1, 2
 
-### 12. When bacterial cells multiply maximally during the logarithmic phase, the total number of cells (b) after some time interval (t) is equal to the original number of cells (B) multiplied by 2 n , where n is the number of generations formed during the time interval: n = t/g and b = (B)(2 n ). The generation time (g) for type A cells is 28 minutes (assume no cell death).
+### 12. When bacterial cells multiply maximally during the logarithmic phase, the total number of cells (b) after some time interval (t) is equal to the original number of cells (B) multiplied by 2^n , where n is the number of generations formed during the time interval: n = t/g and b = (B)(2^n ). The generation time (g) for type A cells is 28 minutes (assume no cell death).
 
 Estimate the LEAST amount of time required for a population of type A cells to increase by 300 percent.
 
@@ -118,7 +114,6 @@ Estimate the LEAST amount of time required for a population of type A cells to i
 - [ ] **C.** approximately 52 minutes
 - [ ] **D.** approximately 58 minutes
 - [ ] **E.** more than 62 minutes
-<!-- TODO: verify answer key: source note questions the provided answer validity -->
 
 ### 13. A population of 2800 flowers is in Hardy-Weinberg equilibrium, and 2352 of them are red in color.
 
@@ -152,9 +147,17 @@ The red allele [R]is the dominant allele; the allele for white color [r] is rece
 - [ ] **B.** change in the secondary structure of the protein.
 - [ ] **C.** loss of catalytic activity of the protein.
 - [ ] **D.** loss of a negatively charged side chain.
-- [ ] **E.** loss of the protein’s ability to interact with other proteins. Following general mutagensis, a researcher found in regard to lactose metabolism by a bacterium: Temperature Lactose Metabolism (+) 37º C 42º C Normal (+) (+) Mutated (+) (-)
+- [ ] **E.** loss of the protein’s ability to interact with other proteins.
+
 
 ### 17. The bacterial genome was sequenced and a mutation found in a gene adjacent to β-galactoside.
+
+Following general mutagensis, a researcher found in regard to lactose metabolism by a bacterium:
+
+| Lactose Metabolism (+) | Temperature 37º C | Temperature 42º C |
+| :--------------------- | :---------------: | :---------------: |
+| Normal                 |        (+)        |        (+)        |
+| Mutated                |        (+)        |        (-)        |
 
 How would you best explain these research findings? The:
 
@@ -164,11 +167,7 @@ How would you best explain these research findings? The:
 - [ ] **D.** promoter protein in this pathway must be mutated such that it is denatured by the higher temperature.
 - [ ] **E.** mutation must lie in the operator gene.
 
-### 18. Researchers found that the arginine code AGG is poorly represented in genes of E.coli.
-
-Interestingly, they also found that this triplet, when present, binds to the ribosome 7-9 base pairs upstream from the starting ATG triplet (methionine). What does this information suggest in regard to the AGG codon?
-
-![Question 18 figure 1](images/page05_image01.png)
+### 18. Researchers found that the arginine code AGG is poorly represented in genes of E.coli. Interestingly, they also found that this triplet, when present, binds to the ribosome 7-9 base pairs upstream from the starting ATG triplet (methionine). What does this information suggest in regard to the AGG codon?
 
 - [ ] **A.** it is a codon rarely found in this bacterium
 - [ ] **B.** it is conserved in most prokaroytic organisms
@@ -176,6 +175,8 @@ Interestingly, they also found that this triplet, when present, binds to the rib
 - [ ] **D.** both B and C
 - [ ] **E.** A, B and C
 
+
+![Question 19 figure 1](images/page05_image01.png)
 ### 19. The above pedigree results from a rare SEX-LINKED disease. If individual 1 and 2 have a baby, what is the likelihood that the child, noted with a ?, will have the disease?
 
 - [ ] **A.** 50% if it is a girl; 50% if it is a boy
@@ -299,9 +300,7 @@ Interestingly, they also found that this triplet, when present, binds to the rib
 ### 34. Which one or combination of the following explains why patients with sickle cell anemia have difficulty breathing at high altitudes?
 
 1. elongation of the red blood cells reduces surface to volume ratios
-
 2. self-associated hemoglobin proteins have altered cooperative binding affinities
-
 3. soluble oxygen is unable to diffuse through the membrane of red blood cells in sickle cell patients
 
 - [ ] **A.** 1 only
@@ -320,7 +319,15 @@ Interestingly, they also found that this triplet, when present, binds to the rib
 
 ### 36. A scientist established a controlled squirrel population within a woods containing 60 Oak trees and one pair of squirrels in 1975. She did a count of squirrels each year for five years. The data that she collected are shown below.
 
-Year Run 1 Run 2 Run 3 Run 4 Run 5 Average 5.2 12.6 31.2 101 100 77.4 Assuming no emigration or immigration, what is the closest approximation of the natural rate of increase of this population?
+| Year | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Average |
+| :--: | :---: | :---: | :---: | :---: | :---: | :-----: |
+|  75  |   2   |   2   |   2   |   2   |   2   |    2    |
+|  76  |   6   |   5   |   6   |   4   |   5   |   5.2   |
+|  77  |  16   |  11   |  16   |   9   |  11   |  12.6   |
+|  78  |  40   |  27   |  41   |  21   |  27   |  31.2   |
+|  79  |  101  |  67   |  100  |  52   |  67   |  77.4   |
+
+Assuming no emigration or immigration, what is the closest approximation of the natural rate of increase of this population?
 
 - [ ] **A.** 2
 - [ ] **B.** 3
@@ -339,13 +346,9 @@ Year Run 1 Run 2 Run 3 Run 4 Run 5 Average 5.2 12.6 31.2 101 100 77.4 Assuming n
 ### 38. Xerophytic adaptations are exemplified by which combination of the following features?
 
 1. stomata close at night and open during the day
-
 2. rolled leaves
-
 3. thick waxy cuticles
-
 4. reduction in leaf area
-
 5. hairy leaves
 
 - [ ] **A.** 1, 2 & 3
@@ -365,13 +368,9 @@ Year Run 1 Run 2 Run 3 Run 4 Run 5 Average 5.2 12.6 31.2 101 100 77.4 Assuming n
 ### 40. Of the following statements, which combination correctly represents the characteristics of primary production?
 
 1. it is carried out only by green plants
-
 2. it is carried out only by photoautotrophs
-
 3. it determines the total energy flow through an ecosystem
-
 4. it determines the amount of life that an ecosystem can support
-
 5. gross productivity minus respiration is equal to net productivity
 
 - [ ] **A.** 1, 2, 3 & 4
@@ -380,9 +379,7 @@ Year Run 1 Run 2 Run 3 Run 4 Run 5 Average 5.2 12.6 31.2 101 100 77.4 Assuming n
 - [ ] **D.** 2, 3, 4 & 5
 - [ ] **E.** all of the statements
 
-### 41. Cattle trample and kill small plants surrounding a water hole as they stand near it to drink water.
-
-This is an example of:
+### 41. Cattle trample and kill small plants surrounding a water hole as they stand near it to drink water. This is an example of:
 
 - [ ] **A.** amensalism.
 - [ ] **B.** Batesian mimicry.
