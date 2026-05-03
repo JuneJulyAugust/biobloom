@@ -111,11 +111,8 @@ What percentage of this population is probably heterozygous for the fur color tr
 ### 14. Given the following pedigree: Ignoring mutation and assuming complete penetrance, what is (are) the possible mode(s) of inheritance?
 
 I. Autosomal dominant
-
 II. Autosomal recessive
-
 III. X-linked dominant
-
 IV. X-linked recessive
 
 ![Question 14 figure 1](images/page03_image01.png)
@@ -144,9 +141,9 @@ IV. X-linked recessive
 
 ### 17. Which of the following would act as an "uncoupler" of electron transport and ATP synthesis in the mitochondrion?
 
-- [ ] **A.** NH4Cl
+- [ ] **A.** $NH_4Cl$
 - [ ] **B.** Urea
-- [ ] **C.** The F0 base piece of the ATP synthase (without the F1 subunit)
+- [ ] **C.** The $F_0$ base piece of the ATP synthase (without the $F_1$ subunit)
 - [ ] **D.** All of the above
 - [ ] **E.** A and C only
 
@@ -176,9 +173,9 @@ IV. X-linked recessive
 
 ### 21. Terminally differentiated cells are most often found in which phase of the cell cycle?
 
-- [ ] **A.** G0
-- [ ] **B.** G1
-- [ ] **C.** G2
+- [ ] **A.** $G_0$
+- [ ] **B.** $G_1$
+- [ ] **C.** $G_2$
 - [ ] **D.** M
 - [ ] **E.** S
 
@@ -208,9 +205,7 @@ Another biologist challenges the report and claims the organelle is an artifact 
 - [ ] **D.** Use a different electron microscope preparation procedure on cells from the same species and see if the structure is still present.
 - [ ] **E.** Use the original procedure on cells of different species and see if they also have the organelle.
 
-### 25. A particular compound microscope, with the 43x objective in position, has a diameter of the field of view of approximately 0.31 mm and an area of approximately 0.1 mm2. The diameter of the field of view is inversely proportional to the magnification of the objective. Counting left to right one observes 15 rectangular onion epidermal cells across the field of view with the 43x objective in place. Counting from top to bottom it can be observed that four cells span the diameter of the field.
-
-Using the 43x objective, one sees an average of 12 stomates per field of view. What is the best estimate of the density of stomates per sq mm of epidermal surface?
+### 25. A particular compound microscope, with the 43x objective in position, has a diameter of the field of view of approximately 0.31 mm and an area of approximately 0.1 mm2. The diameter of the field of view is inversely proportional to the magnification of the objective. Counting left to right one observes 15 rectangular onion epidermal cells across the field of view with the 43x objective in place. Counting from top to bottom it can be observed that four cells span the diameter of the field. Using the 43x objective, one sees an average of 12 stomates per field of view. What is the best estimate of the density of stomates per sq mm of epidermal surface?
 
 - [ ] **A.** 12
 - [ ] **B.** 15
@@ -286,9 +281,9 @@ Which of the following processes would not occur in the cell?
 
 ### 34. The diagram below illustrates the change that occurred in the physical appearance of a large and contained rabbit population over a 10-year period.
 
-Which of the following would best explain this change over time?
-
 ![Question 34 figure 1](images/page07_image01.png)
+
+Which of the following would best explain this change over time?
 
 - [ ] **A.** A decrease in the mutation rate of the rabbits with black fur
 - [ ] **B.** An increase in the advantage of having white fur
@@ -298,7 +293,9 @@ Which of the following would best explain this change over time?
 
 ### 35. The flow of energy through an ecosystem involves many energy transfers. The diagram below is a simplified version that summarizes the transfer of energy that eventually powers muscle activity.
 
-Sun Food ATP Muscle Activity A B C The process of cellular respiration is represented by:
+Sun ===( A )===> Food ===( B )===> ATP ===( C )===> Muscle Activity
+
+The process of cellular respiration is represented by:
 
 - [ ] **A.** arrow A only.
 - [ ] **B.** arrow B only.
@@ -340,27 +337,22 @@ Sun Food ATP Muscle Activity A B C The process of cellular respiration is repres
 
 ### 40. In the transcription of DNA to RNA the nitrogenous base cytosine will pair with: (note: the answers A, B, C, D, E are listed in columns.)
 
-![Question 40 figure 1](images/page08_image01.png)
-
-![Question 40 figure 2](images/page08_image02.png)
-
-![Question 40 figure 3](images/page08_image03.png)
-
-![Question 40 figure 4](images/page08_image04.png)
-
-![Question 40 figure 5](images/page08_image05.png)
-
 - [ ] **A.**
+  ![Question 40 figure 1](images/page08_image01.png)
 - [ ] **B.**
+  ![Question 40 figure 4](images/page08_image04.png)
 - [ ] **C.**
+  ![Question 40 figure 5](images/page08_image05.png)
 - [ ] **D.**
+  ![Question 40 figure 2](images/page08_image02.png)
 - [ ] **E.**
+  ![Question 40 figure 3](images/page08_image03.png)
 
 ### 41. Which of the following statements about the energy yield of aerobic respiration is NOT true?
 
 - [ ] **A.** Less than 50% of the chemical energy stored in glucose is converted to ATP.
 - [ ] **B.** Glycolysis and pyruvate oxidation together provide more NADH per glucose molecule than does the Krebs cycle.
-- [ ] **C.** Each pair of electrons donated by an FADH2 or NADH molecule during electron transport results in the synthesis of more than one molecule of ATP.
+- [ ] **C.** Each pair of electrons donated by an $FADH_{2}$ or NADH molecule during electron transport results in the synthesis of more than one molecule of ATP.
 - [ ] **D.** ATP is needed to transport NADH produced during glycolysis into the mitochondria.
 - [ ] **E.** Most of the ATP derived during aerobic respiration results from the utilization of an electrochemical gradient.
 
@@ -374,15 +366,13 @@ Sun Food ATP Muscle Activity A B C The process of cellular respiration is repres
 
 ### 43. Which of the following situations would result in the greatest degree of O2 saturation for hemoglobin, assuming PO2 remains constant?
 
-- [ ] **A.** Decreased PCO2, decreased temperature
+- [ ] **A.** Decreased $P_{CO2}$, decreased temperature
 - [ ] **B.** Elevated levels of 2, 3 – DPG
 - [ ] **C.** Low pH
-- [ ] **D.** Decreased PCO2, increased temperature
-- [ ] **E.** Increased PCO2, decreased temperature
+- [ ] **D.** Decreased $P_{CO2}$, increased temperature
+- [ ] **E.** Increased $P_{CO2}$, decreased temperature
 
-### 44. A biologist collected seeds from 10 different plants, keeping all seeds under optimal conditions of storage. Within a week after collection the seeds were germinated under laboratory conditions.
-
-Each set of seeds was placed onto moist filter paper which was remoistened as necessary and subjected to room temperature of 23˚C. Half the seeds of each group received 24 hours of light, the other half were kept in darkness. Within variable periods of time the seeds of certain plants kept in the light germinated. The seeds of other plants kept in the dark germinated. Some sets of seeds germinated under both light regimes. One set of seeds did not germinate under either light condition. What might be a LOGICAL hypothesis, consistent with the data, for the lack of germination of the one set of seeds?
+### 44. A biologist collected seeds from 10 different plants, keeping all seeds under optimal conditions of storage. Within a week after collection the seeds were germinated under laboratory conditions. Each set of seeds was placed onto moist filter paper which was remoistened as necessary and subjected to room temperature of 23˚C. Half the seeds of each group received 24 hours of light, the other half were kept in darkness. Within variable periods of time the seeds of certain plants kept in the light germinated. The seeds of other plants kept in the dark germinated. Some sets of seeds germinated under both light regimes. One set of seeds did not germinate under either light condition. What might be a LOGICAL hypothesis, consistent with the data, for the lack of germination of the one set of seeds?
 
 - [ ] **A.** The seeds required 12 hours of light and 12 hours of darkness in order to germinate.
 - [ ] **B.** All the seeds of that group were dead.
@@ -402,9 +392,9 @@ Each set of seeds was placed onto moist filter paper which was remoistened as ne
 
 - [ ] **A.** Enzymes associated with carbon dioxide fixation
 - [ ] **B.** Molecules of chlorophyll a and chlorophyll b
-- [ ] **C.** P700 and P680 molecules
+- [ ] **C.** $P_{700}$ and $P_{680}$ molecules
 - [ ] **D.** Proton channels of the ATP synthase
-- [ ] **E.** Ferredoxin-NADP+
+- [ ] **E.** Ferredoxin-$NADP^+$
 
 ### 47. Of the following, which is the most significant explanation for the lack of a continuing abiotic origin of life of Earth today?
 
@@ -442,55 +432,55 @@ Each set of seeds was placed onto moist filter paper which was remoistened as ne
 
 Extraction method: `plain_key`
 
-| Question | Answer      |
-| -------: | :---------- |
-|        1 | D           |
-|        2 | C           |
-|        3 | B           |
-|        4 | D           |
-|        5 | A           |
-|        6 | B           |
-|        7 | D           |
-|        8 | A           |
-|        9 | A           |
-|       10 | C           |
-|       11 | D           |
-|       12 | B           |
-|       13 | E           |
-|       14 | DISREGARDED |
-|       15 | C           |
-|       16 | B           |
-|       17 | E           |
-|       18 | A           |
-|       19 | B           |
-|       20 | B           |
-|       21 | A           |
-|       22 | C           |
-|       23 | E           |
-|       24 | D           |
-|       25 | D           |
-|       26 | C           |
-|       27 | E           |
-|       28 | C           |
-|       29 | B           |
-|       30 | E           |
-|       31 | C           |
-|       32 | D           |
-|       33 | C           |
-|       34 | C           |
-|       35 | B           |
-|       36 | A           |
-|       37 | E           |
-|       38 | D           |
-|       39 | E           |
-|       40 | C           |
-|       41 | B           |
-|       42 | E           |
-|       43 | A           |
-|       44 | D           |
-|       45 | B           |
-|       46 | A           |
-|       47 | E           |
-|       48 | E           |
-|       49 | B           |
-|       50 | C           |
+| Question | Answer                               |
+| -------: | :----------------------------------- |
+|        1 | D                                    |
+|        2 | C                                    |
+|        3 | B                                    |
+|        4 | D                                    |
+|        5 | A                                    |
+|        6 | B                                    |
+|        7 | D                                    |
+|        8 | A                                    |
+|        9 | A                                    |
+|       10 | C                                    |
+|       11 | D                                    |
+|       12 | B                                    |
+|       13 | E                                    |
+|       14 | DISREGARDED, No correct answer given |
+|       15 | C                                    |
+|       16 | B                                    |
+|       17 | E                                    |
+|       18 | A                                    |
+|       19 | B                                    |
+|       20 | B                                    |
+|       21 | A                                    |
+|       22 | C                                    |
+|       23 | E                                    |
+|       24 | D                                    |
+|       25 | D                                    |
+|       26 | C                                    |
+|       27 | E                                    |
+|       28 | C                                    |
+|       29 | B                                    |
+|       30 | E                                    |
+|       31 | C                                    |
+|       32 | D                                    |
+|       33 | C                                    |
+|       34 | C                                    |
+|       35 | B                                    |
+|       36 | A                                    |
+|       37 | E                                    |
+|       38 | D                                    |
+|       39 | E                                    |
+|       40 | C                                    |
+|       41 | B                                    |
+|       42 | E                                    |
+|       43 | A                                    |
+|       44 | D                                    |
+|       45 | B                                    |
+|       46 | A                                    |
+|       47 | E                                    |
+|       48 | E                                    |
+|       49 | B                                    |
+|       50 | C                                    |
