@@ -241,9 +241,9 @@ Assume there is no linkage between the two genes.
 ### 29. Blood entering the kidney is filtered by the Bowman’s capsule. In what order does the filtrate pass through the following structures of the nephron?
 
 (1) Ascending limb of the Loop of Henle
-(2) Distal convoluted tubule 
-(3) Descending limb of the Loop of Henle 
-(4) Proximal convoluted tubule 
+(2) Distal convoluted tubule
+(3) Descending limb of the Loop of Henle
+(4) Proximal convoluted tubule
 (5) Collecting duct
 
 - [ ] **A.** 1, 3, 4, 2, 5
@@ -420,7 +420,7 @@ Given the gas constant, R = 8.31 JK-1mol-1, the temperature, T, needs to be in K
 
 The Faraday constant, F = 9.65 coulombs mol-1m, and z is the valency of the cation or ion.
 
-At 25°C, the \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ equals +58 mVs.
+At 25°C, the &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; equals +58 mVs.
 
 - [ ] **A.** calcium equilibrium potential
 - [ ] **B.** chloride equilibrium potential
@@ -457,55 +457,55 @@ Notes:
 
 <!-- TODO: verify answer key transcription from the image-only answer-key PDF -->
 
-| Question | Answer |
-|---:|:---|
-| 1 | C+E |
-| 2 | E |
-| 3 | C |
-| 4 | A+D |
-| 5 | B |
-| 6 | D |
-| 7 | D |
-| 8 | A |
-| 9 | D |
-| 10 | C |
-| 11 | D |
-| 12 | B |
-| 13 | A |
-| 14 | B |
-| 15 | E |
-| 16 | A |
-| 17 | E |
-| 18 | E |
-| 19 | C |
-| 20 | B+C |
-| 21 | A |
-| 22 | A |
-| 23 | B |
-| 24 | A |
-| 25 | A+B+C+D+E |
-| 26 | C |
-| 27 | E |
-| 28 | A+D+E |
-| 29 | E |
-| 30 | E |
-| 31 | E |
-| 32 | D |
-| 33 | D |
-| 34 | E |
-| 35 | B |
-| 36 | B |
-| 37 | D |
-| 38 | B |
-| 39 | E |
-| 40 | E |
-| 41 | A |
-| 42 | C |
-| 43 | B |
-| 44 | C |
-| 45 | B |
-| 46 | A |
-| 47 | B+E |
-| 48 | E |
-| 49 | C |
-| 50 | E |
+| Question | Answer    |
+| -------: | :-------- |
+|        1 | C+E       |
+|        2 | E         |
+|        3 | C         |
+|        4 | A+D       |
+|        5 | B         |
+|        6 | D         |
+|        7 | D         |
+|        8 | A         |
+|        9 | D         |
+|       10 | C         |
+|       11 | D         |
+|       12 | B         |
+|       13 | A         |
+|       14 | B         |
+|       15 | E         |
+|       16 | A         |
+|       17 | E         |
+|       18 | E         |
+|       19 | C         |
+|       20 | B+C       |
+|       21 | A         |
+|       22 | A         |
+|       23 | B         |
+|       24 | A         |
+|       25 | A+B+C+D+E |
+|       26 | C         |
+|       27 | E         |
+|       28 | A+D+E     |
+|       29 | E         |
+|       30 | E         |
+|       31 | E         |
+|       32 | D         |
+|       33 | D         |
+|       34 | E         |
+|       35 | B         |
+|       36 | B         |
+|       37 | D         |
+|       38 | B         |
+|       39 | E         |
+|       40 | E         |
+|       41 | A         |
+|       42 | C         |
+|       43 | B         |
+|       44 | C         |
+|       45 | B         |
+|       46 | A         |
+|       47 | B+E       |
+|       48 | E         |
+|       49 | C         |
+|       50 | E         |

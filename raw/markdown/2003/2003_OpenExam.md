@@ -19,7 +19,7 @@ Notes:
 - [ ] **C.** Reverse transcriptase
 - [ ] **D.** DNA helicase
 
-### 2. The promoter region of a prokaryotic gene is located \_\_\_\_\_\_ to the gene and is the binding site for \_\_\_\_\_\_.
+### 2. The promoter region of a prokaryotic gene is located &#95;&#95;&#95;&#95;&#95;&#95; to the gene and is the binding site for &#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** 3'...DNA polymerase
 - [ ] **B.** 3'...RNA polymerase
@@ -72,7 +72,7 @@ III. Circular DNA
 - [ ] **C.** Spinal nerve
 - [ ] **D.** Grey matter of spinal cord
 
-### 9. Rods and cones are associated with \_\_\_\_\_ and \_\_\_\_\_ vision, respectively.
+### 9. Rods and cones are associated with &#95;&#95;&#95;&#95;&#95; and &#95;&#95;&#95;&#95;&#95; vision, respectively.
 
 - [ ] **A.** Light/dark...color
 - [ ] **B.** Color...light/dark
@@ -107,7 +107,7 @@ III. Circular DNA
 - [ ] **C.** morulation
 - [ ] **D.** cephalization
 
-### 14. Telomerase is responsible for \_\_\_\_\_ the size of telomeres, and its function is often \_\_\_\_ in carcinogenesis.
+### 14. Telomerase is responsible for &#95;&#95;&#95;&#95;&#95; the size of telomeres, and its function is often &#95;&#95;&#95;&#95; in carcinogenesis.
 
 - [ ] **A.** maintaining ... decreased
 - [ ] **B.** maintaining ... increased
@@ -121,7 +121,7 @@ III. Circular DNA
 - [ ] **C.** directional selection
 - [ ] **D.** diversifying selection
 
-### 16. Protostomes have \_\_\_\_\_ and \_\_\_\_\_ types of cleavage.
+### 16. Protostomes have &#95;&#95;&#95;&#95;&#95; and &#95;&#95;&#95;&#95;&#95; types of cleavage.
 
 - [ ] **A.** spiral ... determinate
 - [ ] **B.** spiral ... indeterminate
@@ -202,7 +202,7 @@ III. Gymnosperms
 - [ ] **C.** Movement through xylem depends mainly on transpiration
 - [ ] **D.** All of the above
 
-### 27. Predation is considered a \_\_\_\_\_\_\_\_\_ interaction, while Mutualism is considered a \_\_\_\_\_\_\_\_\_\_\_ interaction.
+### 27. Predation is considered a &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; interaction, while Mutualism is considered a &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; interaction.
 
 - [ ] **A.** +/+, +/+
 - [ ] **B.** +/0, -/-

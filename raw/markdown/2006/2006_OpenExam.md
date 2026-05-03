@@ -72,10 +72,10 @@ For each of the following questions, choose the best answer among the five choic
 
 The concentration of ions inside an amoeba is expressed below as ion-units per milliliter. The composition of the extracellular environment (ECE) is given for comparison. Assume the amoeba has been in the environment for some time.
 
-| Sample | Na+ | K+ | Cl- | HCO3- |
-|---|---:|---:|---:|---:|
-| Amoeba | 1 | 42 | 3 | 119 |
-| ECE | 21 | 16 | 41 | 119 |
+| Sample |  Na+ |   K+ |  Cl- | HCO3- |
+| ------ | ---: | ---: | ---: | ----: |
+| Amoeba |    1 |   42 |    3 |   119 |
+| ECE    |   21 |   16 |   41 |   119 |
 
 As the number of (+) and (-) ions in the amoeba and in the ECE are not equal, one might assume that:
 
@@ -473,55 +473,55 @@ Extraction method: `yellow_highlight`
 Notes:
 - Question 26 had no yellow highlight in the provided 2006 answer-key PDF; answer A was inferred from the question content (reduced blood protein lowers oncotic pressure, causing tissue swelling).
 
-| Question | Answer |
-|---:|:---|
-| 1 | C |
-| 2 | A |
-| 3 | E |
-| 4 | D |
-| 5 | E |
-| 6 | E |
-| 7 | E |
-| 8 | C |
-| 9 | E |
-| 10 | D |
-| 11 | C |
-| 12 | A |
-| 13 | C |
-| 14 | A |
-| 15 | B |
-| 16 | D |
-| 17 | C |
-| 18 | C |
-| 19 | B |
-| 20 | C |
-| 21 | B |
-| 22 | C |
-| 23 | B |
-| 24 | B |
-| 25 | E |
-| 26 | A <!-- TODO: verify answer key --> |
-| 27 | A |
-| 28 | C |
-| 29 | A |
-| 30 | A |
-| 31 | E |
-| 32 | D |
-| 33 | D |
-| 34 | B |
-| 35 | B |
-| 36 | B |
-| 37 | A |
-| 38 | D |
-| 39 | D |
-| 40 | D |
-| 41 | A |
-| 42 | C |
-| 43 | E |
-| 44 | E |
-| 45 | B |
-| 46 | D |
-| 47 | E |
-| 48 | E |
-| 49 | B |
-| 50 | D |
+| Question | Answer                             |
+| -------: | :--------------------------------- |
+|        1 | C                                  |
+|        2 | A                                  |
+|        3 | E                                  |
+|        4 | D                                  |
+|        5 | E                                  |
+|        6 | E                                  |
+|        7 | E                                  |
+|        8 | C                                  |
+|        9 | E                                  |
+|       10 | D                                  |
+|       11 | C                                  |
+|       12 | A                                  |
+|       13 | C                                  |
+|       14 | A                                  |
+|       15 | B                                  |
+|       16 | D                                  |
+|       17 | C                                  |
+|       18 | C                                  |
+|       19 | B                                  |
+|       20 | C                                  |
+|       21 | B                                  |
+|       22 | C                                  |
+|       23 | B                                  |
+|       24 | B                                  |
+|       25 | E                                  |
+|       26 | A <!-- TODO: verify answer key --> |
+|       27 | A                                  |
+|       28 | C                                  |
+|       29 | A                                  |
+|       30 | A                                  |
+|       31 | E                                  |
+|       32 | D                                  |
+|       33 | D                                  |
+|       34 | B                                  |
+|       35 | B                                  |
+|       36 | B                                  |
+|       37 | A                                  |
+|       38 | D                                  |
+|       39 | D                                  |
+|       40 | D                                  |
+|       41 | A                                  |
+|       42 | C                                  |
+|       43 | E                                  |
+|       44 | E                                  |
+|       45 | B                                  |
+|       46 | D                                  |
+|       47 | E                                  |
+|       48 | E                                  |
+|       49 | B                                  |
+|       50 | D                                  |

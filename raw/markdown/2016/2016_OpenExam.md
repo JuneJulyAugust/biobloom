@@ -278,7 +278,7 @@ IV. Increase in heart rate.
 - [ ] **D.** Administration of compounds that constrict his blood vessels.
 - [ ] **E.** Stimulation of the parasympathetic nervous system to release adrenaline.
 
-### 31. In one forest, butterfly Species A is harmless but has evolved to closely to resemble bad tasting Species B. This is an example of \_\_\_\_\_\_\_\_\_\_\_ mimicry, and its protective power is strengthened if the ratio of the populations of Species A to B \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+### 31. In one forest, butterfly Species A is harmless but has evolved to closely to resemble bad tasting Species B. This is an example of &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; mimicry, and its protective power is strengthened if the ratio of the populations of Species A to B &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** Batesian, decreases.
 - [ ] **B.** Batesian, increases.

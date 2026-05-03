@@ -232,7 +232,7 @@ When he examined the lump, he found that it was a newborn baby that was not brea
 - [ ] **D.** Lungs collapsed.
 - [ ] **E.** Lungs inflated with fluid.
 
-### 28. If one were to follow the path of a human erythrocyte starting from an artery that leads to the duodenum, the erythrocyte will most likely pass through \_\_\_ capillary beds before reaching the right ventricle of the heart.
+### 28. If one were to follow the path of a human erythrocyte starting from an artery that leads to the duodenum, the erythrocyte will most likely pass through &#95;&#95;&#95; capillary beds before reaching the right ventricle of the heart.
 
 - [ ] **A.** 1
 - [ ] **B.** 2

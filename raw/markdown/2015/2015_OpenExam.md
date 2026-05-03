@@ -197,7 +197,7 @@ IV. The cultured mouse axon is myelinated and therefore there is saltatory propa
 - [ ] **D.** Scaly skin and an external ear opening.
 - [ ] **E.** A three chambered heart and the cledoic egg.
 
-### 24. While there are several types of reproduction in single-sex amphibian species, \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ is characterized by offspring that have the exact genome as its mother; this is also true in \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, except that this requires the presence of male gametes.
+### 24. While there are several types of reproduction in single-sex amphibian species, &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; is characterized by offspring that have the exact genome as its mother; this is also true in &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;, except that this requires the presence of male gametes.
 
 - [ ] **A.** Parthenogenesis - gynogenesis.
 - [ ] **B.** Neogenesis - parthenogenesis.
@@ -313,7 +313,7 @@ If you sequenced the gene that encodes for ADH in random samples of flies from a
 - [ ] **D.** 1/3
 - [ ] **E.** 1/4
 
-### 41. Some reptiles have very striking coloration; \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ is thought to provide a visual warning to predators and it’s usually found in \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+### 41. Some reptiles have very striking coloration; &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; is thought to provide a visual warning to predators and it’s usually found in &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** Batesian mimicry - cobra snakes.
 - [ ] **B.** Mullerian mimicry - skinks.
@@ -339,7 +339,7 @@ The study found that fish raised on land walked more effectively; their fins sli
 - [ ] **D.** Spatial metapopulation structure can enable competitive species to coexist.
 - [ ] **E.** B &D.
 
-### 44. The size of an amphibian or reptile matters in terms of thermal interactions with the environment. The larger the animal the \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ and the \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+### 44. The size of an amphibian or reptile matters in terms of thermal interactions with the environment. The larger the animal the &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; and the &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** Lower the surface: volume ratio - lower the heat exchange.
 - [ ] **B.** Higher the surface: volume ratio - higher the heat exchange.

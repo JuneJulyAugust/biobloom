@@ -68,7 +68,7 @@ What percentage of this population is probably heterozygous for the fur color tr
 - [ ] **D.** The air above the water contains CO2.
 - [ ] **E.** During the three months, the average biomass of plant matter was greater than the average biomass of animal matter.
 
-### 9. Convergent evolution produces \_\_\_\_\_\_\_\_.
+### 9. Convergent evolution produces &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** analogous structures
 - [ ] **B.** homologous structures
@@ -442,55 +442,55 @@ Each set of seeds was placed onto moist filter paper which was remoistened as ne
 
 Extraction method: `plain_key`
 
-| Question | Answer |
-|---:|:---|
-| 1 | D |
-| 2 | C |
-| 3 | B |
-| 4 | D |
-| 5 | A |
-| 6 | B |
-| 7 | D |
-| 8 | A |
-| 9 | A |
-| 10 | C |
-| 11 | D |
-| 12 | B |
-| 13 | E |
-| 14 | DISREGARDED |
-| 15 | C |
-| 16 | B |
-| 17 | E |
-| 18 | A |
-| 19 | B |
-| 20 | B |
-| 21 | A |
-| 22 | C |
-| 23 | E |
-| 24 | D |
-| 25 | D |
-| 26 | C |
-| 27 | E |
-| 28 | C |
-| 29 | B |
-| 30 | E |
-| 31 | C |
-| 32 | D |
-| 33 | C |
-| 34 | C |
-| 35 | B |
-| 36 | A |
-| 37 | E |
-| 38 | D |
-| 39 | E |
-| 40 | C |
-| 41 | B |
-| 42 | E |
-| 43 | A |
-| 44 | D |
-| 45 | B |
-| 46 | A |
-| 47 | E |
-| 48 | E |
-| 49 | B |
-| 50 | C |
+| Question | Answer      |
+| -------: | :---------- |
+|        1 | D           |
+|        2 | C           |
+|        3 | B           |
+|        4 | D           |
+|        5 | A           |
+|        6 | B           |
+|        7 | D           |
+|        8 | A           |
+|        9 | A           |
+|       10 | C           |
+|       11 | D           |
+|       12 | B           |
+|       13 | E           |
+|       14 | DISREGARDED |
+|       15 | C           |
+|       16 | B           |
+|       17 | E           |
+|       18 | A           |
+|       19 | B           |
+|       20 | B           |
+|       21 | A           |
+|       22 | C           |
+|       23 | E           |
+|       24 | D           |
+|       25 | D           |
+|       26 | C           |
+|       27 | E           |
+|       28 | C           |
+|       29 | B           |
+|       30 | E           |
+|       31 | C           |
+|       32 | D           |
+|       33 | C           |
+|       34 | C           |
+|       35 | B           |
+|       36 | A           |
+|       37 | E           |
+|       38 | D           |
+|       39 | E           |
+|       40 | C           |
+|       41 | B           |
+|       42 | E           |
+|       43 | A           |
+|       44 | D           |
+|       45 | B           |
+|       46 | A           |
+|       47 | E           |
+|       48 | E           |
+|       49 | B           |
+|       50 | C           |

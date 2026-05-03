@@ -253,7 +253,7 @@ To which one of the following orders will you assign this insect?
 - [ ] **D.** curved coccyx, narrow pubic arch, wide greater sciatic notch.
 - [ ] **E.** pelvic girdle tilts forward, deep iliac fossa, true (lesser) pelvis is shallower.
 
-### 31. Plant cells maintain their structural integrity partially by \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ while animal cells maintain structural integrity partially by \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.
+### 31. Plant cells maintain their structural integrity partially by &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; while animal cells maintain structural integrity partially by &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** turgor pressure, cholesterol.
 - [ ] **B.** high specific heat, cuticle.
@@ -435,55 +435,55 @@ Which of the following statements is acceptable concerning this ecosystem?
 
 Extraction method: `plain_key`
 
-| Question | Answer |
-|---:|:---|
-| 1 | A |
-| 2 | E |
-| 3 | B |
-| 4 | C |
-| 5 | C |
-| 6 | B |
-| 7 | D |
-| 8 | E |
-| 9 | D |
-| 10 | A |
-| 11 | C |
-| 12 | C |
-| 13 | A |
-| 14 | C |
-| 15 | A |
-| 16 | E |
-| 17 | B |
-| 18 | E |
-| 19 | A |
-| 20 | D |
-| 21 | A OR B |
-| 22 | D |
-| 23 | B OR D |
-| 24 | A |
-| 25 | B |
-| 26 | DISREGARDED |
-| 27 | B |
-| 28 | A |
-| 29 | D |
-| 30 | DISREGARDED |
-| 31 | A |
-| 32 | C |
-| 33 | A |
-| 34 | A |
-| 35 | B |
-| 36 | C |
-| 37 | C |
-| 38 | E |
-| 39 | B |
-| 40 | B |
-| 41 | E |
-| 42 | C |
-| 43 | A |
-| 44 | D |
-| 45 | B |
-| 46 | D |
-| 47 | E |
-| 48 | D |
-| 49 | B |
-| 50 | B |
+| Question | Answer      |
+| -------: | :---------- |
+|        1 | A           |
+|        2 | E           |
+|        3 | B           |
+|        4 | C           |
+|        5 | C           |
+|        6 | B           |
+|        7 | D           |
+|        8 | E           |
+|        9 | D           |
+|       10 | A           |
+|       11 | C           |
+|       12 | C           |
+|       13 | A           |
+|       14 | C           |
+|       15 | A           |
+|       16 | E           |
+|       17 | B           |
+|       18 | E           |
+|       19 | A           |
+|       20 | D           |
+|       21 | A OR B      |
+|       22 | D           |
+|       23 | B OR D      |
+|       24 | A           |
+|       25 | B           |
+|       26 | DISREGARDED |
+|       27 | B           |
+|       28 | A           |
+|       29 | D           |
+|       30 | DISREGARDED |
+|       31 | A           |
+|       32 | C           |
+|       33 | A           |
+|       34 | A           |
+|       35 | B           |
+|       36 | C           |
+|       37 | C           |
+|       38 | E           |
+|       39 | B           |
+|       40 | B           |
+|       41 | E           |
+|       42 | C           |
+|       43 | A           |
+|       44 | D           |
+|       45 | B           |
+|       46 | D           |
+|       47 | E           |
+|       48 | D           |
+|       49 | B           |
+|       50 | B           |
