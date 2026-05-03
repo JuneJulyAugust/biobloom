@@ -154,9 +154,8 @@ What effect would vigorous exercise have on hemoglobin in the muscles compared t
 
 ### 19. Consider the activity of pepsin in the process of digestion. Below is the structural formula of a segment of a polypeptide.
 
-Which bond in the polypeptide (1 – 5) does pepsin hydrolyze?
-
 ![Question 19 figure 1](images/page07_image01.png)
+Which bond in the polypeptide (1 – 5) does pepsin hydrolyze?
 
 - [ ] **A.** 1
 - [ ] **B.** 2
@@ -180,7 +179,7 @@ Which bond in the polypeptide (1 – 5) does pepsin hydrolyze?
 - [ ] **D.** 98
 - [ ] **E.** 120
 
-### 22. In plant cells grown in the presence of a metabolic poison that specifically inhibits mitochondrial F1ATP synthase, one would expect:
+### 22. In plant cells grown in the presence of a metabolic poison that specifically inhibits mitochondrial $F_{1}ATP$ synthase, one would expect:
 
 - [ ] **A.** the pH difference across the cristae to be greater than normal.
 - [ ] **B.** the pH difference across the cristae to be less than normal.
@@ -222,9 +221,8 @@ Which bond in the polypeptide (1 – 5) does pepsin hydrolyze?
 
 ### 27. A farmer has three bulls. One day one of his prize cows entered her estrous cycle and somehow managed to get into the pasture with the bulls. As expected, the result of that adventure was a calf. However the farmer did not know which of the three bulls was the calf’s father. The farmer’s extension agent told him that he might be able to find out by having the lab make a DNA “fingerprint” of the cow, the calf, and each of the three bulls at two or more loci. Below is the result of this genetic analysis at two loci.
 
-From the above information, which of the bulls could be the father?
-
 ![Question 27 figure 1](images/page09_image01.png)
+From the above information, which of the bulls could be the father?
 
 - [ ] **A.** Bull 1
 - [ ] **B.** Bull 2
@@ -240,9 +238,7 @@ From the above information, which of the bulls could be the father?
 - [ ] **D.** distal tubule.
 - [ ] **E.** collecting duct.
 
-### 29. You introduce the DNA sequence for the human α1-antitrypsin protein into a sheep. The sheep cells, however, do not produce any of your desired protein.
-
-What could you try to do to fix the problem?
+### 29. You introduce the DNA sequence for the human α1-antitrypsin protein into a sheep. The sheep cells, however, do not produce any of your desired protein. What could you try to do to fix the problem?
 
 - [ ] **A.** Ligate your human α1-antitrypsin coding sequence to the GFP coding sequence.
 - [ ] **B.** Purify the α1-antitrypsin mRNA and express proteins in a cell-free system.
@@ -275,7 +271,12 @@ How might you determine that your suspension does indeed include these organelle
 - [ ] **B.** Perform an assay for the presence of nucleic acids.
 - [ ] **C.** Perform an assay for the enzyme catalase.
 - [ ] **D.** Examine microscopically for double membrane bound organelles.
-- [ ] **E.** This cannot be determined experimentally. USE THE FOLLOWING INFORMATION TO ANSWER QUESTIONS 32-34. A large population of laboratory rats was allowed to breed randomly for a number of generations. In this population the A allele codes for agouti fur and a allele codes for black fur. At the beginning of the breeding cycles, 49% of the rats had black fur. At the end of the breeding cycles, this percentage was the same. The rest of the animals had agouti fur, with heterozygotes indistinguishable from homozygous dominants.
+- [ ] **E.** This cannot be determined experimentally. 
+
+
+## USE THE FOLLOWING INFORMATION TO ANSWER QUESTIONS 32-34. 
+
+A large population of laboratory rats was allowed to breed randomly for a number of generations. In this population the A allele codes for agouti fur and a allele codes for black fur. At the beginning of the breeding cycles, 49% of the rats had black fur. At the end of the breeding cycles, this percentage was the same. The rest of the animals had agouti fur, with heterozygotes indistinguishable from homozygous dominants.
 
 ### 32. What is the most reasonable conclusion that you, the observer, should draw from the fact that the frequency of the recessive trait has not changed over time?
 
@@ -311,9 +312,8 @@ How might you determine that your suspension does indeed include these organelle
 
 ### 36. To control overpopulation by rabbits investigators introduced a myxoma virus into the population. The following graph indicates density of the population in no./km2, and annual rainfall in the region over a 14 year period.
 
-What is the likely explanation for the change in rabbit density over this period?
-
 ![Question 36 figure 1](images/page12_image01.png)
+What is the likely explanation for the change in rabbit density over this period?
 
 - [ ] **A.** A fox population increased as a consequence of years of high rainfall, thus more rabbits were killed. As the rabbit population decreased foxes began to starve, decreasing the fox population and the rabbit population increased again.
 - [ ] **B.** The myxoma virus killed most of the rabbits but a few acquired resistance to the virus and passed this trait on to their offspring, thus resulting in an increased rabbit population.
@@ -339,9 +339,8 @@ What is the likely explanation for the change in rabbit density over this period
 
 ### 39. A farmer was interested to test the effect of various fertilizers on wheat production. He subdivided a four acre plot of land into four plots of one acre each. He added no fertilizer to Plot #1, he added only nitrogen to Plot #2, he added only phosphorus to Plot #3, and both nitrogen and phosphorus to plot #4. Each month he estimated the biomass of each plot. A plot of these data is shown below.
 
-Which of the following statements is supported by these data?
-
 ![Question 39 figure 1](images/page13_image01.png)
+Which of the following statements is supported by these data?
 
 - [ ] **A.** Phosphorus was the first limiting nutrient followed by nitrogen.
 - [ ] **B.** Nitrogen was the first limiting nutrient followed by phosphorus.
@@ -368,11 +367,8 @@ Which of the following statements is supported by these data?
 ### 42. Plants that experience cold winters often change the composition of their membranes and/or cytoplasm in order to survive cold conditions. Which of the following molecules are often actively increased in concentration?
 
 I. Cholesterol
-
 II. Sugars
-
 III. Ionic Salts
-
 IV. Unsaturated fatty acids.
 
 - [ ] **A.** IV
@@ -389,9 +385,7 @@ IV. Unsaturated fatty acids.
 - [ ] **D.** John’s abdominal muscles decreased his intra-abdominal pressure, which are forcing his abdominal viscera upward against his diaphragm. His intrapulmonary pressure may have decreased by 80 mmHG since the beginning of the marathon.
 - [ ] **E.** John’s abdominal muscles decreased his intra-abdominal pressure, which are forcing his abdominal viscera upward against his diaphragm. His intrapulmonary pressure stayed the same since the beginning of the marathon.
 
-### 44. While walking to school one day, you notice a group of purple ants who all walk sideways. Excited by your discovery, you decide to classify your ants.
-
-Which of the following characteristics would classify the purple ants as a new subspecies or strain of ants and NOT a new species?
+### 44. While walking to school one day, you notice a group of purple ants who all walk sideways. Excited by your discovery, you decide to classify your ants. Which of the following characteristics would classify the purple ants as a new subspecies or strain of ants and NOT a new species?
 
 - [ ] **A.** The purple ants have the a similar DNA polymerase as the tropical fire ant Solenopsis geminate.
 - [ ] **B.** The purple ants may produce fertile offspring when crossed with Solenopsis geminate.
@@ -431,13 +425,13 @@ Which of the following characteristics would classify the purple ants as a new s
 - [ ] **D.** 1.0.
 - [ ] **E.** Cannot be determined.
 
-### 49. Questions 49 and 50 refer to the diagram below regarding a mountainous region.
+## Questions 49 and 50 refer to the diagram below regarding a mountainous region.
 
 The diagram shows the average winter temperature (left-hand y-axis) at different altitudes (x-axis) and the abundance of three tree species (right-hand y-axis) at different altitudes (x-axis).
 
-Which tree species is/are found in areas where the average winter temperature is below 0°C?
+![Question 49 and 50 figure 1](images/page16_image01.png)
 
-![Question 49 figure 1](images/page16_image01.png)
+### 49. Which tree species is/are found in areas where the average winter temperature is below 0°C?
 
 - [ ] **A.** Species 1 only
 - [ ] **B.** Species 2 only
@@ -505,7 +499,7 @@ Notes:
 |       41 | C                                       |
 |       42 | B                                       |
 |       43 | A                                       |
-|       44 | B OR E <!-- TODO: verify answer key --> |
+|       44 | B, E                                    |
 |       45 | C                                       |
 |       46 | D                                       |
 |       47 | D                                       |
