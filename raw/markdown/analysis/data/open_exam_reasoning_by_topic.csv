@@ -1,0 +1,32 @@
+subtopic,pillar,primary_questions,data_figure_table,experimental_design,calculation_quantitative,negation,data_share,experiment_share
+"Cardiovascular, respiratory and renal systems",Animal Physiology,61,7,6,15,17,0.115,0.098
+Population/community ecology and biodiversity,Ecology/Behavior,29,8,4,11,3,0.276,0.138
+Endocrine feedback and homeostasis,Animal Physiology,29,4,6,6,11,0.138,0.207
+"Transcription, translation and gene regulation",Molecular/Cell,21,6,4,1,7,0.286,0.19
+"Plant reproduction, development and life cycles",Plant,28,5,4,0,13,0.179,0.143
+"Phylogeny, cladograms and systematics",Genetics/Evolution,14,8,0,0,2,0.571,0.0
+Mendelian genetics and probability,Genetics/Evolution,42,4,3,14,14,0.095,0.071
+"Neurophysiology, muscle and sensory systems",Animal Physiology,30,3,4,4,7,0.1,0.133
+"Behavior, learning and ethology",Ecology/Behavior,26,4,3,1,5,0.154,0.115
+"Microbiology, viruses, bacteria and pathogens",Microbiology/Pathogens,39,5,1,3,13,0.128,0.026
+"Plant tissues, xylem/phloem and water transport",Plant,37,5,1,3,10,0.135,0.027
+"Plant hormones, tropisms and environmental responses",Plant,9,2,4,2,3,0.222,0.444
+"Evolution, selection, adaptation and speciation",Genetics/Evolution,36,2,3,1,8,0.056,0.083
+"Protein structure, amino acids and enzymes",Molecular/Cell,24,3,2,4,14,0.125,0.083
+"Biomolecules, macromolecules and biochemical tests",Molecular/Cell,21,5,0,11,6,0.238,0.0
+"Ecosystems, productivity and biogeochemical cycles",Ecology/Behavior,19,4,1,2,6,0.211,0.053
+"Photosynthesis, pigments and carbon fixation",Molecular/Cell,19,2,3,2,5,0.105,0.158
+Pedigrees and inheritance modes,Genetics/Evolution,13,4,0,2,5,0.308,0.0
+"Digestion, nutrition, vitamins and metabolism",Animal Physiology,26,2,1,3,6,0.077,0.038
+"Development, reproduction and embryology",Animal Physiology,21,1,2,2,6,0.048,0.095
+"Organelles, cytoskeleton and intracellular trafficking",Molecular/Cell,15,0,3,2,4,0.0,0.2
+"Immunology, inflammation and host defense",Animal Physiology,13,2,1,1,3,0.154,0.077
+"Cellular respiration, ETC and ATP synthesis",Molecular/Cell,19,1,1,6,3,0.053,0.053
+"Lab methods, biotechnology and molecular tools",Molecular/Methods,11,1,1,3,2,0.091,0.091
+"Membrane structure, fluidity and permeability",Molecular/Cell,11,1,1,1,0,0.091,0.091
+"Cell cycle, meiosis and cancer checkpoints",Molecular/Cell,15,0,1,0,2,0.0,0.067
+"Membrane transport, osmosis and electrochemical gradients",Molecular/Cell,13,1,0,6,3,0.077,0.0
+"DNA replication, chromosomes and telomeres",Molecular/Cell,11,1,0,1,6,0.091,0.0
+"Cell signaling, receptors and second messengers",Molecular/Cell,7,1,0,0,3,0.143,0.0
+Hardy-Weinberg and population genetics,Genetics/Evolution,6,0,0,3,1,0.0,0.0
+Quantitative/polygenic traits and additive inheritance,Genetics/Evolution,4,0,0,3,1,0.0,0.0
