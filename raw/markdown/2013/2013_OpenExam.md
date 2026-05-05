@@ -58,15 +58,13 @@
 
 ### 8. Below are the structures of five amino acids. Select the amino acid that would contribute most significantly to stability of the tertiary structure of a protein.
 
-- [ ] **A.** ![Question 8 figure 1](images/page02_image01.png)
-
-- [ ] **B.** ![Question 8 figure 2](images/page02_image02.png)
-
-- [ ] **C.** ![Question 8 figure 3](images/page02_image03.png)
-
-- [ ] **D.** ![Question 8 figure 4](images/page02_image04.png)
-
-- [ ] **E.** ![Question 8 figure 5](images/page02_image05.png)
+| Choice | Structure                                         |
+| ------ | ------------------------------------------------- |
+| A      | ![Question 8 figure 1](images/page02_image01.png) |
+| B      | ![Question 8 figure 2](images/page02_image03.png) |
+| C      | ![Question 8 figure 3](images/page02_image04.png) |
+| D      | ![Question 8 figure 4](images/page02_image02.png) |
+| E      | ![Question 8 figure 5](images/page02_image05.png) |
 
 ### 9. Which of the following statements about cellular ultrastructure is FALSE?
 
@@ -78,9 +76,11 @@
 
 ### 10. In a secret cabinet of a lab, you find two Petri dishes in storage and a mysterious lab notebook. In an effort to identify the bacteria, you run some tests (taking all necessary safety precautions) and look through the lab notebook. You find that the two Petri dishes contain the same type of nutrient medium and both bacteria seem to be Escherichia sp., but that the bacteria in plate 1 are producing large amounts of a variety of neurotoxins. The bacteria in plate 2 are not producing any major exported product.
 
-You also find this chart in the lab notebook: Given that Strain 2 is normal E.coli (the control) and Strain 1 is a genetically engineered strain of E.coli, which line is most likely to represent strain 1, and why?
+You also find this chart in the lab notebook:
 
 ![Question 10 figure 1](images/page03_image01.png)
+
+Given that Strain 2 is normal E.coli (the control) and Strain 1 is a genetically engineered strain of E.coli, which line is most likely to represent strain 1, and why?
 
 - [ ] **A.** Line B, since strain 1 should exhibit lower than normal growth efficiency.
 - [ ] **B.** Line B, since strain 1 should exhibit higher than normal growth efficiency.
@@ -138,11 +138,11 @@ You also find this chart in the lab notebook: Given that Strain 2 is normal E.co
 
 ### 17. Place the following statements regarding photosynthesis in C4 plants in the correct order:
 
-I.ATP is used to convert pyruvate to phosphoenolpyruvate (PEP).
+I. ATP is used to convert pyruvate to phosphoenolpyruvate (PEP).
 II. Mesophyll cells export four-carbon products such as malate through plasmodesmata to the bundle-sheath cells.
-III. PEP carboxylase adds CO2 to PEP to produce oxaloacetate.
-IV. CO2 is used to produce G3P in the Calvin cycle.
-V. CO2 is released in cells that contain the protein rubisco, which binds it.
+III. PEP carboxylase adds $CO_{2}$ to PEP to produce oxaloacetate.
+IV. $CO_{2}$ is used to produce G3P in the Calvin cycle.
+V. $CO_{2}$ is released in cells that contain the protein rubisco, which binds it.
 
 - [ ] **A.** II, V, IV, I, III
 - [ ] **B.** V, II, III, IV, I
@@ -198,13 +198,13 @@ V. CO2 is released in cells that contain the protein rubisco, which binds it.
 - [ ] **D.** Testes
 - [ ] **E.** Ovaries
 
-### 24. The binding affinity of hemoglobin to O2 in the bloodstream is greatest at relatively
+### 24. The binding affinity of hemoglobin to $O_{2}$ in the bloodstream is greatest at relatively
 
-- [ ] **A.** High pH and high CO2 concentration.
-- [ ] **B.** High pH and low CO2 concentration.
-- [ ] **C.** Low pH and high CO2 concentration.
-- [ ] **D.** Low pH and low CO2 concentration.
-- [ ] **E.** Low pH, and does not depend on CO2 concentration.
+- [ ] **A.** High pH and high $CO_{2}$ concentration.
+- [ ] **B.** High pH and low $CO_{2}$ concentration.
+- [ ] **C.** Low pH and high $CO_{2}$ concentration.
+- [ ] **D.** Low pH and low $CO_{2}$ concentration.
+- [ ] **E.** Low pH, and does not depend on $CO_{2}$ concentration.
 
 ### 25. The 2011 Nobel Prize in Physiology was awarded to Bruce Beutler, Jules Hoffmann, and Ralph Steinman in part for their discovery of the Toll receptors in fruit flies. The Toll- like receptors (TLRs) are their equivalent in mammals. Which of the following statements regarding TLRs is FALSE?
 
@@ -304,11 +304,11 @@ This is an example of:
 
 ### 36. Which of the following could NOT be the blood type of a child born to a mother with AB+ blood and a father with B- blood?
 
-- [ ] **A.** A+
-- [ ] **B.** AB-
-- [ ] **C.** O+
-- [ ] **D.** A-
-- [ ] **E.** AB+
+- [ ] **A.** $A^+$
+- [ ] **B.** $AB^-$
+- [ ] **C.** $O^+$
+- [ ] **D.** $A^-$
+- [ ] **E.** $AB^+$
 
 ### 37. X-linked agammaglobulinaemia is a rare X-linked disorder that interferes with the body’s ability to fight infection. A man with X-linked agammaglobulinaemia marries a woman who is not affected. Which of the following best predicts their children’s potential for inheriting X-linked agammaglobulinaemia?
 
@@ -341,7 +341,13 @@ IV. New selective pressures occur.
 
 ### 40. You are studying the four genes E, F, G, H. In the chart below, you will find the crossing over frequencies for each pair of genes.
 
-F G H E F G Which of the following expresses the gene sequence on the chromosome?
+|     | F   | G   | H   |
+| --- | --- | --- | --- |
+| E   | 22  | 17  | 12  |
+| F   |     | 5   | 10  |
+| G   |     |     | 5   |
+
+Which of the following expresses the gene sequence on the chromosome?
 
 - [ ] **A.** EGFH
 - [ ] **B.** EGHF
@@ -403,23 +409,13 @@ What is the minimum chance that the baby can have to escape from the lions follo
 
 ### 47. In the graph below, which point indicates that birth rate equals death rate?
 
-E D C Population B size A Time
+![Question 47 figure 1](images/question47_image01.png)
 
-![Question 47 figure 1](images/page13_image01.png)
-
-![Question 47 figure 2](images/page13_image02.png)
-
-![Question 47 figure 3](images/page13_image03.png)
-
-![Question 47 figure 4](images/page13_image04.png)
-
-![Question 47 figure 5](images/page13_image05.png)
-
-![Question 47 figure 6](images/page13_image06.png)
-
-![Question 47 figure 7](images/page13_image07.png)
-
-![Question 47 figure 8](images/page13_image08.png)
+- [ ] **A.** Point A: Earliest point, smallest population size, bottom left
+- [ ] **B.** Point B: Lower section of the steep upward curve
+- [ ] **C.** Point C: Middle section of the steep upward curve
+- [ ] **D.** Point D: Upper section where the curve begins to flatten
+- [ ] **E.** Point E: Rightmost point on the flat, stable plateau
 
 ### 48. Which ecosystem is the most unstable?
 
@@ -462,55 +458,55 @@ Extraction method: `text answer-key list`
 Notes:
 - Question 33 is missing from the source answer-key PDF; left blank with a TODO in the table.
 
-| Question | Answer |
-|---:|:---|
-| 1 | C |
-| 2 | D |
-| 3 | D |
-| 4 | D |
-| 5 | E |
-| 6 | C |
-| 7 | A |
-| 8 | A |
-| 9 | B |
-| 10 | E |
-| 11 | D |
-| 12 | B |
-| 13 | C |
-| 14 | E |
-| 15 | B |
-| 16 | A |
-| 17 | D |
-| 18 | C |
-| 19 | E |
-| 20 | A |
-| 21 | B |
-| 22 | B |
-| 23 | B |
-| 24 | B |
-| 25 | A |
-| 26 | C |
-| 27 | B |
-| 28 | D |
-| 29 | B |
-| 30 | D |
-| 31 | D |
-| 32 | C |
-| 33 |  <!-- TODO: verify answer key: missing in source key --> |
-| 34 | D |
-| 35 | A |
-| 36 | C |
-| 37 | E |
-| 38 | D |
-| 39 | C |
-| 40 | C |
-| 41 | C |
-| 42 | C |
-| 43 | C |
-| 44 | A |
-| 45 | E |
-| 46 | E |
-| 47 | E |
-| 48 | D |
-| 49 | D |
-| 50 | C |
+| Question | Answer                                                  |
+| -------: | :------------------------------------------------------ |
+|        1 | C                                                       |
+|        2 | D                                                       |
+|        3 | D                                                       |
+|        4 | D                                                       |
+|        5 | E                                                       |
+|        6 | C                                                       |
+|        7 | A                                                       |
+|        8 | A                                                       |
+|        9 | B                                                       |
+|       10 | E                                                       |
+|       11 | D                                                       |
+|       12 | B                                                       |
+|       13 | C                                                       |
+|       14 | E                                                       |
+|       15 | B                                                       |
+|       16 | A                                                       |
+|       17 | D                                                       |
+|       18 | C                                                       |
+|       19 | E                                                       |
+|       20 | A                                                       |
+|       21 | B                                                       |
+|       22 | B                                                       |
+|       23 | B                                                       |
+|       24 | B                                                       |
+|       25 | A                                                       |
+|       26 | C                                                       |
+|       27 | B                                                       |
+|       28 | D                                                       |
+|       29 | B                                                       |
+|       30 | D                                                       |
+|       31 | D                                                       |
+|       32 | C                                                       |
+|       33 | <!-- TODO: verify answer key: missing in source key --> |
+|       34 | D                                                       |
+|       35 | A                                                       |
+|       36 | C                                                       |
+|       37 | E                                                       |
+|       38 | D                                                       |
+|       39 | C                                                       |
+|       40 | C                                                       |
+|       41 | C                                                       |
+|       42 | C                                                       |
+|       43 | C                                                       |
+|       44 | A                                                       |
+|       45 | E                                                       |
+|       46 | E                                                       |
+|       47 | E                                                       |
+|       48 | D                                                       |
+|       49 | D                                                       |
+|       50 | C                                                       |
