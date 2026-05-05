@@ -29,13 +29,13 @@ IV. Glycerol
 - [ ] **D.** Phenylalanine
 - [ ] **E.** Serine
 
-| Choice | Structure |
-|---|---|
-| A. Isoleucine | ![A. Isoleucine structure](images/page01_image01.png) |
-| B. Leucine | ![B. Leucine structure](images/page01_image04.png) |
-| C. Valine | ![C. Valine structure](images/page01_image05.png) |
+| Choice           | Structure                                                |
+| ---------------- | -------------------------------------------------------- |
+| A. Isoleucine    | ![A. Isoleucine structure](images/page01_image01.png)    |
+| B. Leucine       | ![B. Leucine structure](images/page01_image04.png)       |
+| C. Valine        | ![C. Valine structure](images/page01_image05.png)        |
 | D. Phenylalanine | ![D. Phenylalanine structure](images/page01_image02.png) |
-| E. Serine | ![E. Serine structure](images/page01_image03.png) |
+| E. Serine        | ![E. Serine structure](images/page01_image03.png)        |
 
 ### 4. When found on the extracellular side of the cell, which of the following classes of membrane molecules is a marker for the phagocytosis of apoptotic cells?
 
@@ -55,13 +55,13 @@ IV. Glycerol
 
 ### 6. While preparing to teach an organic chemistry class, Professor Dacb has managed to mix up several beakers. He has taken samples from each beaker and enlisted your help in identifying them. Below are the results of a series of reagent tests.
 
-| Beaker | Biuret | Benedict's | Ninhydrin | Iodine | Sudan |
-|---:|---|---|---|---|---|
-| 1 | Blue | Blue | Blue | Orange | Rather pale |
-| 2 | Blue | Blue | Pale yellow | Red-orange | Red-orange |
-| 3 | Purple | Blue | Pale yellow | Orange | Rather pale |
-| 4 | Blue | Red precipitate | Pale yellow | Orange-yellow | Rather pale |
-| 5 | Blue | Blue | Pale yellow | Orange | Rather pale |
+| Beaker | Biuret | Benedict's      | Ninhydrin   | Iodine        | Sudan       |
+| -----: | ------ | --------------- | ----------- | ------------- | ----------- |
+|      1 | Blue   | Blue            | Blue        | Orange        | Rather pale |
+|      2 | Blue   | Blue            | Pale yellow | Red-orange    | Red-orange  |
+|      3 | Purple | Blue            | Pale yellow | Orange        | Rather pale |
+|      4 | Blue   | Red precipitate | Pale yellow | Orange-yellow | Rather pale |
+|      5 | Blue   | Blue            | Pale yellow | Orange        | Rather pale |
 
 Which of the following correctly matches each beaker to its possible contents?
 
@@ -73,13 +73,13 @@ Which of the following correctly matches each beaker to its possible contents?
 
 ### 7. There are some rare organisms that do not have lipid bilayers, but instead have lipid monolayers. Which of these is a plausible structure for the lipids they use to make up their lipid monolayers?
 
-| Choice | Structure |
-|---|---|
-| A | ![Choice A structure](images/page03_image01.png) |
-| B | ![Choice B structure](images/page03_image02.png) |
-| C | ![Choice C structure](images/page03_image03.jpeg) |
-| D | ![Choice D structure](images/page03_image04.png) |
-| E | ![Choice E structure](images/page03_image05.png) |
+| Choice | Structure                                         |
+| ------ | ------------------------------------------------- |
+| A      | ![Choice A structure](images/page03_image01.png)  |
+| B      | ![Choice B structure](images/page03_image02.png)  |
+| C      | ![Choice C structure](images/page03_image03.jpeg) |
+| D      | ![Choice D structure](images/page03_image04.png)  |
+| E      | ![Choice E structure](images/page03_image05.png)  |
 
 ### 8. One of your classmates has symptoms of protein deficiency. You suspect that she might have a mineral deficiency due to her diet of nothing but canned spaghetti. Which of the following minerals should you test for first?
 
@@ -228,7 +228,7 @@ Which of the following is deficient in this person’s system?
 - [ ] **D.** Dolphins are the only mammals known to employ countercurrent heat exchange.
 - [ ] **E.** Once the arterial blood has been cooled past a certain point, it will no longer transfer heat to the veins.
 
-### 26. The diagram above depicts:
+### 26. The diagram below depicts:
 
 ![Question 26 figure 1](images/page07_image01.jpeg)
 
@@ -242,7 +242,7 @@ Which of the following is deficient in this person’s system?
 
 - [ ] **A.** Many cells with aquaporin are present in the ascending limb
 - [ ] **B.** The ascending limb receives a better blood supply
-- [ ] **C.** The triple-pumps (Na+/K+/Cl-) of the ascending limb consume a lot of ATP and need many mitochondria.
+- [ ] **C.** The triple-pumps ($Na^+$/$K^+$/$Cl^-$) of the ascending limb consume a lot of ATP and need many mitochondria.
 - [ ] **D.** Unexplained proliferation of cells around the ascending limb
 - [ ] **E.** Descending limb has evolved completely while the thickness of the ascending limb is a vestigial feature.
 
@@ -254,9 +254,7 @@ Which of the following is deficient in this person’s system?
 - [ ] **D.** Erythropoietin synthesis
 - [ ] **E.** Glycogenesis
 
-### 29. Fixation is a lab procedure used to prevent biological tissues from decay. In instances where perfect morphology of the whole animal is desired, cardiac fixation is the preferred method.
-
-Where should the researcher inject the fixative to ensure the best results?
+### 29. Fixation is a lab procedure used to prevent biological tissues from decay. In instances where perfect morphology of the whole animal is desired, cardiac fixation is the preferred method. Where should the researcher inject the fixative to ensure the best results?
 
 - [ ] **A.** Right atrium
 - [ ] **B.** Abdominal cavity
@@ -274,11 +272,9 @@ Where should the researcher inject the fixative to ensure the best results?
 
 ### 31. In the picture below – taken from the work of N. Tinbergen – a cardinal feeds minnows, which rose to the surface looking for food. The bird fed the fish for several weeks, probably because its nest had been destroyed.
 
+![Question 31 figure 1](images/question31_image01.png)
+
 The cardinal’s behavior is best understood as:
-
-![Question 31 figure 1](images/page08_image01.jpeg)
-
-![Question 31 figure 2](images/page08_image02.jpeg)
 
 - [ ] **A.** Habituation
 - [ ] **B.** Imprinting
@@ -302,9 +298,7 @@ The cardinal’s behavior is best understood as:
 - [ ] **D.** Inclusive selection
 - [ ] **E.** Heterochrony
 
-### 34. A certain plant you are studying has alleles R and r for pointed and round leaves, and alleles B and b for blue and white petals. You perform a cross between homozygous dominant (RRBB) and homozygous recessive (rrbb) plants. The offspring are then crossed with a homozygous recessive (rrbb) plant. You observe the results. 1600 offspring are produced.
-
-Which of the following data is CLOSEST to what you would expect given a recombination frequency of 25%?
+### 34. A certain plant you are studying has alleles R and r for pointed and round leaves, and alleles B and b for blue and white petals. You perform a cross between homozygous dominant (RRBB) and homozygous recessive (rrbb) plants. The offspring are then crossed with a homozygous recessive (rrbb) plant. You observe the results. 1600 offspring are produced. Which of the following data is CLOSEST to what you would expect given a recombination frequency of 25%?
 
 - [ ] **A.** 100 rrbb, 300 rrBb, 300 Rrbb, 900 RrBb
 - [ ] **B.** 600 rrbb, 600 rrBb, 200 Rrbb, 200 RrBb
@@ -445,54 +439,54 @@ Which of the following data is CLOSEST to what you would expect given a recombin
 Extraction method: `yellow_highlight`
 
 | Question | Answer |
-|---:|:---|
-| 1 | D |
-| 2 | C |
-| 3 | E |
-| 4 | D |
-| 5 | C |
-| 6 | C |
-| 7 | D |
-| 8 | E |
-| 9 | C |
-| 10 | B |
-| 11 | B |
-| 12 | E |
-| 13 | B |
-| 14 | C |
-| 15 | B |
-| 16 | D |
-| 17 | B |
-| 18 | A |
-| 19 | E |
-| 20 | C |
-| 21 | B |
-| 22 | E |
-| 23 | A |
-| 24 | B |
-| 25 | D |
-| 26 | E |
-| 27 | C |
-| 28 | D |
-| 29 | E |
-| 30 | D |
-| 31 | C |
-| 32 | C |
-| 33 | B |
-| 34 | E |
-| 35 | D |
-| 36 | A |
-| 37 | B |
-| 38 | C |
-| 39 | B |
-| 40 | E |
-| 41 | A |
-| 42 | C |
-| 43 | B |
-| 44 | A |
-| 45 | B |
-| 46 | E |
-| 47 | A |
-| 48 | B |
-| 49 | C |
-| 50 | C |
+| -------: | :----- |
+|        1 | D      |
+|        2 | C      |
+|        3 | E      |
+|        4 | D      |
+|        5 | C      |
+|        6 | C      |
+|        7 | D      |
+|        8 | E      |
+|        9 | C      |
+|       10 | B      |
+|       11 | B      |
+|       12 | E      |
+|       13 | B      |
+|       14 | C      |
+|       15 | B      |
+|       16 | D      |
+|       17 | B      |
+|       18 | A      |
+|       19 | E      |
+|       20 | C      |
+|       21 | B      |
+|       22 | E      |
+|       23 | A      |
+|       24 | B      |
+|       25 | D      |
+|       26 | E      |
+|       27 | C      |
+|       28 | D      |
+|       29 | E      |
+|       30 | D      |
+|       31 | C      |
+|       32 | C      |
+|       33 | B      |
+|       34 | E      |
+|       35 | D      |
+|       36 | A      |
+|       37 | B      |
+|       38 | C      |
+|       39 | B      |
+|       40 | E      |
+|       41 | A      |
+|       42 | C      |
+|       43 | B      |
+|       44 | A      |
+|       45 | B      |
+|       46 | E      |
+|       47 | A      |
+|       48 | B      |
+|       49 | C      |
+|       50 | C      |
