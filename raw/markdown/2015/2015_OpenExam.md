@@ -11,13 +11,13 @@
 ### 2. You observe fly cells that are undergoing meiosis and treat them with a drug that inhibits the separation of parental homologs. At which stage of meiosis do cells treated with this drug become arrested?
 
 - [ ] **A.** Prophase I
-- [ ] **E.** Prophase II
 - [ ] **B.** Metaphase I
-- AB. Metaphase II
 - [ ] **C.** Anaphase I
-- AC. Anaphase II
 - [ ] **D.** Telophase I
-- AD. Telophase II
+- [ ] **E.** Prophase II
+- [ ] **AB.** Metaphase II
+- [ ] **AC.** Anaphase II
+- [ ] **AD.** Telophase II
 
 ### 3. Psoriasis is a skin disorder that is caused by the increased proliferation of skin cells and results in red, itchy skin. Skin cells from a mouse model for this disease are isolated and cultured in a plate containing a drug that promotes the supercoiling of DNA. Which enzyme does this drug inhibit?
 
@@ -160,11 +160,8 @@
 ### 20. You are a summer student at the Marine Biological Laboratory, Woods Hole. Like Hodgkin and Huxley, you want to study the speed of action potential propagation in the squid giant axon and compare it with a cultured neuron isolated from the Central Nervous System of a C57BL/6 mouse. To do this, you apply a stimulus near the squid and mouse axon hillocks and record the speed of action potential propagation downstream of each. You calculate the squid and mouse speeds to be 25m/s and 145m/s respectively. Based on your observations, which of the following is TRUE regarding the properties of your test neurons?
 
 I. The squid giant axon is myelinated and hence the propagation speed is high even though it is an invertebrate.
-
 II. The cultured mouse axon is myelinated. Therefore, the speed is greater because there are voltage gated ion channels throughout the myelination.
-
 III. The squid giant axon has a larger diameter which reduces the resistance, thereby increasing the speed of propagation.
-
 IV. The cultured mouse axon is myelinated and therefore there is saltatory propagation of action potential.
 
 - [ ] **A.** I and II.
@@ -227,10 +224,10 @@ IV. The cultured mouse axon is myelinated and therefore there is saltatory propa
 - [ ] **B.** They begin in the dendrite and propagate in one direction down the dendrite toward the dendrite terminals.
 - [ ] **C.** They begin in the dendrite and propagate in two directions down the cell body toward the dendrite terminals.
 - [ ] **D.** They begin in the axon hillock and propagate in one direction down the cell body toward the dendrite terminals.
-- [ ] **E.** They begin in the axon hillock and propagate in two directions down the cell body toward the dendrite terminals. 
+- [ ] **E.** They begin in the axon hillock and propagate in two directions down the cell body toward the dendrite terminals.
 
 
-Questions 28 to 31. Are the following ions found at a higher concentration in the cytoplasm than in the extracellular fluid in a resting neuronal axon? Use A for Yes and B for No.
+## Questions 28 to 31. Are the following ions found at a higher concentration in the cytoplasm than in the extracellular fluid in a resting neuronal axon? Use A for Yes and B for No.
 
 ### 28. Calcium.
 
@@ -349,27 +346,26 @@ The study found that fish raised on land walked more effectively; their fins sli
 
 ### 45. Mangroves tend to grow around the fringes of tropical estuaries and lagoons, as well as in the intertidal regions of tropical coasts. Two key problems for the survival of the mangrove in these areas are waterlogged sediment and increased salinity. Below is the environment condition matched with an adaption of the mangrove. Which of the adaptations to the problems of waterlogged sediment or increased salt levels is FALSE?
 
-Choice
-
-Problem Adaptation Waterlogged sediment Lenticels
-
-- [ ] **A.** - [ ] **B.** Increased salt levels High salinity tolerance level
-- [ ] **C.** Increased salt levels Proportion of root/above ground biomass decreases
-- [ ] **D.** Waterlogged sediment: Aerial roots
-- [ ] **E.** Increased salt levels Sheds leaves
+| Choice | Problem               | Adaptation                                        |
+| ------ | --------------------- | ------------------------------------------------- |
+| A      | Waterlogged sediment  | Lenticels                                         |
+| B      | Increased salt levels | High salinity tolerance level                     |
+| C      | Increased salt levels | Proportion of root/above ground biomass decreases |
+| D      | Waterlogged sediment: | Aerial roots                                      |
+| E      | Increased salt levels | Sheds leaves                                      |
 
 ### 46. Below are the parameters for five biomes. Which biome is characterized by warm temperatures year round and a dry season that can last up to nine months?
 
-Biome Typical plant/plant descriptor Typical animal
+| Biome | Typical plant/plant descriptor                                                           | Typical animal                                              |
+| ----- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| A.    | Forests vertically layered.                                                              | Animal diversity is higher than other terrestrial environs. |
+| B.    | Low, widely scattered vegetation.                                                        | Many animal species are nocturnal.                          |
+| C.    | Scattered trees found at different densities.                                            | Large, plant-eating mammals.                                |
+| D.    | Dominated by cone-bearing trees.                                                         | Diverse mammals                                             |
+| E.    | Forests have distinct vertical layers, closed canopy, understory, shrub and herb layers. | Mammals hibernate in winter.                                |
 
-- [ ] **A.** Forests vertically layered. Animal diversity is higher than other terrestrial environs.
-- [ ] **B.** Low, widely scattered vegetation. Many animal species are nocturnal.
-- [ ] **C.** Scattered trees found at different densities. Large, plant-eating mammals.
-- [ ] **D.** Dominated by cone-bearing trees. Diverse mammals
-- [ ] **E.** Forests have distinct vertical layers, closed Mammals hibernate in winter. canopy, understory, shrub and herb layers. 
 
-
-Questions 47 to 50. Which of the following statements about taxonomy are CORRECT? Use “A” for CORRECT and “B” for NOT CORRECT.
+## Questions 47 to 50. Which of the following statements about taxonomy are CORRECT? Use “A” for CORRECT and “B” for NOT CORRECT.
 
 ### 47. Diatoms (Bacillariophyta) are more closely related to red algae (Rhodophyta) than they are to brown algae (Phaeophyta).
 
@@ -384,54 +380,54 @@ Questions 47 to 50. Which of the following statements about taxonomy are CORRECT
 Extraction method: `yellow-highlight extraction from answer-key PDF`
 
 | Question | Answer |
-|---:|:---|
-| 1 | B |
-| 2 | AB |
-| 3 | C |
-| 4 | E |
-| 5 | E |
-| 6 | E |
-| 7 | D |
-| 8 | A |
-| 9 | B |
-| 10 | D |
-| 11 | D |
-| 12 | C |
-| 13 | A |
-| 14 | A |
-| 15 | B+C+D |
-| 16 | C |
-| 17 | B |
-| 18 | B |
-| 19 | A+B+E |
-| 20 | E |
-| 21 | D |
-| 22 | E |
-| 23 | B |
-| 24 | A |
-| 25 | A |
-| 26 | B |
-| 27 | A |
-| 28 | B |
-| 29 | B |
-| 30 | A |
-| 31 | B |
-| 32 | B |
-| 33 | E |
-| 34 | A |
-| 35 | D |
-| 36 | A |
-| 37 | B |
-| 38 | B+C |
-| 39 | D |
-| 40 | C |
-| 41 | D |
-| 42 | B |
-| 43 | E |
-| 44 | A |
-| 45 | C |
-| 46 | C |
-| 47 | B |
-| 48 | A |
-| 49 | B |
-| 50 | A |
+| -------: | :----- |
+|        1 | B      |
+|        2 | AB     |
+|        3 | C      |
+|        4 | E      |
+|        5 | E      |
+|        6 | E      |
+|        7 | D      |
+|        8 | A      |
+|        9 | B      |
+|       10 | D      |
+|       11 | D      |
+|       12 | C      |
+|       13 | A      |
+|       14 | A      |
+|       15 | B+C+D  |
+|       16 | C      |
+|       17 | B      |
+|       18 | B      |
+|       19 | A+B+E  |
+|       20 | E      |
+|       21 | D      |
+|       22 | E      |
+|       23 | B      |
+|       24 | A      |
+|       25 | A      |
+|       26 | B      |
+|       27 | A      |
+|       28 | B      |
+|       29 | B      |
+|       30 | A      |
+|       31 | B      |
+|       32 | B      |
+|       33 | E      |
+|       34 | A      |
+|       35 | D      |
+|       36 | A      |
+|       37 | B      |
+|       38 | B+C    |
+|       39 | D      |
+|       40 | C      |
+|       41 | D      |
+|       42 | B      |
+|       43 | E      |
+|       44 | A      |
+|       45 | C      |
+|       46 | C      |
+|       47 | B      |
+|       48 | A      |
+|       49 | B      |
+|       50 | A      |
