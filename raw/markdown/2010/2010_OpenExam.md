@@ -98,7 +98,14 @@ Assume there is no linkage between the two genes.
 
 ### 12. A homozygous black-eye, white-coat, short-hair mouse is mated to a homozygous brown-eye, brown-coat, long-hair mouse. One of the resulting F1 animals is mated to a homozygous brown-eye, brown- coat, long-hair mouse. Given the following offspring from the second mating, what is the recombination frequency with respect to eye and coat color?
 
-243 black-eye, white-coat, short-hair 220 brown-eye, brown-coat, long-hair 200 brown-eye, brown-coat, short-hair 187 black-eye, white-coat, long-hair 49 brown-eye, white-coat, short-hair 42 black-eye, brown-coat, long-hair 36 brown-eye, white-coat, short-hair 23 black-eye, brown-coat, short-hair
+243 black-eye, white-coat, short-hair
+220 brown-eye, brown-coat, long-hair
+200 brown-eye, brown-coat, short-hair
+187 black-eye, white-coat, long-hair
+49 brown-eye, white-coat, short-hair
+42 black-eye, brown-coat, long-hair
+36 brown-eye, white-coat, short-hair
+23 black-eye, brown-coat, short-hair
 
 - [ ] **A.** 5%
 - [ ] **B.** 15%
@@ -264,7 +271,11 @@ Assume there is no linkage between the two genes.
 - [ ] **D.** Medulla oblongata: Breathing
 - [ ] **E.** Spinal cord: Short term memory of motor functions
 
-### 32. Below is a human pedigree depicting the inheritance of a rare disease: What is the most likely mode of inheritance?
+### 32. Below is a human pedigree depicting the inheritance of a rare disease:
+
+![Question 32 figure 1](images/question32_image01.png)
+
+What is the most likely mode of inheritance?
 
 - [ ] **A.** Autosomal recessive
 - [ ] **B.** Autosomal dominant
@@ -347,13 +358,9 @@ Assume there is no linkage between the two genes.
 ### 42. Arrange the following five events in the order that explains the bulk flow of substances in the phloem.
 
 1. Sugar moves down the stem.
-
 2. Leaf cells produce sugar by photosynthesis.
-
 3. Sugar is transported from cell to cell via the apoplast and/or symplast.
-
 4. Solutes are actively transported into sieve elements.
-
 5. Water diffuses into the sieve tube elements.
 
 - [ ] **A.** 1,2,3,4,5
@@ -388,7 +395,7 @@ How high above the ground is the branch on which the tree house is resting now?
 - [ ] **D.** 20 feet
 - [ ] **E.** 35 feet
 
-### 46. In plant cells grown in the presence of a metabolic poison that specifically inhibits mitochondrial F1ATP synthase, one would expect:
+### 46. In plant cells grown in the presence of a metabolic poison that specifically inhibits mitochondrial $F_{1}ATP$ synthase, one would expect:
 
 - [ ] **A.** the pH difference across the cristae to be greater than normal.
 - [ ] **B.** the pH difference across the cristae to be less than normal.
@@ -407,16 +414,11 @@ How high above the ground is the branch on which the tree house is resting now?
 ### 48. The membrane potential across a cell membrane is determined by the relative permeabilities and concentration gradients of electrolytes across its cell membrane.
 
 The intracellular/extracellular concentration of sodium ions is 14 mM/140 mM.
-
 The intracellular/extracellular concentration of potassium ions is 120 mM / 4 mM.
-
-The chemical potential or equilibrium potential = (RT/zF) ln ([x]o/[x]i).
-
-Given the gas constant, R = 8.31 JK-1mol-1, the temperature, T, needs to be in Kelvin, °K.
-
-The Faraday constant, F = 9.65 coulombs mol-1m, and z is the valency of the cation or ion.
-
-At 25°C, the &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95; equals +58 mVs.
+The chemical potential or equilibrium potential = $({RT}/{zF})ln({[x]_{o}}/{[x]_{i}})$.
+Given the gas constant, R = 8.31 $J K^{-1} mol^{-1}$, the temperature, T, needs to be in Kelvin, $°K$.
+The Faraday constant, F = 9.65 coulombs $mol^{-1}m$, and z is the valency of the cation or ion.
+At 25°C, the equals +58 mVs.
 
 - [ ] **A.** calcium equilibrium potential
 - [ ] **B.** chloride equilibrium potential
@@ -424,11 +426,17 @@ At 25°C, the &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&
 - [ ] **D.** potassium equilibrium potential
 - [ ] **E.** sodium equilibrium potential
 
-### 49. Scientists have determined that three classes of genes (named A, B, and C) control development of the four flower parts: Sepals, Petals, Stamen, and Carpels. Genes A and C mutually repress each other.
+### 49. Scientists have determined that three classes of genes (named A, B, and C) control development of the four flower parts: Sepals, Petals, Stamen, and Carpels. Genes A and C mutually repress each other. Gene B is not regulated by either gene A or C. The expression pattern of these genes in wild-type flowers is shown below, where +++ indicates gene activity.
 
-Gene B is not regulated by either gene A or C. The expression pattern of these genes in wild-type flowers is shown below, where +++ indicates gene activity.
+Flower Formation
 
-Flower Formation Sepals Petals Stamens Carpels Gene A +++ +++ Gene B +++ +++ Gene C +++ +++ A mutation in Gene C, which prevents its expression, will result in which of the following floral patterns?
+|        | Sepals | Petals | Stamens | Carpels |
+| ------ | ------ | ------ | ------- | ------- |
+| Gene A | +++    | +++    |         |         |
+| Gene B |        | +++    | +++     |         |
+| Gene C |        |        | +++     | +++     |
+
+A mutation in Gene C, which prevents its expression, will result in which of the following floral patterns?
 
 - [ ] **A.** Sepals-Petals-Stamen-Carpels
 - [ ] **B.** Sepals-Petals-Petals
@@ -438,11 +446,11 @@ Flower Formation Sepals Petals Stamens Carpels Gene A +++ +++ Gene B +++ +++ Gen
 
 ### 50. With proofreading, which of the following is the error rate of DNA polymerase?
 
-- [ ] **A.** One error in 1x 101 bases.
-- [ ] **B.** One error in 1 x 102 bases.
-- [ ] **C.** One error in 1 x 103 bases.
-- [ ] **D.** One error in 1 x 106 bases.
-- [ ] **E.** One error in 1 x 109 bases.
+- [ ] **A.** One error in 1x $10^1$ bases.
+- [ ] **B.** One error in 1 x $10^2$ bases.
+- [ ] **C.** One error in 1 x $10^3$ bases.
+- [ ] **D.** One error in 1 x $10^6$ bases.
+- [ ] **E.** One error in 1 x $10^9$ bases.
 
 # Answer Key
 
