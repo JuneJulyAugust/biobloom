@@ -19,9 +19,7 @@
 ### 3. Listed are three statements about lipids.
 
 1. Lipids are made up of polymers of fatty acids
-
 2. Lipids are hydrophobic
-
 3. Lipids that are made up of fatty acids with a high degree of saturation are more likely to be solids at room temperature Choose the most accurate statement from below:
 
 - [ ] **A.** Statements 1 and 2 are true
@@ -42,11 +40,11 @@
 
 ### 5. What is the concentration of hydrogen ions at pH 5.7? (You do NOT need a calculator.)
 
-- [ ] **A.** 7.0 x 10-5 M H+
-- [ ] **B.** 2.0 x 10-6 M H+
-- [ ] **C.** 1.0 x 10-5 M H+
-- [ ] **D.** 1.0 x 10-6 M H+
-- [ ] **E.** 3.0 x 10-5 M H+
+- [ ] **A.** 7.0 x $10^{-5}$ M $H^+$
+- [ ] **B.** 2.0 x $10^{-6}$ M $H^+$
+- [ ] **C.** 1.0 x $10^{-5}$ M $H^+$
+- [ ] **D.** 1.0 x $10^{-6}$ M $H^+$
+- [ ] **E.** 3.0 x $10^{-5}$ M $H^+$
 
 ### 6. Amino acids and nucleotides form complex polymers. Select ALL the statements that are TRUE (Select all that apply).
 
@@ -72,11 +70,12 @@
 - [ ] **D.** Bound by one membrane that folds into stoma
 - [ ] **E.** Understood to be a product of endosymbiosis
 
-### 9. Use the following pathway to answer Questions 9 and 10. Many metabolic pathways involve multi-step reactions. Consider the following pathway, where E represents different enzymes, and A, B, C, D and F represent substrates and products of the pathway.
 
-`A --E1--> B --E2--> C --E3--> D --E4--> F`
+## Use the following pathway to answer Questions 9 and 10. Many metabolic pathways involve multi-step reactions. Consider the following pathway, where E represents different enzymes, and A, B, C, D and F represent substrates and products of the pathway.
 
-Feedback inhibition of this pathway may involve
+`A --(E1)--> B --(E2)--> C --(E3)--> D --(E4)--> F`
+
+### 9. Feedback inhibition of this pathway may involve
 
 - [ ] **A.** The product of the final reaction, F, interacting with and inhibiting E1
 - [ ] **B.** F interacting with and inhibiting product B
@@ -174,13 +173,9 @@ You find that the small log is heavy and difficult to move. The mass of the log 
 ### 20. One fifth of the cardiac output flows through the kidneys. After being filtered by the glomerulus, in what order does the filtrate pass through the following nephric structures?
 
 1. Ascending limb of the Loop of Henle
-
 2. Distal convoluted tubule
-
 3. Descending limb of the Loop of Henle
-
 4. Proximal convoluted tubule
-
 5. Collecting duct
 
 - [ ] **A.** 1, 3, 4, 2, 5
@@ -189,17 +184,17 @@ You find that the small log is heavy and difficult to move. The mass of the log 
 - [ ] **D.** 4, 1, 3, 5
 - [ ] **E.** 4, 3, 1, 2, 5
 
-### 21. An animal experiences an acid-base imbalance in the arterial blood that results in acidosis. To increase pH toward normal, which direction would the ventilation rate be changed and what would be the corresponding change in arterial PCO2?
+### 21. An animal experiences an acid-base imbalance in the arterial blood that results in acidosis. To increase pH toward normal, which direction would the ventilation rate be changed and what would be the corresponding change in arterial $P_{CO_2}$?
 
-- [ ] **A.** Ventilation rate increases, arterial PCO2 increases
-- [ ] **B.** Ventilation rate increases, arterial PCO2 decreases
-- [ ] **C.** Ventilation rate decreases, arterial PCO2 increases
-- [ ] **D.** Ventilation rate decreases, arterial PCO2 decreases
+- [ ] **A.** Ventilation rate increases, arterial $P_{CO_2}$ increases
+- [ ] **B.** Ventilation rate increases, arterial $P_{CO_2}$ decreases
+- [ ] **C.** Ventilation rate decreases, arterial $P_{CO_2}$ increases
+- [ ] **D.** Ventilation rate decreases, arterial $P_{CO_2}$ decreases
 - [ ] **E.** None of the above
 
 ### 22. Which of the following statements about skeletal muscle is NOT correct?
 
-- [ ] **A.** The length (distance) of a single muscle contraction depends on the concentration of Ca2+ ions in the sarcoplasmic reticulum
+- [ ] **A.** The length (distance) of a single muscle contraction depends on the concentration of $Ca^{2+}$ ions in the sarcoplasmic reticulum
 - [ ] **B.** Muscles with short sarcomeres contract faster than muscles with long sarcomeres
 - [ ] **C.** The velocity of muscle contractions is determined by myosin-ATPase activity
 - [ ] **D.** Tetanus is the effect of repeated stimulations within a very short interval
@@ -224,9 +219,7 @@ You find that the small log is heavy and difficult to move. The mass of the log 
 ### 25. Which of the following statement(s) is/are INCORRECT:
 
 1. Cartilage heals slower than skin because cartilage is a deeper tissue
-
 2. The inside lining of the intestine has a large surface area because of the presence of cilia
-
 3. Adipose is a type of connective tissue because that is where fat is stored
 
 - [ ] **A.** #1 and #2 are incorrect
@@ -238,9 +231,9 @@ You find that the small log is heavy and difficult to move. The mass of the log 
 ### 26. In the absence of active transport, the passive sodium and potassium ion fluxes across the plasma membrane are still coupled. What makes these two passive ion fluxes dependent on each other?
 
 - [ ] **A.** The potassium channels
-- [ ] **B.** The Na+: K+ pumping ratio
-- [ ] **C.** The cholesterol: phospholipid ratio in the plasma membrane
-- [ ] **D.** The membrane potential, Vm
+- [ ] **B.** The $Na^+$ : $K^+$ pumping ratio
+- [ ] **C.** The cholesterol : phospholipid ratio in the plasma membrane
+- [ ] **D.** The membrane potential, $V_m$
 - [ ] **E.** The relative chemical potentials of sodium ions and potassium ions to the chemical potential of chloride ion
 
 ### 27. Which of the following graphs signifies the total cross-sectional area of blood vessels in humans as the blood flows from the aorta -> arteries - > aterioles -> capillaries -> venules -> veins -> venae cavae?
@@ -268,9 +261,7 @@ You find that the small log is heavy and difficult to move. The mass of the log 
 Which of the following is/are most likely endothermic fish
 
 I. Bluefin tuna
-
 II. Salmon
-
 III. Great white shark
 
 - [ ] **A.** II
@@ -290,13 +281,9 @@ III. Great white shark
 ### 31. The Costa Rican vampire bat is often not able to acquire blood from a mammal on a given night. Wilkinson (1984) trapped bats which were not allowed to feed for a night and found that they were given regurgitated blood by certain cave-mates. Based on this knowledge, which of the following observations are essential to confirm the occurrence of reciprocal altruism in this species?
 
 Data showing that:
-
 I. Blood is exchanged only between kin
-
 II. Blood is exchanged between non-kin
-
 III. Weak bats are frequently given blood even if they cannot give it to others
-
 IV. Bats who are given blood donate it to those who have given it to them previously
 
 - [ ] **A.** I, II
@@ -313,7 +300,7 @@ IV. Bats who are given blood donate it to those who have given it to them previo
 - [ ] **D.** 1.0
 - [ ] **E.** cannot be determined
 
-### 33. Which of the following statements is incorrect regarding hemophilia, a maternally inherited sex linked trait?
+### 33. Which of the following statements is *incorrect* regarding hemophilia, a maternally inherited sex linked trait?
 
 - [ ] **A.** A son of a normal non-carrier mother, will not be affected by hemophilia even if the father has the disease.
 - [ ] **B.** A daughter of the same parents will be a heterozygous carrier.
@@ -435,15 +422,10 @@ IV. Bats who are given blood donate it to those who have given it to them previo
 ### 48. In the phylogenetic tree of green plants below, indicate the branch (A to E) where traits I and IV are acquired?
 
 I. Pollen
-
 II. Tracheid
-
 III. Cuticle
-
 IV. Seed
-
 V. Carpel
-
 VI. Multicellular embryo
 
 ![Question 48 figure 1](images/page15_image01.jpeg)
@@ -480,55 +462,55 @@ VI. Enucleated red blood cells.
 
 Extraction method: `plain_key`
 
-| Question | Answer |
-|---:|:---|
-| 1 | E |
-| 2 | C |
-| 3 | C |
-| 4 | B |
-| 5 | B |
-| 6 | B+C |
-| 7 | B+C |
-| 8 | DISREGARDED |
-| 9 | A |
-| 10 | D |
-| 11 | A |
-| 12 | D |
-| 13 | B |
-| 14 | C |
-| 15 | D |
-| 16 | B |
-| 17 | D |
-| 18 | D |
-| 19 | D |
-| 20 | E |
-| 21 | B |
-| 22 | A |
-| 23 | A+D |
-| 24 | C |
-| 25 | E |
-| 26 | D |
-| 27 | A |
-| 28 | B |
-| 29 | C |
-| 30 | A |
-| 31 | D |
-| 32 | B |
-| 33 | E |
-| 34 | B |
-| 35 | C |
-| 36 | E |
-| 37 | E |
-| 38 | B |
-| 39 | B |
-| 40 | B |
-| 41 | A |
-| 42 | D |
-| 43 | E |
-| 44 | B |
-| 45 | B |
-| 46 | A |
-| 47 | D |
-| 48 | D |
-| 49 | E |
-| 50 | D |
+| Question | Answer      |
+| -------: | :---------- |
+|        1 | E           |
+|        2 | C           |
+|        3 | C           |
+|        4 | B           |
+|        5 | B           |
+|        6 | B+C         |
+|        7 | B+C         |
+|        8 | DISREGARDED |
+|        9 | A           |
+|       10 | D           |
+|       11 | A           |
+|       12 | D           |
+|       13 | B           |
+|       14 | C           |
+|       15 | D           |
+|       16 | B           |
+|       17 | D           |
+|       18 | D           |
+|       19 | D           |
+|       20 | E           |
+|       21 | B           |
+|       22 | A           |
+|       23 | A+D         |
+|       24 | C           |
+|       25 | E           |
+|       26 | D           |
+|       27 | A           |
+|       28 | B           |
+|       29 | C           |
+|       30 | A           |
+|       31 | D           |
+|       32 | B           |
+|       33 | E           |
+|       34 | B           |
+|       35 | C           |
+|       36 | E           |
+|       37 | E           |
+|       38 | B           |
+|       39 | B           |
+|       40 | B           |
+|       41 | A           |
+|       42 | D           |
+|       43 | E           |
+|       44 | B           |
+|       45 | B           |
+|       46 | A           |
+|       47 | D           |
+|       48 | D           |
+|       49 | E           |
+|       50 | D           |
