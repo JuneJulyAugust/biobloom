@@ -20,38 +20,38 @@ For this project, the converted Markdown is now valuable as a calibration corpus
 
 ## Dataset Coverage
 
-| Metric | Value |
-| --- | --- |
-| Years | 2003-2018 |
-| Markdown exam files | 16 |
-| Parsed questions | 785 |
-| Answer-key sources | Markdown table for 2003; JSON files for 2004-2018 |
-| Questions with figure links | 100 |
-| Questions with Markdown tables | 27 |
-| Questions with multi-select/multi-answer cues | 48 |
-| Questions with NOT/FALSE/EXCEPT/least/incorrect cues | 217 |
-| Questions with quantitative/data cues | 119 |
+| Metric                                               | Value                                             |
+| ---------------------------------------------------- | ------------------------------------------------- |
+| Years                                                | 2003-2018                                         |
+| Markdown exam files                                  | 16                                                |
+| Parsed questions                                     | 785                                               |
+| Answer-key sources                                   | Markdown table for 2003; JSON files for 2004-2018 |
+| Questions with figure links                          | 100                                               |
+| Questions with Markdown tables                       | 27                                                |
+| Questions with multi-select/multi-answer cues        | 48                                                |
+| Questions with NOT/FALSE/EXCEPT/least/incorrect cues | 217                                               |
+| Questions with quantitative/data cues                | 119                                               |
 
 ## Year-By-Year Structure And Difficulty
 
-| Year | Questions | Answers | Avg words/Q | Difficulty | Hard Qs | Figures | Tables | Multi | Negation | Quant | Top heuristic topics |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2003 | 35 | 35 | 44.3 | 1.72 | 1 | 0 | 1 | 0 | 4 | 0 | Cell/Molecular/Biochem 12, Ecology/Evolution/Behavior 7, Genetics/Biotech 5 |
-| 2004 | 50 | 50 | 67.7 | 1.88 | 0 | 2 | 0 | 0 | 14 | 8 | Cell/Molecular/Biochem 11, Plant Biology 10, Animal Physiology 9 |
-| 2005 | 50 | 50 | 61.9 | 1.89 | 0 | 2 | 1 | 0 | 10 | 8 | Cell/Molecular/Biochem 12, Genetics/Biotech 11, Animal Physiology 8 |
-| 2006 | 50 | 50 | 65.6 | 1.93 | 0 | 1 | 3 | 0 | 13 | 11 | Cell/Molecular/Biochem 9, Genetics/Biotech 8, Quant/Experimental/Data 7 |
-| 2007 | 50 | 50 | 72.3 | 1.95 | 1 | 8 | 0 | 0 | 8 | 7 | Cell/Molecular/Biochem 15, Genetics/Biotech 8, Animal Physiology 8 |
-| 2008 | 50 | 50 | 76.4 | 2.07 | 3 | 8 | 1 | 0 | 13 | 9 | Animal Physiology 13, Cell/Molecular/Biochem 11, Genetics/Biotech 7 |
-| 2009 | 50 | 50 | 76.6 | 2.02 | 0 | 6 | 0 | 0 | 9 | 11 | Cell/Molecular/Biochem 11, Animal Physiology 9, Quant/Experimental/Data 8 |
-| 2010 | 50 | 50 | 76.2 | 2.20 | 3 | 1 | 1 | 9 | 13 | 13 | Cell/Molecular/Biochem 15, Genetics/Biotech 7, Animal Physiology 7 |
-| 2011 | 50 | 50 | 70.8 | 2.13 | 2 | 12 | 0 | 3 | 11 | 8 | Cell/Molecular/Biochem 12, Animal Physiology 8, General Biology 7 |
-| 2012 | 50 | 50 | 71.2 | 1.93 | 1 | 12 | 3 | 0 | 16 | 4 | Cell/Molecular/Biochem 11, Animal Physiology 11, Plant Biology 10 |
-| 2013 | 50 | 49 | 72.4 | 2.02 | 2 | 8 | 2 | 0 | 18 | 6 | Cell/Molecular/Biochem 13, Ecology/Evolution/Behavior 10, Animal Physiology 10 |
-| 2014 | 50 | 50 | 88.8 | 2.30 | 6 | 11 | 2 | 9 | 26 | 0 | Cell/Molecular/Biochem 18, Genetics/Biotech 10, Animal Physiology 6 |
-| 2015 | 50 | 50 | 80.2 | 2.10 | 3 | 1 | 2 | 4 | 13 | 7 | Cell/Molecular/Biochem 12, Plant Biology 10, General Biology 10 |
-| 2016 | 50 | 50 | 99.9 | 2.54 | 11 | 16 | 3 | 10 | 15 | 13 | Cell/Molecular/Biochem 9, Animal Physiology 8, Quant/Experimental/Data 8 |
-| 2017 | 50 | 50 | 92.1 | 2.46 | 12 | 5 | 4 | 13 | 13 | 10 | Cell/Molecular/Biochem 11, Quant/Experimental/Data 11, Plant Biology 7 |
-| 2018 | 50 | 50 | 84.7 | 2.15 | 6 | 7 | 4 | 0 | 21 | 4 | Cell/Molecular/Biochem 14, General Biology 8, Ecology/Evolution/Behavior 8 |
+| Year | Questions | Answers | Avg words/Q | Difficulty | Hard Qs | Figures | Tables | Multi | Negation | Quant | Top heuristic topics                                                           |
+| ---- | --------- | ------- | ----------- | ---------- | ------- | ------- | ------ | ----- | -------- | ----- | ------------------------------------------------------------------------------ |
+| 2003 | 35        | 35      | 44.3        | 1.72       | 1       | 0       | 1      | 0     | 4        | 0     | Cell/Molecular/Biochem 12, Ecology/Evolution/Behavior 7, Genetics/Biotech 5    |
+| 2004 | 50        | 50      | 67.7        | 1.88       | 0       | 2       | 0      | 0     | 14       | 8     | Cell/Molecular/Biochem 11, Plant Biology 10, Animal Physiology 9               |
+| 2005 | 50        | 50      | 61.9        | 1.89       | 0       | 2       | 1      | 0     | 10       | 8     | Cell/Molecular/Biochem 12, Genetics/Biotech 11, Animal Physiology 8            |
+| 2006 | 50        | 50      | 65.6        | 1.93       | 0       | 1       | 3      | 0     | 13       | 11    | Cell/Molecular/Biochem 9, Genetics/Biotech 8, Quant/Experimental/Data 7        |
+| 2007 | 50        | 50      | 72.3        | 1.95       | 1       | 8       | 0      | 0     | 8        | 7     | Cell/Molecular/Biochem 15, Genetics/Biotech 8, Animal Physiology 8             |
+| 2008 | 50        | 50      | 76.4        | 2.07       | 3       | 8       | 1      | 0     | 13       | 9     | Animal Physiology 13, Cell/Molecular/Biochem 11, Genetics/Biotech 7            |
+| 2009 | 50        | 50      | 76.6        | 2.02       | 0       | 6       | 0      | 0     | 9        | 11    | Cell/Molecular/Biochem 11, Animal Physiology 9, Quant/Experimental/Data 8      |
+| 2010 | 50        | 50      | 76.2        | 2.20       | 3       | 1       | 1      | 9     | 13       | 13    | Cell/Molecular/Biochem 15, Genetics/Biotech 7, Animal Physiology 7             |
+| 2011 | 50        | 50      | 70.8        | 2.13       | 2       | 12      | 0      | 3     | 11       | 8     | Cell/Molecular/Biochem 12, Animal Physiology 8, General Biology 7              |
+| 2012 | 50        | 50      | 71.2        | 1.93       | 1       | 12      | 3      | 0     | 16       | 4     | Cell/Molecular/Biochem 11, Animal Physiology 11, Plant Biology 10              |
+| 2013 | 50        | 49      | 72.4        | 2.02       | 2       | 8       | 2      | 0     | 18       | 6     | Cell/Molecular/Biochem 13, Ecology/Evolution/Behavior 10, Animal Physiology 10 |
+| 2014 | 50        | 50      | 88.8        | 2.30       | 6       | 11      | 2      | 9     | 26       | 0     | Cell/Molecular/Biochem 18, Genetics/Biotech 10, Animal Physiology 6            |
+| 2015 | 50        | 50      | 80.2        | 2.10       | 3       | 1       | 2      | 4     | 13       | 7     | Cell/Molecular/Biochem 12, Plant Biology 10, General Biology 10                |
+| 2016 | 50        | 50      | 99.9        | 2.54       | 11      | 16      | 3      | 10    | 15       | 13    | Cell/Molecular/Biochem 9, Animal Physiology 8, Quant/Experimental/Data 8       |
+| 2017 | 50        | 50      | 92.1        | 2.46       | 12      | 5       | 4      | 13    | 13       | 10    | Cell/Molecular/Biochem 11, Quant/Experimental/Data 11, Plant Biology 7         |
+| 2018 | 50        | 50      | 84.7        | 2.15       | 6       | 7       | 4      | 0     | 21       | 4     | Cell/Molecular/Biochem 14, General Biology 8, Ecology/Evolution/Behavior 8     |
 
 Interpretation:
 
@@ -65,24 +65,24 @@ Interpretation:
 
 Primary heuristic topic counts across all questions:
 
-| Topic | Questions | Share |
-| --- | --- | --- |
-| Cell/Molecular/Biochem | 196 | 25.0% |
-| Animal Physiology | 119 | 15.2% |
-| Genetics/Biotech | 104 | 13.2% |
-| Plant Biology | 97 | 12.4% |
-| Ecology/Evolution/Behavior | 97 | 12.4% |
-| Quant/Experimental/Data | 80 | 10.2% |
-| General Biology | 66 | 8.4% |
-| Microbiology/Immunology | 26 | 3.3% |
+| Topic                      | Questions | Share |
+| -------------------------- | --------- | ----- |
+| Cell/Molecular/Biochem     | 196       | 25.0% |
+| Animal Physiology          | 119       | 15.2% |
+| Genetics/Biotech           | 104       | 13.2% |
+| Plant Biology              | 97        | 12.4% |
+| Ecology/Evolution/Behavior | 97        | 12.4% |
+| Quant/Experimental/Data    | 80        | 10.2% |
+| General Biology            | 66        | 8.4%  |
+| Microbiology/Immunology    | 26        | 3.3%  |
 
 By era:
 
-| Era | Questions | Avg difficulty | Top topic signals |
-| --- | --- | --- | --- |
-| 2003-2008 | 285 | 1.91 | Cell/Molecular/Biochem: 70 (24.6%), Animal Physiology: 46 (16.1%), Genetics/Biotech: 43 (15.1%), Ecology/Evolution/Behavior: 40 (14.0%) |
-| 2009-2013 | 250 | 2.06 | Cell/Molecular/Biochem: 62 (24.8%), Animal Physiology: 45 (18.0%), Ecology/Evolution/Behavior: 33 (13.2%), Plant Biology: 30 (12.0%) |
-| 2014-2018 | 250 | 2.31 | Cell/Molecular/Biochem: 64 (25.6%), Genetics/Biotech: 35 (14.0%), Plant Biology: 34 (13.6%), Animal Physiology: 28 (11.2%) |
+| Era       | Questions | Avg difficulty | Top topic signals                                                                                                                       |
+| --------- | --------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 2003-2008 | 285       | 1.91           | Cell/Molecular/Biochem: 70 (24.6%), Animal Physiology: 46 (16.1%), Genetics/Biotech: 43 (15.1%), Ecology/Evolution/Behavior: 40 (14.0%) |
+| 2009-2013 | 250       | 2.06           | Cell/Molecular/Biochem: 62 (24.8%), Animal Physiology: 45 (18.0%), Ecology/Evolution/Behavior: 33 (13.2%), Plant Biology: 30 (12.0%)    |
+| 2014-2018 | 250       | 2.31           | Cell/Molecular/Biochem: 64 (25.6%), Genetics/Biotech: 35 (14.0%), Plant Biology: 34 (13.6%), Animal Physiology: 28 (11.2%)              |
 
 Topic trend observations:
 
@@ -99,29 +99,29 @@ The estimated difficulty trend is upward, but not linear. The early period is mo
 Hardest years by the heuristic index:
 
 | Rank | Year | Difficulty index |
-| --- | --- | --- |
-| 1 | 2016 | 2.54 |
-| 2 | 2017 | 2.46 |
-| 3 | 2014 | 2.30 |
-| 4 | 2010 | 2.20 |
-| 5 | 2018 | 2.15 |
+| ---- | ---- | ---------------- |
+| 1    | 2016 | 2.54             |
+| 2    | 2017 | 2.46             |
+| 3    | 2014 | 2.30             |
+| 4    | 2010 | 2.20             |
+| 5    | 2018 | 2.15             |
 
 Examples of high-complexity questions:
 
-| Year | Q | Topic | Words | Diff | Preview |
-| --- | --- | --- | --- | --- | --- |
-| 2016 | 36 | Cell/Molecular/Biochem | 201 | 4.75 | Consider the existence of a hypothetical operon, pac, which controls the expression of several enzym |
-| 2017 | 27 | Cell/Molecular/Biochem | 200 | 4.40 | The Starling equation is a widely used model of the movement of fluid across capillary walls in anim |
-| 2017 | 33 | Quant/Experimental/Data | 132 | 4.25 | You wish to understand the nature of birds’ song and divide a group of baby birds of the same specie |
-| 2014 | 28 | Cell/Molecular/Biochem | 195 | 3.95 | In the 1944 movie Arsenic and Old Lace, Mortimer Brewster visits his two aunts and discovers a body  |
-| 2016 | 20 | General Biology | 105 | 3.85 | Which of the following statements regarding vitamins and minerals is incorrect? |
-| 2015 | 42 | Ecology/Evolution/Behavior | 263 | 3.80 | Fossil evidence suggests that roughly 400 million years ago, fish began exploring the terrestrial en |
-| 2015 | 20 | Animal Physiology | 208 | 3.80 | You are a summer student at the Marine Biological Laboratory, Woods Hole. Like Hodgkin and Huxley, y |
-| 2014 | 27 | Cell/Molecular/Biochem | 142 | 3.80 | The J chain is a linking protein that allows for the IgA and IgM classes of antibodies to be secrete |
-| 2010 | 4 | Cell/Molecular/Biochem | 129 | 3.75 | Neurotransmitter released at the synapse binds to two classes of receptors. Select the correct respo |
-| 2017 | 37 | Quant/Experimental/Data | 266 | 3.70 | Unlike the eukaryotes, there is only one origin of replication (ori site) in the bacterial genome. I |
-| 2017 | 15 | Plant Biology | 233 | 3.70 | Consider the following experiment similar to those first performed in the 1950’s. Individual Arabido |
-| 2013 | 10 | Microbiology/Immunology | 220 | 3.70 | In a secret cabinet of a lab, you find two Petri dishes in storage and a mysterious lab notebook. In |
+| Year | Q   | Topic                      | Words | Diff | Preview                                                                                              |
+| ---- | --- | -------------------------- | ----- | ---- | ---------------------------------------------------------------------------------------------------- |
+| 2016 | 36  | Cell/Molecular/Biochem     | 201   | 4.75 | Consider the existence of a hypothetical operon, pac, which controls the expression of several enzym |
+| 2017 | 27  | Cell/Molecular/Biochem     | 200   | 4.40 | The Starling equation is a widely used model of the movement of fluid across capillary walls in anim |
+| 2017 | 33  | Quant/Experimental/Data    | 132   | 4.25 | You wish to understand the nature of birds’ song and divide a group of baby birds of the same specie |
+| 2014 | 28  | Cell/Molecular/Biochem     | 195   | 3.95 | In the 1944 movie Arsenic and Old Lace, Mortimer Brewster visits his two aunts and discovers a body  |
+| 2016 | 20  | General Biology            | 105   | 3.85 | Which of the following statements regarding vitamins and minerals is incorrect?                      |
+| 2015 | 42  | Ecology/Evolution/Behavior | 263   | 3.80 | Fossil evidence suggests that roughly 400 million years ago, fish began exploring the terrestrial en |
+| 2015 | 20  | Animal Physiology          | 208   | 3.80 | You are a summer student at the Marine Biological Laboratory, Woods Hole. Like Hodgkin and Huxley, y |
+| 2014 | 27  | Cell/Molecular/Biochem     | 142   | 3.80 | The J chain is a linking protein that allows for the IgA and IgM classes of antibodies to be secrete |
+| 2010 | 4   | Cell/Molecular/Biochem     | 129   | 3.75 | Neurotransmitter released at the synapse binds to two classes of receptors. Select the correct respo |
+| 2017 | 37  | Quant/Experimental/Data    | 266   | 3.70 | Unlike the eukaryotes, there is only one origin of replication (ori site) in the bacterial genome. I |
+| 2017 | 15  | Plant Biology              | 233   | 3.70 | Consider the following experiment similar to those first performed in the 1950’s. Individual Arabido |
+| 2013 | 10  | Microbiology/Immunology    | 220   | 3.70 | In a secret cabinet of a lab, you find two Petri dishes in storage and a mysterious lab notebook. In |
 
 The difficulty increase is driven less by obscure facts and more by task form:
 
@@ -138,28 +138,28 @@ The corpus contains many repeated or near-repeated questions across years. This 
 
 High-similarity examples:
 
-| Similarity | Question A | Question B | Prompt preview |
-| --- | --- | --- | --- |
-| 1.00 | 2003 Q29 | 2012 Q32 | Which of the following is an example of habituation? |
-| 1.00 | 2005 Q10 | 2008 Q11 | To be functional, a linear chromosome most often contains at least: |
-| 1.00 | 2005 Q12 | 2007 Q4 | To keep their dog breeds "pure," breeders will keep dogs of different breeds in physically |
-| 1.00 | 2005 Q14 | 2008 Q31 | You are trying to isolate glyoxysomes and peroxisomes from a mixture of cellular organelle |
-| 1.00 | 2005 Q15 | 2007 Q6 | An animal experiences an acid-base imbalance in the arterial blood that results in acidosi |
-| 1.00 | 2005 Q20 | 2008 Q4 | The fluidity of a lipid bilayer is enhanced with: |
-| 1.00 | 2005 Q24 | 2007 Q13 | A red pigment is extracted from a marine alga. Which best supports the hypothesis that the |
-| 1.00 | 2005 Q26 | 2008 Q45 | Color-blindness is a recessive, X-linked trait. A couple, who are both blood type A and wh |
-| 1.00 | 2005 Q32 | 2007 Q17 | Which of the following would act as an "uncoupler" of electron transport and ATP synthesis |
-| 1.00 | 2005 Q36 | 2011 Q34 | What is the probability of obtaining the given genotype in the offspring, AAbbCCdd, from t |
-| 1.00 | 2005 Q39 | 2007 Q20 | Which of the following are characteristics of both bacteria and fungi? |
-| 1.00 | 2005 Q40 | 2008 Q23 | Net primary productivity, in most ecosystems, is important because it represents the: |
-| 1.00 | 2005 Q42 | 2007 Q21 | Terminally differentiated cells are most often found in which phase of the cell cycle? |
-| 1.00 | 2005 Q46 | 2008 Q21 | The endosperm of a plant with "monosporic" development has 72 chromosomes. How many chromo |
-| 1.00 | 2005 Q49 | 2007 Q23 | A mutation in the gene encoding cyclin D: |
-| 1.00 | 2006 Q16 | 2011 Q42 | Replacement of a lysine with a glycine in a protein could result in all of the following E |
-| 1.00 | 2006 Q28 | 2009 Q32 | A person suffering from nerve gas exposure is given atropine to counteract the effects. Wh |
-| 1.00 | 2007 Q7 | 2011 Q50 | A valid taxonomic group for the cladogram shown above would include: |
-| 1.00 | 2008 Q5 | 2010 Q44 | An inbred strain of plants has a mean height of 24 cm. A second strain of the same species |
-| 1.00 | 2008 Q8 | 2010 Q45 | Your parents built a tree house for you when you were 8 years old and 4 feet tall. They pl |
+| Similarity | Question A | Question B | Prompt preview                                                                             |
+| ---------- | ---------- | ---------- | ------------------------------------------------------------------------------------------ |
+| 1.00       | 2003 Q29   | 2012 Q32   | Which of the following is an example of habituation?                                       |
+| 1.00       | 2005 Q10   | 2008 Q11   | To be functional, a linear chromosome most often contains at least:                        |
+| 1.00       | 2005 Q12   | 2007 Q4    | To keep their dog breeds "pure," breeders will keep dogs of different breeds in physically |
+| 1.00       | 2005 Q14   | 2008 Q31   | You are trying to isolate glyoxysomes and peroxisomes from a mixture of cellular organelle |
+| 1.00       | 2005 Q15   | 2007 Q6    | An animal experiences an acid-base imbalance in the arterial blood that results in acidosi |
+| 1.00       | 2005 Q20   | 2008 Q4    | The fluidity of a lipid bilayer is enhanced with:                                          |
+| 1.00       | 2005 Q24   | 2007 Q13   | A red pigment is extracted from a marine alga. Which best supports the hypothesis that the |
+| 1.00       | 2005 Q26   | 2008 Q45   | Color-blindness is a recessive, X-linked trait. A couple, who are both blood type A and wh |
+| 1.00       | 2005 Q32   | 2007 Q17   | Which of the following would act as an "uncoupler" of electron transport and ATP synthesis |
+| 1.00       | 2005 Q36   | 2011 Q34   | What is the probability of obtaining the given genotype in the offspring, AAbbCCdd, from t |
+| 1.00       | 2005 Q39   | 2007 Q20   | Which of the following are characteristics of both bacteria and fungi?                     |
+| 1.00       | 2005 Q40   | 2008 Q23   | Net primary productivity, in most ecosystems, is important because it represents the:      |
+| 1.00       | 2005 Q42   | 2007 Q21   | Terminally differentiated cells are most often found in which phase of the cell cycle?     |
+| 1.00       | 2005 Q46   | 2008 Q21   | The endosperm of a plant with "monosporic" development has 72 chromosomes. How many chromo |
+| 1.00       | 2005 Q49   | 2007 Q23   | A mutation in the gene encoding cyclin D:                                                  |
+| 1.00       | 2006 Q16   | 2011 Q42   | Replacement of a lysine with a glycine in a protein could result in all of the following E |
+| 1.00       | 2006 Q28   | 2009 Q32   | A person suffering from nerve gas exposure is given atropine to counteract the effects. Wh |
+| 1.00       | 2007 Q7    | 2011 Q50   | A valid taxonomic group for the cladogram shown above would include:                       |
+| 1.00       | 2008 Q5    | 2010 Q44   | An inbred strain of plants has a mean height of 24 cm. A second strain of the same species |
+| 1.00       | 2008 Q8    | 2010 Q45   | Your parents built a tree house for you when you were 8 years old and 4 feet tall. They pl |
 
 Practical implication: BioBloom should model both exact concepts and question templates. A student who learns only the exact answer to a repeated question gains little; a student who learns the template can transfer to future variants.
 
@@ -180,35 +180,35 @@ Recurring templates include:
 
 The default format is single-answer A-E. Later years introduce more special answer formats.
 
-| Year | Multi-answer keys | Special answer-key entries |
-| --- | --- | --- |
-| 2003 | 0 | - |
-| 2004 | 0 | - |
-| 2005 | 0 | - |
-| 2006 | 0 | - |
-| 2007 | 0 | Q14: DISREGARDED |
-| 2008 | 0 | Q44: B OR E |
-| 2009 | 0 | Q21: A OR B; Q23: B OR D; Q26: DISREGARDED; Q30: DISREGARDED |
-| 2010 | 6 | - |
-| 2011 | 3 | Q8: DISREGARDED |
-| 2012 | 0 | - |
-| 2013 | 0 | - |
-| 2014 | 9 | - |
-| 2015 | 3 | Q2: AB |
-| 2016 | 8 | - |
-| 2017 | 12 | - |
-| 2018 | 0 | - |
+| Year | Multi-answer keys | Special answer-key entries                                   |
+| ---- | ----------------- | ------------------------------------------------------------ |
+| 2003 | 0                 | -                                                            |
+| 2004 | 0                 | -                                                            |
+| 2005 | 0                 | -                                                            |
+| 2006 | 0                 | -                                                            |
+| 2007 | 0                 | Q14: DISREGARDED                                             |
+| 2008 | 0                 | Q44: B OR E                                                  |
+| 2009 | 0                 | Q21: A OR B; Q23: B OR D; Q26: DISREGARDED; Q30: DISREGARDED |
+| 2010 | 6                 | -                                                            |
+| 2011 | 3                 | Q8: DISREGARDED                                              |
+| 2012 | 0                 | -                                                            |
+| 2013 | 0                 | -                                                            |
+| 2014 | 9                 | -                                                            |
+| 2015 | 3                 | Q2: AB                                                       |
+| 2016 | 8                 | -                                                            |
+| 2017 | 12                | -                                                            |
+| 2018 | 0                 | -                                                            |
 
 Data-quality notes from answer keys:
 
-| Year | Missing answer entries | Special/nonstandard entries |
-| --- | --- | --- |
-| 2007 | - | Q14: DISREGARDED |
-| 2008 | - | Q44: B OR E |
-| 2009 | - | Q21: A OR B; Q23: B OR D; Q26: DISREGARDED; Q30: DISREGARDED |
-| 2011 | - | Q8: DISREGARDED |
-| 2013 | 33 | - |
-| 2015 | - | Q2: AB |
+| Year | Missing answer entries | Special/nonstandard entries                                  |
+| ---- | ---------------------- | ------------------------------------------------------------ |
+| 2007 | -                      | Q14: DISREGARDED                                             |
+| 2008 | -                      | Q44: B OR E                                                  |
+| 2009 | -                      | Q21: A OR B; Q23: B OR D; Q26: DISREGARDED; Q30: DISREGARDED |
+| 2011 | -                      | Q8: DISREGARDED                                              |
+| 2013 | 33                     | -                                                            |
+| 2015 | -                      | Q2: AB                                                       |
 
 Interpretation:
 

@@ -19,16 +19,16 @@ This report intentionally avoids reproducing exam content. It cites items only a
 
 Across all years, every exam draws from the same seven pillars (close to the IBO topic weighting, with USABO-specific drift):
 
-| Pillar                                  | Typical share | Stable subtopics                                                                                                                              |
-| --------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Cell & Molecular Biology / Biochemistry | 22–32 %       | Membranes & transport; enzyme kinetics; DNA replication; transcription/translation; protein structure & folding; respiration; photosynthesis  |
-| Genetics & Inheritance                  | 12–18 %       | Mendelian probability; linkage / map distance; pedigree mode-of-inheritance; epistasis; quantitative inheritance; imprinting (later years)    |
-| Animal Anatomy & Physiology             | 18–24 %       | Neurophysiology; cardiovascular; renal; endocrine; immune; digestion; reproduction & development                                              |
-| Plant Anatomy & Physiology              | 8–14 %        | Hormones (auxin/ethylene/gibberellin/ABA); transport (xylem/phloem); photosynthesis variants C3/C4/CAM; flower development (ABC model)        |
-| Ecology                                 | 6–12 %        | Population growth (r/K, exponential/logistic); trophic efficiency; biogeochemical cycles; community interactions                              |
-| Evolution & Phylogenetics               | 6–10 %        | Hardy–Weinberg; speciation modes; selection types; phylogeny reading; molecular evolution (dN/dS appears later)                               |
-| Animal Behavior (Ethology)              | 4–8 %         | Habituation/imprinting; sexual selection; agonistic/territorial behavior; kin selection                                                       |
-| Biosystematics                          | 2–6 %         | Domain-level differences (bacteria vs. archaea vs. eukarya); chordate / arthropod features; alternation of generations                        |
+| Pillar                                  | Typical share | Stable subtopics                                                                                                                             |
+| --------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cell & Molecular Biology / Biochemistry | 22–32 %       | Membranes & transport; enzyme kinetics; DNA replication; transcription/translation; protein structure & folding; respiration; photosynthesis |
+| Genetics & Inheritance                  | 12–18 %       | Mendelian probability; linkage / map distance; pedigree mode-of-inheritance; epistasis; quantitative inheritance; imprinting (later years)   |
+| Animal Anatomy & Physiology             | 18–24 %       | Neurophysiology; cardiovascular; renal; endocrine; immune; digestion; reproduction & development                                             |
+| Plant Anatomy & Physiology              | 8–14 %        | Hormones (auxin/ethylene/gibberellin/ABA); transport (xylem/phloem); photosynthesis variants C3/C4/CAM; flower development (ABC model)       |
+| Ecology                                 | 6–12 %        | Population growth (r/K, exponential/logistic); trophic efficiency; biogeochemical cycles; community interactions                             |
+| Evolution & Phylogenetics               | 6–10 %        | Hardy–Weinberg; speciation modes; selection types; phylogeny reading; molecular evolution (dN/dS appears later)                              |
+| Animal Behavior (Ethology)              | 4–8 %         | Habituation/imprinting; sexual selection; agonistic/territorial behavior; kin selection                                                      |
+| Biosystematics                          | 2–6 %         | Domain-level differences (bacteria vs. archaea vs. eukarya); chordate / arthropod features; alternation of generations                       |
 
 The "twin" pillar weight on Cell/Molecular plus Animal Physiology accounts for nearly half of every exam. The bottom three pillars combined (Behavior, Biosystematics, sometimes Ecology) frequently account for under 20 % of items, a consistent feature worth using when allocating study time.
 
@@ -53,12 +53,12 @@ A practical implication: practice that drills these eight templates — each in 
 
 The topic mix is broadly stable, but four directional drifts are clear:
 
-| Drift                                | 2003–2008                             | 2009–2013                                  | 2014–2018                                                                       |
-| ------------------------------------ | ------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------- |
-| Biotechnology / experimental tools   | rare; conceptual PCR or cloning gist  | gel/Western blots, restriction maps appear | NGS, CRISPR/cas9, microarray, patch-clamp, degenerate primers (e.g., 2016/Q08) |
-| Quantitative content                 | a handful of arithmetic items         | calculation peaks (Henderson–Hasselbalch, half-life, recombination) | calculation persists but moves toward biological reasoning *with* numbers      |
-| Cross-domain integration             | one-pillar items                      | mixed (e.g., physiology + signal transduction) | scenario items pull from 3+ pillars in one stem                              |
-| Plant biology depth                  | survey-level (xylem/phloem, life cycle) | hormone & development emphasis             | molecular plant biology (ethylene-receptor mutants, doubled-haploid, tb1)      |
+| Drift                              | 2003–2008                               | 2009–2013                                                           | 2014–2018                                                                      |
+| ---------------------------------- | --------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Biotechnology / experimental tools | rare; conceptual PCR or cloning gist    | gel/Western blots, restriction maps appear                          | NGS, CRISPR/cas9, microarray, patch-clamp, degenerate primers (e.g., 2016/Q08) |
+| Quantitative content               | a handful of arithmetic items           | calculation peaks (Henderson–Hasselbalch, half-life, recombination) | calculation persists but moves toward biological reasoning *with* numbers      |
+| Cross-domain integration           | one-pillar items                        | mixed (e.g., physiology + signal transduction)                      | scenario items pull from 3+ pillars in one stem                                |
+| Plant biology depth                | survey-level (xylem/phloem, life cycle) | hormone & development emphasis                                      | molecular plant biology (ethylene-receptor mutants, doubled-haploid, tb1)      |
 
 Quantitatively, multi-select / "select all that apply" formatting appeared in 2010, peaked around 2014–2017, and was deliberately reduced in 2018 (which moved the load into longer prose stems and tables instead). Roman-numeral combination items appear in every year and are the single most common "difficulty multiplier" across the entire corpus.
 
@@ -68,34 +68,34 @@ Quantitatively, multi-select / "select all that apply" formatting appeared in 20
 
 I scored each year on five orthogonal axes, each 1–5, by sampling roughly 10 stems per year and judging the dominant load. The axes are:
 
-| Axis                                   | What it measures                                                                                          |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **R — Factual recall**                 | Can be solved by remembering a single named fact, structure, term, or pathway step                        |
-| **C — Conceptual reasoning**           | Requires applying a mechanism (e.g., charge → membrane crossing; gradient → flux direction)               |
-| **D — Data / table / graph reading**   | Requires extracting a numeric or visual signal before reasoning                                           |
-| **E — Experimental design / inference**| Requires understanding controls, treatments, mutants, or "which test would answer this question"          |
-| **I — Multi-step integration**         | Requires combining ≥ 2 pillars or ≥ 2 mechanism steps in one chain                                        |
+| Axis                                    | What it measures                                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **R — Factual recall**                  | Can be solved by remembering a single named fact, structure, term, or pathway step               |
+| **C — Conceptual reasoning**            | Requires applying a mechanism (e.g., charge → membrane crossing; gradient → flux direction)      |
+| **D — Data / table / graph reading**    | Requires extracting a numeric or visual signal before reasoning                                  |
+| **E — Experimental design / inference** | Requires understanding controls, treatments, mutants, or "which test would answer this question" |
+| **I — Multi-step integration**          | Requires combining ≥ 2 pillars or ≥ 2 mechanism steps in one chain                               |
 
 Estimated mean scores per year (1 = trivial for a strong student, 5 = expert / olympiad final):
 
-| Year | R   | C   | D   | E   | I   | Composite (avg) | Notes                                                                  |
-| ---- | --- | --- | --- | --- | --- | --------------- | ---------------------------------------------------------------------- |
-| 2003 | 3.5 | 2.5 | 1.0 | 1.0 | 1.5 | 1.9             | Short stems, 4-option, definition-heavy                                |
-| 2004 | 3.5 | 2.5 | 1.5 | 1.5 | 1.5 | 2.1             | Stems lengthen; first table figures appear                             |
-| 2005 | 3.5 | 3.0 | 1.5 | 1.5 | 2.0 | 2.3             | ABC model, Hardy-Weinberg, polygenic introduced                        |
-| 2006 | 3.5 | 3.0 | 2.0 | 1.5 | 2.0 | 2.4             | Quant items (probability, percentages) ramp up                         |
-| 2007 | 3.5 | 3.0 | 2.0 | 1.5 | 2.0 | 2.4             | Cladogram & pedigree reading                                           |
-| 2008 | 3.5 | 3.0 | 2.0 | 1.5 | 2.0 | 2.4             | Physiology dominant; mechanism chains lengthen                         |
-| 2009 | 3.5 | 3.0 | 2.0 | 2.0 | 2.0 | 2.5             | More figure-bound items                                                |
-| 2010 | 3.5 | 3.5 | 2.5 | 2.0 | 2.5 | 2.8             | Multi-select introduced; Nernst & polygenic re-asked                   |
-| 2011 | 3.5 | 3.0 | 2.5 | 2.0 | 2.5 | 2.7             | Many figures; biochemistry deepens                                     |
-| 2012 | 3.5 | 3.5 | 2.5 | 2.5 | 2.5 | 2.9             | Reagent-table identification; Western-blot reasoning                   |
-| 2013 | 3.5 | 3.5 | 2.5 | 2.5 | 2.5 | 2.9             | Strong negation density                                                |
-| 2014 | 4.0 | 4.0 | 3.0 | 3.0 | 3.5 | 3.5             | Long stems; T/F sub-bubbling; mechanism + pharmacology integration     |
-| 2015 | 3.5 | 3.5 | 2.5 | 2.5 | 3.0 | 3.0             | Slight dip vs. 2014, but still demanding                               |
-| 2016 | 4.0 | 4.0 | 3.5 | 3.5 | 3.5 | 3.7             | Hardest year by composite; image-heavy; many select-all                |
-| 2017 | 4.0 | 4.0 | 3.0 | 3.5 | 3.5 | 3.6             | Quant + experimental design dense; Zika scenario, NADPH oxidase        |
-| 2018 | 4.0 | 4.0 | 3.0 | 3.0 | 3.5 | 3.5             | Multi-question stems return; less multi-select but heavier prose       |
+| Year | R   | C   | D   | E   | I   | Composite (avg) | Notes                                                              |
+| ---- | --- | --- | --- | --- | --- | --------------- | ------------------------------------------------------------------ |
+| 2003 | 3.5 | 2.5 | 1.0 | 1.0 | 1.5 | 1.9             | Short stems, 4-option, definition-heavy                            |
+| 2004 | 3.5 | 2.5 | 1.5 | 1.5 | 1.5 | 2.1             | Stems lengthen; first table figures appear                         |
+| 2005 | 3.5 | 3.0 | 1.5 | 1.5 | 2.0 | 2.3             | ABC model, Hardy-Weinberg, polygenic introduced                    |
+| 2006 | 3.5 | 3.0 | 2.0 | 1.5 | 2.0 | 2.4             | Quant items (probability, percentages) ramp up                     |
+| 2007 | 3.5 | 3.0 | 2.0 | 1.5 | 2.0 | 2.4             | Cladogram & pedigree reading                                       |
+| 2008 | 3.5 | 3.0 | 2.0 | 1.5 | 2.0 | 2.4             | Physiology dominant; mechanism chains lengthen                     |
+| 2009 | 3.5 | 3.0 | 2.0 | 2.0 | 2.0 | 2.5             | More figure-bound items                                            |
+| 2010 | 3.5 | 3.5 | 2.5 | 2.0 | 2.5 | 2.8             | Multi-select introduced; Nernst & polygenic re-asked               |
+| 2011 | 3.5 | 3.0 | 2.5 | 2.0 | 2.5 | 2.7             | Many figures; biochemistry deepens                                 |
+| 2012 | 3.5 | 3.5 | 2.5 | 2.5 | 2.5 | 2.9             | Reagent-table identification; Western-blot reasoning               |
+| 2013 | 3.5 | 3.5 | 2.5 | 2.5 | 2.5 | 2.9             | Strong negation density                                            |
+| 2014 | 4.0 | 4.0 | 3.0 | 3.0 | 3.5 | 3.5             | Long stems; T/F sub-bubbling; mechanism + pharmacology integration |
+| 2015 | 3.5 | 3.5 | 2.5 | 2.5 | 3.0 | 3.0             | Slight dip vs. 2014, but still demanding                           |
+| 2016 | 4.0 | 4.0 | 3.5 | 3.5 | 3.5 | 3.7             | Hardest year by composite; image-heavy; many select-all            |
+| 2017 | 4.0 | 4.0 | 3.0 | 3.5 | 3.5 | 3.6             | Quant + experimental design dense; Zika scenario, NADPH oxidase    |
+| 2018 | 4.0 | 4.0 | 3.0 | 3.0 | 3.5 | 3.5             | Multi-question stems return; less multi-select but heavier prose   |
 
 Reading the rubric:
 
@@ -113,35 +113,35 @@ A reasonable working hypothesis is that the *modal* well-prepared student lost r
 
 ### 4.1 Stem patterns
 
-| Pattern                                    | Frequency | Notes                                                                                                                                              |
-| ------------------------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Direct ID ("which structure / term / X is …") | High (all years) | Lowest cognitive load. Solvable by recall.                                                                                                  |
-| **NOT / EXCEPT / FALSE / LEAST / incorrect** | ~25–35 % of items | Most common difficulty multiplier. Requires evaluating *all* options, not just finding one correct.                                          |
-| Roman-numeral combination (I/II/III/IV)     | ≈ 1–4 / exam | Forces independent evaluation of each statement; one weak statement collapses several option choices.                                              |
-| **"Select all that apply" / multi-key**     | Concentrated 2010, 2014–2017 | Penalizes guessing; rewards mechanism mastery on every option.                                                                       |
-| True/False sub-bubbling (A/B/C/D each scored) | Mainly 2014, 2018 | Each option is a separate scored item; partial credit possible.                                                                                  |
-| Long applied scenario (≥ 80 words)         | Rises sharply 2014+ | Reading-speed test as much as biology test.                                                                                                       |
-| Quantitative single-step                   | All years | pH, allele frequency, simple ratios.                                                                                                              |
-| Quantitative multi-step                    | 2010, 2014, 2016+ | Half-life chains, recombination + map order, energy-flow efficiency products.                                                                   |
-| Figure / image interpretation              | Concentrated 2007–2008, 2011–2012, 2014, 2016 | Pedigrees, gels, plasmids, leaf cross-sections, phylogenies.                                                                       |
-| Multi-question shared stem                 | 2018 (revived) | Lead-in vignette gates two or more sub-items.                                                                                                     |
+| Pattern                                       | Frequency                                     | Notes                                                                                                 |
+| --------------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Direct ID ("which structure / term / X is …") | High (all years)                              | Lowest cognitive load. Solvable by recall.                                                            |
+| **NOT / EXCEPT / FALSE / LEAST / incorrect**  | ~25–35 % of items                             | Most common difficulty multiplier. Requires evaluating *all* options, not just finding one correct.   |
+| Roman-numeral combination (I/II/III/IV)       | ≈ 1–4 / exam                                  | Forces independent evaluation of each statement; one weak statement collapses several option choices. |
+| **"Select all that apply" / multi-key**       | Concentrated 2010, 2014–2017                  | Penalizes guessing; rewards mechanism mastery on every option.                                        |
+| True/False sub-bubbling (A/B/C/D each scored) | Mainly 2014, 2018                             | Each option is a separate scored item; partial credit possible.                                       |
+| Long applied scenario (≥ 80 words)            | Rises sharply 2014+                           | Reading-speed test as much as biology test.                                                           |
+| Quantitative single-step                      | All years                                     | pH, allele frequency, simple ratios.                                                                  |
+| Quantitative multi-step                       | 2010, 2014, 2016+                             | Half-life chains, recombination + map order, energy-flow efficiency products.                         |
+| Figure / image interpretation                 | Concentrated 2007–2008, 2011–2012, 2014, 2016 | Pedigrees, gels, plasmids, leaf cross-sections, phylogenies.                                          |
+| Multi-question shared stem                    | 2018 (revived)                                | Lead-in vignette gates two or more sub-items.                                                         |
 
 ### 4.2 Distractor taxonomy
 
 Recognizing the family of trap reduces error rate sharply:
 
-| Distractor family                  | Mechanism of the trap                                                                                            | Defense                                                                                                  |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| **Vocabulary swap**                | Two real terms with adjacent meaning (e.g., proto-oncogene ↔ tumor suppressor; oligodendrocyte ↔ Schwann)        | Restate the textbook definition before scanning options                                                  |
-| **Direction reversal**             | Same chain in reverse order (e.g., heart blood flow; hormone cascade I/II/III)                                   | Draw the directed arrow first, then read options                                                         |
-| **Magnitude / sign flip**          | Same equation, opposite sign or off-by-one log unit                                                              | Solve to one significant figure before looking at choices                                                |
-| **All-of-the-above bait**          | "All of the above" with one mildly wrong sub-statement                                                           | Test each sub-statement against a definite counter-example                                               |
-| **Mechanism-correct, scope-wrong** | True statement, but for the wrong organism / tissue / phase                                                      | Anchor the *system* before the *fact*                                                                    |
-| **Spurious causation**             | Plausible-sounding "because" that pairs a real fact with the wrong reason                                        | Treat the conjunction as two independent claims                                                          |
-| **Negation flip**                  | Converting "X promotes Y" into "X inhibits Y" by single word                                                     | Read the verb twice; underline NOT/EXCEPT/FALSE                                                          |
-| **Unit / dimension trap**          | Wrong unit but right numeric value, or right unit but right *order of magnitude*-off                             | Carry units explicitly through every step                                                                |
-| **Synonym for the right answer**   | Disguising the keyed answer in unfamiliar phrasing while a wrong-but-canonical term distracts                    | Predict the answer before scanning options                                                               |
-| **Half-mechanism**                 | Option states first half of mechanism correctly; the consequence half is wrong                                   | Force yourself to read each option to its end                                                            |
+| Distractor family                  | Mechanism of the trap                                                                                     | Defense                                                    |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Vocabulary swap**                | Two real terms with adjacent meaning (e.g., proto-oncogene ↔ tumor suppressor; oligodendrocyte ↔ Schwann) | Restate the textbook definition before scanning options    |
+| **Direction reversal**             | Same chain in reverse order (e.g., heart blood flow; hormone cascade I/II/III)                            | Draw the directed arrow first, then read options           |
+| **Magnitude / sign flip**          | Same equation, opposite sign or off-by-one log unit                                                       | Solve to one significant figure before looking at choices  |
+| **All-of-the-above bait**          | "All of the above" with one mildly wrong sub-statement                                                    | Test each sub-statement against a definite counter-example |
+| **Mechanism-correct, scope-wrong** | True statement, but for the wrong organism / tissue / phase                                               | Anchor the *system* before the *fact*                      |
+| **Spurious causation**             | Plausible-sounding "because" that pairs a real fact with the wrong reason                                 | Treat the conjunction as two independent claims            |
+| **Negation flip**                  | Converting "X promotes Y" into "X inhibits Y" by single word                                              | Read the verb twice; underline NOT/EXCEPT/FALSE            |
+| **Unit / dimension trap**          | Wrong unit but right numeric value, or right unit but right *order of magnitude*-off                      | Carry units explicitly through every step                  |
+| **Synonym for the right answer**   | Disguising the keyed answer in unfamiliar phrasing while a wrong-but-canonical term distracts             | Predict the answer before scanning options                 |
+| **Half-mechanism**                 | Option states first half of mechanism correctly; the consequence half is wrong                            | Force yourself to read each option to its end              |
 
 Every year contains at least three of these families; 2014, 2016, and 2017 use eight or more.
 
@@ -235,28 +235,28 @@ Concrete parameters for the question-generation pipeline, derived from the patte
 
 ### 7.1 Topic mix per generated practice set
 
-| Pillar                | Target share | Rationale                                                 |
-| --------------------- | ------------ | --------------------------------------------------------- |
-| Cell & Molecular      | 26 %         | Largest pillar; matches observed average                  |
-| Animal Physiology     | 22 %         | Stable second-largest pillar                              |
-| Genetics              | 16 %         | Includes Hardy-Weinberg, linkage, pedigree, imprinting    |
-| Plant Physiology      | 12 %         | Hormones + transport + reproduction                       |
-| Ecology               | 8 %          | Population, trophic, cycles                               |
-| Evolution             | 8 %          | Selection, speciation, phylogeny, dN/dS                   |
-| Behavior              | 5 %          | Proximate/ultimate, innate/learned                        |
-| Biosystematics        | 3 %          | Domain comparisons, alternation of generations            |
+| Pillar            | Target share | Rationale                                              |
+| ----------------- | ------------ | ------------------------------------------------------ |
+| Cell & Molecular  | 26 %         | Largest pillar; matches observed average               |
+| Animal Physiology | 22 %         | Stable second-largest pillar                           |
+| Genetics          | 16 %         | Includes Hardy-Weinberg, linkage, pedigree, imprinting |
+| Plant Physiology  | 12 %         | Hormones + transport + reproduction                    |
+| Ecology           | 8 %          | Population, trophic, cycles                            |
+| Evolution         | 8 %          | Selection, speciation, phylogeny, dN/dS                |
+| Behavior          | 5 %          | Proximate/ultimate, innate/learned                     |
+| Biosystematics    | 3 %          | Domain comparisons, alternation of generations         |
 
 For an era-faithful 50-question set, pull `floor(50 × share)` per pillar and distribute the rounding remainder to Cell & Molecular and Animal Physiology.
 
 ### 7.2 Difficulty mix
 
-| Difficulty band       | 2003-style set | 2010-style set | 2018-style set |
-| --------------------- | -------------- | -------------- | -------------- |
-| Pure recall (R-heavy) | 60 %           | 40 %           | 25 %           |
-| Mechanism (C-heavy)   | 30 %           | 35 %           | 30 %           |
-| Data/figure (D-heavy) |  5 %           | 10 %           | 20 %           |
-| Experimental (E-heavy)|  3 %           |  8 %           | 15 %           |
-| Multi-step (I-heavy)  |  2 %           |  7 %           | 10 %           |
+| Difficulty band        | 2003-style set | 2010-style set | 2018-style set |
+| ---------------------- | -------------- | -------------- | -------------- |
+| Pure recall (R-heavy)  | 60 %           | 40 %           | 25 %           |
+| Mechanism (C-heavy)    | 30 %           | 35 %           | 30 %           |
+| Data/figure (D-heavy)  | 5 %            | 10 %           | 20 %           |
+| Experimental (E-heavy) | 3 %            | 8 %            | 15 %           |
+| Multi-step (I-heavy)   | 2 %            | 7 %            | 10 %           |
 
 Generated items should carry these axis tags as structured metadata so practice sets can be calibrated to the era the student is preparing for.
 
