@@ -53,15 +53,13 @@ If it is FALSE, do NOT bubble the response letter. Each correct response is valu
 
 ### 7. Which of the following is NOT a component of the cell wall or cell membrane?
 
-- [ ] **A.** ![Question 7 figure 1](images/page03_image01.png)
-
-- [ ] **B.** ![Question 7 figure 2](images/page03_image02.png)
-
-- [ ] **C.** ![Question 7 figure 3](images/page03_image03.png)
-
-- [ ] **D.** ![Question 7 figure 4](images/page03_image04.png)
-
-- [ ] **E.** ![Question 7 figure 5](images/page03_image05.png)
+| Choice | Structure                                         |
+| ------ | ------------------------------------------------- |
+| A      | ![Question 7 figure 1](images/page03_image01.png) |
+| B      | ![Question 7 figure 2](images/page03_image02.png) |
+| C      | ![Question 7 figure 3](images/page03_image03.png) |
+| D      | ![Question 7 figure 4](images/page03_image04.png) |
+| E      | ![Question 7 figure 5](images/page03_image05.png) |
 
 ### 8. Consider the 5' to 3' nature of polymerase and its secondary functions and the structure of a nucleotide and its incorporation into a growing polynucleotide chain. Select the best possible explanation below for why evolution has favored 5' to 3' polymerases, as opposed to 3' to 5' ones.
 
@@ -100,7 +98,7 @@ If it is FALSE, do NOT bubble the response letter. Each correct response is valu
 ![Question 12 figure 1](images/page04_image01.png)
 
 - [ ] **A.** Box.
-- [ ] **B.** Oil. http://en.wikipedia.org/wiki/File:Pizza_bella_vista.jpg
+- [ ] **B.** Oil.
 - [ ] **C.** Mushrooms.
 - [ ] **D.** Onions.
 - [ ] **E.** Sauce.
@@ -211,13 +209,13 @@ III. Calcium
 - [ ] **D.** I, II, and III
 - [ ] **E.** II and III
 
-### 25. Select the statement that best describes movement of O2, Na+, and glucose into and out of the capillaries.
+### 25. Select the statement that best describes movement of $O_2$, $Na^+$, and glucose into and out of the capillaries.
 
-- [ ] **A.** O2 and glucose diffuse across endothelial cell membranes; Na+ diffuses through pores between cells.
-- [ ] **B.** O2 and Na+ diffuse across endothelial cell membranes; glucose diffuses through pores between cells.
-- [ ] **C.** O2 diffuses across endothelial cell membranes; Na+ and glucose diffuse through pores between cells.
-- [ ] **D.** O2, Na+, and glucose all diffuse across endothelial cell membranes.
-- [ ] **E.** O2, Na+, and glucose all diffuse through pores between endothelial cells.
+- [ ] **A.** $O_2$ and glucose diffuse across endothelial cell membranes; $Na^+$ diffuses through pores between cells.
+- [ ] **B.** $O_2$ and $Na^+$ diffuse across endothelial cell membranes; glucose diffuses through pores between cells.
+- [ ] **C.** $O_2$ diffuses across endothelial cell membranes; $Na^+$ and glucose diffuse through pores between cells.
+- [ ] **D.** $O_2$, $Na^+$, and glucose all diffuse across endothelial cell membranes.
+- [ ] **E.** $O_2$, $Na^+$, and glucose all diffuse through pores between endothelial cells.
 
 ### 26. A new chemical is found that inhibits muscle function and in high enough doses causes paralysis. Which of the following is NOT a plausible mechanism by which this chemical could function?
 
@@ -234,7 +232,7 @@ III. Calcium
 - [ ] **A.** The mouse has no antibodies. True or False
 - [ ] **B.** The mouse low avidity IgA and IgM. True or False
 - [ ] **C.** The mouse has normal levels of membrane-bound antibodies (these are B-cell receptors). True or False
-- [ ] **D.** The mouse has low levels of secreted IgG. True or False Source: http://www.tulane.edu/~biochem/med/igm.gif
+- [ ] **D.** The mouse has low levels of secreted IgG. True or False
 
 ### 28. In the 1944 movie Arsenic and Old Lace, Mortimer Brewster visits his two aunts and discovers a body in the window seat. Mortimer assumes it is his delusional uncle Teddy who believes he is Theodore Roosevelt, but his aunts immediately respond that it is one of their “responsible charities”. His aunts’ charity is to end the suffering of lonely old bachelors by serving them elderberry wine spiked with arsenic, strychnine, and “just a pinch of cyanide”. Which of the following statements is True and which is False as to how these unfortunate bachelors met their demise? If response A, B, C, or D is TRUE, bubble that response letter on your scantron. If it is FALSE, do NOT bubble the response letter. Each correct response is valued at 0.25 points.
 
@@ -268,9 +266,7 @@ VIII. Pulmonary veins
 - [ ] **D.** Nuclear DNA.
 - [ ] **E.** Nutrients.
 
-### 31. Boston is known for having aggressive geese along riverside paths, which frequently stand their ground rather than flee in response to rapidly approaching runners or bikers.
-
-City ordinance prohibits causing harm to these geese. At the individual level, what is the most likely explanation for this behavior?
+### 31. Boston is known for having aggressive geese along riverside paths, which frequently stand their ground rather than flee in response to rapidly approaching runners or bikers. City ordinance prohibits causing harm to these geese. At the individual level, what is the most likely explanation for this behavior?
 
 - [ ] **A.** It is innate
 - [ ] **B.** It is a consequence of classical conditioning
@@ -310,7 +306,7 @@ Each correct response is valued at 0.25 points.
 - [ ] **A.** Abnormalities in sex chromosome segregation in humans are always fatal. True or False
 - [ ] **B.** In most mammals and birds, males have XY sex chromosomes. True or False
 - [ ] **C.** Down’s Syndrome is often caused by a chromosome segregation error. True or False
-- [ ] **D.** D. It is not uncommon for plants to have more than 2 copies of each chromosome. True or False
+- [ ] **D.** It is not uncommon for plants to have more than 2 copies of each chromosome. True or False
 
 ### 36. Which of the following is a genetic variation of Klinefelter’s Syndrome?
 
@@ -366,17 +362,11 @@ Yellow x Yellow → 263 yellow-colored mice and 100 gray-colored mice.
 
 In 1910, W.E. Castle confirmed Cuenot’s results with similar experiments. Their combined data are shown in the table below.
 
-Yellow Gray Total % Yellow Cuenot 263 100 363
-
-72.45
-
-Castle 800 435
-
-64.77
-
-Total 535
-
-66.52
+|        | Yellow | Gray | Total | % Yellow |
+| ------ | ------ | ---- | ----- | -------- |
+| Cuenot | 263    | 100  | 363   | 72.45    |
+| Castle | 800    | 435  | 1235  | 64.77    |
+| Total  | 1063   | 535  | 1598  | 66.52    |
 
 Which of the following is the most likely explanation for yellow and gray coat colors in the mice?
 
@@ -394,12 +384,12 @@ Which of the following is the most likely explanation for yellow and gray coat c
 - [ ] **D.** 7/16 gray, 9/16 yellow
 - [ ] **E.** 9/16 yellow, 7/16 gray
 
-### 44. Although babies have been switched at birth it is a rare occurrence. One case involved a baby whose mother had O, N, RH+ blood and whose father had A, MN, Rh- blood.
+### 44. Although babies have been switched at birth it is a rare occurrence. One case involved a baby whose mother had O, N, $RH^+$ blood and whose father had A, MN, $Rh^-$ blood.
 
 Which child below most likely belongs to this couple?
 
-- [ ] **A.** AB, MN, Rh+.
-- [ ] **B.** B, N, Rh-.
+- [ ] **A.** AB, MN, $Rh^+$.
+- [ ] **B.** B, N, $Rh^-$.
 - [ ] **C.** A, M, Rh+.
 - [ ] **D.** AB, M, Rh-.
 - [ ] **E.** O, N, Rh+.
@@ -412,30 +402,26 @@ Which child below most likely belongs to this couple?
 - [ ] **D.** Directional selection.
 - [ ] **E.** Multifactorial traits.
 
-### 46. In a particular ecosystem, the biomass pyramid looks like this: Indicate whether the following statements about this ecosystem are true and which are false.
+### 46. In a particular ecosystem, the biomass pyramid looks like this:
 
-If response A, B, C, or D is TRUE, bubble that response letter on your scantron. If it is FALSE, do NOT bubble the response letter. Each correct response is valued at 0.25 points.
+Indicate whether the following statements about this ecosystem are true and which are false. If response A, B, C, or D is TRUE, bubble that response letter on your scantron. If it is FALSE, do NOT bubble the response letter. Each correct response is valued at 0.25 points.
 
 ![Question 46 figure 1](images/page15_image01.png)
-
-![Question 46 figure 2](images/page16_image01.png)
-
-![Question 46 figure 3](images/page16_image02.png)
-
-![Question 46 figure 4](images/page16_image03.png)
-
-![Question 46 figure 5](images/page16_image04.png)
-
-![Question 46 figure 6](images/page16_image05.png)
-
-![Question 46 figure 7](images/page16_image06.png)
 
 - [ ] **A.** The turnover time of the producers is especially fast. True or False
 - [ ] **B.** The producers are especially poor at converting sunlight to biomass. True or False
 - [ ] **C.** The primary consumers must have an especially high ecological efficiency. True or False
-- [ ] **D.** This type of pyramid can be observed in a stable ecosystem. True or False E D C B A
+- [ ] **D.** This type of pyramid can be observed in a stable ecosystem. True or False
 
 ### 47. In the graph below, which point indicates where populations should be harvested to best obtain optimal yield?
+
+![Question 47 figure 1](images/page16_image01.png)
+
+- [ ] **A.** Point A: Earliest point, smallest population size, bottom left
+- [ ] **B.** Point B: Lower section of the steep upward curve
+- [ ] **C.** Point C: Middle section of the steep upward curve
+- [ ] **D.** Point D: Upper section where the curve begins to flatten
+- [ ] **E.** Point E: Rightmost point on the flat, stable plateau
 
 ### 48. Which of the following biomes receives the most annual rainfall?
 
@@ -465,55 +451,55 @@ If response A, B, C, or D is TRUE, bubble that response letter on your scantron.
 
 Extraction method: `yellow-highlight extraction from answer-key PDF`
 
-| Question | Answer |
-|---:|:---|
-| 1 | B |
-| 2 | D |
-| 3 | C |
-| 4 | A |
-| 5 | C |
-| 6 | A+C+D |
-| 7 | D |
-| 8 | B |
-| 9 | D |
-| 10 | E |
-| 11 | D |
-| 12 | C |
-| 13 | A |
-| 14 | A+B |
-| 15 | C |
-| 16 | A |
-| 17 | B |
-| 18 | E |
-| 19 | C |
-| 20 | E |
-| 21 | E |
-| 22 | A+B+C |
-| 23 | D |
-| 24 | E |
-| 25 | C |
-| 26 | C |
-| 27 | B+C |
-| 28 | A+B+C+D |
-| 29 | C |
-| 30 | D |
-| 31 | C |
-| 32 | A+D |
-| 33 | C |
-| 34 | A |
-| 35 | C+D |
-| 36 | E |
-| 37 | B |
-| 38 | A |
-| 39 | D |
-| 40 | A |
-| 41 | A+D |
-| 42 | C |
-| 43 | A |
-| 44 | E |
-| 45 | D |
-| 46 | A+D |
-| 47 | C |
-| 48 | C |
-| 49 | E |
-| 50 | B |
+| Question | Answer  |
+| -------: | :------ |
+|        1 | B       |
+|        2 | D       |
+|        3 | C       |
+|        4 | A       |
+|        5 | C       |
+|        6 | A+C+D   |
+|        7 | D       |
+|        8 | B       |
+|        9 | D       |
+|       10 | E       |
+|       11 | D       |
+|       12 | C       |
+|       13 | A       |
+|       14 | A+B     |
+|       15 | C       |
+|       16 | A       |
+|       17 | B       |
+|       18 | E       |
+|       19 | C       |
+|       20 | E       |
+|       21 | E       |
+|       22 | A+B+C   |
+|       23 | D       |
+|       24 | E       |
+|       25 | C       |
+|       26 | C       |
+|       27 | B+C     |
+|       28 | A+B+C+D |
+|       29 | C       |
+|       30 | D       |
+|       31 | C       |
+|       32 | A+D     |
+|       33 | C       |
+|       34 | A       |
+|       35 | C+D     |
+|       36 | E       |
+|       37 | B       |
+|       38 | A       |
+|       39 | D       |
+|       40 | A       |
+|       41 | A+D     |
+|       42 | C       |
+|       43 | A       |
+|       44 | E       |
+|       45 | D       |
+|       46 | A+D     |
+|       47 | C       |
+|       48 | C       |
+|       49 | E       |
+|       50 | B       |
