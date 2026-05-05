@@ -28,9 +28,10 @@
 
 ### 4. You are analyzing a receptor that is expressed on the cell surface of two different cell types (Cell Type I and Cell Type II). Based on the information given in the table below, identify the cell type whose receptor is more sensitive to the ligand?
 
-K1 (µM-1/min)
-
-Cell Type 1 Cell Type 2
+|             | K1 (µM-1/min) |
+| ----------- | ------------- |
+| Cell Type 1 | 8             |
+| Cell Type 2 | 16            |
 
 - [ ] **A.** Cell Type 1 is more sensitive, because its kD is larger.
 - [ ] **B.** Cell Type 1 is more sensitive, because its kD is smaller.
@@ -88,20 +89,18 @@ Which reaction will have the highest ratio of products to reactants at equilibri
 
 ### 11. Which of the following incorrectly compares C3 versus C4 plants?
 
-C3 plants C4 plants
-
-- [ ] **A.** Rubisco performs initial carbon fixation step PEPase performs initial carbon fixation step
-- [ ] **B.** Loses water and energy through No or very low photorespiration rate photorespiration
-- [ ] **C.** RuBP initially accepts carbon diozide PEP initially accepts carbon dioxide
-- [ ] **D.** Most plants Tropical grasses
-- [ ] **E.** Spatial separation of carbon fixation and Temporal separation of carbon fixation and photosynthesis photosynthesis
+| Choice | C3 plants                                                | C4 plants                                                 |
+| ------ | -------------------------------------------------------- | --------------------------------------------------------- |
+| A      | Rubisco performs initial carbon fixation step            | PEPase performs initial carbon fixation step              |
+| B      | Loses water and energy through photorespiration          | No or very low photorespiration rate                      |
+| C      | RuBP initially accepts carbon dioxide                    | PEP initially accepts carbon dioxide                      |
+| D      | Most plants                                              | Tropical grasses                                          |
+| E      | Spatial separation of carbon fixation and photosynthesis | Temporal separation of carbon fixation and photosynthesis |
 
 ### 12. Grace is attempting to identify what organism a tissue sample came from. She finds linear cellulose synthesizing complexes. Which of the following organisms could it have come from?
 
 I. Plant
-
 II. Charophycean
-
 III. Green Alga
 
 - [ ] **A.** I only.
@@ -126,7 +125,14 @@ III. Green Alga
 - [ ] **D.** Anions such as phosphate and sulfate bind to soil particles and are not easily leached from the soil.
 - [ ] **E.** Atmospheric nitrogen and nitrogenous compounds in the humus are the first and second most important reservoirs of bioavailable nitrogen for plants in most habitats.
 
-### 15. Consider the following experiment similar to those first performed in the 1950’s. Individual Arabidopsis thaliana plants are grown in a hydroponic solution (without soil). Some plants (Group A) are grown in water labeled (20%) with oxygen-18 and atmospheric air with unlabeled CO2, while others (Group B) are grown in unlabeled water and atmospheric air with 50% of the CO2 labeled with oxygen-18. Gases produced by the plant are collected for 20 minutes. After 1 day, the following are analyzed for oxygen-18 content: the collected gas, tissue from the plants, and tissue from the plants baked until dry. The results are as follows, where a + indicates a statistically significant enrichment and a - indicates no enrichment: Collected gas Plant tissue Dried plant tissue Group A + - - (H2O labeled) Group B - + + (CO2 labeled) Assuming that the detailed mechanisms of photosynthesis have not yet been discovered, what would be concluded about photosynthesis from this experiment?
+### 15. Consider the following experiment similar to those first performed in the 1950’s. Individual Arabidopsis thaliana plants are grown in a hydroponic solution (without soil). Some plants (Group A) are grown in water labeled (20%) with oxygen-18 and atmospheric air with unlabeled CO2, while others (Group B) are grown in unlabeled water and atmospheric air with 50% of the CO2 labeled with oxygen-18. Gases produced by the plant are collected for 20 minutes. After 1 day, the following are analyzed for oxygen-18 content: the collected gas, tissue from the plants, and tissue from the plants baked until dry. The results are as follows, where a + indicates a statistically significant enrichment and a - indicates no enrichment:
+
+|                       | Collected gas | Plant tissue | Dried plant tissue |
+| --------------------- | ------------- | ------------ | ------------------ |
+| Group A (H2O labeled) | +             | -            | -                  |
+| Group B (CO2 labeled) | -             | +            | +                  |
+
+Assuming that the detailed mechanisms of photosynthesis have not yet been discovered, what would be concluded about photosynthesis from this experiment?
 
 - [ ] **A.** The oxygen atoms in plant sugars (or other organic compounds) are derived from water.
 - [ ] **B.** The oxygen atoms in the CO2 produced by plant respiration originated from water.
@@ -230,7 +236,16 @@ The hormone with its concentration plotted is released from which of the followi
 
 ### 27. The Starling equation is a widely used model of the movement of fluid across capillary walls in animals. Essentially, the fluid flux is proportional to the net pressure from oncotic and hydrostatic pressures, and to the permeability of the capillary wall to water. The oncotic pressure is simply the osmotic pressure contributed by proteins in the blood serum like albumin.
 
-Jv = Kf [ (Pc - Pi) - (πc - πi) ], where Jv = fluid movement/flux out of the capillary (mL min-1) Kf = hydraulic conductance (mL min-1 mmHg-1) Pc = capillary hydrostatic pressure (mmHg) Pi = interstitial hydrostatic pressure (mmHg) πc = capillary oncotic pressure (mmHg) πi = interstitial oncotic pressure (mmHg) Which of the following physiologic changes would increase the fluid volume of the interstitial space of tissues? Select ALL where the change will increase the fluid volume of the interstitial space.
+Jv = Kf [ (Pc - Pi) - (πc - πi) ], where
+
+Jv = fluid movement/flux out of the capillary (mL min-1)
+Kf = hydraulic conductance (mL min-1 mmHg-1)
+Pc = capillary hydrostatic pressure (mmHg)
+Pi = interstitial hydrostatic pressure (mmHg)
+πc = capillary oncotic pressure (mmHg)
+πi = interstitial oncotic pressure (mmHg)
+
+Which of the following physiologic changes would increase the fluid volume of the interstitial space of tissues? Select ALL where the change will increase the fluid volume of the interstitial space.
 
 - [ ] **A.** Scarring of and decreased albumin synthesis by the liver from chronic alcohol abuse.
 - [ ] **B.** Constriction of a precapillary smooth muscle sphincter upstream of the capillary bed.
@@ -311,17 +326,29 @@ The Control Group is reared with their species and sings this species’ song. T
 Without considering crossing over, how many genetically unique individuals can one pair of snails potentially produce when reproducing sexually?
 
 - [ ] **A.** 68.
-- [ ] **B.** 234 × 234.
-- [ ] **C.** 2 × 342.
-- [ ] **D.** 217 × 217.
+- [ ] **B.** $2^{34} × 2^{34}$.
+- [ ] **C.** $2 × 34^2$.
+- [ ] **D.** $2^{17} × 2^{17}$.
 - [ ] **E.** It is impossible to know.
 
 ### 37. Unlike the eukaryotes, there is only one origin of replication (ori site) in the bacterial genome. If DNA polymerase enzyme adds nucleotides at the rate of 10,000 base pairs/minute in one direction and the bacterial cells replicate their entire genome every 20 minutes, what is the size of the bacterial genome?
 
-- [ ] **A.** 4 X 105 base pairs.
-- [ ] **B.** 2 X 105 base pairs.
-- [ ] **C.** 4 X 105 base.
-- [ ] **D.** 2 X 105 base. Questions 38 to 41. Next Generation Sequencing (NGS) technologies automate sequencing of billions of base pairs (bp) across many pooled samples, each sample previously labeled with a unique oligonucleotide “barcode” allowing for subsequent identification of sequences with the samples they came from. Suppose you wanted to study the composition of oral bacteria from 100 patients by using NGS to sequence the DNA isolated from saliva and then aligning the resulting sequences to a database in order to compare the compositions of bacteria identified from each patient. You were able to sequence 9 x 109 bp of total bacterial sequence among all your samples. Below is a table of sequencing data for some of the samples. Table of read depths and compositions Sample # Barcode Number of Sequencing Reads ATGCGCAT 121854 ATATCTGC 394553 ATGTCCGC 67502 Assuming that each sequence consists of 300bp, could be sequenced from either the forward or reverse strand of the DNA, and for simplicity, that all sequences were of good quality, indicate if each of the following statements is TRUE (Use A) or FALSE (Use B):
+- [ ] **A.** $4 \times 10^5$ base pairs.
+- [ ] **B.** $2 \times 10^5$ base pairs.
+- [ ] **C.** $4 \times 10^5$ base.
+- [ ] **D.** $2 \times 10^5$ base.
+
+## Questions 38 to 41. Next Generation Sequencing (NGS) technologies automate sequencing of billions of base pairs (bp) across many pooled samples, each sample previously labeled with a unique oligonucleotide “barcode” allowing for subsequent identification of sequences with the samples they came from. Suppose you wanted to study the composition of oral bacteria from 100 patients by using NGS to sequence the DNA isolated from saliva and then aligning the resulting sequences to a database in order to compare the compositions of bacteria identified from each patient. You were able to sequence 9 x 109 bp of total bacterial sequence among all your samples. Below is a table of sequencing data for some of the samples.
+
+Table of read depths and compositions
+
+| Sample # | Barcode  | Number of Sequencing Reads |
+| :------: | :------: | :------------------------: |
+|          | ATGCGCAT |           121854           |
+|    4     | ATATCTGC |           394553           |
+|    26    | ATGTCCGC |           67502            |
+
+Assuming that each sequence consists of 300bp, could be sequenced from either the forward or reverse strand of the DNA, and for simplicity, that all sequences were of good quality, indicate if each of the following statements is TRUE (Use A) or FALSE (Use B):
 
 ### 38. Since Sample 4 has the most sequence read, Sample 4 has the most bacterial diversity.
 
@@ -329,11 +356,11 @@ Without considering crossing over, how many genetically unique individuals can o
 
 ### 40. Errors during the labeling steps resulting in two transition mutations in the barcode for Sample 26 could result in the same barcode used for Sample 4.
 
-### 41. The experiment yielded 3 x 107 sequences.
+### 41. The experiment yielded 3 x $10^7$ sequences.
 
 ### 42. Influenza is a negative-sense, single-stranded RNA virus, which means that its genome is copied into complementary, positive-sense mRNA that is then translated into protein. Use the codon table provided below to determine what protein sequence is produced by this 3- codon segment of the influenza virus genome.
 
-5'-ACGUACUGU-3' Image: Creative Commons via Wikipedia
+5'-ACGUACUGU-3'
 
 ![Question 42 figure 1](images/page14_image01.png)
 
@@ -410,55 +437,55 @@ Without considering crossing over, how many genetically unique individuals can o
 
 Extraction method: `visual transcription from image-only answer key`
 
-| Question | Answer |
-|---:|:---|
-| 1 | E |
-| 2 | C |
-| 3 | E |
-| 4 | D |
-| 5 | C |
-| 6 | A |
-| 7 | A |
-| 8 | B |
-| 9 | D |
-| 10 | B |
-| 11 | E |
-| 12 | C+E |
-| 13 | A |
-| 14 | C |
-| 15 | D |
-| 16 | A+C |
-| 17 | B |
-| 18 | B |
-| 19 | C |
-| 20 | B |
-| 21 | A |
-| 22 | C |
-| 23 | A+B+C+D+E |
-| 24 | D |
-| 25 | A+B+E |
-| 26 | E |
-| 27 | A+C+D+E |
-| 28 | A+B+E |
-| 29 | A+D |
-| 30 | D+E |
-| 31 | B |
-| 32 | A+C+D+E |
-| 33 | A+C |
-| 34 | B |
-| 35 | B |
-| 36 | D |
-| 37 | A |
-| 38 | B |
-| 39 | B |
-| 40 | B |
-| 41 | A |
-| 42 | D |
-| 43 | A+B+D |
-| 44 | A |
-| 45 | B |
-| 46 | C |
-| 47 | A |
-| 48 | A+B+C |
-| 49 | B |
-| 50 | B |
+| Question | Answer    |
+| -------: | :-------- |
+|        1 | E         |
+|        2 | C         |
+|        3 | E         |
+|        4 | D         |
+|        5 | C         |
+|        6 | A         |
+|        7 | A         |
+|        8 | B         |
+|        9 | D         |
+|       10 | B         |
+|       11 | E         |
+|       12 | C+E       |
+|       13 | A         |
+|       14 | C         |
+|       15 | D         |
+|       16 | A+C       |
+|       17 | B         |
+|       18 | B         |
+|       19 | C         |
+|       20 | B         |
+|       21 | A         |
+|       22 | C         |
+|       23 | A+B+C+D+E |
+|       24 | D         |
+|       25 | A+B+E     |
+|       26 | E         |
+|       27 | A+C+D+E   |
+|       28 | A+B+E     |
+|       29 | A+D       |
+|       30 | D+E       |
+|       31 | B         |
+|       32 | A+C+D+E   |
+|       33 | A+C       |
+|       34 | B         |
+|       35 | B         |
+|       36 | D         |
+|       37 | A         |
+|       38 | B         |
+|       39 | B         |
+|       40 | B         |
+|       41 | A         |
+|       42 | D         |
+|       43 | A+B+D     |
+|       44 | A         |
+|       45 | B         |
+|       46 | C         |
+|       47 | A         |
+|       48 | A+B+C     |
+|       49 | B         |
+|       50 | B         |
