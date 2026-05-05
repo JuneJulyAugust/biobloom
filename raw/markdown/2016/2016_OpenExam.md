@@ -10,48 +10,57 @@
 
 ### 2. Which of the following statements is FALSE regarding the secretion of hormones by the anterior pituitary? SELECT ALL THAT APPLY
 
-Hormone
-
-Target Effect
-
-- [ ] **A.** Beta-endorphin Adrenal gland Secretion of glucocorticoid
-- [ ] **B.** Corticotropin Adrenal gland Secretion of androgens
-- [ ] **C.** Prolactin Mammary glands Promotes lactation
-- [ ] **D.** Growth Hormone Liver Promotes growth
-- [ ] **E.** Leptin Corticotrophic cells ACTH secretion
+| Hormone           | Target               | Effect                      |
+| ----------------- | -------------------- | --------------------------- |
+| A. Beta-endorphin | Adrenal gland        | Secretion of glucocorticoid |
+| B. Corticotropin  | Adrenal gland        | Secretion of androgens      |
+| C. Prolactin      | Mammary glands       | Promotes lactation          |
+| D. Growth Hormone | Liver                | Promotes growth             |
+| E. Leptin         | Corticotrophic cells | ACTH secretion              |
 
 ### 3. You inserted the coding sequence for your favorite protein into the HindIII site. You find that E. coli carrying this plasmid express the protein in the presence of IPTG, a lactose analog. What DNA elements would you expect to find in proximity to the HindIII site? Select the choice which gives the appropriate elements in the correct order.
 
-1. Binding sites for the LacI repressor
-
-2. Enhancer sequences
-
-3. Poly-A sequence
-
 ![Question 3 figure 1](images/page02_image01.png)
 
-### 4. Ribosomal binding site
-
-![Question 4 figure 1](images/page03_image02.png)
-
-### 5. Stop codon(s)
-
-![Question 5 figure 1](images/page03_image01.png)
-
-### 6. Strong constitutive promoter
-
-![Question 6 figure 1](images/page04_image01.png)
+1. Binding sites for the LacI repressor
+2. Enhancer sequences
+3. Poly-A sequence
+4. Ribosomal binding site
+5. Stop codon(s)
+6. Strong constitutive promoter
 
 - [ ] **A.** 1, 2, 4, [HindIII site], 5, 3
 - [ ] **B.** 2, 1, 4, [HindIII site], 3, 5
 - [ ] **C.** 6, 1, 3, [HindIII site], 4, 5
 - [ ] **D.** 1, 6, 4, [HindIII site]. 3, 5
-- [ ] **E.** 6, 1, 4, [HindIII site], 5, 3 4. As DNA replication is occurring, the molecule below is inserted into the nascent DNA strand as it lengthens. Which statement below is TRUE of the progress of replication immediately afterwards? Source: Wikipedia.
+- [ ] **E.** 6, 1, 4, [HindIII site], 5, 3
+
+
+
+
+
+### 4. As DNA replication is occurring, the molecule below is inserted into the nascent DNA strand as it lengthens. Which statement below is TRUE of the progress of replication immediately afterwards? Source: Wikipedia.
+
+![Question 4 figure 1](images/page03_image02.png)
+
 - [ ] **A.** DNA replication would halt because there is an extra 5′-phosphate group for DNA polymerase to add the next nucleotide.
 - [ ] **B.** DNA replication would halt because there is no 3′OH for DNA polymerase to add the next nucleotide.
 - [ ] **C.** DNA replication would halt because there is no 5′OH for DNA polymerase to add the next nucleotide.
 - [ ] **D.** DNA replication would continue, but the new strand would have to be built from 3′ to 5′.
-- [ ] **E.** DNA replication would proceed normally. 5. A figure shown below is a transport model for inorganic ions and macromolecules in nuclear pore derived from patch-clamp experiments. In the absence of macromolecular transport, the electrical conductance (in pS) of the NPC is variable, shifting between open and closed states. In the presence of macromolecule transport, the central channel of the NPC is filled with electrically isolating material that plugs the tunnel. This results in a low passive permeability. In the closed state (closed NPC without transport cargo inside) and in the plugged state (open NPC with electrically isolating transport cargo inside), the patch resistance is high (in GΩ). From the patch-clamp recording graph, which of the following would correspond to the “open” state? 6. Consider the following plasmid, pET28a, a popular expression vector that is used for protein expression in bacteria. You freshly purified plasmid from overnight bacterial culture using extraction kit, also known as miniprep. You confirmed the quality of plasmids by checking DNA and protein ratio (A260/280) and running them on a DNA agarose gel. They looked pure as they should be. You would now like to digest this vector for gene manipulation (molecular cloning) to generate vectors suitable for molecular cloning. If you cut the above plasmid with restriction enzyme called HindIII, the form of DNA will be changed from
+- [ ] **E.** DNA replication would proceed normally.
+
+### 5.  A figure shown below is a transport model for inorganic ions and macromolecules in nuclear pore derived from patch-clamp experiments.
+
+![Question 5 figure 1](images/page03_image01.png)
+
+In the absence of macromolecular transport, the electrical conductance (in pS) of the NPC is variable, shifting between open and closed states. In the presence of macromolecule transport, the central channel of the NPC is filled with electrically isolating material that plugs the tunnel. This results in a low passive permeability. In the closed state (closed NPC without transport cargo inside) and in the plugged state (open NPC with electrically isolating transport cargo inside), the patch resistance is high (in GΩ). From the patch-clamp recording graph, which of the following would correspond to the “open” state?
+
+### 6. Consider the following plasmid, pET28a, a popular expression vector that is used for protein expression in bacteria.
+
+![Question 6 figure 1](images/page04_image01.png)
+
+You freshly purified plasmid from overnight bacterial culture using extraction kit, also known as miniprep. You confirmed the quality of plasmids by checking DNA and protein ratio (A260/280) and running them on a DNA agarose gel. They looked pure as they should be. You would now like to digest this vector for gene manipulation (molecular cloning) to generate vectors suitable for molecular cloning. If you cut the above plasmid with restriction enzyme called HindIII, the form of DNA will be changed from
+
 - [ ] **A.** Linear to supercoiled.
 - [ ] **B.** Nicked to linear.
 - [ ] **C.** Nicked to supercoiled.
@@ -148,7 +157,9 @@ In a figure shown below, deficiency in this nutrient results in changing color o
 - [ ] **B.** Significant color changes for all three colors was not detected until after the first frost.
 - [ ] **C.** Red color achieved a maximum earlier than yellow color.
 - [ ] **D.** When green leaf color was at a minimum, leaf color was more yellow than red.
-- [ ] **E.** All of the above are correct. (Based on Figure 1 from Tree Physiology 23, 325-333.2003 Heron Publishing-Victoria, CanadaFactors influencing red expression in autumn foliage of sugar mapletreesP. G. SCHABERG, A. K. VAN DEN BERG, P. F. MURAKAMI, J. B. SHANE and J. R. DONNELLY)
+- [ ] **E.** All of the above are correct.
+
+  (Based on Figure 1 from Tree Physiology 23, 325-333.2003 Heron Publishing-Victoria, CanadaFactors influencing red expression in autumn foliage of sugar mapletreesP. G. SCHABERG, A. K. VAN DEN BERG, P. F. MURAKAMI, J. B. SHANE and J. R. DONNELLY)
 
 ### 17. Which of the following statements about apical meristems is FALSE?
 
@@ -178,20 +189,21 @@ The fat’s in the liver, the cod’s in the sea.” This ditty was intended to 
 
 ### 20. Which of the following statements regarding vitamins and minerals is incorrect?
 
-![Question 20 figure 1](images/page10_image02.png)
-
-![Question 20 figure 2](images/page10_image03.png)
-
-![Question 20 figure 3](images/page10_image04.png)
-
-![Question 20 figure 4](images/page10_image05.png)
 
 - [ ] **A.** Essential minerals must be consumed in the diet.
 - [ ] **B.** Vitamins are organic substances.
 - [ ] **C.** Vitamins are important sources of energy for the body.
 - [ ] **D.** Iron, Fluorine, Calcium, and Sodium are all minerals.
-- [ ] **E.** Trace minerals represent <10% of our body weight. Questions 21 & 22. SELECT ALL THAT APPLY.
-- [ ] **A.** - [ ] **B.** C. D.
+- [ ] **E.** Trace minerals represent <10% of our body weight.
+
+## Questions 21 & 22. SELECT ALL THAT APPLY.
+
+| Choice | Figure                                             |
+| ------ | -------------------------------------------------- |
+| A      | ![Question 20 figure 1](images/page10_image02.png) |
+| B      | ![Question 20 figure 2](images/page10_image05.png) |
+| C      | ![Question 20 figure 3](images/page10_image03.png) |
+| D      | ![Question 20 figure 4](images/page10_image04.png) |
 
 ### 21. Which organisms in the figures above utilize holoblastic cleavage?
 
@@ -220,10 +232,6 @@ Now, you would like to double check before you submit this to your teacher, Dr. 
 
 ### 25. Which of the following amniotic membranes can be involved in the respiratory exchange of gases in a snake embryo? SELECT ALL THAT APPLY.
 
-![Question 25 figure 1](images/page12_image01.png)
-
-![Question 25 figure 2](images/page12_image02.png)
-
 - [ ] **A.** Amnion.
 - [ ] **B.** Chorion.
 - [ ] **C.** Respiratory lamina propria.
@@ -231,6 +239,9 @@ Now, you would like to double check before you submit this to your teacher, Dr. 
 - [ ] **E.** Yolk sac.
 
 ### 26. Figure 1 on the left panel describes the change in membrane potential when there is a stimulus introduced, indicated by the arrow (or !, 0 second). Figure 2 describes the membrane potential of one of the stages from Figure 1. We don’t know which stage it is, however. In Figure 2, Ion I and II are also unknown -but they are either sodium ions or potassium ions. Which of the following is TRUE regarding Stages from 1 to 6?
+
+![Question 26 figure 1](images/page12_image02.png)
+![Question 25 figure 2](images/page12_image01.png)
 
 - [ ] **A.** In Stage 1, the action potential is formed as a result of the stimulus that is slightly below threshold.
 - [ ] **B.** In both Stages 2 and 3, the Ion II influxes into the inside of the cell.
@@ -257,11 +268,8 @@ Now, you would like to double check before you submit this to your teacher, Dr. 
 ### 29. While taking the Open Exam, you begin to experience the effects of sympathetic stimulation by your autonomous nervous system, initiating the fight or flight response. Which of the following choices are examples of sympathetic responses?
 
 I. Dilation of pupils.
-
 II. Relaxation of bladder.
-
 III. Inhibition of digestive functions.
-
 IV. Increase in heart rate.
 
 - [ ] **A.** I, II, III, and IV.
@@ -307,13 +315,9 @@ Calculate the coefficient of relatedness between Person A and Person B and decid
 ### 34. Arrange the following genera from earliest to latest on the evolutionary time scale:
 
 I. Amborella.
-
 II. Pteridum.
-
 III. Sphagnum.
-
 IV. Gnetum.
-
 V. Pisum.
 
 - [ ] **A.** I, II, III, IV, V.
@@ -324,13 +328,15 @@ V. Pisum.
 
 ### 35. At the end of a perfect week, Barney is suddenly confronted by the horrible news that he is the father of a baby girl. After Barney disappears to Bermuda, the mother orders a paternity test to confirm that Barney truly is the father. If Barney’s blood type is AB and Rh-, which of the following blood types could his daughter NOT have?
 
-- [ ] **A.** A and Rh+.
-- [ ] **B.** B and Rh-.
-- [ ] **C.** AB and Rh-.
-- [ ] **D.** AB and Rh+.
-- [ ] **E.** O and Rh-.
+- [ ] **A.** A and $Rh^+$.
+- [ ] **B.** B and $Rh^-$.
+- [ ] **C.** AB and $Rh^-$.
+- [ ] **D.** AB and $Rh^+$.
+- [ ] **E.** O and $Rh^-.$
 
-### 36. Consider the existence of a hypothetical operon, pac, which controls the expression of several enzymes involved in the metabolism of alcohol. The structure of the operon is as shown below: The gene for the operon regulatory protein is represented as pacR, which is normally made in inactive form. The pac operon includes a promoter P and an operator sequence O, as well as genes coding the metabolic proteins. Binding of alcohol to pacR activates pacR, allowing it to bind to the O sequence, where it acts as a crucial transcription factor.
+### 36. Consider the existence of a hypothetical operon, pac, which controls the expression of several enzymes involved in the metabolism of alcohol. The structure of the operon is as shown below:
+
+The gene for the operon regulatory protein is represented as pacR, which is normally made in inactive form. The pac operon includes a promoter P and an operator sequence O, as well as genes coding the metabolic proteins. Binding of alcohol to pacR activates pacR, allowing it to bind to the O sequence, where it acts as a crucial transcription factor.
 
 To study the pac operon, you generate diploids with various mutations in the pac operon and plate them on medium containing alcohol as the only carbon source. (A plus sign denotes the wild-type form of the component while a minus sign denotes mutation in that component.) Of the following mutants listed, select the choice that best corresponds to those mutants that will successfully survive in your experiment. SELECT ALL THAT APPLY.
 
@@ -363,11 +369,8 @@ IV. Purifying selection is acting to decrease diversity on the X chromosome.
 You find that the Adh gene has two times as many mutations that differentiate the strains at this locus compared to five other genes in the genome that you are using as a control. Which factors might explain the pattern that you see?
 
 I. There are really two copies of Adh in these genomes, making it look like Adh has accumulated mutations twice as quickly.
-
 II. Adh is affected by balancing selection, which acts to increase nucleotide diversity in the gene.
-
 III. The ‘control’ genes have experienced strong directional selection, reducing the number of mutations that can segregate in the population.
-
 IV. Adh is less constrained by selection than the control genes, allowing it to accumulate more mutations.
 
 - [ ] **A.** II only.
@@ -381,11 +384,8 @@ IV. Adh is less constrained by selection than the control genes, allowing it to 
 Which of the following is true?
 
 I. Mastodons are more closely related to African elephants than to Indian elephants.
-
 II. Mastodons are more closely related to Indian elephants than to African elephants.
-
 III. Mammoths are more closely related to Indian elephants than to African elephants.
-
 IV. Mammoths are more closely related to African elephants than to Indian elephants.
 
 ![Question 39 figure 1](images/page17_image01.png)
@@ -414,7 +414,14 @@ You build a phylogenetic tree and find that the samples cluster in the following
 - [ ] **D.** p_A = p_B = 0.
 - [ ] **E.** p_A = p_B = 1.
 
-### 42. When true-breeding, brown female flies with wild-type wings are mated to true-breeding, black male flies with vestigial wings, the F1 offspring have the following phenotypes, with the numbers of male and females approximately equal in each phenotypic class: 781 brown flies with wild-type wings 769 black flies with vestigial wings 23 brown flies with vestigial wings 27 black flies with wild-type wings You had expected there to be equal numbers of offspring in each phenotypic class. Which of the following best explains the deviation?
+### 42. When true-breeding, brown female flies with wild-type wings are mated to true-breeding, black male flies with vestigial wings, the F1 offspring have the following phenotypes, with the numbers of male and females approximately equal in each phenotypic class:
+
+781 brown flies with wild-type wings
+769 black flies with vestigial wings
+23 brown flies with vestigial wings
+27 black flies with wild-type wings
+
+You had expected there to be equal numbers of offspring in each phenotypic class. Which of the following best explains the deviation?
 
 - [ ] **A.** Small sample sizes frequently cause large differences between expected and observed offspring ratios.
 - [ ] **B.** One or both of the genes is sex-linked.
@@ -438,7 +445,19 @@ Rhydon are large mammals which move in herds. Which of the following sampling me
 - [ ] **B.** Catch 'em all.
 - [ ] **C.** Mark & Recapture.
 - [ ] **D.** Quadrant Sampling.
-- [ ] **E.** Transect Sampling Questions 45 to 47, refer to the following experiment on voles: Two varieties of the same species of voles (meadow mice), albino and red-backed, were used in an experiment. Both varieties were subjected to the predation of a hawk, under controlled laboratory conditions. During the experiment, the floor of the test room was covered on alternate days with white ground cover that matched the albino voles and red-brown cover that matched the red-backed voles. The chart below shows the results of 50 trials. Number of Voles Captured Variety White Cover Red-Brown Cover Total Albino Red-backed 100 Total 192
+- [ ] **E.** Transect Sampling
+
+## Questions 45 to 47, refer to the following experiment on voles:
+
+Two varieties of the same species of voles (meadow mice), albino and red-backed, were used in an experiment. Both varieties were subjected to the predation of a hawk, under controlled laboratory conditions. During the experiment, the floor of the test room was covered on alternate days with white ground cover that matched the albino voles and red-brown cover that matched the red-backed voles. The chart below shows the results of 50 trials.
+
+**Number of Voles Captured**
+
+| Variety    | White Cover | Red-Brown Cover | Total |
+| ---------- | ----------- | --------------- | ----- |
+| Albino     | 35          | 57              | 92    |
+| Red-backed | 60          | 40              | 100   |
+| Total      | 95          | 97              | 192   |
 
 ### 45. The purpose of the experiment was to:
 
@@ -493,54 +512,54 @@ Rhydon are large mammals which move in herds. Which of the following sampling me
 Extraction method: `yellow-highlight extraction from answer-key PDF`
 
 | Question | Answer |
-|---:|:---|
-| 1 | D |
-| 2 | A+E |
-| 3 | E |
-| 4 | E |
-| 5 | B |
-| 6 | D |
-| 7 | D |
-| 8 | A |
-| 9 | E |
-| 10 | B |
-| 11 | B |
-| 12 | D |
-| 13 | A |
-| 14 | E |
-| 15 | E |
-| 16 | B |
-| 17 | C |
-| 18 | E |
-| 19 | C |
-| 20 | C |
-| 21 | B+C+D |
-| 22 | C |
-| 23 | A+D |
-| 24 | C |
-| 25 | B+D |
-| 26 | B |
-| 27 | B |
-| 28 | C |
-| 29 | A |
-| 30 | B |
-| 31 | A |
-| 32 | B |
-| 33 | A |
-| 34 | D |
-| 35 | E |
-| 36 | A+C+D |
-| 37 | C |
-| 38 | E |
-| 39 | B |
-| 40 | E |
-| 41 | B |
-| 42 | C |
-| 43 | A |
-| 44 | A |
-| 45 | B+E |
-| 46 | E |
-| 47 | A |
-| 48 | C |
-| 49 | B+C |
-| 50 | C+E |
+| -------: | :----- |
+|        1 | D      |
+|        2 | A+E    |
+|        3 | E      |
+|        4 | E      |
+|        5 | B      |
+|        6 | D      |
+|        7 | D      |
+|        8 | A      |
+|        9 | E      |
+|       10 | B      |
+|       11 | B      |
+|       12 | D      |
+|       13 | A      |
+|       14 | E      |
+|       15 | E      |
+|       16 | B      |
+|       17 | C      |
+|       18 | E      |
+|       19 | C      |
+|       20 | C      |
+|       21 | B+C+D  |
+|       22 | C      |
+|       23 | A+D    |
+|       24 | C      |
+|       25 | B+D    |
+|       26 | B      |
+|       27 | B      |
+|       28 | C      |
+|       29 | A      |
+|       30 | B      |
+|       31 | A      |
+|       32 | B      |
+|       33 | A      |
+|       34 | D      |
+|       35 | E      |
+|       36 | A+C+D  |
+|       37 | C      |
+|       38 | E      |
+|       39 | B      |
+|       40 | E      |
+|       41 | B      |
+|       42 | C      |
+|       43 | A      |
+|       44 | A      |
+|       45 | B+E    |
+|       46 | E      |
+|       47 | A      |
+|       48 | C      |
+|       49 | B+C    |
+|       50 | C+E    |
