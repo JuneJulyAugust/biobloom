@@ -1,6 +1,6 @@
 # USABO 2018 Open Exam
 
-Questions 1 and 2. Please use the following options to answer the following three questions. Each choice may be used once, more than once, or not at all.
+## Questions 1 and 2. Please use the following options to answer the following three questions. Each choice may be used once, more than once, or not at all.
 
 - [ ] **A.** Actin.
 - [ ] **B.** Myosin.
@@ -44,7 +44,34 @@ Questions 1 and 2. Please use the following options to answer the following thre
 - [ ] **B.** ALILALMWWLLF.
 - [ ] **C.** FPPALGGLPFAMG.
 - [ ] **D.** LMQKPMDSLPDY.
-- [ ] **E.** LKMELAKMILLA. Abbreviation 1 letter abbreviation Amino acid name Ala A Alanine Arg R Arginine Asn N Asparagine Asp D Aspartic acid Cys C Cysteine Gln Q Glutamine Glu E Glutamic acid Gly G Glycine His H Histidine Ile I Isoleucine Leu L Leucine Lys K Lysine Met M Methionine Phe F Phenylalanine Pro P Proline Pyl O Pyrrolysine Ser S Serine Sec U Selenocysteine Thr T Threonine Trp W Tryptophan Tyr Y Tyrosine Val V Valine Questions 7 to 10. Indicate if each of the following statements is TRUE or FALSE about the electron transport chain in cellular respiration. Use “A” for True and “B” for False.
+- [ ] **E.** LKMELAKMILLA.
+
+| Abbreviation | 1 letter abbreviation | Amino acid name |
+| ------------ | --------------------- | --------------- |
+| Ala          | A                     | Alanine         |
+| Arg          | R                     | Arginine        |
+| Asn          | N                     | Asparagine      |
+| Asp          | D                     | Aspartic acid   |
+| Cys          | C                     | Cysteine        |
+| Gln          | Q                     | Glutamine       |
+| Glu          | E                     | Glutamic acid   |
+| Gly          | G                     | Glycine         |
+| His          | H                     | Histidine       |
+| Ile          | I                     | Isoleucine      |
+| Leu          | L                     | Leucine         |
+| Lys          | K                     | Lysine          |
+| Met          | M                     | Methionine      |
+| Phe          | F                     | Phenylalanine   |
+| Pro          | P                     | Proline         |
+| Pyl          | O                     | Pyrrolysine     |
+| Ser          | S                     | Serine          |
+| Sec          | U                     | Selenocysteine  |
+| Thr          | T                     | Threonine       |
+| Trp          | W                     | Tryptophan      |
+| Tyr          | Y                     | Tyrosine        |
+| Val          | V                     | Valine          |
+
+## Questions 7 to 10. Indicate if each of the following statements is TRUE or FALSE about the electron transport chain in cellular respiration. Use “A” for True and “B” for False.
 
 ### 7. Ubiquinone proteins have a heme group to facilitate electron transport.
 
@@ -54,33 +81,17 @@ Questions 1 and 2. Please use the following options to answer the following thre
 
 ### 10. Cytochrome c is more electronegative than cytochrome b.
 
-15% Plant Anatomy and Physiology 8 questions (0 needed)
-
 ### 11. Observe the seedlings growing below which have a loss of function mutation in the ethylene receptor.
 
-Source: University of Queensland, Australia.
+![Question 11 figure 1](images/page04_image01.png)
 
 Which of the following statement(s) is (are) TRUE regarding this mutant’s growth response NOT being related to a triple response? Select one response A, B, C, D, or E.
 
 I. This mutant will not respond to the exposure of ethylene under any circumstances.
-
-II. This mutant has a constitutive activity where it leads to the activation of kinase, which is important for the
-
-triple response.
-
-III. This mutant has a constitutive activity where it leads to the inactivation of kinase, which is important for
-
-the triple response.
-
-IV. If this mutant is treated with aminoethoxyvinylglycine (ethylene synthesis inhibitor), this mutant will be
-
-able to undergo triple response.
-
-V. If this mutant is treated with aminoethoxyvinylglycine (ethylene synthesis inhibitor), this mutant will not
-
-respond to the treatment and not undergo triple response.
-
-![Question 11 figure 1](images/page04_image01.png)
+II. This mutant has a constitutive activity where it leads to the activation of kinase, which is important for the triple response.
+III. This mutant has a constitutive activity where it leads to the inactivation of kinase, which is important for the triple response.
+IV. If this mutant is treated with aminoethoxyvinylglycine (ethylene synthesis inhibitor), this mutant will be able to undergo triple response.
+V. If this mutant is treated with aminoethoxyvinylglycine (ethylene synthesis inhibitor), this mutant will not respond to the treatment and not undergo triple response.
 
 - [ ] **A.** I.
 - [ ] **B.** II, IV.
@@ -132,7 +143,11 @@ Which of the following potential explanations for the effect of gene X is NOT di
 - [ ] **D.** The covalent addition of methyl groups to plant DNA is reversible in the cell.
 - [ ] **E.** More than one of the above does NOT correctly describe the impacts of these modifications.
 
-### 17. Nitrogen fixation has the following net chemical reaction: N2 + 8e- + 8H+ + 16 ATP  2NH3 + H2 + 16ADP + 16○Pi If 1 kg of ATP (molar mass 507.2 g/mol) and 3 g of nitrogen gas (molar mass 28 g/mol) are supplied as input, what is the maximum yield of ammonia (molecular mass 17 g/mol)?
+### 17. Nitrogen fixation has the following net chemical reaction:
+
+$N_2 + 8e^- + 8H^+ + 16 ATP \rightarrow 2NH_3 + H_2 + 16ADP + 16\text{Pi}$
+
+If 1 kg of ATP (molar mass 507.2 g/mol) and 3 g of nitrogen gas (molar mass 28 g/mol) are supplied as input, what is the maximum yield of ammonia (molecular mass 17 g/mol)?
 
 - [ ] **A.** 1.8 g.
 - [ ] **B.** 2.5 g.
@@ -143,20 +158,16 @@ Which of the following potential explanations for the effect of gene X is NOT di
 ### 18. Order the following elements of a tree trunk from the center of the trunk outward:
 
 1. Sapwood
-
 2. Secondary phloem
-
 3. Vascular cambium
-
 4. Heartwood
-
 5. Periderm
 
 - [ ] **A.** 1, 2, 4, 5, 3.
 - [ ] **B.** 4, 1, 3, 2, 5.
 - [ ] **C.** 5, 2, 3, 1, 4.
 - [ ] **D.** 3, 5, 4, 2, 1.
-- [ ] **E.** 4, 1, 5, 2, 3. 25% Animal Anatomy and Physiology 12 questions (0 Needed)
+- [ ] **E.** 4, 1, 5, 2, 3.
 
 ### 19. A woman experiencing rickets is diagnosed with a deficiency of a particular vitamin and given a diet guideline. Which of the following food is most likely to help with the condition?
 
@@ -168,13 +179,12 @@ Which of the following potential explanations for the effect of gene X is NOT di
 
 ### 20. Consider the following figure that describes the structure of an antibody.
 
+![Question 20 figure 1](images/page07_image01.png)
+
 Select the letter for the area where an antibody bound to a pathogen in the bloodstream would be recognized by a hunting macrophage.
 
-Questions 21 & 22. As a winter intern at an animal development lab at University of Wisconsin-Madison,
+## Questions 21 & 22. As a winter intern at an animal development lab at University of Wisconsin-Madison, you would like to investigate how different treatments may alter the outcomes of fertilization in sea urchins.
 
-you would like to investigate how different treatments may alter the outcomes of fertilization in sea urchins.
-
-![Question 20 figure 1](images/page07_image01.png)
 
 ### 21. You would like to test different conditions in which fertilization is blocked in sea urchin eggs. All of the following conditions would result in unsuccessful fertilizations EXCEPT FOR
 
@@ -204,7 +214,11 @@ Given this knowledge, which of the following structures, when damaged, would lea
 
 ### 24. Dr. Ross has developed a new drug, Rossazole that prevents the presentation of antigens to CD4 helper T cells. She administers the drug to a lab mouse. Which one of the following immune cell types would have its functions LEAST disrupted by the drug?
 
-A Cytotoxic T Cell B Memory B Cell C Macrophage D Neutrophil E Dendritic Cell
+- [ ] **A.** Cytotoxic T Cell
+- [ ] **B.** Memory B Cell
+- [ ] **C.** Macrophage
+- [ ] **D.** Neutrophil
+- [ ] **E.** Dendritic Cell
 
 ### 25. Which of the following is most accurate regarding the anatomy and physiology of the vertebrate vascular system?
 
@@ -254,7 +268,7 @@ An MRI confirms that he is suffering from prolactinoma. Which substance should t
 - [ ] **B.** Glycine and proline.
 - [ ] **C.** Lysine and proline.
 - [ ] **D.** Methionine and lysine.
-- [ ] **E.** Methionine and proline. 5%Ethology 3 questions (0 needed)
+- [ ] **E.** Methionine and proline.
 
 ### 31. Some herding animals develop matriarchal leadership systems led by the oldest female. Which of the following hypothetical reasons could NOT be a proximate cause of this social behavior?
 
@@ -275,18 +289,15 @@ An MRI confirms that he is suffering from prolactinoma. Which substance should t
 ### 33. Dr. T is a famous lecturer on ethology, and his favorite topic happens to be agonistic behavior. Which of the following are examples of agonistic behavior?
 
 I. A female guppy picking a mate based on the males’ external features.
-
 II. Two grey kangaroos boxing with each other to decide who gets the mate.
-
 III. Two male stalk-eyed flies comparing eye-stalk lengths for rights to a mate.
-
 IV. Male grey catbirds fluffing their feathers when their territory is threatened by another male.
 
 - [ ] **A.** I, II, IV.
 - [ ] **B.** I, III, V.
 - [ ] **C.** II, III.
 - [ ] **D.** II, III, IV.
-- [ ] **E.** III, IV. 20 % Genetics and Evolution 10 questions (0 needed)
+- [ ] **E.** III, IV.
 
 ### 34. Which of the following amino-acid substitutions is LEAST likely to be disruptive to protein function?
 
@@ -296,13 +307,13 @@ IV. Male grey catbirds fluffing their feathers when their territory is threatene
 - [ ] **D.** Aspartate to valine.
 - [ ] **E.** Alanine to valine.
 
-### 35. Prader-Willi syndrome and Angelman Syndrome can each occur due to a deletion in the same part of chromosome 15. However, Prader-Willi syndrome will result if the defective chromosome was inherited from the father, while Angelman syndrome results if it was inherited from the mother.
+### 35. Prader-Willi syndrome and Angelman Syndrome can each occur due to a deletion in the same part of chromosome 15. However, Prader-Willi syndrome will result if the defective chromosome was inherited from the father, while Angelman syndrome results if it was inherited from the mother. Identify the answer choice below that also exemplifies a similar inheritance pattern.
 
-Identify the answer choice below that also exemplifies a similar inheritance pattern.
-
-Choice
-
-A Inheritance of Flower Color in Peas B Inheritance of Flower Color in Snapdragons C Inheritance of the Igf-2 gene in Mice D Inheritance of X-linked Color Blindness in Humans E Inheritance of Height in Humans
+- [ ] **A.** Inheritance of Flower Color in Peas
+- [ ] **B.** Inheritance of Flower Color in Snapdragons
+- [ ] **C.** Inheritance of the Igf-2 gene in Mice
+- [ ] **D.** Inheritance of X-linked Color Blindness in Humans
+- [ ] **E.** Inheritance of Height in Humans
 
 ### 36. A 30-year old woman (is planning to have a child and visits a genetic counselor. The only observed genetic disorder in her immediate family is that her brother was afflicted by Hurler syndrome (also known as mucopolysaccharidosis type I), a monogenic, autosomal recessive metabolic disorder caused by a loss of function of a lysosomal enzyme named alpha-L iduronidase. Hurler syndrome manifests itself early in childhood and is often fatal. What is the probability that the woman is a carrier for a disease-causing allele of alpha-L iduronidase?
 
@@ -332,7 +343,13 @@ A Inheritance of Flower Color in Peas B Inheritance of Flower Color in Snapdrago
 
 Which of the phylogenies represents a DIFFERENT set of relationships from the others?
 
-![Question 39 figure 1](images/page13_image01.png)
+| Choice | Phylogeny                                  |
+| :----: | :----------------------------------------- |
+|   A    | ![Choice A](images/question39_choiceA.png) |
+|   B    | ![Choice B](images/question39_choiceB.png) |
+|   C    | ![Choice C](images/question39_choiceC.png) |
+|   D    | ![Choice D](images/question39_choiceD.png) |
+|   E    | ![Choice E](images/question39_choiceE.png) |
 
 ### 40. Eye color in fruit fly shows an X linked recessive mode of inheritance with red being the dominant phenotype and white being the recessive phenotype. Which of the following mating experiments best prove this observation?
 
@@ -358,13 +375,26 @@ Which of the phylogenies represents a DIFFERENT set of relationships from the ot
 - [ ] **D.** Heterochrony.
 - [ ] **E.** Transposition. .
 
-### 43. The following are the results of a trihybrid cross. vcv+ct+ 580 v+cvct 592 vcvct+ v+cv+ct Vcvct v+cv+ct+ vcv+ct v+cvct+ Which of the following correctly shows the correct chromosomal map and distance (in CM) between the three genes?
+### 43. The following are the results of a trihybrid cross.
+
+| Phenotype | Count |
+| :-------- | :---- |
+| vcv+ct+   | 580   |
+| v+cvct    | 592   |
+| vcvct+    | 45    |
+| v+cv+ct   | 40    |
+| vcvct     | 89    |
+| v+cv+ct+  | 94    |
+| vcv+ct    | 3     |
+| v+cvct+   | 5     |
+
+Which of the following correctly shows the correct chromosomal map and distance (in CM) between the three genes?
 
 - [ ] **A.** v(13.2)ct(6.4)cv.
 - [ ] **B.** cv(13.2)ct(6.4)v.
 - [ ] **C.** ct(13.2)v(6.4)cv.
 - [ ] **D.** ct(6.4)v(13.2)cv.
-- [ ] **E.** v(6.4)cv(13.2)ct. 10 % Ecology 5 questions (0 needed)
+- [ ] **E.** v(6.4)cv(13.2)ct.
 
 ### 44. A microbiologist inoculates a clump of yeast cells into a large, sterile, closed flask full of growth media. Every hour, she uses a measure of the cloudiness of the liquid (known as the optical density) to estimate the number of yeast present. Initially, the yeast in the flask doubled in number every hour.
 
