@@ -11,8 +11,10 @@ from __future__ import annotations
 import csv
 import html
 import json
+import math
 import re
 from collections import Counter, defaultdict
+from functools import lru_cache
 from pathlib import Path
 from statistics import mean
 
@@ -28,6 +30,10 @@ REPORT_PATH = ANALYSIS_DIR / "open_exam_consolidated_subtopic_analysis.md"
 QUESTION_TAGS_JSONL = DATA_DIR / "open_exam_subtopic_question_tags.jsonl"
 SUBTOPIC_SUMMARY_CSV = DATA_DIR / "open_exam_subtopic_summary.csv"
 REASONING_TOPIC_CSV = DATA_DIR / "open_exam_reasoning_by_topic.csv"
+UNCLASSIFIED_CSV = DATA_DIR / "open_exam_unclassified_questions.csv"
+STAGE_SUMMARY_CSV = DATA_DIR / "open_exam_stage_summary.csv"
+YEAR_PILLAR_CSV = DATA_DIR / "open_exam_year_pillar_counts.csv"
+REASONING_COOCCURRENCE_CSV = DATA_DIR / "open_exam_reasoning_tag_cooccurrence.csv"
 DATA_JSON = DATA_DIR / "open_exam_consolidated_subtopic_analysis_data.json"
 
 Q_RE = re.compile(r"^### (\d+)\.\s*(.*)$", re.M)
@@ -184,6 +190,7 @@ MICROTOPICS = [
         "Trace electrons, proton gradients, ATP synthase, uncouplers, fermentation, and cellular energy yield.",
         kw(
             ("glycolysis", 7),
+            ("glycolytic", 7),
             ("krebs", 7),
             ("citric acid", 7),
             ("cellular respiration", 7),
@@ -327,12 +334,13 @@ MICROTOPICS = [
             ("reagent", 5),
             ("vitamin", 5),
             ("mineral", 5),
-            ("ph ", 4),
+            ("ph", 4),
             ("pka", 6),
             ("hydrogen ions", 5),
             ("molar", 5),
             ("molecular weight", 5),
             ("concentration", 4),
+            ("half-life", 5),
             ("half life", 5),
             ("rate constant", 5),
             ("alpha-1", 5),
@@ -390,17 +398,24 @@ MICROTOPICS = [
         "Linkage, recombination and map distance",
         "Identify parental/recombinant classes, map order, double crossovers, and recombination distance.",
         kw(
-            ("linkage", 8),
+            ("genetic linkage", 8),
+            ("partial linkage", 8),
+            ("no linkage between", 8),
             ("linked genes", 8),
+            ("linked loci", 8),
             ("recombination", 8),
+            ("recombination frequency", 9),
             ("recombinant", 7),
             ("map distance", 9),
             ("centimorgan", 8),
             ("crossover", 7),
+            ("low crossover", 8),
+            ("double-crossover", 9),
             ("double recombinant", 9),
             ("gene order", 8),
             ("map unit", 8),
-            ("linked", 4),
+            ("chromosomal map", 9),
+            ("trihybrid cross", 8),
             ("three-point", 8),
         ),
     ),
@@ -897,6 +912,41 @@ MICROTOPICS = [
     ),
 ]
 
+TEMPLATE_ARCHETYPES = {
+    "DNA replication, chromosomes and telomeres": "Replication fork / chromosome-end perturbation",
+    "Transcription, translation and gene regulation": "Operon / codon / regulatory perturbation",
+    "Protein structure, amino acids and enzymes": "Enzyme kinetics / protein chemistry",
+    "Membrane structure, fluidity and permeability": "Membrane-composition permeability variant",
+    "Membrane transport, osmosis and electrochemical gradients": "Nernst / osmosis / transporter gradient",
+    "Cellular respiration, ETC and ATP synthesis": "ETC / ATP-yield perturbation",
+    "Photosynthesis, pigments and carbon fixation": "Action spectrum / carbon-fixation variant",
+    "Organelles, cytoskeleton and intracellular trafficking": "Organelle-localization / trafficking inference",
+    "Cell cycle, meiosis and cancer checkpoints": "Meiosis / checkpoint / cancer-control variant",
+    "Cell signaling, receptors and second messengers": "Receptor / second-messenger cascade",
+    "Biomolecules, macromolecules and biochemical tests": "Functional-group / reagent-identification variant",
+    "Mendelian genetics and probability": "Cross setup / conditional probability",
+    "Pedigrees and inheritance modes": "Pedigree inheritance-mode elimination",
+    "Linkage, recombination and map distance": "Linkage map / recombination-distance variant",
+    "Hardy-Weinberg and population genetics": "Hardy-Weinberg allele-frequency calculation",
+    "Quantitative/polygenic traits and additive inheritance": "Polygenic additive-trait distribution",
+    "Evolution, selection, adaptation and speciation": "Selection / isolation / adaptation scenario",
+    "Phylogeny, cladograms and systematics": "Cladogram / tree-topology interpretation",
+    "Plant tissues, xylem/phloem and water transport": "Xylem/phloem / source-sink transport",
+    "Plant hormones, tropisms and environmental responses": "Plant-hormone / tropism experiment",
+    "Plant reproduction, development and life cycles": "ABC flower model / generations",
+    "Neurophysiology, muscle and sensory systems": "Action potential / synapse / muscle mechanism",
+    "Endocrine feedback and homeostasis": "Feedback-axis homeostasis variant",
+    "Cardiovascular, respiratory and renal systems": "Gas exchange / renal transport / pressure-flow",
+    "Immunology, inflammation and host defense": "Immune-cell / antibody / pathogen-response variant",
+    "Digestion, nutrition, vitamins and metabolism": "Digestive enzyme / nutrient-deficiency pathway",
+    "Development, reproduction and embryology": "Embryology fate-map / morphogen variant",
+    "Population/community ecology and biodiversity": "Population/community model inference",
+    "Ecosystems, productivity and biogeochemical cycles": "Productivity / trophic / cycle calculation",
+    "Behavior, learning and ethology": "Behavioral experiment / fitness explanation",
+    "Microbiology, viruses, bacteria and pathogens": "Pathogen / plasmid / genetic-exchange scenario",
+    "Lab methods, biotechnology and molecular tools": "PCR / blot / gel / sequencing method choice",
+}
+
 REASONING_TAGS = {
     "Negation trap": [
         r"\bnot\b",
@@ -918,13 +968,9 @@ REASONING_TAGS = {
         r"\bhalf[- ]life\b",
         r"\bmolar\b",
     ],
-    "Multi-statement / Roman": [
-        r"\bi\.",
-        r"\bii\.",
-        r"\biii\.",
-        r"\biv\.",
-        r"\bv\.",
-    ],
+    # Roman numerals only count when at least two markers appear in the same block,
+    # so single occurrences of "i.e." don't trigger this tag.
+    "Multi-statement / Roman": [],
     "Select-all / multi-answer": [
         r"select all",
         r"all that apply",
@@ -966,6 +1012,9 @@ REASONING_TAGS = {
     ],
 }
 
+REASONING_TAG_ORDER = list(REASONING_TAGS)
+ROMAN_LIST_MARKER_RE = re.compile(r"(?im)^\s*(i{1,3}|iv|v)\.\s+\S")
+
 
 def stage_for_year(year: int) -> str:
     for name, years in STAGES:
@@ -994,37 +1043,84 @@ def split_questions(text: str) -> list[tuple[int, str]]:
     return questions
 
 
+BIOLOGY_SUFFIX_RE = (
+    r"(?:s|es|ed|ing|er|ers|or|ors|ic|ical|ate|ated|ates|ation|ations|"
+    r"ial|ially|ous|ously|ity|ities|ly|al|ally|able|ible|ar|ary|ant|ants|"
+    r"ent|ents|ase|ases|on|ons|um|ums|a|ae|i|us|ria|rial|osis|otic|"
+    r"some|somes|ome|omes)?"
+)
+
+
+def keyword_body_pattern(phrase: str) -> str:
+    escaped = re.escape(phrase.strip().lower())
+    return re.sub(r"(?:\\ |\\-)+", lambda _match: r"[\s\-]+", escaped)
+
+
+def allows_inflection(phrase: str) -> bool:
+    if "'" in phrase or any(ch.isdigit() for ch in phrase):
+        return False
+    tokens = re.findall(r"[a-z]+", phrase.lower())
+    return bool(tokens) and len(tokens[-1]) >= 4
+
+
+@lru_cache(maxsize=None)
+def keyword_regex(phrase: str) -> re.Pattern[str] | None:
+    if not re.match(r"^[a-z0-9][a-z0-9 \-]*[a-z0-9]$", phrase):
+        return None
+    body = keyword_body_pattern(phrase)
+    suffix = BIOLOGY_SUFFIX_RE if allows_inflection(phrase) else ""
+    alternatives = [body + suffix]
+    if allows_inflection(phrase) and phrase.endswith("y"):
+        alternatives.append(keyword_body_pattern(phrase[:-1]) + r"ies")
+    pattern = r"(?<![a-z0-9])(?:" + "|".join(alternatives) + r")(?![a-z0-9])"
+    return re.compile(pattern)
+
+
 def phrase_count(low_text: str, phrase: str) -> int:
-    phrase = phrase.lower()
+    phrase = phrase.strip().lower()
     if phrase in {"![", "|"}:
         return low_text.count(phrase)
-    escaped = re.escape(phrase)
-    if re.match(r"^[a-z0-9 ]+$", phrase):
-        pattern = r"(?<![a-z0-9])" + escaped.replace(r"\ ", r"\s+") + r"(?![a-z0-9])"
-        return len(re.findall(pattern, low_text))
+    pattern = keyword_regex(phrase)
+    if pattern:
+        return sum(1 for _ in pattern.finditer(low_text))
     return low_text.count(phrase)
 
 
+HIGH_SPECIFICITY_WEIGHT = 8
+
+
 def score_microtopics(block: str) -> list[dict[str, object]]:
+    """Score every microtopic against a question block.
+
+    A subtopic is kept when (a) its raw score clears the absolute floor and
+    is at least 35 % of the top-scoring subtopic, OR (b) at least one
+    high-specificity keyword (weight >= 8) fired. The override prevents
+    Linkage/Map distance items from being absorbed into Mendelian when a
+    single rare keyword like "recombination" is the only direct signal.
+    """
     low = block.lower()
-    scored: list[tuple[int, str, str, str, list[str]]] = []
+    scored: list[tuple[int, bool, str, str, str, list[str]]] = []
     for pillar, subtopic, objective, keywords in MICROTOPICS:
         score = 0
         matched: list[str] = []
+        had_high_spec = False
         for phrase, weight in keywords:
             hits = phrase_count(low, phrase)
             if hits:
                 score += hits * weight
                 matched.append(phrase)
-        if score >= 5:
-            scored.append((score, pillar, subtopic, objective, matched[:6]))
-    scored.sort(reverse=True)
+                if weight >= HIGH_SPECIFICITY_WEIGHT:
+                    had_high_spec = True
+        if score >= 5 or had_high_spec:
+            scored.append((score, had_high_spec, pillar, subtopic, objective, matched[:6]))
+    scored.sort(key=lambda item: (-item[0], item[3]))
     if not scored:
         return []
     top_score = scored[0][0]
     kept = []
-    for score, pillar, subtopic, objective, matched in scored:
-        if score >= max(5, top_score * 0.45):
+    for score, had_high_spec, pillar, subtopic, objective, matched in scored:
+        passes_relative = score >= max(5, top_score * 0.35)
+        if passes_relative or had_high_spec:
             kept.append(
                 {
                     "score": score,
@@ -1034,15 +1130,25 @@ def score_microtopics(block: str) -> list[dict[str, object]]:
                     "matched_terms": matched,
                 }
             )
-        if len(kept) >= 4:
+        if len(kept) >= 5:
             break
     return kept
+
+
+def has_roman_list(block: str) -> bool:
+    markers = [match.group(1).lower() for match in ROMAN_LIST_MARKER_RE.finditer(block)]
+    marker_set = set(markers)
+    return "i" in marker_set and any(marker in marker_set for marker in {"ii", "iii", "iv", "v"})
 
 
 def reasoning_tags(block: str) -> list[str]:
     low = block.lower()
     tags = []
     for tag, patterns in REASONING_TAGS.items():
+        if tag == "Multi-statement / Roman":
+            if has_roman_list(block):
+                tags.append(tag)
+            continue
         for pattern in patterns:
             flags = re.M if pattern.startswith("^") else 0
             if re.search(pattern, low, flags):
@@ -1051,7 +1157,7 @@ def reasoning_tags(block: str) -> list[str]:
     return tags
 
 
-def difficulty(block: str, tags: list[str]) -> float:
+def difficulty(block: str, tags: list[str], topics: list[dict[str, object]]) -> float:
     words = len(WORD_RE.findall(block))
     score = 1.5
     if words > 80:
@@ -1072,6 +1178,14 @@ def difficulty(block: str, tags: list[str]) -> float:
         score += 0.4
     if "Multi-statement / Roman" in tags:
         score += 0.3
+    topic_count = len(topics)
+    pillar_count = len({topic["pillar"] for topic in topics})
+    if topic_count >= 2:
+        score += 0.25
+    if topic_count >= 3:
+        score += 0.2
+    if pillar_count >= 2:
+        score += 0.2
     return min(5.0, round(score, 2))
 
 
@@ -1083,6 +1197,7 @@ def parse_questions() -> list[dict[str, object]]:
             tags = reasoning_tags(block)
             topics = score_microtopics(block)
             primary = topics[0] if topics else None
+            difficulty_estimate = difficulty(block, tags, topics)
             parsed.append(
                 {
                     "year": year,
@@ -1090,7 +1205,7 @@ def parse_questions() -> list[dict[str, object]]:
                     "question_number": qn,
                     "source_path": str(path.relative_to(MARKDOWN_ROOT)),
                     "word_count": len(WORD_RE.findall(block)),
-                    "difficulty_estimate": difficulty(block, tags),
+                    "difficulty_estimate": difficulty_estimate,
                     "reasoning_tags": tags,
                     "primary_pillar": primary["pillar"] if primary else "Unclassified",
                     "primary_subtopic": primary["subtopic"] if primary else "Unclassified",
@@ -1123,13 +1238,14 @@ def aggregate_subtopics(questions: list[dict[str, object]]) -> list[dict[str, ob
         late = stage_counts["Late 2014-2018"]
         stage_breadth = sum(1 for stage in STAGE_NAMES if stage_counts[stage])
         avg_diff = mean(float(q["difficulty_estimate"]) for q in qs)
-        priority = (
-            total
-            + 1.7 * len(years)
-            + 7 * (stage_breadth == 3)
-            + 1.3 * late
-            + 3 * max(0, avg_diff - 2.0)
-        )
+        # Independent features only.
+        late_share = late / total
+        early_share = early / total
+        frequency_score = 12.0 * math.log1p(total)
+        breadth_score = 1.5 * len(years) + 6.0 * (stage_breadth == 3)
+        modernity_score = 14.0 * late_share
+        difficulty_score = 7.0 * max(0.0, avg_diff - 1.8)
+        priority = frequency_score + breadth_score + modernity_score + difficulty_score
         if stage_breadth == 1 and late == 0:
             priority *= 0.65
         rows.append(
@@ -1146,7 +1262,9 @@ def aggregate_subtopics(questions: list[dict[str, object]]) -> list[dict[str, ob
                 "years": years,
                 "avg_difficulty": round(avg_diff, 2),
                 "priority_score": round(priority, 1),
-                "late_share": round(late / total, 3),
+                "late_share": round(late_share, 3),
+                "early_share": round(early_share, 3),
+                "template_archetype": TEMPLATE_ARCHETYPES.get(subtopic, "Mechanism / inference variant"),
             }
         )
     return sorted(rows, key=lambda row: (-row["priority_score"], -row["hits"], row["subtopic"]))
@@ -1189,10 +1307,81 @@ def aggregate_reasoning_by_topic(questions: list[dict[str, object]]) -> list[dic
     )
 
 
+def aggregate_stage_summary(questions: list[dict[str, object]]) -> list[dict[str, object]]:
+    rows = []
+    by_stage: dict[str, list[dict[str, object]]] = defaultdict(list)
+    for question in questions:
+        by_stage[question["stage"]].append(question)
+
+    for stage in STAGE_NAMES:
+        qs = by_stage[stage]
+        question_count = len(qs)
+        subtopic_hits = sum(len(q["subtopics"]) for q in qs)
+        tagged = sum(q["primary_subtopic"] != "Unclassified" for q in qs)
+        row = {
+            "stage": stage,
+            "years": f"{min(year for year in dict(STAGES)[stage])}-{max(year for year in dict(STAGES)[stage])}",
+            "question_count": question_count,
+            "tagged_questions": tagged,
+            "unclassified_questions": question_count - tagged,
+            "subtopic_hits": subtopic_hits,
+            "subtopic_hits_per_question": round(subtopic_hits / question_count, 2),
+        }
+        for tag in REASONING_TAG_ORDER:
+            tag_count = sum(tag in q["reasoning_tags"] for q in qs)
+            key = re.sub(r"[^a-z0-9]+", "_", tag.lower()).strip("_")
+            row[f"{key}_count"] = tag_count
+            row[f"{key}_rate"] = round(tag_count / question_count, 3)
+        rows.append(row)
+    return rows
+
+
+def aggregate_year_pillars(questions: list[dict[str, object]]) -> list[dict[str, object]]:
+    years = sorted({int(q["year"]) for q in questions})
+    pillars = sorted({pillar for pillar, _, _, _ in MICROTOPICS} | {"Unclassified"})
+    counts = Counter((int(q["year"]), q["primary_pillar"]) for q in questions)
+    totals = Counter(int(q["year"]) for q in questions)
+    rows = []
+    for year in years:
+        for pillar in pillars:
+            value = counts[(year, pillar)]
+            rows.append(
+                {
+                    "year": year,
+                    "pillar": pillar,
+                    "primary_questions": value,
+                    "share": round(value / totals[year], 3),
+                }
+            )
+    return rows
+
+
+def aggregate_reasoning_cooccurrence(questions: list[dict[str, object]]) -> list[dict[str, object]]:
+    rows = []
+    for row_tag in REASONING_TAG_ORDER:
+        for column_tag in REASONING_TAG_ORDER:
+            count = sum(
+                row_tag in q["reasoning_tags"] and column_tag in q["reasoning_tags"]
+                for q in questions
+            )
+            rows.append(
+                {
+                    "row_tag": row_tag,
+                    "column_tag": column_tag,
+                    "question_count": count,
+                    "share_of_corpus": round(count / len(questions), 3),
+                }
+            )
+    return rows
+
+
 def export_data(
     questions: list[dict[str, object]],
     subtopic_rows: list[dict[str, object]],
     reasoning_rows: list[dict[str, object]],
+    stage_rows: list[dict[str, object]],
+    year_pillar_rows: list[dict[str, object]],
+    cooccurrence_rows: list[dict[str, object]],
 ) -> None:
     with QUESTION_TAGS_JSONL.open("w") as f:
         for question in questions:
@@ -1211,15 +1400,52 @@ def export_data(
             "years",
             "avg_difficulty",
             "priority_score",
+            "early_share",
             "late_share",
+            "template_archetype",
             "objective",
         ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for row in subtopic_rows:
             out = dict(row)
             out["years"] = " ".join(str(y) for y in row["years"])
             writer.writerow(out)
+
+    with UNCLASSIFIED_CSV.open("w", newline="") as f:
+        fieldnames = ["year", "question_number", "word_count", "difficulty_estimate", "reasoning_tags", "preview"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        for q in questions:
+            if q["primary_subtopic"] == "Unclassified":
+                writer.writerow(
+                    {
+                        "year": q["year"],
+                        "question_number": q["question_number"],
+                        "word_count": q["word_count"],
+                        "difficulty_estimate": q["difficulty_estimate"],
+                        "reasoning_tags": "|".join(q["reasoning_tags"]),
+                        "preview": q["preview"],
+                    }
+                )
+
+    with STAGE_SUMMARY_CSV.open("w", newline="") as f:
+        fieldnames = list(stage_rows[0].keys()) if stage_rows else []
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(stage_rows)
+
+    with YEAR_PILLAR_CSV.open("w", newline="") as f:
+        fieldnames = ["year", "pillar", "primary_questions", "share"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(year_pillar_rows)
+
+    with REASONING_COOCCURRENCE_CSV.open("w", newline="") as f:
+        fieldnames = ["row_tag", "column_tag", "question_count", "share_of_corpus"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(cooccurrence_rows)
 
     with REASONING_TOPIC_CSV.open("w", newline="") as f:
         fieldnames = [
@@ -1233,7 +1459,7 @@ def export_data(
             "data_share",
             "experiment_share",
         ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(reasoning_rows)
 
@@ -1243,11 +1469,18 @@ def export_data(
                 "metadata": {
                     "question_count": len(questions),
                     "tagged_question_count": sum(q["primary_subtopic"] != "Unclassified" for q in questions),
+                    "unclassified_question_count": sum(q["primary_subtopic"] == "Unclassified" for q in questions),
                     "subtopic_hit_count": sum(row["hits"] for row in subtopic_rows),
+                    "stage_question_counts": {
+                        stage: sum(q["stage"] == stage for q in questions) for stage in STAGE_NAMES
+                    },
                     "stages": {name: [min(years), max(years)] for name, years in STAGES},
                 },
                 "subtopic_summary": subtopic_rows,
                 "reasoning_by_topic": reasoning_rows,
+                "stage_summary": stage_rows,
+                "year_pillar_counts": year_pillar_rows,
+                "reasoning_tag_cooccurrence": cooccurrence_rows,
             },
             indent=2,
             ensure_ascii=False,
@@ -1281,14 +1514,15 @@ def save_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
     cell_h = 24
     left = 310
     top = 58
-    right = 30
-    bottom = 25
+    right = 115
+    bottom = 38
     width = left + cell_w * 3 + right
     height = top + cell_h * len(rows) + bottom
     max_value = max(max(int(r["early"]), int(r["middle"]), int(r["late"])) for r in rows) or 1
+    max_root = math.sqrt(max_value)
 
     def color(value: int) -> str:
-        t = value / max_value
+        t = math.sqrt(value) / max_root if max_root else 0.0
         red = int(236 + (27 - 236) * t)
         green = int(245 + (94 - 245) * t)
         blue = int(255 + (120 - 255) * t)
@@ -1317,6 +1551,14 @@ def save_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
             out.append(
                 f'<text x="{x + cell_w / 2}" y="{y + 15}" text-anchor="middle" class="small">{value}</text>'
             )
+    legend_x = left + cell_w * 3 + 16
+    legend_y = top
+    out.append(f'<text x="{legend_x}" y="{legend_y - 8}" class="small head">sqrt scale</text>')
+    legend_values = [0, max_value // 4, max_value]
+    for i, value in enumerate(legend_values):
+        y = legend_y + i * 24
+        out.append(f'<rect x="{legend_x}" y="{y}" width="18" height="16" fill="{color(value)}" stroke="#d1d5db"/>')
+        out.append(f'<text x="{legend_x + 24}" y="{y + 12}" class="small">{value}</text>')
     out.append("</svg>")
     path.write_text("\n".join(out))
 
@@ -1442,9 +1684,180 @@ def save_stacked(path: Path, rows: list[tuple[str, Counter]], title: str) -> Non
     path.write_text("\n".join(out))
 
 
+def save_year_pillar_lines(path: Path, rows: list[dict[str, object]], title: str) -> None:
+    years = sorted({int(row["year"]) for row in rows})
+    totals = Counter()
+    for row in rows:
+        if row["pillar"] != "Unclassified":
+            totals[row["pillar"]] += int(row["primary_questions"])
+    pillars = [pillar for pillar, _ in totals.most_common(4)]
+    colors = ["#2f6f9f", "#b45f06", "#357a55", "#6a51a3"]
+    left = 58
+    right = 160
+    top = 56
+    bottom = 54
+    width = 920
+    height = 430
+    plot_w = width - left - right
+    plot_h = height - top - bottom
+    value_lookup = {(int(row["year"]), row["pillar"]): float(row["share"]) for row in rows}
+    max_share = max((value_lookup.get((year, pillar), 0.0) for year in years for pillar in pillars), default=0.01)
+    max_share = max(0.25, math.ceil(max_share * 10) / 10)
+
+    def x_for(year: int) -> float:
+        if len(years) == 1:
+            return left + plot_w / 2
+        return left + (year - years[0]) / (years[-1] - years[0]) * plot_w
+
+    def y_for(share: float) -> float:
+        return top + plot_h - (share / max_share) * plot_h
+
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+        "<style>text{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}</style>",
+        f'<rect width="{width}" height="{height}" fill="white"/>',
+        f'<text x="10" y="28" class="title">{esc(title)}</text>',
+        f'<line x1="{left}" x2="{left}" y1="{top}" y2="{top + plot_h}" stroke="#333"/>',
+        f'<line x1="{left}" x2="{left + plot_w}" y1="{top + plot_h}" y2="{top + plot_h}" stroke="#333"/>',
+    ]
+    for tick in range(0, int(max_share * 100) + 1, 10):
+        share = tick / 100
+        y = y_for(share)
+        out.append(f'<line x1="{left - 4}" x2="{left + plot_w}" y1="{y}" y2="{y}" stroke="#eef2f7"/>')
+        out.append(f'<text x="{left - 8}" y="{y + 4}" text-anchor="end" class="small">{tick}%</text>')
+    for year in years:
+        x = x_for(year)
+        out.append(f'<line x1="{x}" x2="{x}" y1="{top + plot_h}" y2="{top + plot_h + 4}" stroke="#333"/>')
+        out.append(f'<text x="{x}" y="{top + plot_h + 18}" text-anchor="middle" class="small">{year}</text>')
+    for idx, pillar in enumerate(pillars):
+        color = colors[idx % len(colors)]
+        points = [(x_for(year), y_for(value_lookup.get((year, pillar), 0.0))) for year in years]
+        point_text = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
+        out.append(f'<polyline points="{point_text}" fill="none" stroke="{color}" stroke-width="2"/>')
+        for x, y in points:
+            out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.8" fill="{color}"/>')
+        legend_y = top + idx * 18
+        legend_x = left + plot_w + 24
+        out.append(f'<rect x="{legend_x}" y="{legend_y - 9}" width="12" height="12" fill="{color}"/>')
+        out.append(f'<text x="{legend_x + 18}" y="{legend_y + 1}" class="small">{esc(pillar)}</text>')
+    out.append('<text x="10" y="410" class="small">Y-axis: share of questions by primary pillar; 2003 has 35 questions.</text>')
+    out.append("</svg>")
+    path.write_text("\n".join(out))
+
+
+def save_cooccurrence_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
+    tags = REASONING_TAG_ORDER
+    cell = 62
+    left = 230
+    top = 112
+    width = left + cell * len(tags) + 35
+    height = top + cell * len(tags) + 45
+    lookup = {(row["row_tag"], row["column_tag"]): int(row["question_count"]) for row in rows}
+    max_value = max(lookup.values()) or 1
+
+    def color(value: int) -> str:
+        t = math.sqrt(value) / math.sqrt(max_value)
+        red = int(242 + (49 - 242) * t)
+        green = int(248 + (130 - 248) * t)
+        blue = int(255 + (189 - 255) * t)
+        return f"#{red:02x}{green:02x}{blue:02x}"
+
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+        "<style>text{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}</style>",
+        f'<rect width="{width}" height="{height}" fill="white"/>',
+        f'<text x="10" y="28" class="title">{esc(title)}</text>',
+    ]
+    for j, tag in enumerate(tags):
+        x = left + j * cell + cell / 2
+        for k, line in enumerate(wrap_label(tag, 12)):
+            out.append(f'<text x="{x}" y="{top - 48 + k * 10}" text-anchor="middle" class="small">{esc(line)}</text>')
+    for i, row_tag in enumerate(tags):
+        y = top + i * cell
+        for k, line in enumerate(wrap_label(row_tag, 28)):
+            out.append(f'<text x="8" y="{y + 24 + k * 10}" class="small">{esc(line)}</text>')
+        for j, column_tag in enumerate(tags):
+            value = lookup[(row_tag, column_tag)]
+            x = left + j * cell
+            out.append(f'<rect x="{x}" y="{y}" width="{cell - 2}" height="{cell - 2}" fill="{color(value)}" stroke="#fff"/>')
+            out.append(f'<text x="{x + cell / 2}" y="{y + 35}" text-anchor="middle" class="small">{value}</text>')
+    out.append("</svg>")
+    path.write_text("\n".join(out))
+
+
+def save_difficulty_scatter(path: Path, rows: list[dict[str, object]], title: str) -> None:
+    colors = {
+        "Molecular/Cell": "#2f6f9f",
+        "Genetics/Evolution": "#6a51a3",
+        "Plant": "#357a55",
+        "Animal Physiology": "#b45f06",
+        "Ecology/Behavior": "#7a6a35",
+        "Microbiology/Pathogens": "#b04a4a",
+        "Molecular/Methods": "#4f6f52",
+    }
+    left = 70
+    right = 210
+    top = 56
+    bottom = 58
+    width = 920
+    height = 430
+    plot_w = width - left - right
+    plot_h = height - top - bottom
+    max_hits = max(int(row["hits"]) for row in rows) or 1
+    min_diff = 1.4
+    max_diff = 3.4
+
+    def x_for(hits: int) -> float:
+        return left + math.log1p(hits) / math.log1p(max_hits) * plot_w
+
+    def y_for(diff: float) -> float:
+        return top + plot_h - (diff - min_diff) / (max_diff - min_diff) * plot_h
+
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
+        "<style>text{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}</style>",
+        f'<rect width="{width}" height="{height}" fill="white"/>',
+        f'<text x="10" y="28" class="title">{esc(title)}</text>',
+        f'<line x1="{left}" x2="{left}" y1="{top}" y2="{top + plot_h}" stroke="#333"/>',
+        f'<line x1="{left}" x2="{left + plot_w}" y1="{top + plot_h}" y2="{top + plot_h}" stroke="#333"/>',
+    ]
+    for tick in [2, 5, 10, 20, 40, 80]:
+        if tick <= max_hits:
+            x = x_for(tick)
+            out.append(f'<line x1="{x}" x2="{x}" y1="{top}" y2="{top + plot_h}" stroke="#eef2f7"/>')
+            out.append(f'<text x="{x}" y="{top + plot_h + 16}" text-anchor="middle" class="small">{tick}</text>')
+    for tick in [1.5, 2.0, 2.5, 3.0]:
+        y = y_for(tick)
+        out.append(f'<line x1="{left - 4}" x2="{left + plot_w}" y1="{y}" y2="{y}" stroke="#eef2f7"/>')
+        out.append(f'<text x="{left - 8}" y="{y + 4}" text-anchor="end" class="small">{tick:.1f}</text>')
+    for row in rows:
+        x = x_for(int(row["hits"]))
+        y = y_for(float(row["avg_difficulty"]))
+        color = colors.get(str(row["pillar"]), "#666")
+        radius = 3.5 + min(7.0, float(row["priority_score"]) / 14.0)
+        out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{radius:.1f}" fill="{color}" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>')
+    label_rows = sorted(rows, key=lambda row: -float(row["priority_score"]))[:8]
+    for row in label_rows:
+        x = x_for(int(row["hits"]))
+        y = y_for(float(row["avg_difficulty"]))
+        label = str(row["subtopic"]).split(",")[0][:28]
+        out.append(f'<text x="{x + 8:.1f}" y="{y - 6:.1f}" class="small">{esc(label)}</text>')
+    legend_x = left + plot_w + 25
+    legend_y = top
+    for idx, (pillar, color) in enumerate(colors.items()):
+        y = legend_y + idx * 17
+        out.append(f'<circle cx="{legend_x}" cy="{y}" r="5" fill="{color}" fill-opacity="0.72"/>')
+        out.append(f'<text x="{legend_x + 12}" y="{y + 4}" class="small">{esc(pillar)}</text>')
+    out.append(f'<text x="{left}" y="{height - 14}" class="small">X: subtopic hits, log scale. Y: heuristic average difficulty.</text>')
+    out.append("</svg>")
+    path.write_text("\n".join(out))
+
+
 def render_plots(
     subtopic_rows: list[dict[str, object]],
     reasoning_rows: list[dict[str, object]],
+    year_pillar_rows: list[dict[str, object]],
+    cooccurrence_rows: list[dict[str, object]],
 ) -> list[Path]:
     heat_rows = sorted(
         [row for row in subtopic_rows if int(row["hits"]) >= 8],
@@ -1452,7 +1865,7 @@ def render_plots(
     )[:26]
     save_heatmap(PLOT_DIR / "knowledge_subtopic_stage_heatmap.svg", heat_rows, "Knowledge subtopic hits by exam stage")
 
-    priority_rows = list(reversed(subtopic_rows[:22]))
+    priority_rows = subtopic_rows[:22]
     save_barh(
         PLOT_DIR / "knowledge_subtopic_priority_scores.svg",
         priority_rows,
@@ -1490,7 +1903,7 @@ def render_plots(
     )[:18]
     save_barh(
         PLOT_DIR / "data_figure_reasoning_by_knowledge_topic.svg",
-        list(reversed(data_rows)),
+        data_rows,
         "data_figure_table",
         "Data/figure/table reasoning by knowledge topic",
         "question count",
@@ -1503,21 +1916,51 @@ def render_plots(
     )[:18]
     save_barh(
         PLOT_DIR / "experimental_reasoning_by_knowledge_topic.svg",
-        list(reversed(experiment_rows)),
+        experiment_rows,
         "experimental_design",
         "Experimental/control reasoning by knowledge topic",
         "question count",
         "#b45f06",
     )
 
-    return [
+    save_year_pillar_lines(
+        PLOT_DIR / "knowledge_pillar_year_trajectory.svg",
+        year_pillar_rows,
+        "Year-level trajectory for largest knowledge pillars",
+    )
+
+    save_cooccurrence_heatmap(
+        PLOT_DIR / "reasoning_tag_cooccurrence.svg",
+        cooccurrence_rows,
+        "Reasoning / format tag co-occurrence",
+    )
+
+    save_difficulty_scatter(
+        PLOT_DIR / "difficulty_vs_subtopic_recurrence.svg",
+        subtopic_rows,
+        "Difficulty vs. subtopic recurrence",
+    )
+
+    plot_paths = [
         PLOT_DIR / "knowledge_subtopic_stage_heatmap.svg",
         PLOT_DIR / "knowledge_subtopic_priority_scores.svg",
         PLOT_DIR / "knowledge_subtopic_early_late_delta.svg",
         PLOT_DIR / "knowledge_pillar_stage_distribution.svg",
         PLOT_DIR / "data_figure_reasoning_by_knowledge_topic.svg",
         PLOT_DIR / "experimental_reasoning_by_knowledge_topic.svg",
+        PLOT_DIR / "knowledge_pillar_year_trajectory.svg",
+        PLOT_DIR / "reasoning_tag_cooccurrence.svg",
+        PLOT_DIR / "difficulty_vs_subtopic_recurrence.svg",
     ]
+    clean_unused_plots(plot_paths)
+    return plot_paths
+
+
+def clean_unused_plots(plot_paths: list[Path]) -> None:
+    keep = {path.resolve() for path in plot_paths}
+    for path in PLOT_DIR.glob("*.svg"):
+        if path.resolve() not in keep:
+            path.unlink()
 
 
 def fmt_years(years: list[int]) -> str:
@@ -1550,12 +1993,26 @@ def md_table(headers: list[str], rows: list[list[object]]) -> str:
     return "\n".join(lines)
 
 
-def tier(index: int, row: dict[str, object]) -> str:
-    if int(row["stage_breadth"]) == 3 and index < 14:
+def tier(_index: int, row: dict[str, object]) -> str:
+    """Feature-based tier rule.
+
+    Tier 1: appears in every stage, has wide year breadth, and is frequent.
+    Tier 2: skewed toward late-stage and modern enough to differentiate top scorers.
+    Tier 3: appears regularly but not every year.
+    Tier 4: low frequency or single-stage.
+    """
+    hits = int(row["hits"])
+    stage_breadth = int(row["stage_breadth"])
+    year_breadth = int(row["year_breadth"])
+    late = int(row["late"])
+    early = int(row["early"])
+    late_share = float(row["late_share"])
+
+    if stage_breadth == 3 and hits >= 25 and year_breadth >= 11:
         return "Tier 1 - stable core"
-    if int(row["late"]) >= 5 and int(row["late"]) >= int(row["early"]):
+    if late >= 5 and (late_share >= 0.40 or late >= early):
         return "Tier 2 - modern differentiator"
-    if int(row["hits"]) >= 8:
+    if hits >= 8:
         return "Tier 3 - periodic high-yield"
     return "Tier 4 - selective / low-frequency"
 
@@ -1564,10 +2021,32 @@ def render_report(
     questions: list[dict[str, object]],
     subtopic_rows: list[dict[str, object]],
     reasoning_rows: list[dict[str, object]],
+    stage_rows: list[dict[str, object]],
     plot_paths: list[Path],
 ) -> None:
     tagged_count = sum(q["primary_subtopic"] != "Unclassified" for q in questions)
+    unclassified_count = len(questions) - tagged_count
     topic_hit_count = sum(int(row["hits"]) for row in subtopic_rows)
+    stage_q_counts = Counter(q["stage"] for q in questions)
+
+    def stage_per_50(count: int, stage: str) -> str:
+        return f"{50 * count / stage_q_counts[stage]:.1f}"
+
+    def stage_pct(count: int, stage: str) -> str:
+        return f"{100 * count / stage_q_counts[stage]:.1f}%"
+
+    stage_table_rows = [
+        [
+            STAGE_SHORT[row["stage"]],
+            row["years"],
+            row["question_count"],
+            row["tagged_questions"],
+            row["unclassified_questions"],
+            row["subtopic_hits"],
+            row["subtopic_hits_per_question"],
+        ]
+        for row in stage_rows
+    ]
 
     by_pillar: dict[str, Counter] = defaultdict(Counter)
     for row in subtopic_rows:
@@ -1582,8 +2061,11 @@ def render_report(
                 pillar,
                 total,
                 counts["Early 2003-2008"],
+                stage_per_50(counts["Early 2003-2008"], "Early 2003-2008"),
                 counts["Middle 2009-2013"],
+                stage_per_50(counts["Middle 2009-2013"], "Middle 2009-2013"),
                 counts["Late 2014-2018"],
+                stage_per_50(counts["Late 2014-2018"], "Late 2014-2018"),
                 percent(total, topic_hit_count),
             ]
         )
@@ -1618,6 +2100,7 @@ def render_report(
                 row["priority_score"],
                 f'{row["early"]}/{row["middle"]}/{row["late"]}',
                 fmt_years(row["years"]),
+                row["template_archetype"],
                 row["objective"],
             ]
         )
@@ -1635,6 +2118,7 @@ def render_report(
                 row["middle"],
                 row["late"],
                 int(row["late"]) - int(row["early"]),
+                f'{float(stage_per_50(int(row["late"]), "Late 2014-2018")) - float(stage_per_50(int(row["early"]), "Early 2003-2008")):+.1f}',
                 f'{100 * float(row["late_share"]):.0f}%',
             ]
         )
@@ -1656,19 +2140,48 @@ def render_report(
                 row["middle"],
                 row["late"],
                 int(row["early"]) - int(row["late"]),
+                f'{float(stage_per_50(int(row["early"]), "Early 2003-2008")) - float(stage_per_50(int(row["late"]), "Late 2014-2018")):+.1f}',
                 fmt_years(row["years"]),
             ]
         )
 
-    late_only_rows = [
-        [row["subtopic"], row["pillar"], row["late"], fmt_years(row["years"]), row["avg_difficulty"]]
-        for row in subtopic_rows
-        if int(row["late"]) > 0 and int(row["early"]) == 0 and int(row["middle"]) == 0
+    late_skew_rows = [
+        [
+            row["subtopic"],
+            row["pillar"],
+            row["early"],
+            row["middle"],
+            row["late"],
+            f'{100 * float(row["late_share"]):.0f}%',
+            fmt_years(row["years"]),
+        ]
+        for row in sorted(
+            [
+                row
+                for row in subtopic_rows
+                if int(row["late"]) >= 4 and float(row["late_share"]) >= 0.45
+            ],
+            key=lambda row: (-float(row["late_share"]), -int(row["late"]), row["subtopic"]),
+        )[:16]
     ]
-    early_only_rows = [
-        [row["subtopic"], row["pillar"], row["early"], fmt_years(row["years"]), row["avg_difficulty"]]
-        for row in subtopic_rows
-        if int(row["early"]) > 0 and int(row["middle"]) == 0 and int(row["late"]) == 0
+    early_skew_rows = [
+        [
+            row["subtopic"],
+            row["pillar"],
+            row["early"],
+            row["middle"],
+            row["late"],
+            f'{100 * float(row["early_share"]):.0f}%',
+            fmt_years(row["years"]),
+        ]
+        for row in sorted(
+            [
+                row
+                for row in subtopic_rows
+                if int(row["early"]) >= 4 and float(row["early_share"]) >= 0.45
+            ],
+            key=lambda row: (-float(row["early_share"]), -int(row["early"]), row["subtopic"]),
+        )[:16]
     ]
 
     tag_stage: dict[str, Counter] = defaultdict(Counter)
@@ -1683,8 +2196,11 @@ def render_report(
                 tag,
                 total,
                 counts["Early 2003-2008"],
+                stage_pct(counts["Early 2003-2008"], "Early 2003-2008"),
                 counts["Middle 2009-2013"],
+                stage_pct(counts["Middle 2009-2013"], "Middle 2009-2013"),
                 counts["Late 2014-2018"],
+                stage_pct(counts["Late 2014-2018"], "Late 2014-2018"),
                 percent(total, len(questions)),
             ]
         )
@@ -1729,6 +2245,7 @@ def render_report(
             fmt_years(row["years"]),
             row["avg_difficulty"],
             row["priority_score"],
+            row["template_archetype"],
         ]
         for row in sorted(subtopic_rows, key=lambda row: (-int(row["hits"]), row["subtopic"]))
     ]
@@ -1757,6 +2274,10 @@ The new layer here is deeper subtopic prioritization. Unlike the previous versio
 - Question-level tags: `data/open_exam_subtopic_question_tags.jsonl`
 - Subtopic summary table: `data/open_exam_subtopic_summary.csv`
 - Reasoning-by-topic table: `data/open_exam_reasoning_by_topic.csv`
+- Unclassified manual-review table: `data/open_exam_unclassified_questions.csv`
+- Stage-normalized summary table: `data/open_exam_stage_summary.csv`
+- Year-by-pillar trajectory table: `data/open_exam_year_pillar_counts.csv`
+- Reasoning tag co-occurrence table: `data/open_exam_reasoning_tag_cooccurrence.csv`
 - Consolidated machine-readable data: `data/open_exam_consolidated_subtopic_analysis_data.json`
 
 ## Method And Caveats
@@ -1767,7 +2288,23 @@ The analysis parsed {len(questions)} questions from 16 Markdown exams. The three
 - Middle: 2009-2013
 - Late: 2014-2018
 
-This pass uses a multi-label knowledge microtopic taxonomy. A question can count for more than one knowledge subtopic, because many Open Exam items combine biology areas. The taxonomy generated {topic_hit_count} knowledge-subtopic hits across {tagged_count} tagged questions. Counts are useful for prioritization, but they are still heuristic and should be refined with manual labels later.
+Important denominator note: 2003 has 35 parsed questions, while the other years have 50. Early-stage raw counts therefore use {stage_q_counts["Early 2003-2008"]} questions, not 300. Stage comparisons below show raw counts plus normalized rates where that affects interpretation.
+
+This pass uses a multi-label knowledge microtopic taxonomy. A question can count for more than one knowledge subtopic, because many Open Exam items combine biology areas. The taxonomy generated {topic_hit_count} knowledge-subtopic hits across {tagged_count} tagged questions, with {unclassified_count} questions left for manual review. Counts are useful for prioritization, but they are still heuristic and should be refined with manual labels later.
+
+After the independent review in `open_exam_consolidated_subtopic_analysis_review.md`, the generator was updated to:
+
+- Match common plural and biological inflection forms without letting very short keywords over-match.
+- Match spaces and hyphens interchangeably in phrases such as `wild-type`, `patch-clamp`, and `half-life`.
+- Keep high-specificity subtopics, such as linkage/recombination, even when broad Mendelian terms also score highly.
+- Replace the old single-marker Roman-numeral detector with a true list-context detector.
+- Export unclassified questions and normalized stage summaries for manual audit.
+- Use feature-based tier rules and a less overlapping priority formula.
+- Refresh plots with top-ranked bars at the top, square-root heatmap scaling, year trajectories, co-occurrence, and recurrence-vs-difficulty views.
+
+## Stage Denominators And Tagging Coverage
+
+{md_table(["Stage", "Years", "Questions", "Tagged", "Unclassified", "Subtopic hits", "Hits / question"], stage_table_rows)}
 
 Reasoning skills are separate tags: negation, quantitative calculation, Roman/multi-statement logic, select-all format, data/figure/table reasoning, and experimental/control reasoning. The two broad methods/data categories are analyzed below by their associated knowledge topic.
 
@@ -1789,7 +2326,7 @@ All three analyses agree on the main exam story:
 
 These are multi-label knowledge-topic hits, so totals exceed question count. Data/experiment is not a pillar here; it is analyzed as reasoning attached to these knowledge pillars.
 
-{md_table(["Pillar", "Topic hits", "Early", "Middle", "Late", "Share of hits"], pillar_rows)}
+{md_table(["Pillar", "Topic hits", "Early", "Early / 50Q", "Middle", "Middle / 50Q", "Late", "Late / 50Q", "Share of hits"], pillar_rows)}
 
 ## Stable Knowledge Subtopics Across All Three Stages
 
@@ -1807,7 +2344,7 @@ Key reading:
 
 This is the main action table. It ranks knowledge subtopics by frequency, stage stability, year breadth, late-stage relevance, and cognitive load.
 
-{md_table(["Rank", "Tier", "Subtopic", "Pillar", "Hits", "Priority", "Early/Middle/Late", "Years", "Learning objective"], priority_rows)}
+{md_table(["Rank", "Tier", "Subtopic", "Pillar", "Hits", "Priority", "Early/Middle/Late", "Years", "Template archetype", "Learning objective"], priority_rows)}
 
 ### How To Use The Tiers
 
@@ -1822,6 +2359,15 @@ These appear enough to matter, but not every year. Use them after the stable cor
 
 Tier 4 - selective / low-frequency:
 Do not ignore them, but do not let them crowd out stable core objectives unless the student already has strong coverage.
+
+Tier rules are feature-based rather than rank-based:
+
+- Tier 1 requires all three stages, at least 25 hits, and at least 11 separate tested years.
+- Tier 2 requires at least 5 late-stage hits and either late-stage skew or late count at least equal to early count.
+- Tier 3 requires at least 8 hits.
+- Tier 4 is the remaining low-frequency or narrow-coverage set.
+
+Priority score uses independent features: log-scaled hit count, year breadth, all-stage breadth, late-stage share, and average difficulty. The score is a sequencing aid, not a psychometric difficulty model.
 
 ## Data/Figure/Table Reasoning By Knowledge Topic
 
@@ -1842,14 +2388,14 @@ This replaces the overly broad `Experimental design, controls & inference` subto
 
 Interpretation:
 
-- Experimental reasoning is strongest in molecular/cell biology, microbiology/pathogens, development, physiology, plant mechanisms, and lab-method contexts.
+- Experimental reasoning is strongest where concrete mechanisms can be perturbed: physiology, plant mechanisms, gene regulation, organelles/trafficking, evolution/ecology setups, and lab-method contexts.
 - BioBloom should generate experimental questions by choosing a knowledge target first, then adding variables, controls, mutants, expected results, and distractors.
 
 ## Subtopics Rising In The Late Stage
 
 These knowledge subtopics are more prominent in 2014-2018 than in 2003-2008.
 
-{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Late-minus-early", "Late share"], late_rows)}
+{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Late-minus-early", "Late/50 minus Early/50", "Late share"], late_rows)}
 
 Interpretation:
 
@@ -1860,36 +2406,40 @@ Interpretation:
 
 These knowledge subtopics appear more in early exams than late exams. They are useful for breadth, but they should not dominate a modern-practice plan.
 
-{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Early-minus-late", "Years"], early_rows)}
+{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Early-minus-late", "Early/50 minus Late/50", "Years"], early_rows)}
 
 Interpretation:
 
 - Early-weighted does not mean obsolete. It means later exams are less likely to test the topic as a direct recognition item.
 - For modern practice, convert early-weighted topics into mechanism, data, or experiment variants rather than repeating simple recall.
 
-## Stage-Only Subtopics
+## Stage-Skewed Subtopics
 
-Late-only knowledge subtopics in this heuristic pass:
+The broad taxonomy means truly stage-only subtopics are rare and not very informative. These tables instead surface near-stage-only signals: subtopics with at least 45% of their hits in one stage and at least 4 hits in that stage.
 
-{md_table(["Subtopic", "Pillar", "Late hits", "Years", "Avg difficulty"], late_only_rows or [["-", "-", "-", "-", "-"]])}
+Late-skewed knowledge subtopics:
 
-Early-only knowledge subtopics in this heuristic pass:
+{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Late share", "Years"], late_skew_rows or [["-", "-", "-", "-", "-", "-", "-"]])}
 
-{md_table(["Subtopic", "Pillar", "Early hits", "Years", "Avg difficulty"], early_only_rows or [["-", "-", "-", "-", "-"]])}
+Early-skewed knowledge subtopics:
 
-Caution: stage-only classification is sensitive to keyword rules and the available 2003-2018 window. Use this as a manual-review prompt, not as a reason to delete a topic.
+{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Early share", "Years"], early_skew_rows or [["-", "-", "-", "-", "-", "-", "-"]])}
+
+Caution: stage skew is sensitive to keyword rules and the available 2003-2018 window. Use this as a manual-review prompt, not as a reason to delete a topic.
 
 ## Format And Reasoning Tags By Stage
 
 These are not knowledge subtopics, but they strongly affect difficulty and should become separate BioBloom metadata fields.
 
-{md_table(["Reasoning / format tag", "Questions", "Early", "Middle", "Late", "Share of corpus"], tag_rows)}
+{md_table(["Reasoning / format tag", "Questions", "Early", "Early %", "Middle", "Middle %", "Late", "Late %", "Share of corpus"], tag_rows)}
 
 Implications:
 
 - Negation traps are common throughout and especially visible in late exams.
 - Calculation and data reasoning must be trained across topics, not isolated into one chapter.
 - Visual/table interpretation becomes a recurring execution skill. BioBloom should support image/table questions.
+- The co-occurrence plot helps identify compound task forms, especially data plus experiment and negation plus multi-statement/select-all formats.
+- The year-level pillar trajectory plot is normalized by each year's question count, so 2003's shorter length does not inflate or deflate the visual trend.
 
 ## What Is Truly Stable?
 
@@ -1971,6 +2521,18 @@ The exact counts can vary, but every set should include both content coverage an
 5. Make late-stage practice the advanced default.
    For serious USABO preparation, calibrate hard questions against 2014-2017. Use earlier exams for foundations and fluency.
 
+## Manual Review Queue
+
+The unclassified bucket is now exported to `data/open_exam_unclassified_questions.csv`. Use it as the first audit file for taxonomy refinement: each row has year, question number, difficulty estimate, reasoning tags, and a short preview. The right workflow is to hand-label a small sample, add only the missing high-signal keywords, regenerate, and check whether precision drops.
+
+Likely future coverage gaps to consider during manual review:
+
+- Bioinformatics and sequence analysis.
+- Epigenetics beyond methylation/acetylation.
+- RNAi, non-coding RNA, and post-transcriptional regulation.
+- Microbiome ecology and host-associated communities.
+- Modern molecular tools that were rare in 2003-2018 but likely in newer exams.
+
 ## Data Quality Notes To Resolve
 
 The prior reports and this pass surface the same cleanup items:
@@ -1983,22 +2545,54 @@ The prior reports and this pass surface the same cleanup items:
 
 ## Appendix: Knowledge Microtopic Count Table
 
-{md_table(["Subtopic", "Pillar", "Hits", "Early", "Middle", "Late", "Stage breadth", "Year breadth", "Years", "Avg diff", "Priority"], appendix_rows)}
+{md_table(["Subtopic", "Pillar", "Hits", "Early", "Middle", "Late", "Stage breadth", "Year breadth", "Years", "Avg diff", "Priority", "Template archetype"], appendix_rows)}
 """
     REPORT_PATH.write_text(content)
+
+
+def validate_integrity(
+    questions: list[dict[str, object]],
+    subtopic_rows: list[dict[str, object]],
+    stage_rows: list[dict[str, object]],
+) -> None:
+    per_year = Counter(int(q["year"]) for q in questions)
+    assert sum(per_year.values()) == len(questions), "per-year question counts do not sum to total"
+    assert set(per_year) == set(range(2003, 2019)), "expected years 2003-2018"
+    assert per_year[2003] == 35, "2003 should have 35 parsed questions"
+    for year in range(2004, 2019):
+        assert per_year[year] == 50, f"{year} should have 50 parsed questions"
+
+    tagged = sum(q["primary_subtopic"] != "Unclassified" for q in questions)
+    unclassified = sum(q["primary_subtopic"] == "Unclassified" for q in questions)
+    assert tagged + unclassified == len(questions), "tagged + unclassified mismatch"
+
+    question_hit_total = sum(len(q["subtopics"]) for q in questions)
+    summary_hit_total = sum(int(row["hits"]) for row in subtopic_rows)
+    assert question_hit_total == summary_hit_total, "question-level hits do not match summary hits"
+
+    stage_question_total = sum(int(row["question_count"]) for row in stage_rows)
+    assert stage_question_total == len(questions), "stage question counts do not sum to total"
 
 
 def main() -> None:
     questions = parse_questions()
     subtopic_rows = aggregate_subtopics(questions)
     reasoning_rows = aggregate_reasoning_by_topic(questions)
-    export_data(questions, subtopic_rows, reasoning_rows)
-    plot_paths = render_plots(subtopic_rows, reasoning_rows)
-    render_report(questions, subtopic_rows, reasoning_rows, plot_paths)
+    stage_rows = aggregate_stage_summary(questions)
+    year_pillar_rows = aggregate_year_pillars(questions)
+    cooccurrence_rows = aggregate_reasoning_cooccurrence(questions)
+    validate_integrity(questions, subtopic_rows, stage_rows)
+    export_data(questions, subtopic_rows, reasoning_rows, stage_rows, year_pillar_rows, cooccurrence_rows)
+    plot_paths = render_plots(subtopic_rows, reasoning_rows, year_pillar_rows, cooccurrence_rows)
+    render_report(questions, subtopic_rows, reasoning_rows, stage_rows, plot_paths)
     print(f"Wrote {REPORT_PATH}")
     print(f"Wrote {QUESTION_TAGS_JSONL}")
     print(f"Wrote {SUBTOPIC_SUMMARY_CSV}")
     print(f"Wrote {REASONING_TOPIC_CSV}")
+    print(f"Wrote {UNCLASSIFIED_CSV}")
+    print(f"Wrote {STAGE_SUMMARY_CSV}")
+    print(f"Wrote {YEAR_PILLAR_CSV}")
+    print(f"Wrote {REASONING_COOCCURRENCE_CSV}")
     print(f"Wrote {DATA_JSON}")
     for path in plot_paths:
         print(f"Wrote {path}")

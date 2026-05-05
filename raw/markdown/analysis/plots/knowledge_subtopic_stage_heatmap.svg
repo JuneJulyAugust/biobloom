@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="550" height="707" viewBox="0 0 550 707">
+<svg xmlns="http://www.w3.org/2000/svg" width="635" height="720" viewBox="0 0 635 720">
 <style>text{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}.head{font-weight:700}</style>
-<rect width="550" height="707" fill="white"/>
+<rect width="635" height="720" fill="white"/>
 <text x="10" y="28" class="title">Knowledge subtopic hits by exam stage</text>
 <text x="345.0" y="34" text-anchor="middle" class="head small">Early</text>
 <text x="345.0" y="46" text-anchor="middle" class="head small">2003-08</text>
@@ -10,201 +10,207 @@
 <text x="485.0" y="46" text-anchor="middle" class="head small">2014-18</text>
 <text x="8" y="71" class="small">Cardiovascular, respiratory and renal</text>
 <text x="8" y="81" class="small">systems</text>
-<rect x="310" y="58" width="68" height="22" fill="#21627c" stroke="#ffffff"/>
-<text x="345.0" y="73" text-anchor="middle" class="small">30</text>
-<rect x="380" y="58" width="68" height="22" fill="#1b5e78" stroke="#ffffff"/>
-<text x="415.0" y="73" text-anchor="middle" class="small">31</text>
-<rect x="450" y="58" width="68" height="22" fill="#6b98ac" stroke="#ffffff"/>
-<text x="485.0" y="73" text-anchor="middle" class="small">19</text>
+<rect x="310" y="58" width="68" height="22" fill="#1b5e78" stroke="#ffffff"/>
+<text x="345.0" y="73" text-anchor="middle" class="small">36</text>
+<rect x="380" y="58" width="68" height="22" fill="#20627b" stroke="#ffffff"/>
+<text x="415.0" y="73" text-anchor="middle" class="small">34</text>
+<rect x="450" y="58" width="68" height="22" fill="#487e95" stroke="#ffffff"/>
+<text x="485.0" y="73" text-anchor="middle" class="small">22</text>
 <text x="8" y="95" class="small">Mendelian genetics and probability</text>
-<rect x="310" y="82" width="68" height="22" fill="#3c768d" stroke="#ffffff"/>
-<text x="345.0" y="97" text-anchor="middle" class="small">26</text>
-<rect x="380" y="82" width="68" height="22" fill="#729db0" stroke="#ffffff"/>
-<text x="415.0" y="97" text-anchor="middle" class="small">18</text>
-<rect x="450" y="82" width="68" height="22" fill="#6b98ac" stroke="#ffffff"/>
-<text x="485.0" y="97" text-anchor="middle" class="small">19</text>
-<text x="8" y="119" class="small">Microbiology, viruses, bacteria and</text>
-<text x="8" y="129" class="small">pathogens</text>
-<rect x="310" y="106" width="68" height="22" fill="#6593a7" stroke="#ffffff"/>
-<text x="345.0" y="121" text-anchor="middle" class="small">20</text>
-<rect x="380" y="106" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="415.0" y="121" text-anchor="middle" class="small">7</text>
-<rect x="450" y="106" width="68" height="22" fill="#57899f" stroke="#ffffff"/>
-<text x="485.0" y="121" text-anchor="middle" class="small">22</text>
-<text x="8" y="143" class="small">Evolution, selection, adaptation and</text>
-<text x="8" y="153" class="small">speciation</text>
-<rect x="310" y="130" width="68" height="22" fill="#6593a7" stroke="#ffffff"/>
-<text x="345.0" y="145" text-anchor="middle" class="small">20</text>
-<rect x="380" y="130" width="68" height="22" fill="#79a2b4" stroke="#ffffff"/>
-<text x="415.0" y="145" text-anchor="middle" class="small">17</text>
-<rect x="450" y="130" width="68" height="22" fill="#94b5c6" stroke="#ffffff"/>
-<text x="485.0" y="145" text-anchor="middle" class="small">13</text>
-<text x="8" y="167" class="small">Population/community ecology and</text>
-<text x="8" y="177" class="small">biodiversity</text>
-<rect x="310" y="154" width="68" height="22" fill="#6b98ac" stroke="#ffffff"/>
-<text x="345.0" y="169" text-anchor="middle" class="small">19</text>
-<rect x="380" y="154" width="68" height="22" fill="#79a2b4" stroke="#ffffff"/>
-<text x="415.0" y="169" text-anchor="middle" class="small">17</text>
-<rect x="450" y="154" width="68" height="22" fill="#a1bfcf" stroke="#ffffff"/>
-<text x="485.0" y="169" text-anchor="middle" class="small">11</text>
-<text x="8" y="191" class="small">Plant tissues, xylem/phloem and water</text>
-<text x="8" y="201" class="small">transport</text>
-<rect x="310" y="178" width="68" height="22" fill="#80a7b9" stroke="#ffffff"/>
-<text x="345.0" y="193" text-anchor="middle" class="small">16</text>
-<rect x="380" y="178" width="68" height="22" fill="#a8c4d3" stroke="#ffffff"/>
-<text x="415.0" y="193" text-anchor="middle" class="small">10</text>
-<rect x="450" y="178" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="485.0" y="193" text-anchor="middle" class="small">12</text>
+<rect x="310" y="82" width="68" height="22" fill="#336f87" stroke="#ffffff"/>
+<text x="345.0" y="97" text-anchor="middle" class="small">28</text>
+<rect x="380" y="82" width="68" height="22" fill="#447c93" stroke="#ffffff"/>
+<text x="415.0" y="97" text-anchor="middle" class="small">23</text>
+<rect x="450" y="82" width="68" height="22" fill="#588a9f" stroke="#ffffff"/>
+<text x="485.0" y="97" text-anchor="middle" class="small">18</text>
+<text x="8" y="119" class="small">Population/community ecology and</text>
+<text x="8" y="129" class="small">biodiversity</text>
+<rect x="310" y="106" width="68" height="22" fill="#487e95" stroke="#ffffff"/>
+<text x="345.0" y="121" text-anchor="middle" class="small">22</text>
+<rect x="380" y="106" width="68" height="22" fill="#50849a" stroke="#ffffff"/>
+<text x="415.0" y="121" text-anchor="middle" class="small">20</text>
+<rect x="450" y="106" width="68" height="22" fill="#5c8da2" stroke="#ffffff"/>
+<text x="485.0" y="121" text-anchor="middle" class="small">17</text>
+<text x="8" y="143" class="small">Microbiology, viruses, bacteria and</text>
+<text x="8" y="153" class="small">pathogens</text>
+<rect x="310" y="130" width="68" height="22" fill="#3d778e" stroke="#ffffff"/>
+<text x="345.0" y="145" text-anchor="middle" class="small">25</text>
+<rect x="380" y="130" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="415.0" y="145" text-anchor="middle" class="small">9</text>
+<rect x="450" y="130" width="68" height="22" fill="#417990" stroke="#ffffff"/>
+<text x="485.0" y="145" text-anchor="middle" class="small">24</text>
+<text x="8" y="167" class="small">Evolution, selection, adaptation and</text>
+<text x="8" y="177" class="small">speciation</text>
+<rect x="310" y="154" width="68" height="22" fill="#487e95" stroke="#ffffff"/>
+<text x="345.0" y="169" text-anchor="middle" class="small">22</text>
+<rect x="380" y="154" width="68" height="22" fill="#4c8197" stroke="#ffffff"/>
+<text x="415.0" y="169" text-anchor="middle" class="small">21</text>
+<rect x="450" y="154" width="68" height="22" fill="#6090a5" stroke="#ffffff"/>
+<text x="485.0" y="169" text-anchor="middle" class="small">16</text>
+<text x="8" y="191" class="small">Plant reproduction, development and life</text>
+<text x="8" y="201" class="small">cycles</text>
+<rect x="310" y="178" width="68" height="22" fill="#50849a" stroke="#ffffff"/>
+<text x="345.0" y="193" text-anchor="middle" class="small">20</text>
+<rect x="380" y="178" width="68" height="22" fill="#54879c" stroke="#ffffff"/>
+<text x="415.0" y="193" text-anchor="middle" class="small">19</text>
+<rect x="450" y="178" width="68" height="22" fill="#6996aa" stroke="#ffffff"/>
+<text x="485.0" y="193" text-anchor="middle" class="small">14</text>
 <text x="8" y="215" class="small">Neurophysiology, muscle and sensory</text>
 <text x="8" y="225" class="small">systems</text>
-<rect x="310" y="202" width="68" height="22" fill="#8db0c2" stroke="#ffffff"/>
-<text x="345.0" y="217" text-anchor="middle" class="small">14</text>
-<rect x="380" y="202" width="68" height="22" fill="#afc9d7" stroke="#ffffff"/>
-<text x="415.0" y="217" text-anchor="middle" class="small">9</text>
-<rect x="450" y="202" width="68" height="22" fill="#94b5c6" stroke="#ffffff"/>
-<text x="485.0" y="217" text-anchor="middle" class="small">13</text>
-<text x="8" y="239" class="small">Endocrine feedback and homeostasis</text>
-<rect x="310" y="226" width="68" height="22" fill="#86abbd" stroke="#ffffff"/>
-<text x="345.0" y="241" text-anchor="middle" class="small">15</text>
-<rect x="380" y="226" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="415.0" y="241" text-anchor="middle" class="small">12</text>
-<rect x="450" y="226" width="68" height="22" fill="#a1bfcf" stroke="#ffffff"/>
-<text x="485.0" y="241" text-anchor="middle" class="small">11</text>
-<text x="8" y="263" class="small">Plant reproduction, development and life</text>
-<text x="8" y="273" class="small">cycles</text>
-<rect x="310" y="250" width="68" height="22" fill="#8db0c2" stroke="#ffffff"/>
-<text x="345.0" y="265" text-anchor="middle" class="small">14</text>
-<rect x="380" y="250" width="68" height="22" fill="#8db0c2" stroke="#ffffff"/>
-<text x="415.0" y="265" text-anchor="middle" class="small">14</text>
-<rect x="450" y="250" width="68" height="22" fill="#a8c4d3" stroke="#ffffff"/>
-<text x="485.0" y="265" text-anchor="middle" class="small">10</text>
-<text x="8" y="287" class="small">Behavior, learning and ethology</text>
-<rect x="310" y="274" width="68" height="22" fill="#b6cedc" stroke="#ffffff"/>
-<text x="345.0" y="289" text-anchor="middle" class="small">8</text>
-<rect x="380" y="274" width="68" height="22" fill="#a1bfcf" stroke="#ffffff"/>
-<text x="415.0" y="289" text-anchor="middle" class="small">11</text>
-<rect x="450" y="274" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="485.0" y="289" text-anchor="middle" class="small">12</text>
+<rect x="310" y="202" width="68" height="22" fill="#6593a7" stroke="#ffffff"/>
+<text x="345.0" y="217" text-anchor="middle" class="small">15</text>
+<rect x="380" y="202" width="68" height="22" fill="#6996aa" stroke="#ffffff"/>
+<text x="415.0" y="217" text-anchor="middle" class="small">14</text>
+<rect x="450" y="202" width="68" height="22" fill="#6996aa" stroke="#ffffff"/>
+<text x="485.0" y="217" text-anchor="middle" class="small">14</text>
+<text x="8" y="239" class="small">Plant tissues, xylem/phloem and water</text>
+<text x="8" y="249" class="small">transport</text>
+<rect x="310" y="226" width="68" height="22" fill="#588a9f" stroke="#ffffff"/>
+<text x="345.0" y="241" text-anchor="middle" class="small">18</text>
+<rect x="380" y="226" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="415.0" y="241" text-anchor="middle" class="small">11</text>
+<rect x="450" y="226" width="68" height="22" fill="#6593a7" stroke="#ffffff"/>
+<text x="485.0" y="241" text-anchor="middle" class="small">15</text>
+<text x="8" y="263" class="small">Endocrine feedback and homeostasis</text>
+<rect x="310" y="250" width="68" height="22" fill="#588a9f" stroke="#ffffff"/>
+<text x="345.0" y="265" text-anchor="middle" class="small">18</text>
+<rect x="380" y="250" width="68" height="22" fill="#739db1" stroke="#ffffff"/>
+<text x="415.0" y="265" text-anchor="middle" class="small">12</text>
+<rect x="450" y="250" width="68" height="22" fill="#739db1" stroke="#ffffff"/>
+<text x="485.0" y="265" text-anchor="middle" class="small">12</text>
+<text x="8" y="287" class="small">Biomolecules, macromolecules and</text>
+<text x="8" y="297" class="small">biochemical tests</text>
+<rect x="310" y="274" width="68" height="22" fill="#739db1" stroke="#ffffff"/>
+<text x="345.0" y="289" text-anchor="middle" class="small">12</text>
+<rect x="380" y="274" width="68" height="22" fill="#447c93" stroke="#ffffff"/>
+<text x="415.0" y="289" text-anchor="middle" class="small">23</text>
+<rect x="450" y="274" width="68" height="22" fill="#6090a5" stroke="#ffffff"/>
+<text x="485.0" y="289" text-anchor="middle" class="small">16</text>
 <text x="8" y="311" class="small">Development, reproduction and embryology</text>
-<rect x="310" y="298" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="345.0" y="313" text-anchor="middle" class="small">5</text>
-<rect x="380" y="298" width="68" height="22" fill="#a1bfcf" stroke="#ffffff"/>
-<text x="415.0" y="313" text-anchor="middle" class="small">11</text>
-<rect x="450" y="298" width="68" height="22" fill="#80a7b9" stroke="#ffffff"/>
-<text x="485.0" y="313" text-anchor="middle" class="small">16</text>
-<text x="8" y="335" class="small">Transcription, translation and gene</text>
-<text x="8" y="345" class="small">regulation</text>
-<rect x="310" y="322" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="345.0" y="337" text-anchor="middle" class="small">12</text>
-<rect x="380" y="322" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="415.0" y="337" text-anchor="middle" class="small">6</text>
-<rect x="450" y="322" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="485.0" y="337" text-anchor="middle" class="small">12</text>
-<text x="8" y="359" class="small">Biomolecules, macromolecules and</text>
-<text x="8" y="369" class="small">biochemical tests</text>
-<rect x="310" y="346" width="68" height="22" fill="#afc9d7" stroke="#ffffff"/>
-<text x="345.0" y="361" text-anchor="middle" class="small">9</text>
-<rect x="380" y="346" width="68" height="22" fill="#79a2b4" stroke="#ffffff"/>
-<text x="415.0" y="361" text-anchor="middle" class="small">17</text>
-<rect x="450" y="346" width="68" height="22" fill="#afc9d7" stroke="#ffffff"/>
-<text x="485.0" y="361" text-anchor="middle" class="small">9</text>
+<rect x="310" y="298" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="345.0" y="313" text-anchor="middle" class="small">9</text>
+<rect x="380" y="298" width="68" height="22" fill="#739db1" stroke="#ffffff"/>
+<text x="415.0" y="313" text-anchor="middle" class="small">12</text>
+<rect x="450" y="298" width="68" height="22" fill="#5c8da2" stroke="#ffffff"/>
+<text x="485.0" y="313" text-anchor="middle" class="small">17</text>
+<text x="8" y="335" class="small">Behavior, learning and ethology</text>
+<rect x="310" y="322" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="345.0" y="337" text-anchor="middle" class="small">13</text>
+<rect x="380" y="322" width="68" height="22" fill="#739db1" stroke="#ffffff"/>
+<text x="415.0" y="337" text-anchor="middle" class="small">12</text>
+<rect x="450" y="322" width="68" height="22" fill="#6996aa" stroke="#ffffff"/>
+<text x="485.0" y="337" text-anchor="middle" class="small">14</text>
+<text x="8" y="359" class="small">Cellular respiration, ETC and ATP</text>
+<text x="8" y="369" class="small">synthesis</text>
+<rect x="310" y="346" width="68" height="22" fill="#588a9f" stroke="#ffffff"/>
+<text x="345.0" y="361" text-anchor="middle" class="small">18</text>
+<rect x="380" y="346" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="415.0" y="361" text-anchor="middle" class="small">9</text>
+<rect x="450" y="346" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="485.0" y="361" text-anchor="middle" class="small">13</text>
 <text x="8" y="383" class="small">Digestion, nutrition, vitamins and</text>
 <text x="8" y="393" class="small">metabolism</text>
-<rect x="310" y="370" width="68" height="22" fill="#8db0c2" stroke="#ffffff"/>
-<text x="345.0" y="385" text-anchor="middle" class="small">14</text>
-<rect x="380" y="370" width="68" height="22" fill="#afc9d7" stroke="#ffffff"/>
-<text x="415.0" y="385" text-anchor="middle" class="small">9</text>
-<rect x="450" y="370" width="68" height="22" fill="#b6cedc" stroke="#ffffff"/>
-<text x="485.0" y="385" text-anchor="middle" class="small">8</text>
-<text x="8" y="407" class="small">Cellular respiration, ETC and ATP</text>
-<text x="8" y="417" class="small">synthesis</text>
-<rect x="310" y="394" width="68" height="22" fill="#a8c4d3" stroke="#ffffff"/>
-<text x="345.0" y="409" text-anchor="middle" class="small">10</text>
-<rect x="380" y="394" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
+<rect x="310" y="370" width="68" height="22" fill="#5c8da2" stroke="#ffffff"/>
+<text x="345.0" y="385" text-anchor="middle" class="small">17</text>
+<rect x="380" y="370" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="415.0" y="385" text-anchor="middle" class="small">11</text>
+<rect x="450" y="370" width="68" height="22" fill="#739db1" stroke="#ffffff"/>
+<text x="485.0" y="385" text-anchor="middle" class="small">12</text>
+<text x="8" y="407" class="small">Transcription, translation and gene</text>
+<text x="8" y="417" class="small">regulation</text>
+<rect x="310" y="394" width="68" height="22" fill="#588a9f" stroke="#ffffff"/>
+<text x="345.0" y="409" text-anchor="middle" class="small">18</text>
+<rect x="380" y="394" width="68" height="22" fill="#9ebccc" stroke="#ffffff"/>
 <text x="415.0" y="409" text-anchor="middle" class="small">5</text>
-<rect x="450" y="394" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="485.0" y="409" text-anchor="middle" class="small">12</text>
-<text x="8" y="431" class="small">Photosynthesis, pigments and carbon</text>
-<text x="8" y="441" class="small">fixation</text>
-<rect x="310" y="418" width="68" height="22" fill="#afc9d7" stroke="#ffffff"/>
-<text x="345.0" y="433" text-anchor="middle" class="small">9</text>
-<rect x="380" y="418" width="68" height="22" fill="#a1bfcf" stroke="#ffffff"/>
-<text x="415.0" y="433" text-anchor="middle" class="small">11</text>
-<rect x="450" y="418" width="68" height="22" fill="#b6cedc" stroke="#ffffff"/>
-<text x="485.0" y="433" text-anchor="middle" class="small">8</text>
-<text x="8" y="455" class="small">Ecosystems, productivity and</text>
-<text x="8" y="465" class="small">biogeochemical cycles</text>
-<rect x="310" y="442" width="68" height="22" fill="#94b5c6" stroke="#ffffff"/>
-<text x="345.0" y="457" text-anchor="middle" class="small">13</text>
-<rect x="380" y="442" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="415.0" y="457" text-anchor="middle" class="small">6</text>
-<rect x="450" y="442" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="485.0" y="457" text-anchor="middle" class="small">5</text>
-<text x="8" y="479" class="small">Protein structure, amino acids and enzymes</text>
-<rect x="310" y="466" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="345.0" y="481" text-anchor="middle" class="small">7</text>
-<rect x="380" y="466" width="68" height="22" fill="#86abbd" stroke="#ffffff"/>
-<text x="415.0" y="481" text-anchor="middle" class="small">15</text>
-<rect x="450" y="466" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="485.0" y="481" text-anchor="middle" class="small">5</text>
-<text x="8" y="503" class="small">Cell cycle, meiosis and cancer checkpoints</text>
-<rect x="310" y="490" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="345.0" y="505" text-anchor="middle" class="small">6</text>
-<rect x="380" y="490" width="68" height="22" fill="#deebf6" stroke="#ffffff"/>
-<text x="415.0" y="505" text-anchor="middle" class="small">2</text>
-<rect x="450" y="490" width="68" height="22" fill="#9bbaca" stroke="#ffffff"/>
-<text x="485.0" y="505" text-anchor="middle" class="small">12</text>
+<rect x="450" y="394" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="485.0" y="409" text-anchor="middle" class="small">11</text>
+<text x="8" y="431" class="small">Phylogeny, cladograms and systematics</text>
+<rect x="310" y="418" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="345.0" y="433" text-anchor="middle" class="small">13</text>
+<rect x="380" y="418" width="68" height="22" fill="#7da5b7" stroke="#ffffff"/>
+<text x="415.0" y="433" text-anchor="middle" class="small">10</text>
+<rect x="450" y="418" width="68" height="22" fill="#7da5b7" stroke="#ffffff"/>
+<text x="485.0" y="433" text-anchor="middle" class="small">10</text>
+<text x="8" y="455" class="small">Protein structure, amino acids and enzymes</text>
+<rect x="310" y="442" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="345.0" y="457" text-anchor="middle" class="small">9</text>
+<rect x="380" y="442" width="68" height="22" fill="#50849a" stroke="#ffffff"/>
+<text x="415.0" y="457" text-anchor="middle" class="small">20</text>
+<rect x="450" y="442" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="485.0" y="457" text-anchor="middle" class="small">9</text>
+<text x="8" y="479" class="small">Photosynthesis, pigments and carbon</text>
+<text x="8" y="489" class="small">fixation</text>
+<rect x="310" y="466" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="345.0" y="481" text-anchor="middle" class="small">9</text>
+<rect x="380" y="466" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="415.0" y="481" text-anchor="middle" class="small">13</text>
+<rect x="450" y="466" width="68" height="22" fill="#89adbf" stroke="#ffffff"/>
+<text x="485.0" y="481" text-anchor="middle" class="small">8</text>
+<text x="8" y="503" class="small">Immunology, inflammation and host defense</text>
+<rect x="310" y="490" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="345.0" y="505" text-anchor="middle" class="small">9</text>
+<rect x="380" y="490" width="68" height="22" fill="#8fb2c3" stroke="#ffffff"/>
+<text x="415.0" y="505" text-anchor="middle" class="small">7</text>
+<rect x="450" y="490" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="485.0" y="505" text-anchor="middle" class="small">13</text>
 <text x="8" y="527" class="small">DNA replication, chromosomes and telomeres</text>
-<rect x="310" y="514" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="345.0" y="529" text-anchor="middle" class="small">7</text>
-<rect x="380" y="514" width="68" height="22" fill="#d1e1ed" stroke="#ffffff"/>
-<text x="415.0" y="529" text-anchor="middle" class="small">4</text>
-<rect x="450" y="514" width="68" height="22" fill="#afc9d7" stroke="#ffffff"/>
-<text x="485.0" y="529" text-anchor="middle" class="small">9</text>
-<text x="8" y="551" class="small">Membrane transport, osmosis and</text>
-<text x="8" y="561" class="small">electrochemical gradients</text>
-<rect x="310" y="538" width="68" height="22" fill="#a8c4d3" stroke="#ffffff"/>
-<text x="345.0" y="553" text-anchor="middle" class="small">10</text>
-<rect x="380" y="538" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="415.0" y="553" text-anchor="middle" class="small">7</text>
-<rect x="450" y="538" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="485.0" y="553" text-anchor="middle" class="small">6</text>
-<text x="8" y="575" class="small">Lab methods, biotechnology and molecular</text>
-<text x="8" y="585" class="small">tools</text>
-<rect x="310" y="562" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="345.0" y="577" text-anchor="middle" class="small">6</text>
-<rect x="380" y="562" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="415.0" y="577" text-anchor="middle" class="small">5</text>
-<rect x="450" y="562" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="485.0" y="577" text-anchor="middle" class="small">7</text>
-<text x="8" y="599" class="small">Organelles, cytoskeleton and intracellular</text>
-<text x="8" y="609" class="small">trafficking</text>
-<rect x="310" y="586" width="68" height="22" fill="#a8c4d3" stroke="#ffffff"/>
-<text x="345.0" y="601" text-anchor="middle" class="small">10</text>
-<rect x="380" y="586" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="415.0" y="601" text-anchor="middle" class="small">7</text>
-<rect x="450" y="586" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="485.0" y="601" text-anchor="middle" class="small">6</text>
-<text x="8" y="623" class="small">Phylogeny, cladograms and systematics</text>
-<rect x="310" y="610" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="345.0" y="625" text-anchor="middle" class="small">6</text>
-<rect x="380" y="610" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="415.0" y="625" text-anchor="middle" class="small">5</text>
-<rect x="450" y="610" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
+<rect x="310" y="514" width="68" height="22" fill="#7da5b7" stroke="#ffffff"/>
+<text x="345.0" y="529" text-anchor="middle" class="small">10</text>
+<rect x="380" y="514" width="68" height="22" fill="#96b7c7" stroke="#ffffff"/>
+<text x="415.0" y="529" text-anchor="middle" class="small">6</text>
+<rect x="450" y="514" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="485.0" y="529" text-anchor="middle" class="small">13</text>
+<text x="8" y="551" class="small">Lab methods, biotechnology and molecular</text>
+<text x="8" y="561" class="small">tools</text>
+<rect x="310" y="538" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="345.0" y="553" text-anchor="middle" class="small">9</text>
+<rect x="380" y="538" width="68" height="22" fill="#a6c2d2" stroke="#ffffff"/>
+<text x="415.0" y="553" text-anchor="middle" class="small">4</text>
+<rect x="450" y="538" width="68" height="22" fill="#89adbf" stroke="#ffffff"/>
+<text x="485.0" y="553" text-anchor="middle" class="small">8</text>
+<text x="8" y="575" class="small">Ecosystems, productivity and</text>
+<text x="8" y="585" class="small">biogeochemical cycles</text>
+<rect x="310" y="562" width="68" height="22" fill="#6e9aad" stroke="#ffffff"/>
+<text x="345.0" y="577" text-anchor="middle" class="small">13</text>
+<rect x="380" y="562" width="68" height="22" fill="#96b7c7" stroke="#ffffff"/>
+<text x="415.0" y="577" text-anchor="middle" class="small">6</text>
+<rect x="450" y="562" width="68" height="22" fill="#9ebccc" stroke="#ffffff"/>
+<text x="485.0" y="577" text-anchor="middle" class="small">5</text>
+<text x="8" y="599" class="small">Pedigrees and inheritance modes</text>
+<rect x="310" y="586" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="345.0" y="601" text-anchor="middle" class="small">11</text>
+<rect x="380" y="586" width="68" height="22" fill="#89adbf" stroke="#ffffff"/>
+<text x="415.0" y="601" text-anchor="middle" class="small">8</text>
+<rect x="450" y="586" width="68" height="22" fill="#a6c2d2" stroke="#ffffff"/>
+<text x="485.0" y="601" text-anchor="middle" class="small">4</text>
+<text x="8" y="623" class="small">Membrane transport, osmosis and</text>
+<text x="8" y="633" class="small">electrochemical gradients</text>
+<rect x="310" y="610" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="345.0" y="625" text-anchor="middle" class="small">11</text>
+<rect x="380" y="610" width="68" height="22" fill="#83a9bb" stroke="#ffffff"/>
+<text x="415.0" y="625" text-anchor="middle" class="small">9</text>
+<rect x="450" y="610" width="68" height="22" fill="#96b7c7" stroke="#ffffff"/>
 <text x="485.0" y="625" text-anchor="middle" class="small">6</text>
-<text x="8" y="647" class="small">Membrane structure, fluidity and</text>
-<text x="8" y="657" class="small">permeability</text>
-<rect x="310" y="634" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
-<text x="345.0" y="649" text-anchor="middle" class="small">7</text>
-<rect x="380" y="634" width="68" height="22" fill="#bcd2e0" stroke="#ffffff"/>
+<text x="8" y="647" class="small">Organelles, cytoskeleton and intracellular</text>
+<text x="8" y="657" class="small">trafficking</text>
+<rect x="310" y="634" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="345.0" y="649" text-anchor="middle" class="small">11</text>
+<rect x="380" y="634" width="68" height="22" fill="#8fb2c3" stroke="#ffffff"/>
 <text x="415.0" y="649" text-anchor="middle" class="small">7</text>
-<rect x="450" y="634" width="68" height="22" fill="#d7e6f1" stroke="#ffffff"/>
-<text x="485.0" y="649" text-anchor="middle" class="small">3</text>
-<text x="8" y="671" class="small">Immunology, inflammation and host defense</text>
-<rect x="310" y="658" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="345.0" y="673" text-anchor="middle" class="small">5</text>
-<rect x="380" y="658" width="68" height="22" fill="#cadce9" stroke="#ffffff"/>
-<text x="415.0" y="673" text-anchor="middle" class="small">5</text>
-<rect x="450" y="658" width="68" height="22" fill="#c3d7e4" stroke="#ffffff"/>
-<text x="485.0" y="673" text-anchor="middle" class="small">6</text>
+<rect x="450" y="634" width="68" height="22" fill="#89adbf" stroke="#ffffff"/>
+<text x="485.0" y="649" text-anchor="middle" class="small">8</text>
+<text x="8" y="671" class="small">Hardy-Weinberg and population genetics</text>
+<rect x="310" y="658" width="68" height="22" fill="#89adbf" stroke="#ffffff"/>
+<text x="345.0" y="673" text-anchor="middle" class="small">8</text>
+<rect x="380" y="658" width="68" height="22" fill="#78a1b4" stroke="#ffffff"/>
+<text x="415.0" y="673" text-anchor="middle" class="small">11</text>
+<rect x="450" y="658" width="68" height="22" fill="#bad1df" stroke="#ffffff"/>
+<text x="485.0" y="673" text-anchor="middle" class="small">2</text>
+<text x="536" y="50" class="small head">sqrt scale</text>
+<rect x="536" y="58" width="18" height="16" fill="#ecf5ff" stroke="#d1d5db"/>
+<text x="560" y="70" class="small">0</text>
+<rect x="536" y="82" width="18" height="16" fill="#83a9bb" stroke="#d1d5db"/>
+<text x="560" y="94" class="small">9</text>
+<rect x="536" y="106" width="18" height="16" fill="#1b5e78" stroke="#d1d5db"/>
+<text x="560" y="118" class="small">36</text>
 </svg>

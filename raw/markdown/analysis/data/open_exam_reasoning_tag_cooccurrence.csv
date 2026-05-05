@@ -1,0 +1,37 @@
+row_tag,column_tag,question_count,share_of_corpus
+Negation trap,Negation trap,214,0.273
+Negation trap,Calculation / quantitative,33,0.042
+Negation trap,Multi-statement / Roman,4,0.005
+Negation trap,Select-all / multi-answer,6,0.008
+Negation trap,Data/figure/table reasoning,32,0.041
+Negation trap,Experimental design/control reasoning,25,0.032
+Calculation / quantitative,Negation trap,33,0.042
+Calculation / quantitative,Calculation / quantitative,121,0.154
+Calculation / quantitative,Multi-statement / Roman,4,0.005
+Calculation / quantitative,Select-all / multi-answer,3,0.004
+Calculation / quantitative,Data/figure/table reasoning,12,0.015
+Calculation / quantitative,Experimental design/control reasoning,11,0.014
+Multi-statement / Roman,Negation trap,4,0.005
+Multi-statement / Roman,Calculation / quantitative,4,0.005
+Multi-statement / Roman,Multi-statement / Roman,27,0.034
+Multi-statement / Roman,Select-all / multi-answer,0,0.0
+Multi-statement / Roman,Data/figure/table reasoning,8,0.01
+Multi-statement / Roman,Experimental design/control reasoning,2,0.003
+Select-all / multi-answer,Negation trap,6,0.008
+Select-all / multi-answer,Calculation / quantitative,3,0.004
+Select-all / multi-answer,Multi-statement / Roman,0,0.0
+Select-all / multi-answer,Select-all / multi-answer,31,0.039
+Select-all / multi-answer,Data/figure/table reasoning,6,0.008
+Select-all / multi-answer,Experimental design/control reasoning,4,0.005
+Data/figure/table reasoning,Negation trap,32,0.041
+Data/figure/table reasoning,Calculation / quantitative,12,0.015
+Data/figure/table reasoning,Multi-statement / Roman,8,0.01
+Data/figure/table reasoning,Select-all / multi-answer,6,0.008
+Data/figure/table reasoning,Data/figure/table reasoning,100,0.127
+Data/figure/table reasoning,Experimental design/control reasoning,17,0.022
+Experimental design/control reasoning,Negation trap,25,0.032
+Experimental design/control reasoning,Calculation / quantitative,11,0.014
+Experimental design/control reasoning,Multi-statement / Roman,2,0.003
+Experimental design/control reasoning,Select-all / multi-answer,4,0.005
+Experimental design/control reasoning,Data/figure/table reasoning,17,0.022
+Experimental design/control reasoning,Experimental design/control reasoning,64,0.082

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="637" height="529" viewBox="0 0 637 529">
+<style>text{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}</style>
+<rect width="637" height="529" fill="white"/>
+<text x="10" y="28" class="title">Reasoning / format tag co-occurrence</text>
+<text x="261.0" y="64" text-anchor="middle" class="small">Negation</text>
+<text x="261.0" y="74" text-anchor="middle" class="small">trap</text>
+<text x="323.0" y="64" text-anchor="middle" class="small">Calculation</text>
+<text x="323.0" y="74" text-anchor="middle" class="small">/</text>
+<text x="323.0" y="84" text-anchor="middle" class="small">quantitative</text>
+<text x="385.0" y="64" text-anchor="middle" class="small">Multi-statement</text>
+<text x="385.0" y="74" text-anchor="middle" class="small">/ Roman</text>
+<text x="447.0" y="64" text-anchor="middle" class="small">Select-all /</text>
+<text x="447.0" y="74" text-anchor="middle" class="small">multi-answer</text>
+<text x="509.0" y="64" text-anchor="middle" class="small">Data/figure/table</text>
+<text x="509.0" y="74" text-anchor="middle" class="small">reasoning</text>
+<text x="571.0" y="64" text-anchor="middle" class="small">Experimental</text>
+<text x="571.0" y="74" text-anchor="middle" class="small">design/control</text>
+<text x="571.0" y="84" text-anchor="middle" class="small">reasoning</text>
+<text x="8" y="136" class="small">Negation trap</text>
+<rect x="230" y="112" width="60" height="60" fill="#3182bd" stroke="#fff"/>
+<text x="261.0" y="147" text-anchor="middle" class="small">214</text>
+<rect x="292" y="112" width="60" height="60" fill="#a6c9e5" stroke="#fff"/>
+<text x="323.0" y="147" text-anchor="middle" class="small">33</text>
+<rect x="354" y="112" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<text x="385.0" y="147" text-anchor="middle" class="small">4</text>
+<rect x="416" y="112" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<text x="447.0" y="147" text-anchor="middle" class="small">6</text>
+<rect x="478" y="112" width="60" height="60" fill="#a7cae5" stroke="#fff"/>
+<text x="509.0" y="147" text-anchor="middle" class="small">32</text>
+<rect x="540" y="112" width="60" height="60" fill="#b0cfe8" stroke="#fff"/>
+<text x="571.0" y="147" text-anchor="middle" class="small">25</text>
+<text x="8" y="198" class="small">Calculation / quantitative</text>
+<rect x="230" y="174" width="60" height="60" fill="#a6c9e5" stroke="#fff"/>
+<text x="261.0" y="209" text-anchor="middle" class="small">33</text>
+<rect x="292" y="174" width="60" height="60" fill="#609fcd" stroke="#fff"/>
+<text x="323.0" y="209" text-anchor="middle" class="small">121</text>
+<rect x="354" y="174" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<text x="385.0" y="209" text-anchor="middle" class="small">4</text>
+<rect x="416" y="174" width="60" height="60" fill="#dbeaf7" stroke="#fff"/>
+<text x="447.0" y="209" text-anchor="middle" class="small">3</text>
+<rect x="478" y="174" width="60" height="60" fill="#c4dcef" stroke="#fff"/>
+<text x="509.0" y="209" text-anchor="middle" class="small">12</text>
+<rect x="540" y="174" width="60" height="60" fill="#c6ddf0" stroke="#fff"/>
+<text x="571.0" y="209" text-anchor="middle" class="small">11</text>
+<text x="8" y="260" class="small">Multi-statement / Roman</text>
+<rect x="230" y="236" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<text x="261.0" y="271" text-anchor="middle" class="small">4</text>
+<rect x="292" y="236" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<text x="323.0" y="271" text-anchor="middle" class="small">4</text>
+<rect x="354" y="236" width="60" height="60" fill="#adcee7" stroke="#fff"/>
+<text x="385.0" y="271" text-anchor="middle" class="small">27</text>
+<rect x="416" y="236" width="60" height="60" fill="#f2f8ff" stroke="#fff"/>
+<text x="447.0" y="271" text-anchor="middle" class="small">0</text>
+<rect x="478" y="236" width="60" height="60" fill="#cce1f2" stroke="#fff"/>
+<text x="509.0" y="271" text-anchor="middle" class="small">8</text>
+<rect x="540" y="236" width="60" height="60" fill="#dfecf8" stroke="#fff"/>
+<text x="571.0" y="271" text-anchor="middle" class="small">2</text>
+<text x="8" y="322" class="small">Select-all / multi-answer</text>
+<rect x="230" y="298" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<text x="261.0" y="333" text-anchor="middle" class="small">6</text>
+<rect x="292" y="298" width="60" height="60" fill="#dbeaf7" stroke="#fff"/>
+<text x="323.0" y="333" text-anchor="middle" class="small">3</text>
+<rect x="354" y="298" width="60" height="60" fill="#f2f8ff" stroke="#fff"/>
+<text x="385.0" y="333" text-anchor="middle" class="small">0</text>
+<rect x="416" y="298" width="60" height="60" fill="#a8cbe5" stroke="#fff"/>
+<text x="447.0" y="333" text-anchor="middle" class="small">31</text>
+<rect x="478" y="298" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<text x="509.0" y="333" text-anchor="middle" class="small">6</text>
+<rect x="540" y="298" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<text x="571.0" y="333" text-anchor="middle" class="small">4</text>
+<text x="8" y="384" class="small">Data/figure/table reasoning</text>
+<rect x="230" y="360" width="60" height="60" fill="#a7cae5" stroke="#fff"/>
+<text x="261.0" y="395" text-anchor="middle" class="small">32</text>
+<rect x="292" y="360" width="60" height="60" fill="#c4dcef" stroke="#fff"/>
+<text x="323.0" y="395" text-anchor="middle" class="small">12</text>
+<rect x="354" y="360" width="60" height="60" fill="#cce1f2" stroke="#fff"/>
+<text x="385.0" y="395" text-anchor="middle" class="small">8</text>
+<rect x="416" y="360" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<text x="447.0" y="395" text-anchor="middle" class="small">6</text>
+<rect x="478" y="360" width="60" height="60" fill="#6ea7d1" stroke="#fff"/>
+<text x="509.0" y="395" text-anchor="middle" class="small">100</text>
+<rect x="540" y="360" width="60" height="60" fill="#bbd6ec" stroke="#fff"/>
+<text x="571.0" y="395" text-anchor="middle" class="small">17</text>
+<text x="8" y="446" class="small">Experimental design/control</text>
+<text x="8" y="456" class="small">reasoning</text>
+<rect x="230" y="422" width="60" height="60" fill="#b0cfe8" stroke="#fff"/>
+<text x="261.0" y="457" text-anchor="middle" class="small">25</text>
+<rect x="292" y="422" width="60" height="60" fill="#c6ddf0" stroke="#fff"/>
+<text x="323.0" y="457" text-anchor="middle" class="small">11</text>
+<rect x="354" y="422" width="60" height="60" fill="#dfecf8" stroke="#fff"/>
+<text x="385.0" y="457" text-anchor="middle" class="small">2</text>
+<rect x="416" y="422" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<text x="447.0" y="457" text-anchor="middle" class="small">4</text>
+<rect x="478" y="422" width="60" height="60" fill="#bbd6ec" stroke="#fff"/>
+<text x="509.0" y="457" text-anchor="middle" class="small">17</text>
+<rect x="540" y="422" width="60" height="60" fill="#88b7da" stroke="#fff"/>
+<text x="571.0" y="457" text-anchor="middle" class="small">64</text>
+</svg>
