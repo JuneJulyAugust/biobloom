@@ -2292,7 +2292,7 @@ Important denominator note: 2003 has 35 parsed questions, while the other years 
 
 This pass uses a multi-label knowledge microtopic taxonomy. A question can count for more than one knowledge subtopic, because many Open Exam items combine biology areas. The taxonomy generated {topic_hit_count} knowledge-subtopic hits across {tagged_count} tagged questions, with {unclassified_count} questions left for manual review. Counts are useful for prioritization, but they are still heuristic and should be refined with manual labels later.
 
-After the independent review in `open_exam_consolidated_subtopic_analysis_review.md`, the generator was updated to:
+After an independent audit pass, the generator was updated to:
 
 - Match common plural and biological inflection forms without letting very short keywords over-match.
 - Match spaces and hyphens interchangeably in phrases such as `wild-type`, `patch-clamp`, and `half-life`.
