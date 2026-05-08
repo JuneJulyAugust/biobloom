@@ -1,33 +1,33 @@
 subtopic,pillar,primary_questions,data_figure_table,experimental_design,calculation_quantitative,negation,data_share,experiment_share
-"Cardiovascular, respiratory and renal systems",Animal Physiology,64,7,6,16,19,0.109,0.094
-Population/community ecology and biodiversity,Ecology/Behavior,33,8,4,14,5,0.242,0.121
-"Plant reproduction, development and life cycles",Plant,36,6,5,0,20,0.167,0.139
-Endocrine feedback and homeostasis,Animal Physiology,30,4,6,5,10,0.133,0.2
-"Transcription, translation and gene regulation",Molecular/Cell,18,6,4,0,6,0.333,0.222
-"Evolution, selection, adaptation and speciation",Genetics/Evolution,39,4,4,1,8,0.103,0.103
-"Phylogeny, cladograms and systematics",Genetics/Evolution,18,8,0,1,4,0.444,0.0
-"Neurophysiology, muscle and sensory systems",Animal Physiology,32,2,5,3,7,0.062,0.156
-"Behavior, learning and ethology",Ecology/Behavior,27,4,3,1,5,0.148,0.111
-"Microbiology, viruses, bacteria and pathogens",Microbiology/Pathogens,38,5,1,2,12,0.132,0.026
-"Plant tissues, xylem/phloem and water transport",Plant,37,5,1,3,10,0.135,0.027
-Mendelian genetics and probability,Genetics/Evolution,37,3,2,12,12,0.081,0.054
-"Ecosystems, productivity and biogeochemical cycles",Ecology/Behavior,20,4,1,2,6,0.2,0.05
-"Photosynthesis, pigments and carbon fixation",Molecular/Cell,18,2,3,3,5,0.111,0.167
-"Biomolecules, macromolecules and biochemical tests",Molecular/Cell,26,4,0,14,5,0.154,0.0
-"Digestion, nutrition, vitamins and metabolism",Animal Physiology,26,3,1,3,6,0.115,0.038
-"Organelles, cytoskeleton and intracellular trafficking",Molecular/Cell,13,0,4,3,3,0.0,0.308
-Pedigrees and inheritance modes,Genetics/Evolution,12,4,0,2,4,0.333,0.0
-"Lab methods, biotechnology and molecular tools",Molecular/Methods,11,2,2,3,2,0.182,0.182
-"Plant hormones, tropisms and environmental responses",Plant,9,1,3,2,3,0.111,0.333
-"Protein structure, amino acids and enzymes",Molecular/Cell,27,2,1,6,14,0.074,0.037
-"Development, reproduction and embryology",Animal Physiology,20,1,2,2,4,0.05,0.1
-"Immunology, inflammation and host defense",Animal Physiology,17,2,1,1,3,0.118,0.059
-"Cellular respiration, ETC and ATP synthesis",Molecular/Cell,20,1,1,5,3,0.05,0.05
-"Membrane structure, fluidity and permeability",Molecular/Cell,11,2,0,1,2,0.182,0.0
-"DNA replication, chromosomes and telomeres",Molecular/Cell,17,1,0,1,8,0.059,0.0
-"Cell cycle, meiosis and cancer checkpoints",Molecular/Cell,13,0,1,0,1,0.0,0.077
-"Cell signaling, receptors and second messengers",Molecular/Cell,8,1,0,0,3,0.125,0.0
-"Linkage, recombination and map distance",Genetics/Evolution,1,1,0,0,0,1.0,0.0
-"Membrane transport, osmosis and electrochemical gradients",Molecular/Cell,12,0,0,6,3,0.0,0.0
-Hardy-Weinberg and population genetics,Genetics/Evolution,8,0,0,3,3,0.0,0.0
+"Cardiovascular, respiratory and renal systems",Animal Physiology,89,15,7,25,26,0.169,0.079
+Population/community ecology and biodiversity,Ecology/Behavior,47,14,6,16,6,0.298,0.128
+"Plant reproduction, development and life cycles",Plant,47,8,9,1,25,0.17,0.191
+"Plant tissues, xylem/phloem and water transport",Plant,56,10,3,6,16,0.179,0.054
+"Transcription, translation and gene regulation",Molecular/Cell,23,7,5,1,8,0.304,0.217
+"Evolution, selection, adaptation and speciation",Genetics/Evolution,50,5,6,2,11,0.1,0.12
+"Lab methods, biotechnology and molecular tools",Molecular/Methods,21,5,6,4,3,0.238,0.286
+Mendelian genetics and probability,Genetics/Evolution,56,7,3,19,16,0.125,0.054
+"Behavior, learning and ethology",Ecology/Behavior,39,5,5,2,7,0.128,0.128
+Endocrine feedback and homeostasis,Animal Physiology,37,4,6,5,10,0.108,0.162
+"Microbiology, viruses, bacteria and pathogens",Microbiology/Pathogens,53,7,2,3,15,0.132,0.038
+"Phylogeny, cladograms and systematics",Genetics/Evolution,22,9,0,1,4,0.409,0.0
+Pedigrees and inheritance modes,Genetics/Evolution,19,8,1,3,7,0.421,0.053
+"Neurophysiology, muscle and sensory systems",Animal Physiology,40,3,5,3,8,0.075,0.125
+"Immunology, inflammation and host defense",Animal Physiology,36,4,4,1,9,0.111,0.111
+"Protein structure, amino acids and enzymes",Molecular/Cell,35,6,2,8,16,0.171,0.057
+"Development, reproduction and embryology",Animal Physiology,30,3,4,4,8,0.1,0.133
+"Ecosystems, productivity and biogeochemical cycles",Ecology/Behavior,29,5,1,4,9,0.172,0.034
+"Photosynthesis, pigments and carbon fixation",Molecular/Cell,26,3,3,5,8,0.115,0.115
+"Organelles, cytoskeleton and intracellular trafficking",Molecular/Cell,21,2,4,3,6,0.095,0.19
+"Digestion, nutrition, vitamins and metabolism",Animal Physiology,35,3,2,4,9,0.086,0.057
+"Plant hormones, tropisms and environmental responses",Plant,14,2,3,2,6,0.143,0.214
+"Biomolecules, macromolecules and biochemical tests",Molecular/Cell,29,4,0,17,6,0.138,0.0
+"Cellular respiration, ETC and ATP synthesis",Molecular/Cell,26,2,2,5,5,0.077,0.077
+"Cell cycle, meiosis and cancer checkpoints",Molecular/Cell,22,1,3,1,3,0.045,0.136
+"DNA replication, chromosomes and telomeres",Molecular/Cell,21,2,0,1,9,0.095,0.0
+"Cell signaling, receptors and second messengers",Molecular/Cell,12,1,1,1,3,0.083,0.083
+"Membrane structure, fluidity and permeability",Molecular/Cell,12,2,0,1,2,0.167,0.0
+"Linkage, recombination and map distance",Genetics/Evolution,4,2,0,0,0,0.5,0.0
+"Membrane transport, osmosis and electrochemical gradients",Molecular/Cell,18,1,0,7,3,0.056,0.0
+Hardy-Weinberg and population genetics,Genetics/Evolution,11,0,0,4,3,0.0,0.0
 Quantitative/polygenic traits and additive inheritance,Genetics/Evolution,4,0,0,3,1,0.0,0.0

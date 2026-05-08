@@ -4,18 +4,18 @@
 <text x="10" y="28" class="title">Difficulty vs. subtopic recurrence</text>
 <line x1="70" x2="70" y1="56" y2="372" stroke="#333"/>
 <line x1="70" x2="710" y1="372" y2="372" stroke="#333"/>
-<line x1="225.1233162801346" x2="225.1233162801346" y1="56" y2="372" stroke="#eef2f7"/>
-<text x="225.1233162801346" y="388" text-anchor="middle" class="small">2</text>
-<line x1="322.99523199394713" x2="322.99523199394713" y1="56" y2="372" stroke="#eef2f7"/>
-<text x="322.99523199394713" y="388" text-anchor="middle" class="small">5</text>
-<line x1="408.5811997969677" x2="408.5811997969677" y1="56" y2="372" stroke="#eef2f7"/>
-<text x="408.5811997969677" y="388" text-anchor="middle" class="small">10</text>
-<line x1="499.8845205905132" x2="499.8845205905132" y1="56" y2="372" stroke="#eef2f7"/>
-<text x="499.8845205905132" y="388" text-anchor="middle" class="small">20</text>
-<line x1="594.3538782283487" x2="594.3538782283487" y1="56" y2="372" stroke="#eef2f7"/>
-<text x="594.3538782283487" y="388" text-anchor="middle" class="small">40</text>
-<line x1="690.4932651205384" x2="690.4932651205384" y1="56" y2="372" stroke="#eef2f7"/>
-<text x="690.4932651205384" y="388" text-anchor="middle" class="small">80</text>
+<line x1="216.11074988484643" x2="216.11074988484643" y1="56" y2="372" stroke="#eef2f7"/>
+<text x="216.11074988484643" y="388" text-anchor="middle" class="small">2</text>
+<line x1="308.29636930383344" x2="308.29636930383344" y1="56" y2="372" stroke="#eef2f7"/>
+<text x="308.29636930383344" y="388" text-anchor="middle" class="small">5</text>
+<line x1="388.9098466017081" x2="388.9098466017081" y1="56" y2="372" stroke="#eef2f7"/>
+<text x="388.9098466017081" y="388" text-anchor="middle" class="small">10</text>
+<line x1="474.9085023036687" x2="474.9085023036687" y1="56" y2="372" stroke="#eef2f7"/>
+<text x="474.9085023036687" y="388" text-anchor="middle" class="small">20</text>
+<line x1="563.8892501151536" x2="563.8892501151536" y1="56" y2="372" stroke="#eef2f7"/>
+<text x="563.8892501151536" y="388" text-anchor="middle" class="small">40</text>
+<line x1="654.4429995393857" x2="654.4429995393857" y1="56" y2="372" stroke="#eef2f7"/>
+<text x="654.4429995393857" y="388" text-anchor="middle" class="small">80</text>
 <line x1="66" x2="710" y1="356.2" y2="356.2" stroke="#eef2f7"/>
 <text x="62" y="360.2" text-anchor="end" class="small">1.5</text>
 <line x1="66" x2="710" y1="277.2" y2="277.2" stroke="#eef2f7"/>
@@ -24,46 +24,46 @@
 <text x="62" y="202.2" text-anchor="end" class="small">2.5</text>
 <line x1="66" x2="710" y1="119.19999999999999" y2="119.19999999999999" stroke="#eef2f7"/>
 <text x="62" y="123.19999999999999" text-anchor="end" class="small">3.0</text>
-<circle cx="710.0" cy="245.6" r="10.0" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="669.9" cy="196.6" r="9.8" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="648.1" cy="204.5" r="9.8" fill="#7a6a35" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="645.7" cy="223.5" r="9.7" fill="#b04a4a" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="648.1" cy="240.9" r="9.6" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="633.2" cy="253.5" r="9.5" fill="#357a55" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="604.3" cy="234.5" r="9.4" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="607.5" cy="247.2" r="9.4" fill="#357a55" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="601.1" cy="231.4" r="9.4" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="627.9" cy="218.7" r="9.3" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="587.3" cy="239.3" r="9.2" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="594.4" cy="258.2" r="9.2" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="590.9" cy="261.4" r="9.2" fill="#7a6a35" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="594.4" cy="255.1" r="9.2" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="572.0" cy="223.5" r="9.1" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="567.9" cy="244.0" r="9.1" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="587.3" cy="247.2" r="9.0" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="554.9" cy="240.9" r="8.9" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="550.2" cy="234.5" r="8.8" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="550.2" cy="242.4" r="8.8" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="506.5" cy="172.9" r="8.8" fill="#4f6f52" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="524.5" cy="234.5" r="8.7" fill="#7a6a35" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="518.7" cy="191.9" r="8.6" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="535.4" cy="226.6" r="8.5" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="535.4" cy="209.3" r="8.4" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="506.5" cy="206.1" r="8.3" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="499.9" cy="280.4" r="8.2" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="485.8" cy="250.3" r="8.0" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="408.6" cy="225.1" r="7.7" fill="#357a55" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="442.6" cy="201.4" r="7.7" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="380.2" cy="150.8" r="7.6" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<circle cx="297.3" cy="133.4" r="6.5" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
-<text x="718.0" y="239.6" class="small">Cardiovascular</text>
-<text x="677.9" y="190.6" class="small">Mendelian genetics and proba</text>
-<text x="656.1" y="198.5" class="small">Population/community ecology</text>
-<text x="653.7" y="217.5" class="small">Microbiology</text>
-<text x="656.1" y="234.9" class="small">Evolution</text>
-<text x="641.2" y="247.5" class="small">Plant reproduction</text>
-<text x="612.3" y="228.5" class="small">Neurophysiology</text>
-<text x="615.5" y="241.2" class="small">Plant tissues</text>
+<circle cx="710.0" cy="236.1" r="10.5" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="686.4" cy="193.5" r="10.5" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="667.0" cy="215.6" r="10.5" fill="#b04a4a" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="663.9" cy="209.3" r="10.5" fill="#7a6a35" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="657.7" cy="234.5" r="10.5" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="635.0" cy="234.5" r="10.5" fill="#357a55" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="631.2" cy="240.9" r="10.5" fill="#357a55" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="621.0" cy="234.5" r="10.5" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="587.6" cy="157.1" r="10.5" fill="#4f6f52" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="603.0" cy="215.6" r="10.4" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="610.0" cy="239.3" r="10.4" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="607.7" cy="212.4" r="10.3" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="603.0" cy="255.1" r="10.3" fill="#7a6a35" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="605.4" cy="251.9" r="10.3" fill="#b45f06" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="598.0" cy="250.3" r="10.2" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="625.2" cy="202.9" r="10.2" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="595.5" cy="229.8" r="10.1" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="570.2" cy="234.5" r="10.0" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="576.3" cy="215.6" r="10.0" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="567.1" cy="247.2" r="9.9" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="542.8" cy="231.4" r="9.9" fill="#7a6a35" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="560.6" cy="193.5" r="9.9" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="560.6" cy="215.6" r="9.8" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="550.2" cy="233.0" r="9.5" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="535.0" cy="261.4" r="9.4" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="553.8" cy="218.7" r="9.3" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="468.4" cy="201.4" r="9.1" fill="#357a55" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="503.3" cy="206.1" r="9.0" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="487.0" cy="251.9" r="8.8" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="481.1" cy="204.5" r="8.7" fill="#2f6f9f" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="421.0" cy="188.7" r="8.4" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<circle cx="308.3" cy="146.1" r="6.9" fill="#6a51a3" fill-opacity="0.72" stroke="#1f2933" stroke-width="0.5"/>
+<text x="718.0" y="230.1" class="small">Cardiovascular</text>
+<text x="694.4" y="187.5" class="small">Mendelian genetics and proba</text>
+<text x="675.0" y="209.6" class="small">Microbiology</text>
+<text x="671.9" y="203.3" class="small">Population/community ecology</text>
+<text x="665.7" y="228.5" class="small">Evolution</text>
+<text x="643.0" y="228.5" class="small">Plant tissues</text>
+<text x="639.2" y="234.9" class="small">Plant reproduction</text>
+<text x="629.0" y="228.5" class="small">Neurophysiology</text>
 <circle cx="735" cy="56" r="5" fill="#2f6f9f" fill-opacity="0.72"/>
 <text x="747" y="60" class="small">Molecular/Cell</text>
 <circle cx="735" cy="73" r="5" fill="#6a51a3" fill-opacity="0.72"/>

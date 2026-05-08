@@ -46,11 +46,23 @@ STAGES = [
     ("Recent 2019-2024", range(2019, 2025)),
 ]
 STAGE_NAMES = [name for name, _ in STAGES]
+STAGE_KEY = {
+    "Early 2003-2008": "early",
+    "Middle 2009-2013": "middle",
+    "Late 2014-2018": "late",
+    "Recent 2019-2024": "recent",
+}
 STAGE_SHORT = {
     "Early 2003-2008": "Early",
     "Middle 2009-2013": "Middle",
     "Late 2014-2018": "Late",
     "Recent 2019-2024": "Recent",
+}
+STAGE_COLORS = {
+    "Early 2003-2008": "#9ecae1",
+    "Middle 2009-2013": "#74c476",
+    "Late 2014-2018": "#fd8d3c",
+    "Recent 2019-2024": "#6a51a3",
 }
 
 
@@ -910,6 +922,23 @@ MICROTOPICS = [
             ("knockout", 7),
             ("patch clamp", 9),
             ("degenerate primer", 9),
+            ("nativepage", 9),
+            ("native page", 9),
+            ("ion-exchange chromatography", 9),
+            ("cre-lox", 9),
+            ("rnai", 8),
+            ("rna interference", 9),
+            ("lipid nanoparticle", 9),
+            ("mass spectrometry", 8),
+            ("protospacer", 9),
+            ("pam sequence", 9),
+            ("seroprevalence", 8),
+            ("immunoprecipitation", 8),
+            ("knock-down", 8),
+            ("knockdown", 8),
+            ("gram stain", 8),
+            ("antibiogram", 9),
+            ("clearance zone", 9),
         ),
     ),
 ]
@@ -1229,6 +1258,7 @@ def aggregate_subtopics(questions: list[dict[str, object]]) -> list[dict[str, ob
                 by_subtopic[name].append(question)
                 seen.add(name)
 
+    n_stages = len(STAGE_NAMES)
     rows = []
     for subtopic, qs in by_subtopic.items():
         pillar, objective = lookup[subtopic]
@@ -1238,17 +1268,20 @@ def aggregate_subtopics(questions: list[dict[str, object]]) -> list[dict[str, ob
         early = stage_counts["Early 2003-2008"]
         middle = stage_counts["Middle 2009-2013"]
         late = stage_counts["Late 2014-2018"]
+        recent = stage_counts["Recent 2019-2024"]
         stage_breadth = sum(1 for stage in STAGE_NAMES if stage_counts[stage])
         avg_diff = mean(float(q["difficulty_estimate"]) for q in qs)
         # Independent features only.
-        late_share = late / total
         early_share = early / total
+        late_share = late / total
+        recent_share = recent / total
+        modern_share = (late + recent) / total
         frequency_score = 12.0 * math.log1p(total)
-        breadth_score = 1.5 * len(years) + 6.0 * (stage_breadth == 3)
-        modernity_score = 14.0 * late_share
+        breadth_score = 1.5 * len(years) + 6.0 * (stage_breadth == n_stages)
+        modernity_score = 14.0 * modern_share
         difficulty_score = 7.0 * max(0.0, avg_diff - 1.8)
         priority = frequency_score + breadth_score + modernity_score + difficulty_score
-        if stage_breadth == 1 and late == 0:
+        if stage_breadth == 1 and (late + recent) == 0:
             priority *= 0.65
         rows.append(
             {
@@ -1259,13 +1292,16 @@ def aggregate_subtopics(questions: list[dict[str, object]]) -> list[dict[str, ob
                 "early": early,
                 "middle": middle,
                 "late": late,
+                "recent": recent,
                 "stage_breadth": stage_breadth,
                 "year_breadth": len(years),
                 "years": years,
                 "avg_difficulty": round(avg_diff, 2),
                 "priority_score": round(priority, 1),
-                "late_share": round(late_share, 3),
                 "early_share": round(early_share, 3),
+                "late_share": round(late_share, 3),
+                "recent_share": round(recent_share, 3),
+                "modern_share": round(modern_share, 3),
                 "template_archetype": TEMPLATE_ARCHETYPES.get(subtopic, "Mechanism / inference variant"),
             }
         )
@@ -1397,6 +1433,7 @@ def export_data(
             "early",
             "middle",
             "late",
+            "recent",
             "stage_breadth",
             "year_breadth",
             "years",
@@ -1404,6 +1441,8 @@ def export_data(
             "priority_score",
             "early_share",
             "late_share",
+            "recent_share",
+            "modern_share",
             "template_archetype",
             "objective",
         ]
@@ -1511,16 +1550,27 @@ def wrap_label(value: object, width: int = 30) -> list[str]:
     return lines[:3]
 
 
+STAGE_HEATMAP_LABELS = [
+    ("Early\n2003-08", "early"),
+    ("Middle\n2009-13", "middle"),
+    ("Late\n2014-18", "late"),
+    ("Recent\n2019-24", "recent"),
+]
+
+
 def save_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
-    cell_w = 70
+    cell_w = 64
     cell_h = 24
     left = 310
-    top = 58
+    top = 64
     right = 115
     bottom = 38
-    width = left + cell_w * 3 + right
+    n_cols = len(STAGE_HEATMAP_LABELS)
+    width = left + cell_w * n_cols + right
     height = top + cell_h * len(rows) + bottom
-    max_value = max(max(int(r["early"]), int(r["middle"]), int(r["late"])) for r in rows) or 1
+    max_value = max(
+        max(int(r[key]) for _, key in STAGE_HEATMAP_LABELS) for r in rows
+    ) or 1
     max_root = math.sqrt(max_value)
 
     def color(value: int) -> str:
@@ -1536,7 +1586,7 @@ def save_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
         f'<rect width="{width}" height="{height}" fill="white"/>',
         f'<text x="10" y="28" class="title">{esc(title)}</text>',
     ]
-    for j, label in enumerate(["Early\n2003-08", "Middle\n2009-13", "Late\n2014-18"]):
+    for j, (label, _key) in enumerate(STAGE_HEATMAP_LABELS):
         for k, line in enumerate(label.split("\n")):
             out.append(
                 f'<text x="{left + j * cell_w + cell_w / 2}" y="{top - 24 + k * 12}" text-anchor="middle" class="head small">{esc(line)}</text>'
@@ -1545,7 +1595,8 @@ def save_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
         y = top + i * cell_h
         for k, line in enumerate(wrap_label(row["subtopic"], 42)):
             out.append(f'<text x="8" y="{y + 13 + k * 10}" class="small">{esc(line)}</text>')
-        for j, value in enumerate([int(row["early"]), int(row["middle"]), int(row["late"])]):
+        for j, (_label, key) in enumerate(STAGE_HEATMAP_LABELS):
+            value = int(row[key])
             x = left + j * cell_w
             out.append(
                 f'<rect x="{x}" y="{y}" width="{cell_w - 2}" height="{cell_h - 2}" fill="{color(value)}" stroke="#ffffff"/>'
@@ -1553,7 +1604,7 @@ def save_heatmap(path: Path, rows: list[dict[str, object]], title: str) -> None:
             out.append(
                 f'<text x="{x + cell_w / 2}" y="{y + 15}" text-anchor="middle" class="small">{value}</text>'
             )
-    legend_x = left + cell_w * 3 + 16
+    legend_x = left + cell_w * n_cols + 16
     legend_y = top
     out.append(f'<text x="{legend_x}" y="{legend_y - 8}" class="small head">sqrt scale</text>')
     legend_values = [0, max_value // 4, max_value]
@@ -1649,11 +1700,7 @@ def save_stacked(path: Path, rows: list[tuple[str, Counter]], title: str) -> Non
     height = 430
     width = left + (bar_w + gap) * len(rows) + right
     max_total = max(sum(counts.values()) for _, counts in rows) or 1
-    colors = {
-        "Early 2003-2008": "#9ecae1",
-        "Middle 2009-2013": "#74c476",
-        "Late 2014-2018": "#fd8d3c",
-    }
+    colors = STAGE_COLORS
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
         "<style>text{font-family:Arial,Helvetica,sans-serif;font-size:12px;fill:#1f2933}.title{font-size:18px;font-weight:700}.small{font-size:10px}</style>",
@@ -1998,23 +2045,26 @@ def md_table(headers: list[str], rows: list[list[object]]) -> str:
 def tier(_index: int, row: dict[str, object]) -> str:
     """Feature-based tier rule.
 
-    Tier 1: appears in every stage, has wide year breadth, and is frequent.
-    Tier 2: skewed toward late-stage and modern enough to differentiate top scorers.
+    Tier 1: appears in every stage including Recent, with wide year breadth and high frequency.
+    Tier 2: late+recent skew indicating modern relevance.
     Tier 3: appears regularly but not every year.
-    Tier 4: low frequency or single-stage.
+    Tier 4: low frequency or narrow stage coverage.
     """
     hits = int(row["hits"])
     stage_breadth = int(row["stage_breadth"])
     year_breadth = int(row["year_breadth"])
-    late = int(row["late"])
     early = int(row["early"])
-    late_share = float(row["late_share"])
+    late = int(row["late"])
+    recent = int(row["recent"])
+    modern_share = float(row["modern_share"])
+    n_stages = len(STAGE_NAMES)
 
-    if stage_breadth == 3 and hits >= 25 and year_breadth >= 11:
+    modern = late + recent
+    if stage_breadth == n_stages and hits >= 30 and year_breadth >= 14:
         return "Tier 1 - stable core"
-    if late >= 5 and (late_share >= 0.40 or late >= early):
+    if modern >= 6 and (modern_share >= 0.45 or modern >= early):
         return "Tier 2 - modern differentiator"
-    if hits >= 8:
+    if hits >= 10:
         return "Tier 3 - periodic high-yield"
     return "Tier 4 - selective / low-frequency"
 
@@ -2050,30 +2100,31 @@ def render_report(
         for row in stage_rows
     ]
 
+    n_stages = len(STAGE_NAMES)
+
     by_pillar: dict[str, Counter] = defaultdict(Counter)
     for row in subtopic_rows:
-        by_pillar[row["pillar"]]["Early 2003-2008"] += int(row["early"])
-        by_pillar[row["pillar"]]["Middle 2009-2013"] += int(row["middle"])
-        by_pillar[row["pillar"]]["Late 2014-2018"] += int(row["late"])
+        for stage in STAGE_NAMES:
+            by_pillar[row["pillar"]][stage] += int(row[STAGE_KEY[stage]])
     pillar_rows = []
     for pillar, counts in sorted(by_pillar.items(), key=lambda item: -sum(item[1].values())):
         total = sum(counts.values())
+        modern = counts["Late 2014-2018"] + counts["Recent 2019-2024"]
         pillar_rows.append(
             [
                 pillar,
                 total,
                 counts["Early 2003-2008"],
-                stage_per_50(counts["Early 2003-2008"], "Early 2003-2008"),
                 counts["Middle 2009-2013"],
-                stage_per_50(counts["Middle 2009-2013"], "Middle 2009-2013"),
                 counts["Late 2014-2018"],
-                stage_per_50(counts["Late 2014-2018"], "Late 2014-2018"),
+                counts["Recent 2019-2024"],
+                f"{100 * modern / total:.0f}%" if total else "-",
                 percent(total, topic_hit_count),
             ]
         )
 
     stable = sorted(
-        [row for row in subtopic_rows if int(row["stage_breadth"]) == 3 and int(row["hits"]) >= 10],
+        [row for row in subtopic_rows if int(row["stage_breadth"]) == n_stages and int(row["hits"]) >= 12],
         key=lambda row: (-int(row["hits"]), -int(row["year_breadth"]), row["subtopic"]),
     )
     stable_rows = [
@@ -2081,9 +2132,7 @@ def render_report(
             row["subtopic"],
             row["pillar"],
             row["hits"],
-            row["early"],
-            row["middle"],
-            row["late"],
+            f'{row["early"]}/{row["middle"]}/{row["late"]}/{row["recent"]}',
             row["year_breadth"],
             row["avg_difficulty"],
         ]
@@ -2100,90 +2149,77 @@ def render_report(
                 row["pillar"],
                 row["hits"],
                 row["priority_score"],
-                f'{row["early"]}/{row["middle"]}/{row["late"]}',
+                f'{row["early"]}/{row["middle"]}/{row["late"]}/{row["recent"]}',
                 fmt_years(row["years"]),
                 row["template_archetype"],
                 row["objective"],
             ]
         )
 
-    late_rows = []
+    def modern(row: dict[str, object]) -> int:
+        return int(row["late"]) + int(row["recent"])
+
+    rising_rows = []
     for row in sorted(
-        [row for row in subtopic_rows if int(row["late"]) >= 4],
-        key=lambda row: (-(int(row["late"]) - int(row["early"])), -int(row["late"]), row["subtopic"]),
+        [r for r in subtopic_rows if modern(r) >= 5],
+        key=lambda r: (-(modern(r) - int(r["early"])), -modern(r), r["subtopic"]),
     )[:18]:
-        late_rows.append(
+        rising_rows.append(
             [
                 row["subtopic"],
                 row["pillar"],
                 row["early"],
                 row["middle"],
                 row["late"],
-                int(row["late"]) - int(row["early"]),
-                f'{float(stage_per_50(int(row["late"]), "Late 2014-2018")) - float(stage_per_50(int(row["early"]), "Early 2003-2008")):+.1f}',
-                f'{100 * float(row["late_share"]):.0f}%',
+                row["recent"],
+                modern(row) - int(row["early"]),
+                f'{100 * float(row["modern_share"]):.0f}%',
             ]
         )
 
-    early_rows = []
+    declining_rows = []
     for row in sorted(
-        [
-            row
-            for row in subtopic_rows
-            if int(row["early"]) >= 3 and int(row["early"]) > int(row["late"])
-        ],
-        key=lambda row: (-(int(row["early"]) - int(row["late"])), -int(row["early"]), row["subtopic"]),
+        [r for r in subtopic_rows if int(r["early"]) >= 4 and int(r["early"]) > modern(r)],
+        key=lambda r: (-(int(r["early"]) - modern(r)), -int(r["early"]), r["subtopic"]),
     )[:18]:
-        early_rows.append(
+        declining_rows.append(
             [
                 row["subtopic"],
                 row["pillar"],
                 row["early"],
                 row["middle"],
                 row["late"],
-                int(row["early"]) - int(row["late"]),
-                f'{float(stage_per_50(int(row["early"]), "Early 2003-2008")) - float(stage_per_50(int(row["late"]), "Late 2014-2018")):+.1f}',
+                row["recent"],
+                int(row["early"]) - modern(row),
                 fmt_years(row["years"]),
             ]
         )
 
-    late_skew_rows = [
+    recent_skew_rows = [
         [
             row["subtopic"],
             row["pillar"],
-            row["early"],
-            row["middle"],
-            row["late"],
-            f'{100 * float(row["late_share"]):.0f}%',
+            f'{row["early"]}/{row["middle"]}/{row["late"]}/{row["recent"]}',
+            f'{100 * float(row["recent_share"]):.0f}%',
             fmt_years(row["years"]),
         ]
         for row in sorted(
-            [
-                row
-                for row in subtopic_rows
-                if int(row["late"]) >= 4 and float(row["late_share"]) >= 0.45
-            ],
-            key=lambda row: (-float(row["late_share"]), -int(row["late"]), row["subtopic"]),
-        )[:16]
+            [r for r in subtopic_rows if int(r["recent"]) >= 4 and float(r["recent_share"]) >= 0.30],
+            key=lambda r: (-float(r["recent_share"]), -int(r["recent"]), r["subtopic"]),
+        )[:14]
     ]
     early_skew_rows = [
         [
             row["subtopic"],
             row["pillar"],
-            row["early"],
-            row["middle"],
-            row["late"],
+            f'{row["early"]}/{row["middle"]}/{row["late"]}/{row["recent"]}',
             f'{100 * float(row["early_share"]):.0f}%',
             fmt_years(row["years"]),
         ]
         for row in sorted(
-            [
-                row
-                for row in subtopic_rows
-                if int(row["early"]) >= 4 and float(row["early_share"]) >= 0.45
-            ],
-            key=lambda row: (-float(row["early_share"]), -int(row["early"]), row["subtopic"]),
-        )[:16]
+            [r for r in subtopic_rows if int(r["early"]) >= 5 and float(r["early_share"]) >= 0.45],
+            key=lambda r: (-float(r["early_share"]), -int(r["early"]), r["subtopic"]),
+        )[:14]
     ]
 
     tag_stage: dict[str, Counter] = defaultdict(Counter)
@@ -2197,12 +2233,10 @@ def render_report(
             [
                 tag,
                 total,
-                counts["Early 2003-2008"],
                 stage_pct(counts["Early 2003-2008"], "Early 2003-2008"),
-                counts["Middle 2009-2013"],
                 stage_pct(counts["Middle 2009-2013"], "Middle 2009-2013"),
-                counts["Late 2014-2018"],
                 stage_pct(counts["Late 2014-2018"], "Late 2014-2018"),
+                stage_pct(counts["Recent 2019-2024"], "Recent 2019-2024"),
                 percent(total, len(questions)),
             ]
         )
@@ -2242,6 +2276,7 @@ def render_report(
             row["early"],
             row["middle"],
             row["late"],
+            row["recent"],
             row["stage_breadth"],
             row["year_breadth"],
             fmt_years(row["years"]),
@@ -2256,69 +2291,58 @@ def render_report(
         f"- ![{path.stem}](plots/{path.name})" for path in plot_paths
     )
 
-    content = f"""# Consolidated USABO Open Exam Subtopic Analysis, 2003-2018
+    content = f"""# Consolidated USABO Open Exam Subtopic Analysis, 2003-2024
 
-Generated from local files in `raw/markdown` and the three existing reports in `raw/markdown/analysis` on 2026-05-05. No web search or remote model APIs were used.
+Generated from local files in `raw/markdown` on 2026-05-07. Extends the original 2003-2018 pass with the 2019-2024 exams. No web search or remote model APIs were used.
 
 ## Purpose
 
-This document consolidates the three prior analyses:
-
-- `open_exam_analysis_chatgpt.md`: measured year-by-year structure, topic counts, format features, and answer-key issues.
-- `open_exam_analysis_claude.md`: stable subtopics, mechanism-oriented solving, distractor taxonomy, and BioBloom generation parameters.
-- `open_exam_analysis_gemini.md`: high-level exam evolution and student preparation narrative.
-
-The new layer here is deeper subtopic prioritization. Unlike the previous version, broad skills such as data interpretation and experimental design are not treated as standalone knowledge topics. They are reasoning dimensions attached back to concrete biology subtopics.
-
-## Saved Reproducibility Artifacts
-
-- Generator code: `code/generate_consolidated_subtopic_analysis.py`
-- Question-level tags: `data/open_exam_subtopic_question_tags.jsonl`
-- Subtopic summary table: `data/open_exam_subtopic_summary.csv`
-- Reasoning-by-topic table: `data/open_exam_reasoning_by_topic.csv`
-- Unclassified manual-review table: `data/open_exam_unclassified_questions.csv`
-- Stage-normalized summary table: `data/open_exam_stage_summary.csv`
-- Year-by-pillar trajectory table: `data/open_exam_year_pillar_counts.csv`
-- Reasoning tag co-occurrence table: `data/open_exam_reasoning_tag_cooccurrence.csv`
-- Consolidated machine-readable data: `data/open_exam_consolidated_subtopic_analysis_data.json`
+Subtopic-level prioritization for the BioBloom question-generation pipeline. Multi-label tagging across four stages, with reasoning skills (data, experiment, calculation, negation, multi-statement, select-all) attached to concrete biology subtopics rather than treated as standalone topics. The companion narrative reports (`open_exam_analysis_chatgpt.md`, `open_exam_analysis_claude.md`, `open_exam_analysis_gemini.md`) cover prose-level interpretation; this report keeps the numerics.
 
 ## Method And Caveats
 
-The analysis parsed {len(questions)} questions from 16 Markdown exams. The three stages are the same stages found across the prior reports:
+The analysis parsed {len(questions)} questions from 22 Markdown exams (2003-2024). Four stages, roughly equal length:
 
-- Early: 2003-2008
-- Middle: 2009-2013
-- Late: 2014-2018
+- Early: 2003-2008 ({stage_q_counts["Early 2003-2008"]} questions; 2003 has 35, others 50)
+- Middle: 2009-2013 ({stage_q_counts["Middle 2009-2013"]} questions)
+- Late: 2014-2018 ({stage_q_counts["Late 2014-2018"]} questions)
+- Recent: 2019-2024 ({stage_q_counts["Recent 2019-2024"]} questions; 2019 has 47, others 50)
 
-Important denominator note: 2003 has 35 parsed questions, while the other years have 50. Early-stage raw counts therefore use {stage_q_counts["Early 2003-2008"]} questions, not 300. Stage comparisons below show raw counts plus normalized rates where that affects interpretation.
+Two short years (2003: 35 Q, 2019: 47 Q) make raw stage counts asymmetric; rates and per-question normalizations are reported alongside.
 
-This pass uses a multi-label knowledge microtopic taxonomy. A question can count for more than one knowledge subtopic, because many Open Exam items combine biology areas. The taxonomy generated {topic_hit_count} knowledge-subtopic hits across {tagged_count} tagged questions, with {unclassified_count} questions left for manual review. Counts are useful for prioritization, but they are still heuristic and should be refined with manual labels later.
+Multi-label knowledge microtopic taxonomy. A question can count for more than one knowledge subtopic. The taxonomy generated {topic_hit_count} knowledge-subtopic hits across {tagged_count} tagged questions, with {unclassified_count} questions left for manual review (`data/open_exam_unclassified_questions.csv`).
 
-After an independent audit pass, the generator was updated to:
+Generator hardening:
 
-- Match common plural and biological inflection forms without letting very short keywords over-match.
-- Match spaces and hyphens interchangeably in phrases such as `wild-type`, `patch-clamp`, and `half-life`.
-- Keep high-specificity subtopics, such as linkage/recombination, even when broad Mendelian terms also score highly.
-- Replace the old single-marker Roman-numeral detector with a true list-context detector.
-- Export unclassified questions and normalized stage summaries for manual audit.
-- Use feature-based tier rules and a less overlapping priority formula.
-- Refresh plots with top-ranked bars at the top, square-root heatmap scaling, year trajectories, co-occurrence, and recurrence-vs-difficulty views.
+- Plural and biology-inflection-tolerant keyword matcher; spaces and hyphens are interchangeable in multi-word phrases.
+- High-specificity keywords (weight >= 8) force-include their subtopic so niche labels are not absorbed into broader siblings.
+- Roman-numeral tag requires a real list context, not just a stray `i.e.`.
+- Feature-based tier rules; priority formula uses independent features only.
+- Year-level pillar trajectory, reasoning-tag co-occurrence, and difficulty-vs-recurrence plots are normalized against per-year question counts so 2003 and 2019 are not visually inflated.
+
+## Reproducibility Artifacts
+
+- `code/generate_consolidated_subtopic_analysis.py`
+- `data/open_exam_subtopic_question_tags.jsonl` (per-question tags)
+- `data/open_exam_subtopic_summary.csv`
+- `data/open_exam_reasoning_by_topic.csv`
+- `data/open_exam_unclassified_questions.csv` (manual-review queue)
+- `data/open_exam_stage_summary.csv` (normalized stage rates)
+- `data/open_exam_year_pillar_counts.csv`
+- `data/open_exam_reasoning_tag_cooccurrence.csv`
+- `data/open_exam_consolidated_subtopic_analysis_data.json` (machine-readable bundle)
 
 ## Stage Denominators And Tagging Coverage
 
 {md_table(["Stage", "Years", "Questions", "Tagged", "Unclassified", "Subtopic hits", "Hits / question"], stage_table_rows)}
 
-Reasoning skills are separate tags: negation, quantitative calculation, Roman/multi-statement logic, select-all format, data/figure/table reasoning, and experimental/control reasoning. The two broad methods/data categories are analyzed below by their associated knowledge topic.
+## Headline Findings, 2003-2024
 
-## Consolidated Consensus From The Three Reports
-
-All three analyses agree on the main exam story:
-
-- The syllabus is stable, but the way the exam tests it changes substantially.
-- Early `2003-2008` is more recall-heavy and one-step.
-- Middle `2009-2013` adds more calculation, figures, and experimental framing.
-- Late `2014-2018`, especially 2014-2017, adds longer stems, mechanism chains, multi-select formats, data interpretation, and experimental biology.
-- The highest-return practice target is not memorizing exact old questions. It is mastering stable mechanism templates and learning to solve new variants.
+- Syllabus is stable across all four stages; what changed is how it is tested.
+- Difficulty rises through 2014-2017, peaks again in 2020-2021, and partially walks back in 2023-2024 (shorter stems, less data/experimental load).
+- "Select all that apply" formatting is concentrated in 2010-2017 and absent from 2019-2024.
+- Modern molecular tools (CRISPR/Cas9, NativePAGE, lipid nanoparticle delivery, ELISA-vs-PCR contrasts) become core in 2019-2024 rather than specialty.
+- Highest-return practice target: mastering the templates this report ranks Tier 1 / Tier 2, not memorizing past items.
 
 ## Generated Plots
 
@@ -2326,50 +2350,30 @@ All three analyses agree on the main exam story:
 
 ## Knowledge Pillar Distribution By Stage
 
-These are multi-label knowledge-topic hits, so totals exceed question count. Data/experiment is not a pillar here; it is analyzed as reasoning attached to these knowledge pillars.
+Multi-label knowledge-topic hits. Totals exceed question count because items frequently span pillars. Data/experiment is reasoning, not pillar; see later sections.
 
-{md_table(["Pillar", "Topic hits", "Early", "Early / 50Q", "Middle", "Middle / 50Q", "Late", "Late / 50Q", "Share of hits"], pillar_rows)}
+{md_table(["Pillar", "Hits", "Early", "Middle", "Late", "Recent", "Modern share", "Share of hits"], pillar_rows)}
 
-## Stable Knowledge Subtopics Across All Three Stages
+## Stable Knowledge Subtopics
 
-These subtopics appear in early, middle, and late stages. They are the safest foundation for learning-objective prioritization.
+Subtopics that appear in **all four** stages with at least 12 hits. These are the safest foundation for objective prioritization. The slash-separated column shows Early/Middle/Late/Recent counts.
 
-{md_table(["Subtopic", "Pillar", "Hits", "Early", "Middle", "Late", "Years tested", "Avg difficulty"], stable_rows)}
-
-Key reading:
-
-- Stable does not mean low difficulty. Stable subtopics become harder when embedded in experiments, figures, multi-statement choices, or negated stems.
-- The strongest stable objectives have high hit count and high year breadth.
-- Students should master these before spending heavy time on low-frequency details.
+{md_table(["Subtopic", "Pillar", "Hits", "E/M/L/R", "Years tested", "Avg difficulty"], stable_rows)}
 
 ## Prioritized Learning Objectives
 
-This is the main action table. It ranks knowledge subtopics by frequency, stage stability, year breadth, late-stage relevance, and cognitive load.
+Main action table. Ranks knowledge subtopics by frequency, stage stability, year breadth, modern (Late+Recent) relevance, and cognitive load.
 
-{md_table(["Rank", "Tier", "Subtopic", "Pillar", "Hits", "Priority", "Early/Middle/Late", "Years", "Template archetype", "Learning objective"], priority_rows)}
+{md_table(["Rank", "Tier", "Subtopic", "Pillar", "Hits", "Priority", "E/M/L/R", "Years", "Template archetype", "Learning objective"], priority_rows)}
 
-### How To Use The Tiers
+### Tier Rules
 
-Tier 1 - stable core:
-Master these first. They appear across all three stages and support many repeated templates.
+Tier 1 - stable core: present in every stage; at least 30 hits; at least 14 distinct years tested.
+Tier 2 - modern differentiator: at least 6 hits in Late+Recent combined, with modern share >= 45 % or modern count >= early count.
+Tier 3 - periodic high-yield: at least 10 hits but does not satisfy Tier 1 / Tier 2.
+Tier 4 - selective / low-frequency: everything else.
 
-Tier 2 - modern differentiator:
-These matter especially for 2014-2018 style practice. They often separate students who know the content from students who can reason through modern stems.
-
-Tier 3 - periodic high-yield:
-These appear enough to matter, but not every year. Use them after the stable core or when targeting a student's weak area.
-
-Tier 4 - selective / low-frequency:
-Do not ignore them, but do not let them crowd out stable core objectives unless the student already has strong coverage.
-
-Tier rules are feature-based rather than rank-based:
-
-- Tier 1 requires all three stages, at least 25 hits, and at least 11 separate tested years.
-- Tier 2 requires at least 5 late-stage hits and either late-stage skew or late count at least equal to early count.
-- Tier 3 requires at least 8 hits.
-- Tier 4 is the remaining low-frequency or narrow-coverage set.
-
-Priority score uses independent features: log-scaled hit count, year breadth, all-stage breadth, late-stage share, and average difficulty. The score is a sequencing aid, not a psychometric difficulty model.
+Priority score = `12*log1p(hits) + 1.5*year_breadth + 6*all_four_stages + 14*modern_share + 7*max(0, avg_difficulty - 1.8)`. Independent features only; sequencing aid, not a psychometric difficulty model.
 
 ## Data/Figure/Table Reasoning By Knowledge Topic
 
@@ -2393,161 +2397,93 @@ Interpretation:
 - Experimental reasoning is strongest where concrete mechanisms can be perturbed: physiology, plant mechanisms, gene regulation, organelles/trafficking, evolution/ecology setups, and lab-method contexts.
 - BioBloom should generate experimental questions by choosing a knowledge target first, then adding variables, controls, mutants, expected results, and distractors.
 
-## Subtopics Rising In The Late Stage
+## Modern-Rising Subtopics (Late + Recent vs. Early)
 
-These knowledge subtopics are more prominent in 2014-2018 than in 2003-2008.
+Subtopics with more hits in 2014-2024 than in 2003-2008. These anchor advanced practice sets and final-stage diagnostics.
 
-{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Late-minus-early", "Late/50 minus Early/50", "Late share"], late_rows)}
+{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Recent", "Modern - Early", "Modern share"], rising_rows)}
 
-Interpretation:
+## Declining Or Early-Weighted Subtopics
 
-- Modern difficulty comes from combinations: molecular mechanisms plus experiments, genetics plus technology, physiology plus signaling, and plants plus molecular/developmental logic.
-- Late-rising subtopics should anchor advanced practice sets and final-stage diagnostics.
+Subtopics with more hits in 2003-2008 than in Late + Recent combined. Still useful for foundational recall but should not dominate a modern-practice plan.
 
-## Early-Weighted Or Declining Subtopics
-
-These knowledge subtopics appear more in early exams than late exams. They are useful for breadth, but they should not dominate a modern-practice plan.
-
-{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Early-minus-late", "Early/50 minus Late/50", "Years"], early_rows)}
-
-Interpretation:
-
-- Early-weighted does not mean obsolete. It means later exams are less likely to test the topic as a direct recognition item.
-- For modern practice, convert early-weighted topics into mechanism, data, or experiment variants rather than repeating simple recall.
+{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Recent", "Early - Modern", "Years"], declining_rows)}
 
 ## Stage-Skewed Subtopics
 
-The broad taxonomy means truly stage-only subtopics are rare and not very informative. These tables instead surface near-stage-only signals: subtopics with at least 45% of their hits in one stage and at least 4 hits in that stage.
+Subtopics where one stage carries a disproportionate share of hits. The broad taxonomy means truly stage-only subtopics are rare; these tables surface near-stage-only signals instead.
 
-Late-skewed knowledge subtopics:
+Recent-skewed (>= 30 % of hits in 2019-2024 with at least 4 Recent hits):
 
-{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Late share", "Years"], late_skew_rows or [["-", "-", "-", "-", "-", "-", "-"]])}
+{md_table(["Subtopic", "Pillar", "E/M/L/R", "Recent share", "Years"], recent_skew_rows or [["-", "-", "-", "-", "-"]])}
 
-Early-skewed knowledge subtopics:
+Early-skewed (>= 45 % of hits in 2003-2008 with at least 5 Early hits):
 
-{md_table(["Subtopic", "Pillar", "Early", "Middle", "Late", "Early share", "Years"], early_skew_rows or [["-", "-", "-", "-", "-", "-", "-"]])}
-
-Caution: stage skew is sensitive to keyword rules and the available 2003-2018 window. Use this as a manual-review prompt, not as a reason to delete a topic.
+{md_table(["Subtopic", "Pillar", "E/M/L/R", "Early share", "Years"], early_skew_rows or [["-", "-", "-", "-", "-"]])}
 
 ## Format And Reasoning Tags By Stage
 
-These are not knowledge subtopics, but they strongly affect difficulty and should become separate BioBloom metadata fields.
+Not knowledge subtopics, but strong difficulty multipliers and BioBloom metadata fields. Percentages are normalized to per-stage question count.
 
-{md_table(["Reasoning / format tag", "Questions", "Early", "Early %", "Middle", "Middle %", "Late", "Late %", "Share of corpus"], tag_rows)}
+{md_table(["Reasoning / format tag", "Total Q", "Early %", "Middle %", "Late %", "Recent %", "Share of corpus"], tag_rows)}
 
-Implications:
+Notes:
 
-- Negation traps are common throughout and especially visible in late exams.
-- Calculation and data reasoning must be trained across topics, not isolated into one chapter.
-- Visual/table interpretation becomes a recurring execution skill. BioBloom should support image/table questions.
-- The co-occurrence plot helps identify compound task forms, especially data plus experiment and negation plus multi-statement/select-all formats.
-- The year-level pillar trajectory plot is normalized by each year's question count, so 2003's shorter length does not inflate or deflate the visual trend.
+- Negation density rises Early -> Late then partially eases in Recent.
+- Data/figure reasoning rises monotonically Early -> Recent.
+- Roman / multi-statement format almost doubles in Recent and absorbs much of the cognitive load that select-all used to carry.
+- Select-all formatting is concentrated in 2010-2017; absent from 2019-2024.
+- Calculation rate stays roughly flat across all four stages.
+- See `data/open_exam_reasoning_tag_cooccurrence.csv` for compound forms (data + experiment, negation + Roman, etc.).
 
-## What Is Truly Stable?
+## Practice-Set Composition
 
-A stable USABO learning objective usually has four properties:
+For a 50-question modern-style practice set, target the following composition (numbers approximate; choose by Tier and reasoning tag rather than topic name alone):
 
-1. It appears in all three stages.
-2. It appears in many separate years, not only as a cluster in one year.
-3. It can be tested as recall, mechanism, calculation, or experiment.
-4. It has reusable templates that can be rewritten without copying official wording.
+- 13-15 molecular/cell and gene-expression mechanisms.
+- 8-10 physiology mechanisms (endocrine, neural, immune, renal/respiratory/cardiovascular).
+- 7-9 genetics (Mendelian, pedigree, linkage, Hardy-Weinberg, quantitative).
+- 5-7 plant biology (transport, hormones, reproduction, photosynthesis).
+- 5-7 ecology / evolution / behavior / systematics.
+- 6-10 with figures, tables, or data.
+- 5-8 with negation or Roman-numeral / multi-statement logic.
+- 3-6 with modern lab / experimental-method reasoning.
+- 0 select-all when emulating 2019-2024; 4-7 select-all when emulating 2014-2017.
 
-Using those criteria, the most stable objectives are:
-
-1. Transcription, translation, gene regulation, chromosomes, and cell cycle control.
-2. Membrane structure, permeability, transport, osmosis, and electrochemical gradients.
-3. Protein structure, enzyme behavior, biomolecules, and biochemical tests.
-4. Mendelian probability, pedigrees, Hardy-Weinberg, recombination, and quantitative traits.
-5. Cardiovascular, respiratory, renal, endocrine, immune, neural, and digestion physiology.
-6. Plant tissues, transport, hormones, reproduction, development, photosynthesis, and life cycles.
-7. Evolution, selection, phylogeny, systematics, ecology, ecosystems, and behavior.
-8. Experimental design, lab methods, data interpretation, and figure/table reading as cross-cutting reasoning skills.
-
-## How To Prioritize Student Study
-
-1. Build the stable core first.
-   Start with Tier 1 objectives. They recur across years and support many templates.
-
-2. Add modern differentiators second.
-   Add lab methods, molecular tools, signaling, experimental design, and multi-step physiology after the stable core is not shaky.
-
-3. Train task forms explicitly.
-   Drill negation, Roman numerals, select-all, data tables, figures, pedigrees, and calculations as separate skills.
-
-4. Use stage-aware practice.
-   Early questions build recall fluency. Middle questions build calculation and diagram skill. Late questions are best for final preparation because they combine reading load, mechanism, and experiment.
-
-5. Review misses by objective and form.
-   A miss should update both tags, such as `membrane gradients` plus `calculation`, or `plant development` plus `data table`.
-
-## Recommended BioBloom Module Order
-
-1. Molecular foundations: proteins, enzymes, membranes, organelles, biomolecules, bioenergetics.
-2. Gene flow: DNA replication, transcription, translation, gene regulation, cell cycle, cancer.
-3. Core genetics: Mendelian probability, pedigrees, linkage, Hardy-Weinberg, quantitative traits.
-4. Physiology systems: endocrine, renal/respiratory/cardiovascular, immune, neural/muscle, digestion.
-5. Plant systems: transport, hormones, photosynthesis, reproduction, life cycles, development.
-6. Evolution and ecology: selection, speciation, phylogeny, population/community ecology, energy flow, behavior.
-7. Experimental biology: PCR/blots/gels/sequencing/CRISPR, controls, mutants, tables, graphs, figures.
-8. Exam execution: negation, Roman numerals, select-all, time triage, and distractor-family recognition.
-
-## Concrete Practice-Set Design
-
-For a 50-question modern-style practice set:
-
-- 13-15 questions: molecular/cell and gene-expression mechanisms.
-- 8-10 questions: physiology mechanisms across endocrine, neural, immune, renal/respiratory/cardiovascular.
-- 7-9 questions: genetics, pedigrees, linkage, Hardy-Weinberg, quantitative inheritance.
-- 5-7 questions: plant transport, hormones, reproduction/development, photosynthesis.
-- 5-7 questions: ecology/evolution/behavior/systematics.
-- 6-10 questions across the set should include figures, tables, or data.
-- 5-8 questions should include negation or Roman-numeral/multi-statement logic.
-- 3-6 questions should use modern lab or experimental-method reasoning.
-
-The exact counts can vary, but every set should include both content coverage and task-form coverage. A text-only single-answer set will undertrain the modern exam.
+Every set should mix content coverage with task-form coverage; a text-only single-answer set undertrains modern items.
 
 ## Project Recommendations
 
-1. Add subtopic metadata to the question bank.
-   Use `pillar`, `subtopics`, `reasoning_tags`, `stage`, `difficulty_estimate`, and `template_family` as first-class fields.
-
-2. Preserve stage labels.
-   Store `early`, `middle`, and `late` metadata so the app can generate era-faithful practice.
-
-3. Build objective-level diagnostics.
-   A student report should say `weak on membrane gradients in visual/data questions`, not just `weak on cell biology`.
-
-4. Generate from templates, not from official wording.
-   Stable subtopics should become parameterized BioBloom templates with new organisms, numbers, diagrams, and distractor roles.
-
-5. Make late-stage practice the advanced default.
-   For serious USABO preparation, calibrate hard questions against 2014-2017. Use earlier exams for foundations and fluency.
+1. Tag every generated question with `pillar`, `subtopics`, `reasoning_tags`, `stage`, `difficulty_estimate`, and `template_archetype` as first-class metadata.
+2. Preserve all four stage labels (`early`, `middle`, `late`, `recent`) so the app can generate era-faithful practice. Use `late + recent` as the default "modern" target for advanced preparation.
+3. Diagnose at objective + form granularity: "weak on membrane gradients in visual/data questions", not just "weak on cell biology".
+4. Generate from parameterized archetype templates rather than from official wording. The 11 archetypes in `open_exam_analysis_claude.md` cover most of the priority table.
+5. Calibrate hard questions against the 2014-2017 / 2020-2021 difficulty cluster. Treat 2003-2009 and 2023-2024 as the lower-bound reference.
 
 ## Manual Review Queue
 
-The unclassified bucket is now exported to `data/open_exam_unclassified_questions.csv`. Use it as the first audit file for taxonomy refinement: each row has year, question number, difficulty estimate, reasoning tags, and a short preview. The right workflow is to hand-label a small sample, add only the missing high-signal keywords, regenerate, and check whether precision drops.
+`data/open_exam_unclassified_questions.csv` is the first audit file for taxonomy refinement. Workflow: hand-label a small sample, add the missing high-signal keywords, regenerate, check that precision does not drop.
 
-Likely future coverage gaps to consider during manual review:
+Likely coverage gaps in the current keyword set:
 
 - Bioinformatics and sequence analysis.
-- Epigenetics beyond methylation/acetylation.
-- RNAi, non-coding RNA, and post-transcriptional regulation.
+- Epigenetics beyond methylation/acetylation (chromatin remodeling, ncRNA-mediated silencing).
+- RNAi, non-coding RNA, post-transcriptional regulation.
 - Microbiome ecology and host-associated communities.
-- Modern molecular tools that were rare in 2003-2018 but likely in newer exams.
+- 2019-2024 method vocabulary (lipid nanoparticle, NativePAGE, hyperactive transposon screens, Cre-Lox, ELISA-vs-PCR contrasts, antibiogram clearance-zone reading).
 
-## Data Quality Notes To Resolve
-
-The prior reports and this pass surface the same cleanup items:
+## Data Quality Notes
 
 - Add a separate `2003_answer_key.json` for consistency.
 - Verify missing 2013 answer-key entry Q33.
 - Normalize 2015 Q2 from `AB` to `A+B` if plus-delimited multi-answer keys are the project convention.
 - Preserve special answer keys such as `DISREGARDED`, `A OR B`, and `B OR E` as explicit metadata.
 - Keep 2018's shared pre-question option block attached to Questions 1-2.
+- 2019 has 47 questions, not 50; treat that as data, not corruption.
 
 ## Appendix: Knowledge Microtopic Count Table
 
-{md_table(["Subtopic", "Pillar", "Hits", "Early", "Middle", "Late", "Stage breadth", "Year breadth", "Years", "Avg diff", "Priority", "Template archetype"], appendix_rows)}
+{md_table(["Subtopic", "Pillar", "Hits", "Early", "Middle", "Late", "Recent", "Stage breadth", "Year breadth", "Years", "Avg diff", "Priority", "Template archetype"], appendix_rows)}
 """
     REPORT_PATH.write_text(content)
 
@@ -2559,9 +2495,14 @@ def validate_integrity(
 ) -> None:
     per_year = Counter(int(q["year"]) for q in questions)
     assert sum(per_year.values()) == len(questions), "per-year question counts do not sum to total"
-    assert set(per_year) == set(range(2003, 2019)), "expected years 2003-2018"
-    assert per_year[2003] == 35, "2003 should have 35 parsed questions"
-    for year in range(2004, 2019):
+    assert set(per_year) == set(range(2003, 2025)), "expected years 2003-2024"
+    # Two known short years: 2003 (35 Q, 4-option) and 2019 (47 Q).
+    short_years = {2003: 35, 2019: 47}
+    for year, expected in short_years.items():
+        assert per_year[year] == expected, f"{year} should have {expected} parsed questions"
+    for year in range(2003, 2025):
+        if year in short_years:
+            continue
         assert per_year[year] == 50, f"{year} should have 50 parsed questions"
 
     tagged = sum(q["primary_subtopic"] != "Unclassified" for q in questions)

@@ -52,10 +52,10 @@
 <text x="8" y="473" class="small">Linkage, recombination and map distance</text>
 <rect x="657.5" y="461" width="57.32142857142857" height="20" fill="#357a55"/>
 <text x="718.8214285714286" y="475" text-anchor="start" class="small">+3</text>
-<text x="8" y="500" class="small">Biomolecules, macromolecules and biochemical tests</text>
+<text x="8" y="500" class="small">Immunology, inflammation and host defense</text>
 <rect x="657.5" y="488" width="76.42857142857143" height="20" fill="#357a55"/>
 <text x="737.9285714285714" y="502" text-anchor="start" class="small">+4</text>
-<text x="8" y="527" class="small">Immunology, inflammation and host defense</text>
+<text x="8" y="527" class="small">Biomolecules, macromolecules and biochemical tests</text>
 <rect x="657.5" y="515" width="76.42857142857143" height="20" fill="#357a55"/>
 <text x="737.9285714285714" y="529" text-anchor="start" class="small">+4</text>
 <text x="8" y="554" class="small">Cell cycle, meiosis and cancer checkpoints</text>

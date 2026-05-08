@@ -18,81 +18,81 @@
 <text x="571.0" y="84" text-anchor="middle" class="small">reasoning</text>
 <text x="8" y="136" class="small">Negation trap</text>
 <rect x="230" y="112" width="60" height="60" fill="#3182bd" stroke="#fff"/>
-<text x="261.0" y="147" text-anchor="middle" class="small">214</text>
-<rect x="292" y="112" width="60" height="60" fill="#a6c9e5" stroke="#fff"/>
-<text x="323.0" y="147" text-anchor="middle" class="small">33</text>
-<rect x="354" y="112" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
-<text x="385.0" y="147" text-anchor="middle" class="small">4</text>
-<rect x="416" y="112" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<text x="261.0" y="147" text-anchor="middle" class="small">288</text>
+<rect x="292" y="112" width="60" height="60" fill="#a0c6e3" stroke="#fff"/>
+<text x="323.0" y="147" text-anchor="middle" class="small">51</text>
+<rect x="354" y="112" width="60" height="60" fill="#c8def0" stroke="#fff"/>
+<text x="385.0" y="147" text-anchor="middle" class="small">13</text>
+<rect x="416" y="112" width="60" height="60" fill="#d6e6f5" stroke="#fff"/>
 <text x="447.0" y="147" text-anchor="middle" class="small">6</text>
-<rect x="478" y="112" width="60" height="60" fill="#a7cae5" stroke="#fff"/>
-<text x="509.0" y="147" text-anchor="middle" class="small">32</text>
-<rect x="540" y="112" width="60" height="60" fill="#b0cfe8" stroke="#fff"/>
-<text x="571.0" y="147" text-anchor="middle" class="small">25</text>
+<rect x="478" y="112" width="60" height="60" fill="#a4c8e4" stroke="#fff"/>
+<text x="509.0" y="147" text-anchor="middle" class="small">47</text>
+<rect x="540" y="112" width="60" height="60" fill="#accde7" stroke="#fff"/>
+<text x="571.0" y="147" text-anchor="middle" class="small">37</text>
 <text x="8" y="198" class="small">Calculation / quantitative</text>
-<rect x="230" y="174" width="60" height="60" fill="#a6c9e5" stroke="#fff"/>
-<text x="261.0" y="209" text-anchor="middle" class="small">33</text>
-<rect x="292" y="174" width="60" height="60" fill="#609fcd" stroke="#fff"/>
-<text x="323.0" y="209" text-anchor="middle" class="small">121</text>
-<rect x="354" y="174" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
-<text x="385.0" y="209" text-anchor="middle" class="small">4</text>
-<rect x="416" y="174" width="60" height="60" fill="#dbeaf7" stroke="#fff"/>
+<rect x="230" y="174" width="60" height="60" fill="#a0c6e3" stroke="#fff"/>
+<text x="261.0" y="209" text-anchor="middle" class="small">51</text>
+<rect x="292" y="174" width="60" height="60" fill="#5f9ecc" stroke="#fff"/>
+<text x="323.0" y="209" text-anchor="middle" class="small">167</text>
+<rect x="354" y="174" width="60" height="60" fill="#d3e5f4" stroke="#fff"/>
+<text x="385.0" y="209" text-anchor="middle" class="small">7</text>
+<rect x="416" y="174" width="60" height="60" fill="#deebf8" stroke="#fff"/>
 <text x="447.0" y="209" text-anchor="middle" class="small">3</text>
-<rect x="478" y="174" width="60" height="60" fill="#c4dcef" stroke="#fff"/>
-<text x="509.0" y="209" text-anchor="middle" class="small">12</text>
-<rect x="540" y="174" width="60" height="60" fill="#c6ddf0" stroke="#fff"/>
-<text x="571.0" y="209" text-anchor="middle" class="small">11</text>
+<rect x="478" y="174" width="60" height="60" fill="#bfd8ed" stroke="#fff"/>
+<text x="509.0" y="209" text-anchor="middle" class="small">20</text>
+<rect x="540" y="174" width="60" height="60" fill="#c5ddef" stroke="#fff"/>
+<text x="571.0" y="209" text-anchor="middle" class="small">15</text>
 <text x="8" y="260" class="small">Multi-statement / Roman</text>
-<rect x="230" y="236" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
-<text x="261.0" y="271" text-anchor="middle" class="small">4</text>
-<rect x="292" y="236" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
-<text x="323.0" y="271" text-anchor="middle" class="small">4</text>
-<rect x="354" y="236" width="60" height="60" fill="#adcee7" stroke="#fff"/>
-<text x="385.0" y="271" text-anchor="middle" class="small">27</text>
+<rect x="230" y="236" width="60" height="60" fill="#c8def0" stroke="#fff"/>
+<text x="261.0" y="271" text-anchor="middle" class="small">13</text>
+<rect x="292" y="236" width="60" height="60" fill="#d3e5f4" stroke="#fff"/>
+<text x="323.0" y="271" text-anchor="middle" class="small">7</text>
+<rect x="354" y="236" width="60" height="60" fill="#9fc5e2" stroke="#fff"/>
+<text x="385.0" y="271" text-anchor="middle" class="small">53</text>
 <rect x="416" y="236" width="60" height="60" fill="#f2f8ff" stroke="#fff"/>
 <text x="447.0" y="271" text-anchor="middle" class="small">0</text>
-<rect x="478" y="236" width="60" height="60" fill="#cce1f2" stroke="#fff"/>
-<text x="509.0" y="271" text-anchor="middle" class="small">8</text>
-<rect x="540" y="236" width="60" height="60" fill="#dfecf8" stroke="#fff"/>
-<text x="571.0" y="271" text-anchor="middle" class="small">2</text>
+<rect x="478" y="236" width="60" height="60" fill="#cee2f2" stroke="#fff"/>
+<text x="509.0" y="271" text-anchor="middle" class="small">10</text>
+<rect x="540" y="236" width="60" height="60" fill="#d6e6f5" stroke="#fff"/>
+<text x="571.0" y="271" text-anchor="middle" class="small">6</text>
 <text x="8" y="322" class="small">Select-all / multi-answer</text>
-<rect x="230" y="298" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<rect x="230" y="298" width="60" height="60" fill="#d6e6f5" stroke="#fff"/>
 <text x="261.0" y="333" text-anchor="middle" class="small">6</text>
-<rect x="292" y="298" width="60" height="60" fill="#dbeaf7" stroke="#fff"/>
+<rect x="292" y="298" width="60" height="60" fill="#deebf8" stroke="#fff"/>
 <text x="323.0" y="333" text-anchor="middle" class="small">3</text>
 <rect x="354" y="298" width="60" height="60" fill="#f2f8ff" stroke="#fff"/>
 <text x="385.0" y="333" text-anchor="middle" class="small">0</text>
-<rect x="416" y="298" width="60" height="60" fill="#a8cbe5" stroke="#fff"/>
+<rect x="416" y="298" width="60" height="60" fill="#b2d1e9" stroke="#fff"/>
 <text x="447.0" y="333" text-anchor="middle" class="small">31</text>
-<rect x="478" y="298" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<rect x="478" y="298" width="60" height="60" fill="#d6e6f5" stroke="#fff"/>
 <text x="509.0" y="333" text-anchor="middle" class="small">6</text>
-<rect x="540" y="298" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<rect x="540" y="298" width="60" height="60" fill="#dbeaf7" stroke="#fff"/>
 <text x="571.0" y="333" text-anchor="middle" class="small">4</text>
 <text x="8" y="384" class="small">Data/figure/table reasoning</text>
-<rect x="230" y="360" width="60" height="60" fill="#a7cae5" stroke="#fff"/>
-<text x="261.0" y="395" text-anchor="middle" class="small">32</text>
-<rect x="292" y="360" width="60" height="60" fill="#c4dcef" stroke="#fff"/>
-<text x="323.0" y="395" text-anchor="middle" class="small">12</text>
-<rect x="354" y="360" width="60" height="60" fill="#cce1f2" stroke="#fff"/>
-<text x="385.0" y="395" text-anchor="middle" class="small">8</text>
-<rect x="416" y="360" width="60" height="60" fill="#d1e4f3" stroke="#fff"/>
+<rect x="230" y="360" width="60" height="60" fill="#a4c8e4" stroke="#fff"/>
+<text x="261.0" y="395" text-anchor="middle" class="small">47</text>
+<rect x="292" y="360" width="60" height="60" fill="#bfd8ed" stroke="#fff"/>
+<text x="323.0" y="395" text-anchor="middle" class="small">20</text>
+<rect x="354" y="360" width="60" height="60" fill="#cee2f2" stroke="#fff"/>
+<text x="385.0" y="395" text-anchor="middle" class="small">10</text>
+<rect x="416" y="360" width="60" height="60" fill="#d6e6f5" stroke="#fff"/>
 <text x="447.0" y="395" text-anchor="middle" class="small">6</text>
-<rect x="478" y="360" width="60" height="60" fill="#6ea7d1" stroke="#fff"/>
-<text x="509.0" y="395" text-anchor="middle" class="small">100</text>
-<rect x="540" y="360" width="60" height="60" fill="#bbd6ec" stroke="#fff"/>
-<text x="571.0" y="395" text-anchor="middle" class="small">17</text>
+<rect x="478" y="360" width="60" height="60" fill="#62a0cd" stroke="#fff"/>
+<text x="509.0" y="395" text-anchor="middle" class="small">159</text>
+<rect x="540" y="360" width="60" height="60" fill="#bad5eb" stroke="#fff"/>
+<text x="571.0" y="395" text-anchor="middle" class="small">24</text>
 <text x="8" y="446" class="small">Experimental design/control</text>
 <text x="8" y="456" class="small">reasoning</text>
-<rect x="230" y="422" width="60" height="60" fill="#b0cfe8" stroke="#fff"/>
-<text x="261.0" y="457" text-anchor="middle" class="small">25</text>
-<rect x="292" y="422" width="60" height="60" fill="#c6ddf0" stroke="#fff"/>
-<text x="323.0" y="457" text-anchor="middle" class="small">11</text>
-<rect x="354" y="422" width="60" height="60" fill="#dfecf8" stroke="#fff"/>
-<text x="385.0" y="457" text-anchor="middle" class="small">2</text>
-<rect x="416" y="422" width="60" height="60" fill="#d7e7f5" stroke="#fff"/>
+<rect x="230" y="422" width="60" height="60" fill="#accde7" stroke="#fff"/>
+<text x="261.0" y="457" text-anchor="middle" class="small">37</text>
+<rect x="292" y="422" width="60" height="60" fill="#c5ddef" stroke="#fff"/>
+<text x="323.0" y="457" text-anchor="middle" class="small">15</text>
+<rect x="354" y="422" width="60" height="60" fill="#d6e6f5" stroke="#fff"/>
+<text x="385.0" y="457" text-anchor="middle" class="small">6</text>
+<rect x="416" y="422" width="60" height="60" fill="#dbeaf7" stroke="#fff"/>
 <text x="447.0" y="457" text-anchor="middle" class="small">4</text>
-<rect x="478" y="422" width="60" height="60" fill="#bbd6ec" stroke="#fff"/>
-<text x="509.0" y="457" text-anchor="middle" class="small">17</text>
-<rect x="540" y="422" width="60" height="60" fill="#88b7da" stroke="#fff"/>
-<text x="571.0" y="457" text-anchor="middle" class="small">64</text>
+<rect x="478" y="422" width="60" height="60" fill="#bad5eb" stroke="#fff"/>
+<text x="509.0" y="457" text-anchor="middle" class="small">24</text>
+<rect x="540" y="422" width="60" height="60" fill="#82b3d8" stroke="#fff"/>
+<text x="571.0" y="457" text-anchor="middle" class="small">96</text>
 </svg>

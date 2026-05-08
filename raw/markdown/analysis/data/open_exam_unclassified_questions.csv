@@ -82,3 +82,18 @@ year,question_number,word_count,difficulty_estimate,reasoning_tags,preview
 2018,1,33,1.5,,"In the extracellular matrix of an animal cell, you would like to test the binding partner of integrins in vitro. Integrins would most likely"
 2018,27,35,1.5,,Which of the following are most responsible for carrying and transporting triacylglycerols in the body?
 2018,48,80,1.5,,"A certain caterpillar has a net production efficiency of 28%, assimilation efficiency of 39%, exploitation efficiency of 50%, and a gross pr"
+2019,4,29,1.85,Data/figure/table reasoning,The molecule shown below is the substance pumiliotoxin produced by poison dart frogs. At which arrow could a hydrogen bond form?
+2019,43,25,1.5,,A coelenterate such as a sea anemone could best be described as an
+2020,17,56,2.1,Negation trap|Multi-statement / Roman,Plants require a distinct but not mutually exclusive panel of micronutrients from mammals. Which of the following micronutrients are necessa
+2021,33,228,3.2,Calculation / quantitative,"Lakshay is observing his herd of A. alces and notes that they appear optimal in their foraging. To test this, he creates a habitat with two "
+2022,11,71,1.5,,"For a silvery plant with dorsiventral leaves, the side with the most hairs will be the"
+2022,19,67,1.8,Negation trap,The lateral line system is a necessary system for the survival in most fish. A key part of the lateral line is a substructure called the cup
+2022,24,79,1.9,Calculation / quantitative,"Basal metabolic rate is defined as the metabolic rate for an endotherm, an animal that produces its own body heat. Suppose a 1.8 kg newborn "
+2023,8,61,1.5,,"According to Levinthal's paradox, polypeptide chains can fold in almost an infinite number of ways after they are translated. When polypepti"
+2023,10,99,2.25,Data/figure/table reasoning,The hydrocarbon chain in the top triglyceride above has &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;; the hydrocarbon chain in the bottom trigly
+2023,21,22,1.5,,How should Patient A's aortic valve be categorized?
+2023,22,22,1.5,,How should Patient B's aortic valve be categorized?
+2023,24,34,1.5,,When is the flow above the baseline in Patient C occurring during the cardiac cycle?
+2023,27,131,2.65,Negation trap,"In 2018, a dramatic rescue plan for 13 lives trapped in an underground cave system in Thailand required extreme measures. Ultimately, those "
+2023,29,28,1.5,,Which of the following structures is most directly responsible for the blind spot in human vision?
+2023,33,85,1.9,,"According to optimal foraging theory,"
