@@ -22,8 +22,6 @@
 
 ### 3. A group of cells was treated with a compound, causing a change in cellular activity. Samples were gathered after treatment and the DNA extracted. The DNA was run with gel electrophoresis, yielding the results shown below from left to right: DNA ladder, treated cells, untreated cells. The cells are undergoing what process?
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401164/
-
 ![Question 3 figure 1](images/question03_figure1.png)
 
 - [ ] **A.** Mitosis.
@@ -46,7 +44,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401164/
 - [ ] **B.** Flagellum.
 - [ ] **C.** Rough endoplasmic reticulum.
 - [ ] **D.** Chloroplast.
-- [ ] **E.** Lysosome. % Biosystematics (2 Questions)
+- [ ] **E.** Lysosome.
 
 ### 6. You are working with a cloning wunderkind who has perfected the process of somatic cell nuclear transfer. Using her protocol, you can remove the nucleus of a skin fibroblast from any mouse, insert it into an egg donor, and grow a clone of your original organism. Hoping to expand this protocol, you remove the nucleus from an immune cell and repeat the protocol. To your surprise, you are able to recapitulate a living clone, but it is severely immunocompromised. You soon realize the error of your ways, which had to do with cell selection. What type of cell did you remove the nucleus from?
 
@@ -66,7 +64,28 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401164/
 
 ### 8. Using your extensive lab skills, you isolate a small peptide from the brain of a species of Hymenoptera, which you name BRNB33. You decide to obtain the amino acid sequence of the peptide using tandem mass spectrometry in order to learn more about its structure. John, your lab intern, accidentally mixes up the sequence of BRNB33 with that of four other peptides! Not wanting to lose his job, John frantically tries to figure out which peptide sequence is the correct one. He knows that BRNB33 functions in the cytosol, and binds to HNKY7 and PNKY3, two proteins with very strong negative charges. Which of the following peptide sequences is most likely that of BRNB33?
 
-![Question 8 figure 1](images/question08_figure1.png)
+| Amino acid    | $\text{pKa}_1$ | $\text{pKa}_2$ | $\text{pKa}_3$ | pI    |
+| :------------ | :------------- | :------------- | :------------- | :---- |
+| Glycine       | 2.34           | 9.60           | ---            | 5.97  |
+| Alanine       | 2.34           | 9.69           | ---            | 6.00  |
+| Valine        | 2.32           | 9.62           | ---            | 5.96  |
+| Leucine       | 2.36           | 9.60           | ---            | 5.98  |
+| Isoleucine    | 2.36           | 9.60           | ---            | 6.02  |
+| Methionine    | 2.28           | 9.21           | ---            | 5.74  |
+| Proline       | 1.99           | 10.60          | ---            | 6.30  |
+| Phenylalanine | 1.83           | 9.13           | ---            | 5.48  |
+| Tryptophan    | 2.83           | 9.39           | ---            | 5.89  |
+| Asparagine    | 2.02           | 8.80           | ---            | 5.41  |
+| Glutamine     | 2.17           | 9.13           | ---            | 5.65  |
+| Serine        | 2.21           | 9.15           | ---            | 5.68  |
+| Threonine     | 2.09           | 9.10           | ---            | 5.60  |
+| Tyrosine      | 2.20           | 9.11           | ---            | 5.66  |
+| Cysteine      | 1.96           | 8.18           | ---            | 5.07  |
+| Aspartic acid | 1.88           | 9.60           | 3.65           | 2.77  |
+| Glutamic acid | 2.19           | 9.67           | 4.25           | 3.22  |
+| Lysine        | 2.18           | 8.95           | 10.53          | 9.74  |
+| Arginine      | 2.17           | 9.04           | 12.48          | 10.76 |
+| Histidine     | 1.82           | 9.17           | 6.00           | 7.59  |
 
 - [ ] **A.** VLCGDCEAHLHH.
 - [ ] **B.** GAVDREFLKEDA.
@@ -90,7 +109,11 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401164/
 - [ ] **D.** Charged proteins can be eluted through a gradient of linearly increasing salt concentration; proteins with lower net charge will elute first.
 - [ ] **E.** The pH of the mobile phase buffer (before eluting) must be between the isoelectric point (pI) of the charged molecule (the one being purified from the mobile phase) and the pKa of the charged functional group on the stationary phase. % Ecology (5 Questions)
 
-### 11. Organisms in the class Kinetoplastida are characterized by the kinetoplast, a network of thousands of interlocked, or catenated, circular pieces of DNA. A diagram of kinetoplast DNA (kDNA) is shown below in Panel A. You find a tube of enzyme in the freezer labelled with only “Enzyme E”. You incubate Enzyme E with 200 ng of kDNA at $37^\circ C$ for 15 minutes and visualize the product on an agarose gel, shown above in Panel B. The samples loaded onto the gel are: linearized kDNA (Lane 1); untreated kDNA (Lane 2); Enzyme E-treated kDNA (Lane 3). Which of the following types of enzyme best describes Enzyme E?
+### 11. Organisms in the class Kinetoplastida are characterized by the kinetoplast, a network of thousands of interlocked, or catenated, circular pieces of DNA. A diagram of kinetoplast DNA (kDNA) is shown below in Panel A.
+
+You find a tube of enzyme in the freezer labelled with only “Enzyme E”. You incubate Enzyme E with 200 ng of kDNA at $37^\circ C$ for 15 minutes and visualize the product on an agarose gel, shown above in Panel B. The samples loaded onto the gel are: linearized kDNA (Lane 1); untreated kDNA (Lane 2); Enzyme E-treated kDNA (Lane 3).
+
+Which of the following types of enzyme best describes Enzyme E?
 
 ![Question 11 figure 1](images/question11_figure1.png)
 
@@ -142,7 +165,9 @@ V. Abscissic acid is produced by the plant during times of water stress.
 - [ ] **D.** Two cambial initials, increasing the circumference of the vascular cambium and also dividing to form a secondary phloem cell, but not a secondary xylem cell.
 - [ ] **E.** Two cambial initials, increasing the circumference of the vascular cambium and also dividing to form an initial and either a secondary xylem cell or secondary phloem cell.
 
-### 16. Consider the following TEM image taken of legume root cell. Which of the following statements is TRUE regarding the structure indicated by the arrows?
+### 16. Consider the following TEM image taken of legume root cell.
+
+Which of the following statements is TRUE regarding the structure indicated by the arrows?
 
 ![Question 16 figure 1](images/question16_figure1.png)
 
@@ -232,23 +257,21 @@ V. Reduced interveinal distance.
 
 ### 25. An electrocardiogram is a graph of voltage vs time. The simplest ones use two leads, one on each arm. Electrical signals in the heart are then measured for multiple beats. Which of the following electrocardiograms shows a normal, healthy cardiac cycle?
 
-![Question 25 figure 1](images/question25_figure1.png)
+| Choice | Electrocardiogram                          | Source                                                                                             |
+| :----: | :----------------------------------------- | :------------------------------------------------------------------------------------------------- |
+|   A    | ![Choice A](images/question25_choiceA.png) | By Madhero88 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7256825     |
+|   B    | ![Choice B](images/question25_choiceB.png) |                                                                                                    |
+|   C    | ![Choice C](images/question25_choiceC.png) | By Npatchett - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=47645928    |
+|   D    | ![Choice D](images/question25_choiceD.png) | Source: BMET Wiki. Copyright: CC-BY-SA.                                                            |
+|   E    | ![Choice E](images/question25_choiceE.png) | By Chikumaya - My Own Work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1265477 |
 
-![Question 25 figure 2](images/question25_figure2.png)
+### 26. A 50-year-old man has a bone marrow biopsy performed as part of his cancer staging evaluation after diagnosis of lymphoma. On the day of the biopsy, a hematology panel is performed on a peripheral blood specimen obtained through finger prick. The patient's white blood cell concentration is $4.9 \times 10^3/microliter$, while his red blood cell concentration is $4.7 \times 10^6/microliter$. The majority of white blood cells are neutrophils. Later in the day, when laboratory staff counts the cell types present in bone marrow, the number of neutrophil precursors is three times the number of red blood cell precursors. What is the most likely explanation for the 1:1000 WBC:RBC ratio in the man's blood, given that neutrophil precursors outnumbered red blood cell precursors in his bone marrow?
 
-![Question 25 figure 3](images/question25_figure3.png)
-
-![Question 25 figure 4](images/question25_figure4.png)
-
-![Question 25 figure 5](images/question25_figure5.png)
-
-- [ ] **A.** By Madhero88 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=7256825
-- [ ] **B.**
-- [ ] **C.** By Npatchett - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=47645928
-- [ ] **D.** Source: BMET Wiki. Copyright: CC-BY-SA.
-- [ ] **E.** By Chikumaya - My Own Work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1265477
-
-### 26. A 50-year-old man has a bone marrow biopsy performed as part of his cancer staging evaluation after diagnosis of lymphoma. On the day of the biopsy, a hematology panel is performed on a peripheral blood specimen obtained through finger prick. The patient's white blood cell concentration is
+- [ ] **A.** The majority of erythropoiesis takes place in the liver and spleen in healthy adult humans; as the patient's lymphoma did not affect liver or spleen, red blood cell precursors would be expected to be found in those two organs rather than bone marrow.
+- [ ] **B.** When lymphoma metastasizes to bone marrow, red cell precursors are replaced first, followed by immature neutrophils.
+- [ ] **C.** The lifespan of a red blood cell in circulation exceeds three months, while neutrophil lifespan is measured in hours.
+- [ ] **D.** Fingerstick blood is not a valid sample for peripheral blood cell counts, because the diameter of the lancet permits only red blood cells, and not white blood cells, to pass through the patient's skin.
+- [ ] **E.** Lymphoma is a disease of white blood cells, so the bone marrow result indicates that the specimen is positive for cancer involvement
 
 ### 27. You perform an assay to determine the mechanism by which macrophages uptake extracellular antigens for antigen presentation. You harvest macrophages and co-culture your antigen, ovalbumin, with and without LPS. You find that the endocytosis of ovalbumin is significantly enhanced in macrophages co-treated with LPS. To confirm that increased endocytosis is mediated by actin, you pre-treat your macrophages with an actin polymerization inhibitor. To your surprise, you see that ovalbumin uptake is not fully abolished in the presence of inhibitor. Which of the following interventions would likely completely abolish ovalbumin uptake?
 
@@ -266,7 +289,7 @@ V. Reduced interveinal distance.
 - [ ] **D.** Tyrosine hydroxylase - adrenal medulla.
 - [ ] **E.** Tyrosine hydroxylase - neurons.
 
-### 29. For antibody-mediated mechanisms of antigen disposal, the formation of MAC (membrane attack complex) occurs in the _________________, which is directly triggered by ___________________.
+### 29. For antibody-mediated mechanisms of antigen disposal, the formation of MAC (membrane attack complex) occurs in the &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;, which is directly triggered by &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 - [ ] **A.** Gram positive bacteria; macrophages.
 - [ ] **B.** Macrophages; opsonization of antibodies.
@@ -300,9 +323,21 @@ V. Reduced interveinal distance.
 - [ ] **D.** A blue jay vomits after ingesting the poisonous monarch butterfly, learning to avoid butterflies with bright, orange coloration.
 - [ ] **E.** A lab rat learns to press a button that provides food through trial-and-error.
 
-### 33. Catherine examines a small population of monogamous C. ampbell birds in the wild. In general, she observes that in every nest of hatchlings (“family”), the males could be subdivided into two groups: one group of males matures and flies to newer territories to breed; the other remains at the nest and does not breed. Given this information, which of the following conclusion(s) could she most likely
+### 33. Catherine examines a small population of monogamous C. ampbell birds in the wild. In general, she observes that in every nest of hatchlings (“family”), the males could be subdivided into two groups: one group of males matures and flies to newer territories to breed; the other remains at the nest and does not breed. Given this information, which of the following conclusion(s) could she most likely draw based on evolutionary theory of animal families?
 
-## draw based on evolutionary theory of animal families?
+I. Non-breeding hatchlings provide protection and additional care to the breeding population.
+II. The original family of hatchlings and parents will eventually collapse when the formerly non-
+breeding chicks move into surrounding areas to mate.
+III. Placing more food at natal territories would encourage males to vacate the nest to provide more external mating opportunities to less mobile females.
+IV. Replacing the original parents of the hatchlings with stepparents would increase the proportion of breeding males in the existing nest.
+
+- [ ] **A.** I only.
+- [ ] **B.** I, II.
+- [ ] **C.** II, III, IV.
+- [ ] **D.** I, II, IV.
+- [ ] **E.** I, II, III, IV.
+
+## 20% Genetics and Evolution (10 Questions)
 
 ### 34. Fragile X syndrome (FXS) is the most common inherited cause of intellectual disability (ID). In addition to ID, people with FXS tend to have large ears and poor muscle tone, and a significant proportion have attention-deficit hyperactivity disorder. FXS is caused by mutations in the FMR1 gene, which is located on the X chromosome and encodes the FMR protein (FMRP). FMRP is important for brain development. The mutation in FMR1 that results in FXS causes methylation of this normally unmethylated gene. As a result, FXS is inherited as an X-linked dominant disorder with reduced penetrance. Based on this information, which of the following statements about FXS is TRUE?
 
@@ -312,7 +347,17 @@ V. Reduced interveinal distance.
 - [ ] **D.** It is impossible to determine whether females or males are more likely to be affected.
 - [ ] **E.** People with FXS make more FMRP than people without FXS.
 
-### 35. Fragile X was named because, when looking at karyotypes of people with FXS, the ends of the X-chromosomes looked broken. It turns out that this appearance is due to having a larger-than-usual number of CGG repeats in the 5’ noncoding region of FMR1. People without FXS typically have about 5-44 repeats. Expansions of this region from one generation to the next lead to more repeats, categorized as follows: • 45-54 CGG repeats: “Intermediate”: not associated with any known medical problems, but additional expansions may lead to premutations in future generations. • 55-200 CGG repeats: “Premutation”: people with premutations are at risk for the adult-onset neurological disorder FXTAS (Fragile X-associated tremor/ataxia syndrome). People with FXTAS can develop problems in middle age with balance, memory, tremors, and other neurological and psychiatric symptoms. In addition, premutations can be unstable and can expand to full mutations when passed to the next generation (typically, from a mother to her child). • >200 CGG repeats: “Full mutation”: people with full mutations are at high risk of having FXS. The following question refers to the pedigree chart shown below. Circles and squares indicate females and males, respectively. Open symbols indicate apparently clinically normal people, and filled symbols indicate people with FXS. Hatched symbols indicate people with FXTAS. Roman numerals indicate generation, and Arabic numerals indicate individuals within a generation; thus, III-2 indicates Individual 2 within Generation III-the male with FXS. Individual II-1 is 30 years old. Her children II-1, III-2, and III-3 are 7 years, 4 years, and 1 month of age, respectively. “Mutated” below encompasses both premutations and full mutations. I 2 1 II 2 1 III 2 3 1 Which of the following statements is TRUE?
+### 35. Fragile X was named because, when looking at karyotypes of people with FXS, the ends of the X-chromosomes looked broken. It turns out that this appearance is due to having a larger-than-usual number of CGG repeats in the 5’ noncoding region of FMR1. People without FXS typically have about 5-44 repeats. Expansions of this region from one generation to the next lead to more repeats, categorized as follows:
+
+- 45-54 CGG repeats: “Intermediate”: not associated with any known medical problems, but additional expansions may lead to premutations in future generations.
+- 55-200 CGG repeats: “Premutation”: people with premutations are at risk for the adult-onset neurological disorder FXTAS (Fragile X-associated tremor/ataxia syndrome). People with FXTAS can develop problems in middle age with balance, memory, tremors, and other neurological and psychiatric symptoms. In addition, premutations can be unstable and can expand to full mutations when passed to the next generation (typically, from a mother to her child).
+- $> 200$ CGG repeats: “Full mutation”: people with full mutations are at high risk of having FXS.
+
+The following question refers to the pedigree chart shown below. Circles and squares indicate females and males, respectively. Open symbols indicate apparently clinically normal people, and filled symbols indicate people with FXS. Hatched symbols indicate people with FXTAS. Roman numerals indicate generation, and Arabic numerals indicate individuals within a generation; thus, III-2 indicates Individual 2 within Generation III-the male with FXS. Individual II-1 is 30 years old. Her children II-1, III-2, and III-3 are 7 years, 4 years, and 1 month of age, respectively. “Mutated” below encompasses both premutations and full mutations.
+
+![Question 35 figure 1](images/question35_figure1.png)
+
+Which of the following statements is TRUE?
 
 - [ ] **A.** I-1 has a 50% chance of having inherited a mutated FMR1 from her mother.
 - [ ] **B.** III-1 has a 50% chance of having inherited a mutated FMR1 from her father.
@@ -320,9 +365,15 @@ V. Reduced interveinal distance.
 - [ ] **D.** III-3 has a 25% chance of having inherited a mutated FMR1 from his father.
 - [ ] **E.** II-1 is at risk of developing FXTAS.
 
-### 36. The evolution of sex has long been a puzzle. While there are heavy costs for sexual reproduction,
+### 36. The evolution of sex has long been a puzzle. While there are heavy costs for sexual reproduction, sexual species are extraordinarily common, suggesting that sex has some evolutionary advantage.
 
-## sexual species are extraordinarily common, suggesting that sex has some evolutionary advantage.
+Which of the following is FALSE about sexual reproduction?
+
+- [ ] **A.** It allows novel, advantageous combinations of alleles to appear more quickly through recombination.
+- [ ] **B.** It prevents Muller’s ratchet.
+- [ ] **C.** It is found more often in species that live at low population densities, such as the marine organisms that live in the abyssal zone.
+- [ ] **D.** It has a “two-fold” cost compared to asexual reproduction that results from having to produce males.
+- [ ] **E.** It allows host populations to keep up in the “arms race” against parasites
 
 ### 37. The pedigree below depicts the inheritance of a rare disease through three generations of a family. What is the most likely mode of inheritance?
 
@@ -334,7 +385,13 @@ V. Reduced interveinal distance.
 - [ ] **D.** Y-linked dominant.
 - [ ] **E.** Mitochondrial.
 
-### 38. On an isolated island, you are studying fitness among finches with three beak lengths labeled A, B, and C. For every generation, you sample the population of finches at random and extrapolate to arrive at an estimated population for each phenotype. Data for the original population and the population two generations later are shown below. Let Phenotype A have a relative fitness of 1.00, and assume no environmental disturbances, what is the relative fitness of Phenotype C? Phenotype Original 2nd Generation A 33 105 B 17 31 C 50 115
+### 38. On an isolated island, you are studying fitness among finches with three beak lengths labeled A, B, and C. For every generation, you sample the population of finches at random and extrapolate to arrive at an estimated population for each phenotype. Data for the original population and the population two generations later are shown below. Let Phenotype A have a relative fitness of 1.00, and assume no environmental disturbances, what is the relative fitness of Phenotype C?
+
+| Phenotype | Original | 2nd Generation |
+| --------- | -------- | -------------- |
+| A         | 33       | 105            |
+| B         | 17       | 31             |
+| C         | 50       | 115            |
 
 - [ ] **A.** 1.10.
 - [ ] **B.** 0.85.
@@ -384,6 +441,8 @@ V. Reduced interveinal distance.
 - [ ] **D.** The production of tougher sepals to protect against nectar robbing is an example of partner manipulation because investment of resources by the flowering plant manipulates the amount of cooperative behavior in its partners.
 - [ ] **E.** The fitness of the flowering plant can be expressed as: fplant = (1 - C * a) (1 - (1 - a) * Z), where “a ” is the toughness of sepals, “C” is the cost of tougher sepals, and “Z” is the average probability of nectar robbing among pollinators.
 
+## 10% Ecology (5 Questions)
+
 ### 44. Which of the following is an example of semelparity?
 
 - [ ] **A.** A salmon returns to its spawning location to produce thousands of eggs in a short period before dying.
@@ -423,6 +482,8 @@ V. Reduced interveinal distance.
 - [ ] **C.** Most toxins are not cleared from tissues, so each organism that consumes another organism retains all the toxins in that organism.
 - [ ] **D.** The majority of released toxins are consumed only by organisms at the top of the food chain.
 - [ ] **E.** Toxins are more visible in organisms that tend to be larger that are higher on the food chain.
+
+## 5% Biosystematics (2 Questions)
 
 ### 49. Many modern plants have siphonosteles, which are characterized by vascular tissue surrounding a central pith region. These siphonosteles can either be amphiphloic (phloem is both internal and external to the xylem) or ectophloic (phloem is only external to the xylem). One day, you obtain a stem cross section of your favorite plant of the Solanaceae family, noticing that the vascular bundles of this plant have phloem flanking both the interior and exterior of the xylem. Using what you know about the vascular organization of different plants, what would this characteristic be referred to as?
 
