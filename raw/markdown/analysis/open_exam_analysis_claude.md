@@ -1,17 +1,19 @@
-# USABO Open Exam — Mechanism-Oriented Practitioner Analysis (2003–2018)
+# USABO Open Exam — Mechanism-Oriented Practitioner Analysis (2003–2024)
 
-_Author: Claude (Opus 4.7). Generated 2026-05-05 from local archive at `raw/markdown/{2003..2018}`._
+_Author: Claude (Opus 4.7). Originally generated 2026-05-05 covering 2003–2018; extended 2026-05-07 to incorporate 2019–2024 from the local archive at `raw/markdown/{2003..2024}`._
 
-This report intentionally avoids reproducing exam content. It cites items only as `Y####/Q##` with a short paraphrased concept tag. Companion reports `open_exam_analysis_chatgpt.md` (quantitative survey, topic-keyword counts) and `open_exam_analysis_gemini.md` (high-level narrative, prep recommendations) already exist; this document complements them with a mechanism-first lens, a transparent difficulty rubric, distractor taxonomy, and concrete calibration parameters for the BioBloom question-generation pipeline.
+This report intentionally avoids reproducing exam content. It cites items only as `Y####/Q##` with a short paraphrased concept tag. Companion reports `open_exam_analysis_chatgpt.md`, `open_exam_analysis_gemini.md`, and `open_exam_consolidated_subtopic_analysis.md` already exist for the 2003–2018 window. This document complements them with a mechanism-first lens, a transparent difficulty rubric, distractor taxonomy, and concrete calibration parameters for the BioBloom question-generation pipeline — and is the only one of the four to also cover 2019–2024.
 
 ---
 
 ## 0. Scope, Method, And Caveats
 
-- **Corpus.** 16 exam files, 2003–2018. 2003 has 35 questions and 4 options. 2004 onward have 50 questions and 5 options (A–E). Total ≈ 785 stems. Answer keys present for every year (2010 manually transcribed; 2013 missing one item).
-- **Method.** Manual sampling across early/middle/late eras (2003, 2005, 2007, 2010, 2012, 2014, 2016, 2017, 2018), plus structural skim of the remaining years. Counts and ratios shown below are intentionally rounded and labeled as estimates; they are derived from observable surface features (stem length, presence of figures/tables, negation cues, multi-select cues, calculation cues, Roman-numeral lists, paragraph-length scenarios), not from official USABO metadata.
+- **Corpus.** 22 exam files, 2003–2024. 2003 has 35 questions and 4 options. 2004 onward have 5 options (A–E) and 50 questions per year, *except* 2019 (47 questions). Total ≈ 882 stems. Answer keys present for every year (2010 manually transcribed; 2013 missing one item).
+- **Era buckets used below.** *Early* 2003–2008, *Middle* 2009–2013, *Late* 2014–2018, *Recent* 2019–2024. Roughly equal-length buckets keep the 2014–2018 "modern peak" and the 2019–2024 follow-on visible separately.
+- **Method.** Manual sampling across all four eras (2003, 2005, 2007, 2010, 2012, 2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024), plus structural skim of the remaining years. Counts and ratios shown below are intentionally rounded and labeled as estimates; they are derived from observable surface features (stem length, presence of figures/tables, negation cues, multi-select cues, calculation cues, Roman-numeral lists, paragraph-length scenarios), not from official USABO metadata.
 - **What this report is.** A reading of question *mechanics* — what each item demands of the solver, what distractor traps appear, what skill it actually scores. Not a solution manual; not a content review.
 - **Limits.** Difficulty is intrinsically student-relative. Scores below should be read as "expected cognitive load on a well-prepared high-school biology student," not as item response theory parameters. Where numeric counts are given without a denominator, they are illustrative, not authoritative.
+- **Pipeline note.** The companion `generate_consolidated_subtopic_analysis.py` script currently hard-codes three stages (2003–2018) and will fail on 2019–2024 with `ValueError: Year outside configured stages`. The numbers in this report for 2019–2024 are derived from a lightweight standalone parse that mirrors the same surface-feature heuristic. Extending the consolidated pipeline is a separate follow-up.
 
 ---
 
@@ -34,33 +36,45 @@ The "twin" pillar weight on Cell/Molecular plus Animal Physiology accounts for n
 
 ### 1.1 Recurring problem archetypes
 
-Within those pillars, eight problem archetypes recur, often with a fresh narrative skin from year to year:
+Within those pillars, eight problem archetypes recur across the full 2003–2024 window, often with a fresh narrative skin from year to year:
 
-1. **Hardy–Weinberg / carrier frequency** — appears in nearly every year (e.g., 2003/Q06, 2005/Q02, 2007/Q02, 2018/Q36).
-2. **ABC model of flower development** — virtually identical mechanism reused (2005/Q08, 2010/Q49, 2014/Q14).
-3. **Two- or three-point linkage map** — recombination-frequency arithmetic on a trihybrid cross (2010/Q12, 2018/Q43).
-4. **Membrane-potential / Nernst** — using the equilibrium-potential equation to identify which ion is being described (2010/Q48; conceptual variants throughout).
-5. **Pedigree mode-of-inheritance** — autosomal vs. X-linked, dominant vs. recessive (2007/Q14, 2010/Q32, and many more).
-6. **Hydrophobic transmembrane sequence** — identifying the right amino-acid string for an alpha-helical TM region (2003/Q04, 2018/Q06).
+1. **Hardy–Weinberg / carrier frequency** — appears in nearly every year (e.g., 2003/Q06, 2005/Q02, 2007/Q02, 2018/Q36, 2021 sickle-cell variants).
+2. **ABC model of flower development** — virtually identical mechanism reused (2005/Q08, 2010/Q49, 2014/Q14, 2021/Q13, 2024/Q14).
+3. **Two- or three-point linkage map** — recombination-frequency arithmetic on a trihybrid cross (2010/Q12, 2018/Q43; 2019–2024 prefer mechanism over arithmetic).
+4. **Membrane-potential / Nernst & water-potential** — equilibrium-potential or `Ψ = -iCRT` identification of which ion / which compartment (2010/Q48, 2019/Q14, 2021/Q10).
+5. **Pedigree mode-of-inheritance** — autosomal vs. X-linked, dominant vs. recessive (2007/Q14, 2010/Q32; persists in 2020–2023).
+6. **Hydrophobic transmembrane sequence** — identifying the right amino-acid string for an alpha-helical TM region (2003/Q04, 2018/Q06, 2022/Q02).
 7. **Polygenic / additive trait extremes** — given F2 extremes, infer number of loci and intermediate frequency (2005/Q09, 2010/Q44).
 8. **Reagent / spot-test identification** — Biuret / Benedict / Ninhydrin / Iodine / Sudan / Tollens combinations (2012/Q06, 2016/Q07).
 
-A practical implication: practice that drills these eight templates — each in two or three narrative skins — should yield outsize return.
+Three additional archetypes have stabilized in the 2014–2024 window and now deserve first-class status alongside the original eight:
+
+9. **Western / Native-PAGE blot read** — single-band-vs-double-band reasoning to infer post-translational modification, multimerization, or knock-down efficacy (2012/Q02, 2021/Q02, 2021/Q04, 2022/Q08, 2024/Q02). Almost always paired with an experimental-control distractor.
+10. **Antibiotic / drug mechanism + resistance** — match drug to target step, then infer the resistance mode (2017/Q02 Zika antibody panel, 2022/Q01 linezolid/23S, 2022/Q09 antibiogram clearance-zone reading, 2024/Q04 streptomycin/16S rRNA).
+11. **Modern molecular tool selection** — given an experimental goal (knock-down, sequencing, gene editing, mRNA delivery, cytokine induction), pick the right technique and identify what it would and would not show (2016/Q08 degenerate primers, 2019/Q06 RNAi double-strand requirement, 2020/Q01 PAM recognition, 2021/Q03 ELISA-vs-PCR, 2024/Q05 lipid nanoparticle mRNA loading).
+
+A practical implication: practice that drills these eleven templates — each in two or three narrative skins — should yield outsize return. Items 9–11 are the largest *new* drivers of difficulty between the 2003–2008 and 2019–2024 windows.
 
 ---
 
 ## 2. Topic Trends Over Time
 
-The topic mix is broadly stable, but four directional drifts are clear:
+The topic mix is broadly stable, but five directional drifts are now visible across all four eras:
 
-| Drift                              | 2003–2008                               | 2009–2013                                                           | 2014–2018                                                                      |
-| ---------------------------------- | --------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| Biotechnology / experimental tools | rare; conceptual PCR or cloning gist    | gel/Western blots, restriction maps appear                          | NGS, CRISPR/cas9, microarray, patch-clamp, degenerate primers (e.g., 2016/Q08) |
-| Quantitative content               | a handful of arithmetic items           | calculation peaks (Henderson–Hasselbalch, half-life, recombination) | calculation persists but moves toward biological reasoning *with* numbers      |
-| Cross-domain integration           | one-pillar items                        | mixed (e.g., physiology + signal transduction)                      | scenario items pull from 3+ pillars in one stem                                |
-| Plant biology depth                | survey-level (xylem/phloem, life cycle) | hormone & development emphasis                                      | molecular plant biology (ethylene-receptor mutants, doubled-haploid, tb1)      |
+| Drift                              | 2003–2008                               | 2009–2013                                                           | 2014–2018                                                                      | 2019–2024                                                                                                                |
+| ---------------------------------- | --------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Biotechnology / experimental tools | rare; conceptual PCR or cloning gist    | gel/Western blots, restriction maps appear                          | NGS, CRISPR/cas9, microarray, patch-clamp, degenerate primers (e.g., 2016/Q08) | core, not specialty: PAM recognition, Cre-Lox, NativePAGE, lipid-nanoparticle delivery, hyperactive transposon screens   |
+| Quantitative content               | a handful of arithmetic items           | calculation peaks (Henderson–Hasselbalch, half-life, recombination) | calculation persists but moves toward biological reasoning *with* numbers      | quantitative reasoning de-emphasized in 2022–2024; 2019–2021 still expect Henderson–Hasselbalch / water-potential / pKa  |
+| Cross-domain integration           | one-pillar items                        | mixed (e.g., physiology + signal transduction)                      | scenario items pull from 3+ pillars in one stem                                | similar density in 2019–2021; 2023–2024 partially walk it back to 1–2-pillar items                                      |
+| Plant biology depth                | survey-level (xylem/phloem, life cycle) | hormone & development emphasis                                      | molecular plant biology (ethylene-receptor mutants, doubled-haploid, tb1)      | applied physiology + ABC variants (2021/Q13 super-breeder, 2024/Q14 fruit-yield mutant) and tissue-table inference        |
+| Pathogen / clinical realism        | minimal                                 | Zooxanthellae, Vibrio, mycosporines                                 | Zika, chronic granulomatous disease, prolactinoma                              | Ebola persistence (2019/Q10), SARS-CoV-2 D614G (2022/Q10), avian flu seroprevalence (2021/Q03), antibiotic susceptibility (2022/Q09) |
 
-Quantitatively, multi-select / "select all that apply" formatting appeared in 2010, peaked around 2014–2017, and was deliberately reduced in 2018 (which moved the load into longer prose stems and tables instead). Roman-numeral combination items appear in every year and are the single most common "difficulty multiplier" across the entire corpus.
+Two new format-level facts about 2019–2024:
+
+- **"Select all that apply" / multi-key answers disappear after 2017.** Across 2019–2024, no item in the sample uses the format. The cognitive load that select-all used to carry has shifted into Roman-numeral combination items (now in 6–14 % of stems per year).
+- **Stem length collapses in 2023–2024.** Average word count drops from ~95 (2016) and ~115–119 (2020–2021) back to ~66–69 in 2023–2024 — comparable to the 2003–2007 era. Multi-pillar paragraph scenarios are partly replaced by short single-system items. This is the single largest format change since the introduction of multi-select in 2010, and it materially reduces reading load even if mechanism depth is unchanged.
+
+Quantitatively, multi-select formatting appeared in 2010, peaked around 2014–2017, was reduced in 2018, and is absent from 2019 onward. Roman-numeral combination items remain the single most common "difficulty multiplier" across the entire 2003–2024 corpus, with notable peaks in 2021 (~14 %) and 2024 (~10 %).
 
 ---
 
@@ -96,16 +110,22 @@ Estimated mean scores per year (1 = trivial for a strong student, 5 = expert / o
 | 2016 | 4.0 | 4.0 | 3.5 | 3.5 | 3.5 | 3.7             | Hardest year by composite; image-heavy; many select-all            |
 | 2017 | 4.0 | 4.0 | 3.0 | 3.5 | 3.5 | 3.6             | Quant + experimental design dense; Zika scenario, NADPH oxidase    |
 | 2018 | 4.0 | 4.0 | 3.0 | 3.0 | 3.5 | 3.5             | Multi-question stems return; less multi-select but heavier prose   |
+| 2019 | 4.0 | 4.0 | 3.0 | 3.0 | 3.5 | 3.5             | 47-question exam; Ebola persistence; RNAi mechanism reasoning      |
+| 2020 | 4.0 | 4.0 | 3.5 | 3.0 | 3.5 | 3.6             | Long stems (~119 wc); CRISPR PAM, Cre-Lox, ion-exchange chromatography |
+| 2021 | 4.5 | 4.0 | 3.5 | 3.5 | 3.5 | 3.8             | Hardest 2019–2024 year; ELISA-vs-PCR, Western interpretation, ABC super-breeder |
+| 2022 | 4.0 | 4.0 | 3.0 | 3.0 | 3.0 | 3.4             | Linezolid, NativePAGE, antibiogram reading; modest pullback         |
+| 2023 | 3.5 | 3.5 | 2.5 | 2.5 | 2.5 | 2.9             | Stem length collapses to ~66 wc; mostly single-pillar recall + concept |
+| 2024 | 3.5 | 3.5 | 3.0 | 2.5 | 3.0 | 3.1             | Short stems but figure density rises; ABC and ethylene mutants     |
 
 Reading the rubric:
 
-- **R climbs from 3.5 → 4.0** between 2013 and 2014 because raw recall is no longer enough; the *facts* expected (chronic granulomatous disease, prolactinoma, Hurler syndrome, Pompe's disease) are more clinical and specific.
+- **R climbs from 3.5 → 4.0** between 2013 and 2014 because raw recall is no longer enough; the *facts* expected (chronic granulomatous disease, prolactinoma, Hurler syndrome, Pompe's disease) are more clinical and specific. The 4.5 in 2021 reflects clinically-named scenarios (hyperchromicity, sickle-cell + fetal-Hb double mutation, kinetoplastid Enzyme E identification) that demand domain-specific recall before any mechanism reasoning starts.
 - **C rises in lockstep** because mechanism chains lengthen (signal in → second messenger → cellular response → phenotype).
-- **D peaks 2016–2017** as figures, plasmid maps, and tables become dominant.
-- **E (experimental design)** is the single largest jump from 2003 to 2018 — early years rarely test "how would you set this up"; recent years routinely test it.
+- **D peaks 2016–2017 and again 2020–2021** as figures, plasmid maps, NativePAGE blots, and tables become dominant.
+- **E (experimental design)** is the single largest jump from 2003 to 2021 — early years rarely test "how would you set this up"; the 2014–2021 window routinely does. 2022–2024 partially scale it back.
 - **I (integration)** roughly tracks composite difficulty and is the axis most predictive of student score variance, in my judgment.
 
-A reasonable working hypothesis is that the *modal* well-prepared student lost roughly one cognitive load level between the 2008-era exam and the 2016-era exam — the same student who could comfortably finish 2008 in 50 minutes will run out of clock on 2016.
+A reasonable working hypothesis is that the *modal* well-prepared student loses roughly one cognitive load level between the 2008-era exam and the 2016 / 2021 peak — the same student who could comfortably finish 2008 in 50 minutes will run out of clock on 2016 or 2021. **2023 and 2024 are visibly easier on this rubric** (composite 2.9 and 3.1) and may indicate a deliberate rebalancing, fewer figure-heavy items, or a different question-writing committee. Treat the 2014–2017 / 2020–2021 cluster as the upper-bound reference and 2023–2024 as the lower-bound recent reference; do not assume a future year will land at either endpoint.
 
 ---
 
@@ -250,23 +270,24 @@ For an era-faithful 50-question set, pull `floor(50 × share)` per pillar and di
 
 ### 7.2 Difficulty mix
 
-| Difficulty band        | 2003-style set | 2010-style set | 2018-style set |
-| ---------------------- | -------------- | -------------- | -------------- |
-| Pure recall (R-heavy)  | 60 %           | 40 %           | 25 %           |
-| Mechanism (C-heavy)    | 30 %           | 35 %           | 30 %           |
-| Data/figure (D-heavy)  | 5 %            | 10 %           | 20 %           |
-| Experimental (E-heavy) | 3 %            | 8 %            | 15 %           |
-| Multi-step (I-heavy)   | 2 %            | 7 %            | 10 %           |
+| Difficulty band        | 2003-style set | 2010-style set | 2018-style set | 2021-style set | 2023/24-style set |
+| ---------------------- | -------------- | -------------- | -------------- | -------------- | ----------------- |
+| Pure recall (R-heavy)  | 60 %           | 40 %           | 25 %           | 22 %           | 35 %              |
+| Mechanism (C-heavy)    | 30 %           | 35 %           | 30 %           | 30 %           | 32 %              |
+| Data/figure (D-heavy)  | 5 %            | 10 %           | 20 %           | 25 %           | 18 %              |
+| Experimental (E-heavy) | 3 %            | 8 %            | 15 %           | 18 %           | 8 %               |
+| Multi-step (I-heavy)   | 2 %            | 7 %            | 10 %           | 5 %            | 7 %               |
 
-Generated items should carry these axis tags as structured metadata so practice sets can be calibrated to the era the student is preparing for.
+Generated items should carry these axis tags as structured metadata so practice sets can be calibrated to the era the student is preparing for. The 2021-style column captures the modern peak of data + experimental load; the 2023/24-style column captures the recent partial reset.
 
 ### 7.3 Format mix
 
 - Single-best-answer 5-option (A–E): default.
-- Roman-numeral combination: 6–10 % of items.
-- "Select all that apply" / multi-key: 8–15 % when emulating 2014–2017; ≤ 3 % otherwise.
+- Roman-numeral combination: 4–14 % of items, with peaks in 2014, 2017, 2021, 2024.
+- "Select all that apply" / multi-key: **only used in 2010–2017 emulation.** Drop to 0 % for 2019+ emulation.
 - T/F sub-bubbled (option-as-item): rare, only for 2014/2018 emulation.
-- Multi-question shared stem: 1–2 vignettes per 50-item set when emulating 2018.
+- Multi-question shared stem: 1–2 vignettes per 50-item set when emulating 2018; reappears occasionally 2019+ (e.g., 2019/Q14–15 paired solute-potential vignette).
+- **Stem length** is now an era-distinguishing parameter in its own right: target ~40–60 wc for 2003–2007 / 2023–2024 emulation; ~80–95 wc for 2014–2018; ~110–120 wc for 2020–2021.
 
 ### 7.4 Distractor specification
 
@@ -311,29 +332,36 @@ This schema lets the generator (or a downstream analytics layer) measure whether
 
 ## 8. Comparison To Existing Reports
 
-This report is intentionally narrower in scope than the two prior analyses in this folder:
+This report is intentionally narrower in scope than the prior analyses in this folder:
 
-- The **chatgpt** report covers the same corpus with keyword-derived topic counts and a heuristic difficulty index. It is the right document for "how many items in 2014 used negation." This one is the right document for "what should the BioBloom generator do about that observation."
-- The **gemini** report covers high-level narrative trends and study advice. It is the right document for an introductory orientation. This one assumes the orientation and goes one layer deeper into solving procedures and generation parameters.
-- All three reports converge on the same headline finding — difficulty rose sharply in the mid-2010s and the modern exam rewards mechanism + experimental literacy more than recall — but they disagree on the *peak year* (chatgpt: 2016; gemini: 2014–2018 range; this report: 2016 by composite, 2017 close behind). The disagreement is small and reflects different rubrics, not different data.
+- The **chatgpt** report covers the 2003–2018 corpus with keyword-derived topic counts and a heuristic difficulty index. It is the right document for "how many items in 2014 used negation." This one is the right document for "what should the BioBloom generator do about that observation."
+- The **gemini** report covers 2003–2018 high-level narrative trends and study advice. It is the right document for an introductory orientation. This one assumes the orientation and goes one layer deeper into solving procedures and generation parameters.
+- The **consolidated subtopic** report adds keyword-based microtopic tagging, priority scoring, and per-stage rates — also for 2003–2018 only.
+- **Only this report covers 2019–2024.** The other three predate the addition of those exams and their pipelines need a stage-range patch before they can be re-run.
+- All four reports converge on the same headline finding for 2003–2018 — difficulty rose sharply in the mid-2010s and the modern exam rewards mechanism + experimental literacy more than recall — but they disagree on the *peak year* (chatgpt: 2016; gemini: 2014–2018 range; consolidated: 2016 by priority composite; this report: 2016 by composite, 2017 close behind, with 2021 now joining as a secondary peak). The disagreement is small and reflects different rubrics, not different data.
+- For 2019–2024 specifically, the cross-report consensus is unavailable; the findings here should be treated as a single-rubric reading, not as a triangulated baseline.
 
 ---
 
 ## 9. Headline Recommendations For This Project
 
 1. **Tag every generated item along the five-axis rubric (R/C/D/E/I).** This is the smallest piece of metadata that supports both era-faithful practice set assembly and student-level diagnostics.
-2. **Implement the eight archetype templates first.** They cover an outsize fraction of items and offer the highest-value per unit of authoring effort.
-3. **Treat 2014–2017 as the reference era for difficulty calibration.** Train students on that target; 2018 and beyond are slightly easier on average and 2003–2009 are far easier.
-4. **Generate items with explicit distractor roles.** This is the single largest authoring discipline that distinguishes "looks like an exam item" from "behaves like an exam item."
-5. **Preserve the negation / multi-select / Roman-numeral format mix.** A practice corpus that uses only single-best-answer single-stems will under-prepare students for the formats that cause most of the score variance.
-6. **Track student performance by *distractor family*, not just by topic.** A 30 % miss rate on "half-mechanism" distractors is a different deficiency from a 30 % miss rate on "scope-wrong" distractors and should drive different remediation.
-7. **Keep this analysis decoupled from any specific answer key.** This document references items only by `Y####/Q##` plus paraphrase; the generation pipeline should never train on or reproduce verbatim USABO content. Use this analysis as a design specification, not a content source.
+2. **Implement the eleven archetype templates first** (the original eight plus Western/NativePAGE blot read, antibiotic-mechanism + resistance, and modern-tool selection). They cover an outsize fraction of items and offer the highest value per unit of authoring effort.
+3. **Treat the 2014–2017 / 2020–2021 cluster as the reference era for difficulty calibration.** Train students on that target; 2018, 2019, and 2022 sit slightly below; 2023–2024 are visibly easier (composite ≈ 2.9–3.1) and 2003–2009 are far easier still. Generating only 2023/24-style sets will under-prepare a student for the upper-bound years.
+4. **Drop "select all that apply" formatting from any practice set styled after 2019 or later.** It has not appeared on any 2019–2024 sample. Replace its difficulty load with Roman-numeral combination items.
+5. **Add stem length as a calibration parameter**, not just topic and difficulty. A 2023-style set with 100-word stems will feel wrong; a 2021-style set with 50-word stems will feel underpowered.
+6. **Generate items with explicit distractor roles.** This is the single largest authoring discipline that distinguishes "looks like an exam item" from "behaves like an exam item."
+7. **Preserve the negation / Roman-numeral / multi-question-stem format mix.** A practice corpus that uses only single-best-answer single-stems will under-prepare students for the formats that cause most of the score variance.
+8. **Track student performance by *distractor family*, not just by topic.** A 30 % miss rate on "half-mechanism" distractors is a different deficiency from a 30 % miss rate on "scope-wrong" distractors and should drive different remediation.
+9. **Patch the consolidated pipeline to recognize 2019–2024.** The hard-coded `STAGES` list in `code/generate_consolidated_subtopic_analysis.py` raises `ValueError` on any year ≥ 2019. Adding a `Recent 2019-2024` stage is a one-line fix that unlocks re-running the keyword-based subtopic counts on the full 22-exam corpus.
+10. **Keep this analysis decoupled from any specific answer key.** This document references items only by `Y####/Q##` plus paraphrase; the generation pipeline should never train on or reproduce verbatim USABO content. Use this analysis as a design specification, not a content source.
 
 ---
 
 ## 10. Caveats
 
-- All counts are estimates from sampling, not exhaustive census. The chatgpt companion report has more complete keyword-based counts; treat its numerics as the authoritative baseline and treat the *interpretive* judgments here (rubric scores, distractor role tags) as the contribution.
+- All counts are estimates from sampling, not exhaustive census. The chatgpt and consolidated companion reports have more complete keyword-based counts for 2003–2018; for 2019–2024 there is no companion baseline yet. Treat the 2003–2018 numerics in those reports as the authoritative baseline for that window and the *interpretive* judgments here (rubric scores, distractor role tags, 2019–2024 readings) as the contribution.
 - Difficulty scoring is unavoidably subjective. The five-axis rubric is presented partly so a human reviewer can disagree with any specific year's score and re-score on a transparent basis.
-- "Era-faithful" practice sets should be treated as preparation aids, not as predictions of next year's exam. USABO has historically introduced new formats without warning (multi-select in 2010, T/F sub-bubbling in 2014, multi-question stems in 2018), and any future-year emulation should explicitly assume that *something* novel will appear and budget time accordingly.
+- "Era-faithful" practice sets should be treated as preparation aids, not as predictions of next year's exam. USABO has historically introduced new formats without warning (multi-select in 2010, T/F sub-bubbling in 2014, multi-question stems in 2018, abrupt stem-length collapse in 2023) — and removed them just as quietly. Any future-year emulation should explicitly assume that *something* novel will appear and budget time accordingly.
+- The 2023–2024 difficulty drop is real on this rubric but is based on two consecutive years of data. It may reflect a deliberate rebalancing, a different question-writing committee, or noise. Until a third "easy" year appears, treat it as a band of plausible outcomes, not a confirmed trend.
 - This report does not attempt content fact-checking against current biology; the mechanism descriptions in §6 are deliberately textbook-level and should be cross-checked against Campbell, Alberts, or equivalent before being baked into a production generator.

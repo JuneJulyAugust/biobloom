@@ -43,12 +43,14 @@ STAGES = [
     ("Early 2003-2008", range(2003, 2009)),
     ("Middle 2009-2013", range(2009, 2014)),
     ("Late 2014-2018", range(2014, 2019)),
+    ("Recent 2019-2024", range(2019, 2025)),
 ]
 STAGE_NAMES = [name for name, _ in STAGES]
 STAGE_SHORT = {
     "Early 2003-2008": "Early",
     "Middle 2009-2013": "Middle",
     "Late 2014-2018": "Late",
+    "Recent 2019-2024": "Recent",
 }
 
 
