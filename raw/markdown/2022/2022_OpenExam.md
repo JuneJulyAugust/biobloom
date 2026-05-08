@@ -4,15 +4,11 @@
 
 ### 1. Linezolid was the first of the oxazolidinone antibiotics to enter clinical use and targets the 23S rRNA ribosomal subunit of Gram-positive bacteria. Staphylococcus aureus has been observed to develop resistance to linezolid by methylation of A2503 in the 23S rRNA. This is an example of antibiotic resistance via:
 
-![Question 1 figure 1](images/question01_figure1.png)
-
-![Question 1 figure 2](images/question01_figure2.png)
-
 - [ ] **A.** Changes in antibiotic target by mutation.
 - [ ] **B.** Multidrug eﬄux pumps.
 - [ ] **C.** Reduced permeability.
 - [ ] **D.** Protection by modification.
-- [ ] **E.** Inactivation by transfer of a chemical group. Credit: Forbes.com
+- [ ] **E.** Inactivation by transfer of a chemical group.
 
 ### 2. Which of the following amino acid sequences is MOST likely to be found in a transmembrane domain of a membrane spanning protein?
 
@@ -20,19 +16,15 @@
 - [ ] **B.** APGRHEIPGR.
 - [ ] **C.** AEDHEDTPGE.
 - [ ] **D.** AFTAYCLIFFAL.
-- [ ] **E.** AMMGDEGETM. Credit: Google
+- [ ] **E.** AMMGDEGETM.
 
 ### 3. In 2006, Dr. Shinya Yamanaka demonstrated that mature cells could be made into pluripotent stem cells (iPSCs) by inserting four transcription factors: Sox2, Oct4, Klf4 and c-Myc. These transcription factors enable the production of a variety of proteins, including telomerase. He did this by constructing a retrovirus with the genes for these transcription factors, which was then introduced into human fibroblasts. Which of the following is NOT correct about iPSCs?
-
-![Question 3 figure 1](images/question03_figure1.png)
-
-![Question 3 figure 2](images/question03_figure2.png)
 
 - [ ] **A.** Genomic integration of these transcription factors can result in mutation of the host cell genome.
 - [ ] **B.** After the iPSC divides 1000 times, the daughter cells will still be able to divide.
 - [ ] **C.** Inserting at a locus with high histone deacetylation prevents the host cell from becoming pluripotent.
 - [ ] **D.** iPSCs are more susceptible to immune rejection than allografts transplants.
-- [ ] **E.** Expression of the four transcription factors oﬀplasmids instead of through retroviral trans- duction reduces the risk of cancer. Credit: Fossil Forum
+- [ ] **E.** Expression of the four transcription factors oﬀplasmids instead of through retroviral trans- duction reduces the risk of cancer.
 
 ### 4. The Hedgehog (Hh) signal transduction pathway that plays an essential role during the devel-opment of vertebrate embryos and organogenesis. Hh signaling is involved in STEM cell main-tenance. Abnormal regulation of this pathway is linked to tumorigenesis, more specifically the development of tumors resistant to chemotherapeutics. Current research is looking into chemi-cals that target this pathway to serve as a more eﬀective cancer treatment mechanism. Given what you know about signal transduction pathways, what might be the primary targets for potential therapeutics within the Hh pathway?
 
@@ -40,28 +32,18 @@
 - [ ] **B.** Irreversibly binding genes that are regulated by the Hh pathway.
 - [ ] **C.** Mimicking the signaling molecule, ensuring the pathway is always “turned on”.
 - [ ] **D.** Increasing the production of the receptor protein.
-- [ ] **E.** Targeting the ribosome to prevent protein synthesis. of cats demonstrating tortoiseshell coloration are expected to be female.
-- [ ] **B.** No, phenotypically male cats only have one X chromosome.
-- [ ] **C.** Yes, a small proportion of cats with XXY, mosaicism, or de la Chapelle (XX male) syndrome could display both male sex characteristics and mottled coloration.
-- [ ] **D.** Yes, a large proportion of cats have XXY, mosaicism, or de la Chapelle (XX male) syndrome could display both male sex characteristics and mottled coloration.
-- [ ] **E.** Yes, coat color is determined by the fetal environment before birth. Credit: Blogspot.com
+- [ ] **E.** Targeting the ribosome to prevent protein synthesis.
 
-### 5. You are working in a drug discovery lab that is developing small-molecule inhibitors of the telom-erase protein as a potential cancer therapy. Shown below is a model of the key catalytic site of the human telomerase protein. You are responsible for designing a tripeptide molecule that can bind to residues Lys 626, Val 867, and Asp 868. Which of the following tripeptides will bind the strongest to these three amino acids? Assume that the first amino acid in the tripeptide will bind to K626, the second amino acid will bind to V867, and the third will bind to D868. Figure 1. Human telomerase protein indicating key catalytic site. Created using Biorender.com
+### 5. You are working in a drug discovery lab that is developing small-molecule inhibitors of the telom-erase protein as a potential cancer therapy. Shown below is a model of the key catalytic site of the human telomerase protein. You are responsible for designing a tripeptide molecule that can bind to residues Lys 626, Val 867, and Asp 868. Which of the following tripeptides will bind the strongest to these three amino acids? Assume that the first amino acid in the tripeptide will bind to K626, the second amino acid will bind to V867, and the third will bind to D868.
 
 ![Question 5 figure 1](images/question05_figure1.png)
-
-![Question 5 figure 2](images/question05_figure2.png)
+Figure 1. Human telomerase protein indicating key catalytic site. Created using Biorender.com
 
 - [ ] **A.** Asp - Ser - His.
 - [ ] **B.** Glu - Pro - Asn.
 - [ ] **C.** Asp - Val - Glu.
 - [ ] **D.** Glu - Ile - Arg.
-- [ ] **E.** Arg - Ser - Phe. Credit: Wikimedia/Commons Your friend Albert, a self-proclaimed paleontologist, begins to construct a phylogenetic tree (shown below) before passing out due to heat stroke. Oh no! It is now up to you to complete the tree. Which of the following answers A to E correctly matches these fossils to their position on the phylogenetic tree?
-- [ ] **A.** 1: A 2: B 3: C 4: D 5: E.
-- [ ] **B.** 1: C 2: E 3: A 4: B 5: D.
-- [ ] **C.** 1: C 2: E 3: A 4: D 5: B.
-- [ ] **D.** 1: A 2: E 3: C 4: D 5: B.
-- [ ] **E.** 1: A 2: E 3: B 4: C 5: D.
+- [ ] **E.** Arg - Ser - Phe.
 
 ### 6. Plants from an unknown ecosystem use Nutrient X as a component of a very important secondary metabolite AL-1. When X is not present, plants produce a significantly less eﬀective alternative AL-2. The production of both metabolites is stopped once they reach a certain concentration. Assuming Nutrient X and AL-2 are both regulators of AL-2’s biosynthetic enzymes, which of the following combinations would most likely describe how they work?
 
@@ -84,56 +66,39 @@ IV. Weak corepressor
 - [ ] **D.** Two-component systems.
 - [ ] **E.** Paracrine.
 
-### 8. You are screening a new anti-cancer drug “MIT” which targets canonical tyrosine kinase “IVY”. MIT that prevents the ligand binding and stops downstream pathways from activating. To visu-alize the impact of MIT on that natural conformation of IVY, you plan a series of NativePAGE Western blots; an assay which keeps intact the normal structure of proteins. For the first set of blots, you test samples WITHOUT MIT ADDED and use an antibody targeting IVY. As expected with typical tyrosine kinases you see two bands, shown below: Figure 2. NativePAGE analysis without MIT added. Credit: Common Files For the second blot, you test samples WITH MIT ADDED. Compared to the initial results, you visualize the blot that was probed with antibodies targeting IVY. You notice that the band closer is less intense. These results indicate that MIT disrupts . to the
+### 8. You are screening a new anti-cancer drug “MIT” which targets canonical tyrosine kinase “IVY”. MIT that prevents the ligand binding and stops downstream pathways from activating. To visu-alize the impact of MIT on that natural conformation of IVY, you plan a series of NativePAGE Western blots; an assay which keeps intact the normal structure of proteins. For the first set of blots, you test samples WITHOUT MIT ADDED and use an antibody targeting IVY. As expected with typical tyrosine kinases you see two bands, shown below:
 
 ![Question 8 figure 1](images/question08_figure1.png)
+Figure 2. NativePAGE analysis without MIT added. Credit: Common Files
+
+For the second blot, you test samples WITH MIT ADDED. Compared to the initial results, you visualize the blot that was probed with antibodies targeting IVY. You notice that the band closer to the &#95;&#95;&#95;&#95;&#95;&#95; is less intense. These results indicate that MIT disrupts &#95;&#95;&#95;&#95;&#95;&#95;.
+
 
 - [ ] **A.** Bottom; dimerization.
 - [ ] **B.** Bottom; protein folding.
 - [ ] **C.** Top; protein folding.
 - [ ] **D.** Top; dimerization.
-- [ ] **E.** No change; protein-protein interactions. hours of darkness, the plant did not flower. Last, when he exposed a third plant to 8 hours of light and 16 hours of darkness interrupted halfway by a flash of far-red light, the plant flowered. Which statement below is TRUE regarding the photoperiodism of this plant?
-- [ ] **A.** It is a long-day plant.
-- [ ] **B.** It is a short-day plant.
-- [ ] **C.** It is a day-neutral plant.
-- [ ] **D.** It is a submerged aquatic plant.
-- [ ] **E.** It exhibits a photoperiod inconsistent with those typically found on Earth. inches tall. All the F1 oﬀspring from this cross were 14 inches tall. Harry then crossed two F1 plants, and the F2 generation had the distribution of heights shown below. How many genes are responsible for determining the height of Harry’s plants? F2 Oﬀspring Heights Frequency in 1
+- [ ] **E.** No change; protein-protein interactions.
 
-### 9. A patient comes in with a urinary tract infection and you, their health care provider, need to determine the best antibiotic to use. Since microorganisms can be resistant to some antibiotics you need to perform a test to determine to which antibiotics the microbe will be sensitive or resistant. Figure 3. Testing for antibiotic resistance. Credit: Biorender.com Bacteria isolated Escherichia coli D23 Test Data Previously Defined Parameters Antibiotic Clearance Sensitivity Resistant Zone Zone Zone Amoxicillin 14 > 8
+### 9. A patient comes in with a urinary tract infection and you, their health care provider, need to determine the best antibiotic to use. Since microorganisms can be resistant to some antibiotics you need to perform a test to determine to which antibiotics the microbe will be sensitive or resistant.
 
-< 4
-
-Amoxicillin-clavulanate 18 > 6
-
-< 4
-
-Sulfamethoxazole-trimethoprim 6 > 11
-
-< 8
-
-Ciprofloxacin 13 > 8
-
-< 4
-
-Levofloxacin 2 > 4
-
-< 2
-
-Cephalexin 10 > 12
-
-< 6
-
-Nitrofurantoin 2 > 10
-
-< 6
-
-Piperacillin-Tazobactam 6 > 4
-
-< 2
+| Bacteria isolated             |                    | _Escherichia coli D23_            |                                   |
+| :---------------------------- | :----------------- | :-------------------------------- | :-------------------------------- |
+|                               | **Test Data**      | **Previously Defined Parameters** | **Previously Defined Parameters** |
+| **Antibiotic**                | **Clearance Zone** | **Sensitivity Zone**              | **Resistant Zone**                |
+| Amoxicillin                   | 14                 | > 8                               | < 4                               |
+| Amoxicillin-clavulanate       | 18                 | > 6                               | < 4                               |
+| Sulfamethoxazole-trimethoprim | 6                  | > 11                              | < 8                               |
+| Ciprofloxacin                 | 13                 | > 8                               | < 4                               |
+| Levofloxacin                  | 2                  | > 4                               | < 2                               |
+| Cephalexin                    | 10                 | > 12                              | < 6                               |
+| Nitrofurantoin                | 2                  | > 10                              | < 6                               |
+| Piperacillin-Tazobactam       | 6                  | > 4                               | < 2                               |
 
 Using the information gathered, which antibiotic would be best for the patient to receive if they are penicillin (amoxicillin) allergic?
 
 ![Question 9 figure 1](images/question09_figure1.png)
+Figure 3. Testing for antibiotic resistance. Credit: Biorender.com
 
 - [ ] **A.** Nitrofurantoin.
 - [ ] **B.** Ciprofloxacin.
@@ -175,7 +140,13 @@ Using the information gathered, which antibiotic would be best for the patient t
 - [ ] **D.** Female gametophytes are dependent on the parent sporophyte for nutrition.
 - [ ] **E.** Ginkgo biloba is classified as a gymnosperm.
 
-### 14. Once upon a time, Jack received some mysterious beans from an old man, and decided to grow them to study their flowering properties. When he exposed one plant to 8 hours of light and 16 hours of darkness, the plant flowered. When he exposed another plant to 16 hours of light and in 21
+### 14. Once upon a time, Jack received some mysterious beans from an old man, and decided to grow them to study their flowering properties. When he exposed one plant to 8 hours of light and 16 hours of darkness, the plant flowered. When he exposed another plant to 16 hours of light and 8 hours of darkness, the plant did not flower. Last, when he exposed a third plant to 8 hours of light and 16 hours of darkness interrupted halfway by a flash of far-red light, the plant flowered. Which statement below is TRUE regarding the photoperiodism of this plant?
+
+- [ ] **A.** It is a long-day plant.
+- [ ] **B.** It is a short-day plant.
+- [ ] **C.** It is a day-neutral plant.
+- [ ] **D.** It is a submerged aquatic plant.
+- [ ] **E.** It exhibits a photoperiod inconsistent with those typically found on Earth.
 
 ### 15. Which sequence most accurately explains mass flow in the phloem?
 
@@ -215,27 +186,16 @@ V. Xylem
 
 ### 18. Researchers recently discovered a small molecule named Substance RM, which binds to plant phytochrome proteins and reverses the state of these proteins. When Pfr is exposed to Substance RM, it is converted into Pr, and when Pr is exposed to Substance RM, it is converted into Pfr. In which of the following scenarios will chrysanthemums, which are short-day plants with a critical night length of 15 hours when exposed to Substance RM flower?
 
-I. Chrysanthemums exposed to sunlight for 12 hours, then exposed to Substance RM, and fi-
-
-nally exposed to darkness for 12 hours.
-
-II. Chrysanthemums exposed to sunlight for 12 hours, then exposed to darkness for 12 hours,
-
-and finally exposed to substance RM.
-
-III. Chrysanthemums exposed to sunlight for 18 hours, then exposed to darkness for 6 hours, and
-
-finally exposed to substance RM.
-
-IV. Chrysanthemums exposed to sunlight for 18 hours, then exposed to Substance RM, and fi-
-
-nally exposed to darkness for 6 hours.
+I. Chrysanthemums exposed to sunlight for 12 hours, then exposed to Substance RM, and finally exposed to darkness for 12 hours.
+II. Chrysanthemums exposed to sunlight for 12 hours, then exposed to darkness for 12 hours, and finally exposed to substance RM.
+III. Chrysanthemums exposed to sunlight for 18 hours, then exposed to darkness for 6 hours, and finally exposed to substance RM.
+IV. Chrysanthemums exposed to sunlight for 18 hours, then exposed to Substance RM, and finally exposed to darkness for 6 hours.
 
 - [ ] **A.** I, III.
 - [ ] **B.** II, IV.
 - [ ] **C.** I, II, III.
 - [ ] **D.** I, III, IV.
-- [ ] **E.** II, III, IV. in 6
+- [ ] **E.** II, III, IV.
 
 ## ANIMAL ANATOMY AND PHYSIOLOGY (25%, 12 questions)
 
@@ -253,14 +213,9 @@ nally exposed to darkness for 6 hours.
 - [ ] **B.** Body →Right atrium →Left atrium →Lungs →Left ventricle →Left atrium.
 - [ ] **C.** Body →Right atrium →Right ventricle →Lungs →Left atrium →Left ventricle.
 - [ ] **D.** Body →Right ventricle →Right atrium →Lungs →Left ventricle →Left atrium.
-- [ ] **E.** Body →Right ventricle →Right atrium →Left ventricle →Lungs →Left atrium. in 1
-- [ ] **A.** 1.
-- [ ] **B.** 2.
-- [ ] **C.** 3.
-- [ ] **D.** 4.
-- [ ] **E.** 5.
+- [ ] **E.** Body →Right ventricle →Right atrium →Left ventricle →Lungs →Left atrium.
 
-### 21. Where would you expect to find the highest levels of the following compound? Figure 4: Compound. Credit: Wikipedia
+### 21. Where would you expect to find the highest levels of the following compound?
 
 ![Question 21 figure 1](images/question21_figure1.png)
 
@@ -330,7 +285,13 @@ III. Excreting ions like $Mg^{2+}$ and $Ca^{2+}$
 - [ ] **D.** They possess both B and Toll-like receptors.
 - [ ] **E.** They are agranulocytes and mature in the bone marrow.
 
-### 29. JARVIS is running a tonicity related experiment with the Avengers in his lab at 890, Fifth Avenue, Manhattan, New York City. • Group 1 - Iron Man, Captain America and the Iron Patriot drink a liter of water. • Group 2 - Black Widow, The Hulk and Doctor Strange drink a liter of coﬀee. • Group 3 - Drax, Rocket and Groot drink a liter of concentrated salt solution. The volume of urine produced by all individuals in the three groups is measured over a period of several hours. At the end of the monitoring period, which group above will have produced the greatest volume of urine and which group the least? Select from the alternatives provided below,
+### 29. JARVIS is running a tonicity related experiment with the Avengers in his lab at 890, Fifth Avenue, Manhattan, New York City.
+
+- Group 1 - Iron Man, Captain America and the Iron Patriot drink a liter of water.
+- Group 2 - Black Widow, The Hulk and Doctor Strange drink a liter of coﬀee.
+- Group 3 - Drax, Rocket and Groot drink a liter of concentrated salt solution.
+
+The volume of urine produced by all individuals in the three groups is measured over a period of several hours. At the end of the monitoring period, which group above will have produced the greatest volume of urine and which group the least? Select from the alternatives provided below,
 
 - [ ] **A.** Those who drank coﬀee will produce the most urine, while those who drank water will produce the least.
 - [ ] **B.** Those who drank coﬀee will produce the most urine, while those who drank the salt solution will produce the least.
@@ -374,7 +335,23 @@ III. Excreting ions like $Mg^{2+}$ and $Ca^{2+}$
 
 ## GENETICS (20%, 10 questions)
 
-### 34. Harry found a bunch of interesting plants growing in his backyard of varying heights. He recently learned about polygenic traits and additive genetics in his biology class. To test these theories, he crossed the tallest plant in his garden, which was 20 inches tall, with the shortest plant, which was
+### 34. Harry found a bunch of interesting plants growing in his backyard of varying heights. He recently learned about polygenic traits and additive genetics in his biology class. To test these theories, he crossed the tallest plant in his garden, which was 20 inches tall, with the shortest plant, which was 8 inches tall. All the F1 offspring from this cross were 14 inches tall. Harry then crossed two F1 plants, and the F2 generation had the distribution of heights shown below. How many genes are responsible for determining the height of Harry's plants?
+
+| F2 Offspring Heights | Frequency |
+| :------------------- | :-------- |
+| 8 in                 | 1         |
+| 10 in                | 5         |
+| 12 in                | 16        |
+| 14 in                | 21        |
+| 16 in                | 15        |
+| 18 in                | 6         |
+| 20 in                | 1         |
+
+- [ ] **A.** 1.
+- [ ] **B.** 2.
+- [ ] **C.** 3.
+- [ ] **D.** 4.
+- [ ] **E.** 5.
 
 ### 35. Abby is a calico cat who is heterozygous at an X-linked locus, where one allele specifies black fur and the other specifies orange fur. Her mate, Vern, is white and has a null allele at that same locus. One member of the litter they produced was a rare black-and-orange male calico kitten. In which parent and in which division did nondisjunction occur?
 
@@ -384,13 +361,15 @@ III. Excreting ions like $Mg^{2+}$ and $Ca^{2+}$
 - [ ] **D.** Abby, second division.
 - [ ] **E.** Nondisjunction must have occurred in both parents, but the division is unknown.
 
-### 36. You are studying a newly discovered gene that completely controls coat color in a certain species of mice whose individuals either have black or grey coats. To learn more, you perform three combinations of crosses between mice of specific coat colors and record the number of oﬀspring by coat color. The results are aggregated and summarized in the table below. Cross
+### 36. You are studying a newly discovered gene that completely controls coat color in a certain species of mice whose individuals either have black or grey coats. To learn more, you perform three combinations of crosses between mice of specific coat colors and record the number of offspring by coat color. The results are aggregated and summarized in the table below.
 
-# Oﬀspring with Black Coats
+| Cross         | # Offspring with Black Coats | # Offspring with Grey Coats |
+| :------------ | :--------------------------- | :-------------------------- |
+| Black × Black | 326                          | 163                         |
+| Black × Grey  | 247                          | 259                         |
+| Grey × Grey   | 0                            | 503                         |
 
-# Oﬀspring with Grey Coats
-
-Black × Black 326 163 Black × Grey 247 259 Grey × Grey 0 503 Based on the results provided, which coat color is most likely to be the recessive phenotype, and which of the following terms most accurately describes the mode of inheritance we are observing?
+Based on the results provided, which coat color is most likely to be the recessive phenotype, and which of the following terms most accurately describes the mode of inheritance we are observing?
 
 - [ ] **A.** Black mice are heterozygous.
 - [ ] **B.** Grey mice have a dominant allele for this trait on their mitochondria.
@@ -398,7 +377,16 @@ Black × Black 326 163 Black × Grey 247 259 Grey × Grey 0 503 Based on the res
 - [ ] **D.** Male black mice have a recessive allele for this trait on their X chromosome.
 - [ ] **E.** Crossing a grey mouse from the Grey x Grey cross with a black mouse from the Black x Black cross would result in mostly grey mice.
 
-### 37. Judson is studying the heredity of various traits in octopuses. First, he crosses a true breeding Blue Happy octopus with a true breeding Green Angry octopus and gets an F1 generation of 100% Blue Happy octopuses. When he crosses the F1 generation with itself, however, he gets the following oﬀspring counts for each set of traits: Phenotype Count Blue, Happy 70 Blue, Angry 6 Green, Happy 5 Green, Angry 19 If the Blue/Green gene and Happy/Angry gene are at two separate loci on the same chromosome, which of the following numbers is closest to the recombination frequency between these two genes?
+### 37. Judson is studying the heredity of various traits in octopuses. First, he crosses a true breeding Blue Happy octopus with a true breeding Green Angry octopus and gets an F1 generation of 100% Blue Happy octopuses. When he crosses the F1 generation with itself, however, he gets the following offspring counts for each set of traits:
+
+| Phenotype    | Count |
+| :----------- | :---- |
+| Blue, Happy  | 70    |
+| Blue, Angry  | 6     |
+| Green, Happy | 5     |
+| Green, Angry | 19    |
+
+If the Blue/Green gene and Happy/Angry gene are at two separate loci on the same chromosome, which of the following numbers is closest to the recombination frequency between these two genes?
 
 - [ ] **A.** 0.06.
 - [ ] **B.** 0.12.
@@ -406,13 +394,21 @@ Black × Black 326 163 Black × Grey 247 259 Grey × Grey 0 503 Based on the res
 - [ ] **D.** 0.24.
 - [ ] **E.** 0.30.
 
-### 38. Viral variants, such as influenza or SARS-CoV-2 variants that infect humans pose a major public health threat because they can weaken or evade immune responses. Such a variation exemplifies
+### 38. Viral variants, such as influenza or SARS-CoV-2 variants that infect humans pose a major public health threat because they can weaken or evade immune responses. Such a variation exemplifies evolution by natural selection. Which of the following best describes how viral variants evolve?
 
-## evolution by natural selection. Which of the following best describes how viral variants evolve?
+- [ ] **A.** Viruses survive and replicate themselves, just like cellular organisms.
+- [ ] **B.** Certain viruses, such as RNA viruses, have high natural rates of mutations, and are also subject to recombination events that alter their genetic sequence.
+- [ ] **C.** Some viruses evolve ways to infect cells and replicate independently of cellular mechanisms such as transcription or translation.
+- [ ] **D.** All types of viral variants arise by recombination when they jump between different host species.
+- [ ] **E.** Viral variants usually arise when viruses are exposed to antibiotics and become resistant.
 
 ### 39. Cats come in a large range of colors and patterns. One such pattern is known as tortoiseshell, in which X-linked inactivation causes apparent codominance, resulting in a mottled pattern of orange and black hairs. Can phenotypically male cats demonstrate a tortoiseshell or calico coloration?
 
-- [ ] **A.** Yes, but roughly 3
+- [ ] **A.** Yes, but roughly 3/4 of cats demonstrating tortoiseshell coloration are expected to be female.
+- [ ] **B.** No, phenotypically male cats only have one X chromosome.
+- [ ] **C.** Yes, a small proportion of cats with XXY, mosaicism, or de la Chapelle (XX male) syndrome could display both male sex characteristics and mottled coloration.
+- [ ] **D.** Yes, a large proportion of cats have XXY, mosaicism, or de la Chapelle (XX male) syndrome could display both male sex characteristics and mottled coloration.
+- [ ] **E.** Yes, coat color is determined by the fetal environment before birth.
 
 ### 40. Greycen is a periwinkle farmer, and he is studying the inheritance of flower color in his periwinkles. There are two types of flower colors in periwinkles, blue and white, and he determined that two genes, A and B, are involved in determining this. In fact, a dominant allele in each gene is required for a periwinkle to be blue, otherwise the flower is white. If Greycen performs a dihybrid cross between two doubly heterozygous blue periwinkles, and picks a white flower at random from the oﬀspring, what is the probability that this flower is homozygous recessive in both genes?
 
@@ -475,8 +471,10 @@ Black × Black 326 163 Black × Grey 247 259 Grey × Grey 0 503 Based on the res
 ### 47. In a population of butterflies under strong natural selection large wings are favored. If there is no genetic variation for wing size, what would one expect to occur in the next generation?
 
 - [ ] **A.** Wings will evolve to be smaller.
-
-## B. There will be no evolutionary change in wing size.
+- [ ] **B.** There will be no evolutionary change in wing size.
+- [ ] **C.** Wings will evolve to be more variable.
+- [ ] **D.** Wings will evolve to be larger.
+- [ ] **E.** There will be a strong differential success for wing size.
 
 ### 48. Some marine snails (Species L) produce large numbers of small eggs that are shed into the sea, hatch at an early stage of development, and feed on microscopic plants. Other marine snails (Species S) produce few eggs that are retained for a long time within the body of the mother snail in a brood pouch, hatch at an advanced stage of development, and immediately begin to feed on the surfaces of large plants like the adults. In the same area, over many generations, a biologist discovers approximately equal numbers of Species L and S adults. While studying the two species of snails, the biologist hypothesizes that the two species expend approximately the same amount of energy producing young. What assumption is the biologist making?
 
@@ -500,61 +498,62 @@ Black × Black 326 163 Black × Grey 247 259 Grey × Grey 0 503 Based on the res
 
 ![Question 50 figure 1](images/question50_figure1.png)
 
+Your friend Albert, a self-proclaimed paleontologist, begins to construct a phylogenetic tree (shown below) before passing out due to heat stroke. Oh no! It is now up to you to complete the tree. Which of the following answers A to E correctly matches these fossils to their position on the phylogenetic tree?
+
 ![Question 50 figure 2](images/question50_figure2.png)
 
-![Question 50 figure 3](images/question50_figure3.png)
 
 # Answer Key
 
 | Question | Answer |
-| ---: | :--- |
-| 1 | D |
-| 2 | D |
-| 3 | D |
-| 4 | A |
-| 5 | D |
-| 6 | D |
-| 7 | B |
-| 8 | D |
-| 9 | B |
-| 10 | B |
-| 11 | A |
-| 12 | D |
-| 13 | C |
-| 14 | B |
-| 15 | B |
-| 16 | D |
-| 17 | A |
-| 18 | D |
-| 19 | A |
-| 20 | C |
-| 21 | C |
-| 22 | D |
-| 23 | D |
-| 24 | E |
-| 25 | B |
-| 26 | B |
-| 27 | B |
-| 28 | C |
-| 29 | B |
-| 30 | D |
-| 31 | D |
-| 32 | A |
-| 33 | B |
-| 34 | C |
-| 35 | A |
-| 36 | A |
-| 37 | B |
-| 38 | B |
-| 39 | C |
-| 40 | D |
-| 41 | E |
-| 42 | B |
-| 43 | D |
-| 44 | D |
-| 45 | C |
-| 46 | A |
-| 47 | B |
-| 48 | B |
-| 49 | A |
-| 50 | D |
+| -------: | :----- |
+|        1 | D      |
+|        2 | D      |
+|        3 | D      |
+|        4 | A      |
+|        5 | D      |
+|        6 | D      |
+|        7 | B      |
+|        8 | D      |
+|        9 | B      |
+|       10 | B      |
+|       11 | A      |
+|       12 | D      |
+|       13 | C      |
+|       14 | B      |
+|       15 | B      |
+|       16 | D      |
+|       17 | A      |
+|       18 | D      |
+|       19 | A      |
+|       20 | C      |
+|       21 | C      |
+|       22 | D      |
+|       23 | D      |
+|       24 | E      |
+|       25 | B      |
+|       26 | B      |
+|       27 | B      |
+|       28 | C      |
+|       29 | B      |
+|       30 | D      |
+|       31 | D      |
+|       32 | A      |
+|       33 | B      |
+|       34 | C      |
+|       35 | A      |
+|       36 | A      |
+|       37 | B      |
+|       38 | B      |
+|       39 | C      |
+|       40 | D      |
+|       41 | E      |
+|       42 | B      |
+|       43 | D      |
+|       44 | D      |
+|       45 | C      |
+|       46 | A      |
+|       47 | B      |
+|       48 | B      |
+|       49 | A      |
+|       50 | D      |
