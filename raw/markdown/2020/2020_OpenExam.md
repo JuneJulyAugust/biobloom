@@ -2,17 +2,7 @@
 
 ## 20% Cell Biology (11 Questions)
 
-### 1. In the CRISPR-Cas9 gene editing system, the Cas9 endonuclease must recognize a protospacer-
-
-adjacent motif (PAM) in order for it to cleave its target. The PAM sequence of the most commonly
-
-used Cas9, which is derived from Streptococcus pyogenes, is NGG (where N is any nucleotide). The
-
-adjacent guanines in the PAM sequence are recognized by hydrogen bonding at the sites indicated
-
-below by adjacent, identical amino acids in Cas9. Which of the following amino acids is MOST
-
-LIKELY used by Cas9 to identify the adjacent guanines?
+### 1. In the CRISPR-Cas9 gene editing system, the Cas9 endonuclease must recognize a protospacer-adjacent motif (PAM) in order for it to cleave its target. The PAM sequence of the most commonly used Cas9, which is derived from Streptococcus pyogenes, is NGG (where N is any nucleotide). The adjacent guanines in the PAM sequence are recognized by hydrogen bonding at the sites indicated below by adjacent, identical amino acids in Cas9. Which of the following amino acids is MOST LIKELY used by Cas9 to identify the adjacent guanines?
 
 ![Question 1 figure 1](images/question01_figure1.png)
 
@@ -22,9 +12,7 @@ LIKELY used by Cas9 to identify the adjacent guanines?
 - [ ] **D.** Leucine.
 - [ ] **E.** Arginine.
 
-### 2. Cytochalasin B is a cell-permeable mycotoxin that inhibits actin polymerization. Which of the
-
-following cellular processes would be most disrupted by exposure to cytochalasin B?
+### 2. Cytochalasin B is a cell-permeable mycotoxin that inhibits actin polymerization. Which of the following cellular processes would be most disrupted by exposure to cytochalasin B?
 
 - [ ] **A.** Movement of sister chromatids to opposite poles of the cell.
 - [ ] **B.** Formation of the cleavage furrow.
@@ -52,13 +40,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401164/
 - [ ] **D.** Origin of replication.
 - [ ] **E.** oriC sequence.
 
-### 5. You are furiously working on a research project and have booked your laboratory’s only Transmission
-
-Electron Microscope for the next few weeks. When apologizing to your hard-working colleague, they
-
-assure you that this is no problem-they can just use the scanning electron microscope. Which of the
-
-following organelles do you expect them to study?
+### 5. You are furiously working on a research project and have booked your laboratory’s only Transmission Electron Microscope for the next few weeks. When apologizing to your hard-working colleague, they assure you that this is no problem-they can just use the scanning electron microscope. Which of the following organelles do you expect them to study?
 
 - [ ] **A.** Nuclear pore.
 - [ ] **B.** Flagellum.
@@ -66,17 +48,7 @@ following organelles do you expect them to study?
 - [ ] **D.** Chloroplast.
 - [ ] **E.** Lysosome. % Biosystematics (2 Questions)
 
-### 6. You are working with a cloning wunderkind who has perfected the process of somatic cell nuclear
-
-transfer. Using her protocol, you can remove the nucleus of a skin fibroblast from any mouse, insert it
-
-into an egg donor, and grow a clone of your original organism. Hoping to expand this protocol, you
-
-remove the nucleus from an immune cell and repeat the protocol. To your surprise, you are able to
-
-recapitulate a living clone, but it is severely immunocompromised. You soon realize the error of your
-
-ways, which had to do with cell selection. What type of cell did you remove the nucleus from?
+### 6. You are working with a cloning wunderkind who has perfected the process of somatic cell nuclear transfer. Using her protocol, you can remove the nucleus of a skin fibroblast from any mouse, insert it into an egg donor, and grow a clone of your original organism. Hoping to expand this protocol, you remove the nucleus from an immune cell and repeat the protocol. To your surprise, you are able to recapitulate a living clone, but it is severely immunocompromised. You soon realize the error of your ways, which had to do with cell selection. What type of cell did you remove the nucleus from?
 
 - [ ] **A.** Eosinophil.
 - [ ] **B.** B lymphocyte.
@@ -92,21 +64,7 @@ ways, which had to do with cell selection. What type of cell did you remove the 
 - [ ] **D.** Waste removal.
 - [ ] **E.** Production of exported proteins such as immunoglobulins.
 
-### 8. Using your extensive lab skills, you isolate a small peptide from the brain of a species of
-
-Hymenoptera, which you name BRNB33. You decide to obtain the amino acid sequence of the
-
-peptide using tandem mass spectrometry in order to learn more about its structure. John, your lab
-
-intern, accidentally mixes up the sequence of BRNB33 with that of four other peptides! Not wanting
-
-to lose his job, John frantically tries to figure out which peptide sequence is the correct one. He
-
-knows that BRNB33 functions in the cytosol, and binds to HNKY7 and PNKY3, two proteins with
-
-very strong negative charges. Which of the following peptide sequences is most likely that of
-
-BRNB33?
+### 8. Using your extensive lab skills, you isolate a small peptide from the brain of a species of Hymenoptera, which you name BRNB33. You decide to obtain the amino acid sequence of the peptide using tandem mass spectrometry in order to learn more about its structure. John, your lab intern, accidentally mixes up the sequence of BRNB33 with that of four other peptides! Not wanting to lose his job, John frantically tries to figure out which peptide sequence is the correct one. He knows that BRNB33 functions in the cytosol, and binds to HNKY7 and PNKY3, two proteins with very strong negative charges. Which of the following peptide sequences is most likely that of BRNB33?
 
 ![Question 8 figure 1](images/question08_figure1.png)
 
@@ -116,9 +74,7 @@ BRNB33?
 - [ ] **D.** GPFMILKCRYTK.
 - [ ] **E.** TEYSRKRGAVIDF.
 
-### 9. If you functionally remove the gene encoding for stator in ATP synthase, which of the following
-
-function will be directly impacted?
+### 9. If you functionally remove the gene encoding for stator in ATP synthase, which of the following function will be directly impacted?
 
 - [ ] **A.** The ability of ATP synthase to rotate.
 - [ ] **B.** The ability of synthesis of ATP from ADP and inorganic phosphate group.
@@ -126,15 +82,7 @@ function will be directly impacted?
 - [ ] **D.** The ability to serve as a half channel for hydrogen ions from intermembrane space to mitochondrial matrix.
 - [ ] **E.** The ability to allow the movement of oxygen molecules from intermembrane space to mitochondrial matrix.
 
-### 10. Ion-exchange chromatography is a widely-used method of purifying proteins (or other analytes)
-
-based on their charge. The stationary phase is an ion exchange resin loaded with charged functional
-
-groups that slows down charged proteins flowing through the column. These charged proteins can
-
-then be eluted and further purified. Which of the following is FALSE regarding ion-exchange
-
-chromatography?
+### 10. Ion-exchange chromatography is a widely-used method of purifying proteins (or other analytes) based on their charge. The stationary phase is an ion exchange resin loaded with charged functional groups that slows down charged proteins flowing through the column. These charged proteins can then be eluted and further purified. Which of the following is FALSE regarding ion-exchange chromatography?
 
 - [ ] **A.** In cation exchange chromatography, positively-charged proteins are attracted to the negatively-charged stationary phase.
 - [ ] **B.** In cation exchange chromatography, lowering the pH of the mobile phase buffer will elute the bound protein from the column.
@@ -142,21 +90,7 @@ chromatography?
 - [ ] **D.** Charged proteins can be eluted through a gradient of linearly increasing salt concentration; proteins with lower net charge will elute first.
 - [ ] **E.** The pH of the mobile phase buffer (before eluting) must be between the isoelectric point (pI) of the charged molecule (the one being purified from the mobile phase) and the pKa of the charged functional group on the stationary phase. % Ecology (5 Questions)
 
-### 11. Organisms in the class Kinetoplastida are characterized by the kinetoplast, a network of thousands of
-
-interlocked, or catenated, circular pieces of DNA. A diagram of kinetoplast DNA (kDNA) is shown
-
-below in Panel A.
-
-You find a tube of enzyme in the freezer labelled with only “Enzyme E”. You incubate Enzyme E
-
-with 200 ng of kDNA at $37^\circ C$ for 15 minutes and visualize the product on an agarose gel, shown
-
-above in Panel B. The samples loaded onto the gel are: linearized kDNA (Lane 1); untreated kDNA
-
-(Lane 2); Enzyme E-treated kDNA (Lane 3).
-
-Which of the following types of enzyme best describes Enzyme E?
+### 11. Organisms in the class Kinetoplastida are characterized by the kinetoplast, a network of thousands of interlocked, or catenated, circular pieces of DNA. A diagram of kinetoplast DNA (kDNA) is shown below in Panel A. You find a tube of enzyme in the freezer labelled with only “Enzyme E”. You incubate Enzyme E with 200 ng of kDNA at $37^\circ C$ for 15 minutes and visualize the product on an agarose gel, shown above in Panel B. The samples loaded onto the gel are: linearized kDNA (Lane 1); untreated kDNA (Lane 2); Enzyme E-treated kDNA (Lane 3). Which of the following types of enzyme best describes Enzyme E?
 
 ![Question 11 figure 1](images/question11_figure1.png)
 
@@ -178,9 +112,7 @@ Which of the following types of enzyme best describes Enzyme E?
 - [ ] **D.** It forces water and minerals to pass through the plasma membrane of endodermal cells.
 - [ ] **E.** It prevents the movement of reducing sugars into the phloem.
 
-### 13. You generate a mutant eudicot in which synergid cells apoptose prematurely. Which process will the
-
-plant be unable to carry out?
+### 13. You generate a mutant eudicot in which synergid cells apoptose prematurely. Which process will the plant be unable to carry out?
 
 - [ ] **A.** Double fertilization.
 - [ ] **B.** Microgametogenesis.
@@ -188,20 +120,12 @@ plant be unable to carry out?
 - [ ] **D.** Seed germination.
 - [ ] **E.** Pollen dehiscence.
 
-### 14. Plant hormones have diverse physiological functions in the plants. SELECT the correct set of
-
-statements regarding plant hormones.
+### 14. Plant hormones have diverse physiological functions in the plants. SELECT the correct set of statements regarding plant hormones.
 
 I. Auxin represses lateral shoot growth and mediates gravitropism in the shoot and root.
-
 II. A callus exposed only to cytokinin will not exhibit any response.
-
-III. During seed development, giberellin release by the embryo causes the aleurone layer to secrete
-
-amylase.
-
+III. During seed development, giberellin release by the embryo causes the aleurone layer to secrete amylase.
 IV. All hormones travel to their target cells via the xylem or phloem.
-
 V. Abscissic acid is produced by the plant during times of water stress.
 
 - [ ] **A.** I, III, V.
@@ -210,15 +134,7 @@ V. Abscissic acid is produced by the plant during times of water stress.
 - [ ] **D.** I, II, III, V.
 - [ ] **E.** I, II, III, IV, V.
 
-### 15. In cross section, the vascular cambium appears as a ring of meristematic cells. You made a
-
-transgenic plant cell that expresses GFP that labels only cambial initial cells in the plants. If you start
-
-with one cambial initial cell that has GFP, how many GFP-expressing cells would you expect to see
-
-growing from one cell that has GFP? How would such cells contribute to the formation of secondary
-
-growth produced by vascular cambium?
+### 15. In cross section, the vascular cambium appears as a ring of meristematic cells. You made a transgenic plant cell that expresses GFP that labels only cambial initial cells in the plants. If you start with one cambial initial cell that has GFP, how many GFP-expressing cells would you expect to see growing from one cell that has GFP? How would such cells contribute to the formation of secondary growth produced by vascular cambium?
 
 - [ ] **A.** One cambial initial cell, which can grow exponentially and form plant tumors.
 - [ ] **B.** Two cambial initial cells, increasing the circumference of the vascular cambium but do not contribute to the formation of xylem and phloem.
@@ -226,9 +142,7 @@ growth produced by vascular cambium?
 - [ ] **D.** Two cambial initials, increasing the circumference of the vascular cambium and also dividing to form a secondary phloem cell, but not a secondary xylem cell.
 - [ ] **E.** Two cambial initials, increasing the circumference of the vascular cambium and also dividing to form an initial and either a secondary xylem cell or secondary phloem cell.
 
-### 16. Consider the following TEM image taken of legume root cell.
-
-Which of the following statements is TRUE regarding the structure indicated by the arrows?
+### 16. Consider the following TEM image taken of legume root cell. Which of the following statements is TRUE regarding the structure indicated by the arrows?
 
 ![Question 16 figure 1](images/question16_figure1.png)
 
@@ -238,18 +152,12 @@ Which of the following statements is TRUE regarding the structure indicated by t
 - [ ] **D.** The location of these structures inside requires an aerobic environment because the lignified external layers of root nodules limit gas exchange.
 - [ ] **E.** Some root nodules appear reddish because of a molecule called leghemoglobin, an iron-containing protein that binds reversibly to oxygen.
 
-### 17. Plants require a distinct but not mutually exclusive panel of micronutrients from mammals. Which of
-
-the following micronutrients are necessary for plants but NOT for mammals?
+### 17. Plants require a distinct but not mutually exclusive panel of micronutrients from mammals. Which of the following micronutrients are necessary for plants but NOT for mammals?
 
 I. Manganese.
-
 II. Molybdenum.
-
 III. Selenium.
-
 IV. Magnesium.
-
 V. Boron.
 
 - [ ] **A.** I, II, III, V.
@@ -258,9 +166,7 @@ V. Boron.
 - [ ] **D.** I, II, IV, V.
 - [ ] **E.** II, V.
 
-### 18. Ion gradients provide the basis for the opening of plant stomata by surrounding guard cells. How
-
-does it work at the molecular level?
+### 18. Ion gradients provide the basis for the opening of plant stomata by surrounding guard cells. How does it work at the molecular level?
 
 - [ ] **A.** Active transport of $H^+$ out of a guard cell generates a voltage that drives inward movement of $K^+$ ions, which triggers an osmotic influx of water that changes cell shape, bowing the guard cells outward and thereby opening the stoma.
 - [ ] **B.** Active transport of $H^+$ out of a guard cell generates a voltage that drives outward movement of $K^+$ ions, which triggers an osmotic influx of water that changes cell shape, bowing the guard cells outward and thereby opening the stoma.
@@ -268,32 +174,12 @@ does it work at the molecular level?
 - [ ] **D.** Active transport of $K^+$ out of a guard cell generates a voltage that drives outward movement of $H^+$ ions, which triggers an osmotic outflow of water that changes cell shape, bowing the guard cells outward and thereby opening the stoma.
 - [ ] **E.** Active transport of $K^+$ out of a guard cell generates a voltage that drives inward movement of $H^+$ ions, which triggers an osmotic influx of water that changes cell shape, bowing the guard cells inward and thereby opening the stoma.
 
-### 19. Photorespiration is a process by which oxygen (instead of carbon dioxide) is incorporated into
+### 19. Photorespiration is a process by which oxygen (instead of carbon dioxide) is incorporated into ribulose 1, 5-bisphosphate by rubisco, forming 2-phosphoglycolate. 2-phosphoglycolate cannot be used for the Calvin cycle, and can interfere with the plant’s normal metabolism, so it must be converted to a usable intermediate through the glycolate cycle. In order to circumvent this wasteful process, some plants have evolved different metabolic pathways of carbon fixation. For example, C4 plants utilize PEP carboxylase instead of rubisco to incorporate carbon dioxide. In addition, the leaves of C4 plants have also evolved to facilitate this alternate pathway. Which of the following are anatomical adaptations of C4 plants?
 
-ribulose 1, 5-bisphosphate by rubisco, forming 2-phosphoglycolate. 2-phosphoglycolate cannot be
-
-used for the Calvin cycle, and can interfere with the plant’s normal metabolism, so it must be
-
-converted to a usable intermediate through the glycolate cycle. In order to circumvent this wasteful
-
-process, some plants have evolved different metabolic pathways of carbon fixation. For example, C4
-
-plants utilize PEP carboxylase instead of rubisco to incorporate carbon dioxide. In addition, the
-
-leaves of C4 plants have also evolved to facilitate this alternate pathway. Which of the following are
-
-anatomical adaptations of C4 plants?
-
-I. Bundle-sheath cells and mesophyll cells are arranged in two concentric rings around the vein,
-
-with mesophyll in the interior.
-
+I. Bundle-sheath cells and mesophyll cells are arranged in two concentric rings around the vein, with mesophyll in the interior.
 II. Thick, fleshy leaves that store large amounts of water
-
 III. Mesophyll are not differentiated into palisade and spongy tissue
-
 IV. Greatly elevated carotenoid levels.
-
 V. Reduced interveinal distance.
 
 - [ ] **A.** I, II, V.
@@ -312,11 +198,7 @@ V. Reduced interveinal distance.
 - [ ] **D.** α-actinin.
 - [ ] **E.** Nebulin. % Genetics and Evolution (10 Questions)
 
-### 21. Following neurosurgery, a patient receiving postoperative care in an intensive care unit began to pass
-
-large volumes of very dilute urine. The ICU nurse administers medicine that mimics one of the
-
-following hormones. Which of the following would be the most appropriate medication?
+### 21. Following neurosurgery, a patient receiving postoperative care in an intensive care unit began to pass large volumes of very dilute urine. The ICU nurse administers medicine that mimics one of the following hormones. Which of the following would be the most appropriate medication?
 
 - [ ] **A.** Epinephrine.
 - [ ] **B.** Renin.
@@ -324,11 +206,7 @@ following hormones. Which of the following would be the most appropriate medicat
 - [ ] **D.** Vasopressin.
 - [ ] **E.** Oxytocin.
 
-### 22. Multiple sclerosis is an autoimmune disease that leads to the destruction of myelin sheath in CNS
-
-neurons, leading to decreased action potential propagation speed. Which of the following best
-
-explains why myelination is important for action potential propagation?
+### 22. Multiple sclerosis is an autoimmune disease that leads to the destruction of myelin sheath in CNS neurons, leading to decreased action potential propagation speed. Which of the following best explains why myelination is important for action potential propagation?
 
 - [ ] **A.** The myelin sheath prevents potassium ions from diffusing across the plasma membrane.
 - [ ] **B.** The myelin sheath prevents dissipation of the sodium ion gradient between nodes.
@@ -336,13 +214,7 @@ explains why myelination is important for action potential propagation?
 - [ ] **D.** The myelin sheath decreases the resistance of the plasma membrane.
 - [ ] **E.** The myelin sheath insulates the axon and increases action potential magnitude.
 
-### 23. Jason, a 19-year-old college student, is walking to class one day and slips on some notoriously
-
-slippery Bostonian ice, breaking his hip. Upon questioning by his doctor, he admits to feeling
-
-“slowed down” lately and experiencing frequent nausea, thirst, headaches, and muscle pain. Which
-
-organ is most likely malfunctioning?
+### 23. Jason, a 19-year-old college student, is walking to class one day and slips on some notoriously slippery Bostonian ice, breaking his hip. Upon questioning by his doctor, he admits to feeling “slowed down” lately and experiencing frequent nausea, thirst, headaches, and muscle pain. Which organ is most likely malfunctioning?
 
 - [ ] **A.** Thyroid.
 - [ ] **B.** Kidney.
@@ -350,11 +222,7 @@ organ is most likely malfunctioning?
 - [ ] **D.** Anterior pituitary gland.
 - [ ] **E.** Parathyroid gland.
 
-### 24. The spleen is the site of the T-cell independent B-cell activation, in which B-cells can mount a low-
-
-affinity antibody response against antigens that T-cell receptors cannot recognize. Following
-
-splenectomy, what kind of pathogens would patients be particularly susceptible to?
+### 24. The spleen is the site of the T-cell independent B-cell activation, in which B-cells can mount a low-affinity antibody response against antigens that T-cell receptors cannot recognize. Following splenectomy, what kind of pathogens would patients be particularly susceptible to?
 
 - [ ] **A.** Bacteria with thick polysaccharide capsules.
 - [ ] **B.** Bacteria capable of forming endospores.
@@ -362,11 +230,7 @@ splenectomy, what kind of pathogens would patients be particularly susceptible t
 - [ ] **D.** Viruses with host-derived envelopes.
 - [ ] **E.** Protists that rapidly turn over membrane proteins.
 
-### 25. An electrocardiogram is a graph of voltage vs time. The simplest ones use two leads, one on each
-
-arm. Electrical signals in the heart are then measured for multiple beats. Which of the following
-
-electrocardiograms shows a normal, healthy cardiac cycle?
+### 25. An electrocardiogram is a graph of voltage vs time. The simplest ones use two leads, one on each arm. Electrical signals in the heart are then measured for multiple beats. Which of the following electrocardiograms shows a normal, healthy cardiac cycle?
 
 ![Question 25 figure 1](images/question25_figure1.png)
 
@@ -384,25 +248,9 @@ electrocardiograms shows a normal, healthy cardiac cycle?
 - [ ] **D.** Source: BMET Wiki. Copyright: CC-BY-SA.
 - [ ] **E.** By Chikumaya - My Own Work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1265477
 
-### 26. A 50-year-old man has a bone marrow biopsy performed as part of his cancer staging evaluation after
+### 26. A 50-year-old man has a bone marrow biopsy performed as part of his cancer staging evaluation after diagnosis of lymphoma. On the day of the biopsy, a hematology panel is performed on a peripheral blood specimen obtained through finger prick. The patient's white blood cell concentration is
 
-diagnosis of lymphoma. On the day of the biopsy, a hematology panel is performed on a peripheral
-
-blood specimen obtained through finger prick. The patient's white blood cell concentration is
-
-### 27. You perform an assay to determine the mechanism by which macrophages uptake extracellular
-
-antigens for antigen presentation. You harvest macrophages and co-culture your antigen, ovalbumin,
-
-with and without LPS. You find that the endocytosis of ovalbumin is significantly enhanced in
-
-macrophages co-treated with LPS. To confirm that increased endocytosis is mediated by actin, you
-
-pre-treat your macrophages with an actin polymerization inhibitor. To your surprise, you see that
-
-ovalbumin uptake is not fully abolished in the presence of inhibitor. Which of the following
-
-interventions would likely completely abolish ovalbumin uptake?
+### 27. You perform an assay to determine the mechanism by which macrophages uptake extracellular antigens for antigen presentation. You harvest macrophages and co-culture your antigen, ovalbumin, with and without LPS. You find that the endocytosis of ovalbumin is significantly enhanced in macrophages co-treated with LPS. To confirm that increased endocytosis is mediated by actin, you pre-treat your macrophages with an actin polymerization inhibitor. To your surprise, you see that ovalbumin uptake is not fully abolished in the presence of inhibitor. Which of the following interventions would likely completely abolish ovalbumin uptake?
 
 - [ ] **A.** Perform the same experiment with an additional microtubule polymerization inhibitor.
 - [ ] **B.** Perform the same experiment with an additional pinocytosis inhibitor.
@@ -410,9 +258,7 @@ interventions would likely completely abolish ovalbumin uptake?
 - [ ] **D.** Perform the same experiment with an additional V-SNARE inhibitor.
 - [ ] **E.** Perform the same experiment with an additional T-SNARE inhibitor.
 
-### 28. Which of the following choices incorrectly matches a protein with the tissue or cell type where it is
-
-found?
+### 28. Which of the following choices incorrectly matches a protein with the tissue or cell type where it is found?
 
 - [ ] **A.** Spectrin - red blood cells.
 - [ ] **B.** MHC II - dendritic cells.
@@ -420,9 +266,7 @@ found?
 - [ ] **D.** Tyrosine hydroxylase - adrenal medulla.
 - [ ] **E.** Tyrosine hydroxylase - neurons.
 
-### 29. For antibody-mediated mechanisms of antigen disposal, the formation of MAC (membrane attack
-
-complex) occurs in the _________________, which is directly triggered by ___________________.
+### 29. For antibody-mediated mechanisms of antigen disposal, the formation of MAC (membrane attack complex) occurs in the _________________, which is directly triggered by ___________________.
 
 - [ ] **A.** Gram positive bacteria; macrophages.
 - [ ] **B.** Macrophages; opsonization of antibodies.
@@ -438,9 +282,7 @@ complex) occurs in the _________________, which is directly triggered by _______
 - [ ] **D.** Orally bioavailable drugs often cause more gastrointestinal toxicity.
 - [ ] **E.** Orally bioavailable drugs are limited to small molecules.
 
-### 31. In marine bony fishes, ion gradients drive secretion of salt (NaCl), a process essential to avoid
-
-dehydration. How does it work?
+### 31. In marine bony fishes, ion gradients drive secretion of salt (NaCl), a process essential to avoid dehydration. How does it work?
 
 - [ ] **A.** They are hyperosmotic to their surroundings, so they must excrete excess water continuously.
 - [ ] **B.** Marine fish take in divalent ions by incessantly drinking seawater and store them in the transport epithelia.
@@ -458,31 +300,11 @@ dehydration. How does it work?
 - [ ] **D.** A blue jay vomits after ingesting the poisonous monarch butterfly, learning to avoid butterflies with bright, orange coloration.
 - [ ] **E.** A lab rat learns to press a button that provides food through trial-and-error.
 
-### 33. Catherine examines a small population of monogamous C. ampbell birds in the wild. In general, she
-
-observes that in every nest of hatchlings (“family”), the males could be subdivided into two groups:
-
-one group of males matures and flies to newer territories to breed; the other remains at the nest and
-
-does not breed. Given this information, which of the following conclusion(s) could she most likely
+### 33. Catherine examines a small population of monogamous C. ampbell birds in the wild. In general, she observes that in every nest of hatchlings (“family”), the males could be subdivided into two groups: one group of males matures and flies to newer territories to breed; the other remains at the nest and does not breed. Given this information, which of the following conclusion(s) could she most likely
 
 ## draw based on evolutionary theory of animal families?
 
-### 34. Fragile X syndrome (FXS) is the most common inherited cause of intellectual disability (ID). In
-
-addition to ID, people with FXS tend to have large ears and poor muscle tone, and a significant
-
-proportion have attention-deficit hyperactivity disorder. FXS is caused by mutations in the FMR1
-
-gene, which is located on the X chromosome and encodes the FMR protein (FMRP). FMRP is
-
-important for brain development. The mutation in FMR1 that results in FXS causes methylation of
-
-this normally unmethylated gene. As a result, FXS is inherited as an X-linked dominant disorder with
-
-reduced penetrance. Based on this information, which of the following statements about FXS is
-
-TRUE?
+### 34. Fragile X syndrome (FXS) is the most common inherited cause of intellectual disability (ID). In addition to ID, people with FXS tend to have large ears and poor muscle tone, and a significant proportion have attention-deficit hyperactivity disorder. FXS is caused by mutations in the FMR1 gene, which is located on the X chromosome and encodes the FMR protein (FMRP). FMRP is important for brain development. The mutation in FMR1 that results in FXS causes methylation of this normally unmethylated gene. As a result, FXS is inherited as an X-linked dominant disorder with reduced penetrance. Based on this information, which of the following statements about FXS is TRUE?
 
 - [ ] **A.** Females are likely to be more affected than males.
 - [ ] **B.** Females and males are likely to be equally affected.
@@ -490,67 +312,7 @@ TRUE?
 - [ ] **D.** It is impossible to determine whether females or males are more likely to be affected.
 - [ ] **E.** People with FXS make more FMRP than people without FXS.
 
-### 35. Fragile X was named because, when looking at karyotypes of people with FXS, the ends of the X-
-
-chromosomes looked broken. It turns out that this appearance is due to having a larger-than-usual
-
-number of CGG repeats in the 5’ noncoding region of FMR1. People without FXS typically have
-
-about 5-44 repeats. Expansions of this region from one generation to the next lead to more repeats,
-
-categorized as follows:
-
-• 45-54 CGG repeats: “Intermediate”: not associated with any known medical problems, but
-
-additional expansions may lead to premutations in future generations.
-
-• 55-200 CGG repeats: “Premutation”: people with premutations are at risk for the adult-onset
-
-neurological disorder FXTAS (Fragile X-associated tremor/ataxia syndrome). People with FXTAS
-
-can develop problems in middle age with balance, memory, tremors, and other neurological and
-
-psychiatric symptoms. In addition, premutations can be unstable and can expand to full mutations
-
-when passed to the next generation (typically, from a mother to her child).
-
-• >200 CGG repeats: “Full mutation”: people with full mutations are at high risk of having FXS.
-
-The following question refers to the pedigree chart shown below. Circles and squares indicate
-
-females and males, respectively. Open symbols indicate apparently clinically normal people, and
-
-filled symbols indicate people with FXS. Hatched symbols indicate people with FXTAS. Roman
-
-numerals indicate generation, and Arabic numerals indicate individuals within a generation; thus,
-
-III-2 indicates Individual 2 within Generation III-the male with FXS. Individual II-1 is 30 years old.
-
-Her children II-1, III-2, and III-3 are 7 years, 4 years, and 1 month of age, respectively. “Mutated”
-
-below encompasses both premutations and full mutations.
-
-I
-
-2
-
-1
-
-II
-
-2
-
-1
-
-III
-
-2
-
-3
-
-1
-
-Which of the following statements is TRUE?
+### 35. Fragile X was named because, when looking at karyotypes of people with FXS, the ends of the X-chromosomes looked broken. It turns out that this appearance is due to having a larger-than-usual number of CGG repeats in the 5’ noncoding region of FMR1. People without FXS typically have about 5-44 repeats. Expansions of this region from one generation to the next lead to more repeats, categorized as follows: • 45-54 CGG repeats: “Intermediate”: not associated with any known medical problems, but additional expansions may lead to premutations in future generations. • 55-200 CGG repeats: “Premutation”: people with premutations are at risk for the adult-onset neurological disorder FXTAS (Fragile X-associated tremor/ataxia syndrome). People with FXTAS can develop problems in middle age with balance, memory, tremors, and other neurological and psychiatric symptoms. In addition, premutations can be unstable and can expand to full mutations when passed to the next generation (typically, from a mother to her child). • >200 CGG repeats: “Full mutation”: people with full mutations are at high risk of having FXS. The following question refers to the pedigree chart shown below. Circles and squares indicate females and males, respectively. Open symbols indicate apparently clinically normal people, and filled symbols indicate people with FXS. Hatched symbols indicate people with FXTAS. Roman numerals indicate generation, and Arabic numerals indicate individuals within a generation; thus, III-2 indicates Individual 2 within Generation III-the male with FXS. Individual II-1 is 30 years old. Her children II-1, III-2, and III-3 are 7 years, 4 years, and 1 month of age, respectively. “Mutated” below encompasses both premutations and full mutations. I 2 1 II 2 1 III 2 3 1 Which of the following statements is TRUE?
 
 - [ ] **A.** I-1 has a 50% chance of having inherited a mutated FMR1 from her mother.
 - [ ] **B.** III-1 has a 50% chance of having inherited a mutated FMR1 from her father.
@@ -562,9 +324,7 @@ Which of the following statements is TRUE?
 
 ## sexual species are extraordinarily common, suggesting that sex has some evolutionary advantage.
 
-### 37. The pedigree below depicts the inheritance of a rare disease through three generations of a family.
-
-What is the most likely mode of inheritance?
+### 37. The pedigree below depicts the inheritance of a rare disease through three generations of a family. What is the most likely mode of inheritance?
 
 ![Question 37 figure 1](images/question37_figure1.png)
 
@@ -574,39 +334,7 @@ What is the most likely mode of inheritance?
 - [ ] **D.** Y-linked dominant.
 - [ ] **E.** Mitochondrial.
 
-### 38. On an isolated island, you are studying fitness among finches with three beak lengths labeled A, B,
-
-and C. For every generation, you sample the population of finches at random and extrapolate to arrive
-
-at an estimated population for each phenotype. Data for the original population and the population
-
-two generations later are shown below. Let Phenotype A have a relative fitness of 1.00, and assume no
-
-environmental disturbances, what is the relative fitness of Phenotype C?
-
-Phenotype
-
-Original
-
-2nd Generation
-
-A
-
-33
-
-105
-
-B
-
-17
-
-31
-
-C
-
-50
-
-115
+### 38. On an isolated island, you are studying fitness among finches with three beak lengths labeled A, B, and C. For every generation, you sample the population of finches at random and extrapolate to arrive at an estimated population for each phenotype. Data for the original population and the population two generations later are shown below. Let Phenotype A have a relative fitness of 1.00, and assume no environmental disturbances, what is the relative fitness of Phenotype C? Phenotype Original 2nd Generation A 33 105 B 17 31 C 50 115
 
 - [ ] **A.** 1.10.
 - [ ] **B.** 0.85.
@@ -614,25 +342,7 @@ C
 - [ ] **D.** 0.72.
 - [ ] **E.** 0.57.
 
-### 39. A venture capitalist is offering a large cash prize for development of a new assay testing babies for
-
-their lifelong cancer risk. He outlines his logic as follows: (1) a genetic predisposition to cancer has
-
-been proven through longitudinal studies of families over many generations-he gives the examples of
-
-breast and colon carcinomas; (2) genes produce measurable phenotypic changes, so a genetic assay
-
-should not be necessary to test for a genetic disease-he gives the example of sweat testing for cystic
-
-fibrosis; (3) technologies such as mass spectrometry allow for measurement of analytes with great
-
-sensitivity and specificity-he gives the example of newborn testing for lysosomal storage disorders.
-
-You decline to compete for this opportunity, because you are not convinced that the investor’s logic is
-
-sound. Choose the only TRUE statement from the following arguments used by the venture
-
-capitalist:
+### 39. A venture capitalist is offering a large cash prize for development of a new assay testing babies for their lifelong cancer risk. He outlines his logic as follows: (1) a genetic predisposition to cancer has been proven through longitudinal studies of families over many generations-he gives the examples of breast and colon carcinomas; (2) genes produce measurable phenotypic changes, so a genetic assay should not be necessary to test for a genetic disease-he gives the example of sweat testing for cystic fibrosis; (3) technologies such as mass spectrometry allow for measurement of analytes with great sensitivity and specificity-he gives the example of newborn testing for lysosomal storage disorders. You decline to compete for this opportunity, because you are not convinced that the investor’s logic is sound. Choose the only TRUE statement from the following arguments used by the venture capitalist:
 
 - [ ] **A.** Cancer is no different from other hereditary traits like sickle cell anemia: the genetic damage is all present at birth, but the effects of disease take time to develop in the body.
 - [ ] **B.** In developed countries, the level of infection control and hygiene is too high to allow for cancers historically associated with pathogens such as Epstein-Barr virus and human papillomavirus.
@@ -640,9 +350,7 @@ capitalist:
 - [ ] **D.** It is more practical for medical centers to implement a mass spectrometry-based laboratory assay measuring a few dozen analytes, when compared to the resources needed to sequence and analyze the genome of every baby.
 - [ ] **E.** A person's risk of cancer will not change based on their diet, lifestyle, or where they live, so results of cancer risk assessment at birth are valid regardless of whether the baby remains in the geographic area of their birth hospital.
 
-### 40. The cyanobacterium Anabaena has genes that encode proteins for photosynthesis and for nitrogen
-
-fixation, but a single cell cannot carry out both processes at the same time. This is because
+### 40. The cyanobacterium Anabaena has genes that encode proteins for photosynthesis and for nitrogen fixation, but a single cell cannot carry out both processes at the same time. This is because
 
 - [ ] **A.** Quorum sensing is required for photosynthesis, which then inactivates nitrogen fixation.
 - [ ] **B.** Photosynthesis produces $O_2$, which inactivates the enzymes involved in nitrogen fixation
@@ -658,17 +366,7 @@ fixation, but a single cell cannot carry out both processes at the same time. Th
 - [ ] **D.** Batesian mimicry.
 - [ ] **E.** Heterozygote advantage.
 
-### 42. In the aquatic snail Lymnaea peregra, the shell is typically shaped in a right-handed spiral, or
-
-clockwise viewed from above; these snails are dextral. However, in some snails, the entire body is
-
-inverted and the shell has a left-handed spiral; these snails are sinistral. A true-breeding sinistral
-
-female is crossed with a true-breeding dextral male, producing all sinistral offspring. The F1
-
-generation is self-crossed, producing all dextral offspring. Which of the following is FALSE regarding
-
-the inheritance of the dextral and sinistral phenotypes in L. peregra?
+### 42. In the aquatic snail Lymnaea peregra, the shell is typically shaped in a right-handed spiral, or clockwise viewed from above; these snails are dextral. However, in some snails, the entire body is inverted and the shell has a left-handed spiral; these snails are sinistral. A true-breeding sinistral female is crossed with a true-breeding dextral male, producing all sinistral offspring. The F1 generation is self-crossed, producing all dextral offspring. Which of the following is FALSE regarding the inheritance of the dextral and sinistral phenotypes in L. peregra?
 
 ![Question 42 figure 1](images/question42_figure1.png)
 
@@ -678,19 +376,7 @@ the inheritance of the dextral and sinistral phenotypes in L. peregra?
 - [ ] **D.** Neither the genotype nor the phenotype of the father affects the phenotypes of the immediate offspring.
 - [ ] **E.** If the F2 generation were randomly self-crossed, one quarter of the crosses would produce all sinistral offspring.
 
-### 43. Consider the coevolution of flowers and pollinators. Pollinators can either legitimately visit flowers or
-
-attempt to rob nectar. Legitimate flower visits provide the pollinator with nectar and the flower with
-
-pollination, at a cost of cvisit to the pollinator. Nectar robbing provides the pollinator with nectar
-
-without providing the flower with pollination, at a cost of crob < cvisit to the pollinator. Birds in the
-
-genus Diglossa often engage in nectar robbing by piercing the base of the flower to access nectar. In
-
-response, flowers may evolve tougher sepals to protect against nectar robbing. Which of the following
-
-statements is FALSE regarding the relationship between flowers and pollinators?
+### 43. Consider the coevolution of flowers and pollinators. Pollinators can either legitimately visit flowers or attempt to rob nectar. Legitimate flower visits provide the pollinator with nectar and the flower with pollination, at a cost of cvisit to the pollinator. Nectar robbing provides the pollinator with nectar without providing the flower with pollination, at a cost of crob < cvisit to the pollinator. Birds in the genus Diglossa often engage in nectar robbing by piercing the base of the flower to access nectar. In response, flowers may evolve tougher sepals to protect against nectar robbing. Which of the following statements is FALSE regarding the relationship between flowers and pollinators?
 
 - [ ] **A.** The typical relationship between flowering plants and pollinators, characterized by legitimate flower visits, is mutualistic.
 - [ ] **B.** Nectar robbing by Diglossa is an example of amensalism because it benefits the actor by providing nectar, but harms the recipient by puncturing the flower.
@@ -706,11 +392,7 @@ statements is FALSE regarding the relationship between flowers and pollinators?
 - [ ] **D.** A rotifer produces only female offspring through parthenogenesis.
 - [ ] **E.** An invading male primate causes only female offspring to survive by actively killing all male offspring.
 
-### 45. An organism lives in an environment in which it is far outnumbered by its prey and exhibits a
-
-constant digestion time. Which of the following types of curves best represents the relationship
-
-between prey density and the rate of prey capture?
+### 45. An organism lives in an environment in which it is far outnumbered by its prey and exhibits a constant digestion time. Which of the following types of curves best represents the relationship between prey density and the rate of prey capture?
 
 - [ ] **A.** Linear.
 - [ ] **B.** Exponential.
@@ -718,9 +400,7 @@ between prey density and the rate of prey capture?
 - [ ] **D.** Logistic.
 - [ ] **E.** Parabolic.
 
-### 46. The doubling time of a deer population was determined to be 70 years. The current population is 100
-
-deer. What is the expected population in five years?
+### 46. The doubling time of a deer population was determined to be 70 years. The current population is 100 deer. What is the expected population in five years?
 
 - [ ] **A.** 105.
 - [ ] **B.** 107.
@@ -744,17 +424,7 @@ deer. What is the expected population in five years?
 - [ ] **D.** The majority of released toxins are consumed only by organisms at the top of the food chain.
 - [ ] **E.** Toxins are more visible in organisms that tend to be larger that are higher on the food chain.
 
-### 49. Many modern plants have siphonosteles, which are characterized by vascular tissue surrounding a
-
-central pith region. These siphonosteles can either be amphiphloic (phloem is both internal and
-
-external to the xylem) or ectophloic (phloem is only external to the xylem). One day, you obtain a
-
-stem cross section of your favorite plant of the Solanaceae family, noticing that the vascular bundles
-
-of this plant have phloem flanking both the interior and exterior of the xylem. Using what you know
-
-about the vascular organization of different plants, what would this characteristic be referred to as?
+### 49. Many modern plants have siphonosteles, which are characterized by vascular tissue surrounding a central pith region. These siphonosteles can either be amphiphloic (phloem is both internal and external to the xylem) or ectophloic (phloem is only external to the xylem). One day, you obtain a stem cross section of your favorite plant of the Solanaceae family, noticing that the vascular bundles of this plant have phloem flanking both the interior and exterior of the xylem. Using what you know about the vascular organization of different plants, what would this characteristic be referred to as?
 
 - [ ] **A.** Apomorphy.
 - [ ] **B.** Plesiomorphy.
@@ -769,7 +439,6 @@ about the vascular organization of different plants, what would this characteris
 - [ ] **C.** Nitrosomonas - reduce ammonium.
 - [ ] **D.** Cyanobacteria - contain heterocysts.
 - [ ] **E.** Agrobacterium - tumor-producing bacterium.
-
 
 # Answer Key
 

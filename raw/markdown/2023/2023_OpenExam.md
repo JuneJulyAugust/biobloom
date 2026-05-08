@@ -1,6 +1,5 @@
 # USABO 2023 Open Exam
 
-
 ### 1. The physical separation of a eukaryotic cell during cell division is:
 
 - [ ] **A.** Mitosis.
