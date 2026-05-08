@@ -79,7 +79,13 @@ IV. They physically link T cell antigen receptor to non-antigen-binding domain o
 
 ### 9. DNP is used as a dangerous weight loss drug due to its ability to increase metabolic activity. The chemical disrupts the proton gradient by binding $H^+$ and diffusing across the inner mitochondrial membrane. Given these constraints, which of the following molecules is DNP?
 
-![Question 9 DNP choices](images/question09_dnp_choices.png)
+| Choice | Structure                                  |
+| :----: | :----------------------------------------- |
+|   A    | ![Choice A](images/question09_choiceA.png) |
+|   B    | ![Choice B](images/question09_choiceB.png) |
+|   C    | ![Choice C](images/question09_choiceC.png) |
+|   D    | ![Choice D](images/question09_choiceD.png) |
+|   E    | ![Choice E](images/question09_choiceE.png) |
 
 ### 10. There have been multiple large-scale outbreaks of Ebola virus in West and Central Africa over the past couple years. The majority of people who are infected with Ebola die from the disease, but some will survive and make a full recovery. Researchers found that in some survivors the virus persisted in immunologically protected sites in their bodies well after they had recovered from their initial infection. Which statement below does NOT describe a consequence of this persistence?
 
@@ -175,7 +181,7 @@ V. If there is a polypeptide chain that makes up a tight junction that weaves ba
 
 ### 20. An epinephrine-mediated increase in heart rate is primarily mediated through which of the following receptor/second-messenger pairs?
 
-- [ ] **A.** $\beta_1$, $Ca^{2+}$.
+- [ ] **A.** $\beta-1$, $Ca^{2+}$.
 - [ ] **B.** $\beta_1$, $cAMP$.
 - [ ] **C.** $\beta_2$, $Ca^{2+}$.
 - [ ] **D.** $\beta_2$, $cAMP$.
