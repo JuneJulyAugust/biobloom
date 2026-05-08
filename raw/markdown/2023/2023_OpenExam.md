@@ -72,7 +72,7 @@
 - [ ] **D.** Calcium.
 - [ ] **E.** All the above.
 
-### 10. The hydrocarbon chain in the top triglyceride above has ________; the hydrocarbon chain in the bottom triglyceride has ________.
+### 10. The hydrocarbon chain in the top triglyceride above has &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;; the hydrocarbon chain in the bottom triglyceride has &#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;.
 
 ![Question 10 figure](images/question10_hydrocarbon_chains.png)
 
@@ -84,11 +84,11 @@
 
 ### 11. Which of the following angiosperm species does NOT rely on animals to aid pollination?
 
-- [ ] **A.** $Trifolium repens$ (white clover).
-- [ ] **B.** $Ficus carica$ (common fig).
-- [ ] **C.** $Saccharum officinarum$ (sugar cane).
-- [ ] **D.** $Rafflesia arnoldii$ (corpse flower).
-- [ ] **E.** $Agave tequilana$ (blue agave).
+- [ ] **A.** Trifolium repens (white clover).
+- [ ] **B.** Ficus carica (common fig).
+- [ ] **C.** Saccharum officinarum (sugar cane).
+- [ ] **D.** Rafflesia arnoldii (corpse flower).
+- [ ] **E.** Agave tequilana (blue agave).
 
 ### 12. One important difference between the anatomy of roots and the anatomy of leaves is:
 
@@ -122,7 +122,7 @@
 - [ ] **D.** The formation of starch from sugar in the "sink" increases the solute concentration and osmotically creates the turgor pressure needed.
 - [ ] **E.** The turgor pressure in the phloem of a root is normally greater than the pressure in the phloem of a leaf.
 
-### 16. The green sea slug $Elysia chlorotica$ can photosynthesize due to:
+### 16. The green sea slug Elysia chlorotica can photosynthesize due to:
 
 - [ ] **A.** Photosynthetic microbiome.
 - [ ] **B.** Inherited chloroplasts.
@@ -154,9 +154,7 @@
 - [ ] **D.** Hypertonicity.
 - [ ] **E.** Fiber shortening.
 
-## Questions 20 to 24. Pressure differences between cardiac chambers determine the velocity of blood flow.
-
-Ultrasound can be used to examine the velocity of blood flow by aligning an ultrasound beam with the region of interest. Ultrasound beams are reflected by moving red blood cells and return to the ultrasound transducer - these returning beams undergo Doppler shifts. The resultant change in the frequency is converted to velocity. The following questions relate to the examination of blood flow between various cardiac chambers. Based on the laws of conservation of mass and energy, blood flow through a narrower orifice will move at a higher velocity. Aortic stenosis - or an abnormally narrow aortic valve orifice - can be diagnosed based on faster than normal blood flow through the valve. Blood flow through a normal aortic valve occurs when the left ventricle contracts (systole) and has a maximum velocity under $2.6\,m/s$. Mild, moderate and severe aortic stenosis are defined respectively by maximum systolic blood flow velocities within the ranges $2.6$-$2.9\,m/s$ (mild), $3$-$3.9\,m/s$ (moderate) and $>4\,m/s$ (severe). The accompanying images are a schematic representation of the Doppler spectral profiles obtained when an ultrasound beam is directed at blood flow through the aortic valves of two different patients (A and B), both in normal sinus rhythm as demonstrated by the electrocardiogram tracing at the bottom of each image. Velocity is on the y-axis, with flow towards the ultrasound probe plotted above the y-axis, and flow away from the probe plotted below. The x-axis represents time.
+## Questions 20 to 24. Pressure differences between cardiac chambers determine the velocity of blood flow. Ultrasound can be used to examine the velocity of blood flow by aligning an ultrasound beam with the region of interest. Ultrasound beams are reflected by moving red blood cells and return to the ultrasound transducer - these returning beams undergo Doppler shifts. The resultant change in the frequency is converted to velocity. The following questions relate to the examination of blood flow between various cardiac chambers. Based on the laws of conservation of mass and energy, blood flow through a narrower orifice will move at a higher velocity. Aortic stenosis - or an abnormally narrow aortic valve orifice - can be diagnosed based on faster than normal blood flow through the valve. Blood flow through a normal aortic valve occurs when the left ventricle contracts (systole) and has a maximum velocity under $2.6\,m/s$. Mild, moderate and severe aortic stenosis are defined respectively by maximum systolic blood flow velocities within the ranges $2.6$-$2.9\,m/s$ (mild), $3$-$3.9\,m/s$ (moderate) and $>4\,m/s$ (severe). The accompanying images are a schematic representation of the Doppler spectral profiles obtained when an ultrasound beam is directed at blood flow through the aortic valves of two different patients (A and B), both in normal sinus rhythm as demonstrated by the electrocardiogram tracing at the bottom of each image. Velocity is on the y-axis, with flow towards the ultrasound probe plotted above the y-axis, and flow away from the probe plotted below. The x-axis represents time.
 
 ![Questions 20 to 24 figure](images/questions20_24_doppler_profiles.png)
 
@@ -383,15 +381,6 @@ III. $X^HX$ and $XY$.
 
 ![Question 46 table image](images/question46_tribolium_table.png)
 
-| Temperature (°C) | Humidity (%) | Climate | Single species numbers | Mixed species: $T. confusum$ (% wins) | Mixed species: $T. castaneum$ (% wins) |
-| --- | --- | --- | --- | ---: | ---: |
-| 34 | 70 | Hot-moist | $confusum = castaneum$ | 0 | 100 |
-| 34 | 30 | Hot-dry | $confusum > castaneum$ | 90 | 10 |
-| 29 | 70 | Temperate-moist | $confusum < castaneum$ | 14 | 86 |
-| 29 | 30 | Temperate-dry | $confusum > castaneum$ | 87 | 13 |
-| 24 | 70 | Cold-moist | $confusum < castaneum$ | 71 | 29 |
-| 24 | 30 | Cold-dry | $confusum > castaneum$ | 100 | 0 |
-
 - [ ] **A.** Ecological systems are simply too complex to understand.
 - [ ] **B.** Competitive exclusion between two closely related species is inevitable.
 - [ ] **C.** Competitive coexistence is possible if the competitors are different species.
@@ -432,54 +421,54 @@ III. $X^HX$ and $XY$.
 # Answer Key
 
 | Question | Answer |
-| --- | --- |
-| 1 | D |
-| 2 | A |
-| 3 | D |
-| 4 | B |
-| 5 | D |
-| 6 | E |
-| 7 | C |
-| 8 | A |
-| 9 | C |
-| 10 | B |
-| 11 | C |
-| 12 | C |
-| 13 | E |
-| 14 | C |
-| 15 | A |
-| 16 | C |
-| 17 | D |
-| 18 | C |
-| 19 | B |
-| 20 | A |
-| 21 | A |
-| 22 | D |
-| 23 | A <!-- TODO: verify answer key --> |
-| 24 | B |
-| 25 | A <!-- TODO: verify answer key --> |
-| 26 | C |
-| 27 | D |
-| 28 | B |
-| 29 | C |
-| 30 | C |
-| 31 | C |
-| 32 | C |
-| 33 | D |
-| 34 | E |
-| 35 | A |
-| 36 | C |
-| 37 | A |
-| 38 | C |
-| 39 | A |
-| 40 | D |
-| 41 | C |
-| 42 | C |
-| 43 | A |
-| 44 | A |
-| 45 | B |
-| 46 | D |
-| 47 | A |
-| 48 | E |
-| 49 | D |
-| 50 | A |
+| -------- | ------ |
+| 1        | D      |
+| 2        | A      |
+| 3        | D      |
+| 4        | B      |
+| 5        | D      |
+| 6        | E      |
+| 7        | C      |
+| 8        | A      |
+| 9        | C      |
+| 10       | B      |
+| 11       | C      |
+| 12       | C      |
+| 13       | E      |
+| 14       | C      |
+| 15       | A      |
+| 16       | C      |
+| 17       | D      |
+| 18       | C      |
+| 19       | B      |
+| 20       | A      |
+| 21       | A      |
+| 22       | D      |
+| 23       | A      |
+| 24       | B      |
+| 25       | A      |
+| 26       | C      |
+| 27       | D      |
+| 28       | B      |
+| 29       | C      |
+| 30       | C      |
+| 31       | C      |
+| 32       | C      |
+| 33       | D      |
+| 34       | E      |
+| 35       | A      |
+| 36       | C      |
+| 37       | A      |
+| 38       | C      |
+| 39       | A      |
+| 40       | D      |
+| 41       | C      |
+| 42       | C      |
+| 43       | A      |
+| 44       | A      |
+| 45       | B      |
+| 46       | D      |
+| 47       | A      |
+| 48       | E      |
+| 49       | D      |
+| 50       | A      |
