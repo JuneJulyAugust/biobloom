@@ -89,7 +89,7 @@ IV. Staining with crystal violet
 - [ ] **D.** Reductive cell stress
 - [ ] **E.** Dissipation of the proton gradient
 
-### 11. The stem of two plants, diver and floater have been treated with gibberellin. A permeable block supplying a solution of 0.01 M IAA is then placed in between the ends of the cut stem as in the image below (11.1), and a red permanent marker is used to label points on the stems. After some time, you observe in the image below (11.2) that diver has experienced growth. Which image and hormone pair correctly demonstrates floater’s growth and identifies the hormone directly responsible for a change in floater’s growth compared to diver’s, if applicable? Image Credit: R. Zhu and J. Xu
+### 11. The stem of two plants, diver and floater have been treated with gibberellin. A permeable block supplying a solution of 0.01 M IAA is then placed in between the ends of the cut stem as in the image below (11.1), and a red permanent marker is used to label points on the stems. After some time, you observe in the image below (11.2) that diver has experienced growth. Which image and hormone pair correctly demonstrates floater’s growth and identifies the hormone directly responsible for a change in floater’s growth compared to diver’s, if applicable?
 
 ![Question 11 figure 1](images/question11_figure1.png)
 
@@ -107,7 +107,9 @@ IV. Staining with crystal violet
 - [ ] **D.** Growth underneath the shade of larger trees
 - [ ] **E.** Closing of stomata to limit transpiration
 
-### 13. James is writing his thesis on tree fern indusia, structures known to grow from the abaxial leaf surface. Based on the graph below, which of the following plant processes does indusium most likely support? Image Credit: VPLanet
+### 13. James is writing his thesis on tree fern indusia, structures known to grow from the abaxial leaf surface. Based on the graph below, which of the following plant processes does indusium most likely support?
+
+![Question 13 figure 1](images/question13_figure1.png)
 
 - [ ] **A.** Light-dependent reactions
 - [ ] **B.** Calvin cycle
@@ -117,7 +119,6 @@ IV. Staining with crystal violet
 
 ### 14. Jonah is a farmer-scientist who cultivates a plant that produces aggregate fruit and is known to follow the ABC hypothesis. He wants to produce various mutants of this plant in an attempt to increase fruit yield. Which of the following mutant plant forms would improve fruit yield the most?
 
-![Question 14 figure 1](images/question14_figure1.png)
 
 - [ ] **A.** Constitutive expression of a cytokinin-producing gene
 - [ ] **B.** Deletion of the B gene
@@ -138,7 +139,13 @@ IV. Expression of R genes
 - [ ] **D.** II, III, and IV only
 - [ ] **E.** I, II, III, and IV only
 
-### 16. Three plants display different mutations related to the plant hormone ethylene: ein: ethylene-insensitive  eto: ethylene overproducing  ctr: constitutive triple response  Farmer John crosses these plants with each other and with WT plants in an attempt to produce short offspring. Which of the following crosses is least likely to produce short offspring, and should thus be avoided by Farmer John?
+### 16. Three plants display different mutations related to the plant hormone ethylene:
+
+- ein: ethylene-intensitive
+- eto: ethylene overproducing
+- ctr: constitutive triple response
+
+Farmer John crosses these plants with each other and with WT plants in an attempt to produce short offspring. Which of the following crosses is least likely to produce short offspring, and should thus be avoided by Farmer John?
 
 - [ ] **A.** WT with ctr
 - [ ] **B.** WT with eto
@@ -146,9 +153,12 @@ IV. Expression of R genes
 - [ ] **D.** ein with ctr
 - [ ] **E.** eto with ctr
 
-### 17. A tree stump is examined as depicted below. What are the most durable layers and the youngest layer(s), respectively? Image Credit: A. Eliades 2: Taken from region A. layer 1 = light band(s), layer 2 = dark band(s), color differentiation is largely in part due to cell density} 3: Taken from region B; figure left is closer to the center of the trunk. layer 3 = cells directly to the right of the red line, layer 4 = cells directly to the left of the blue line, layer 5 = cells directly to the right of the blue line
+### 17. A tree stump is examined as depicted below. What are the most durable layers and the youngest layer(s), respectively?
 
 ![Question 17 figure 1](images/question17_figure1.png)
+
+17.2: Taken from region A. layer 1 = light band(s), layer 2 = dark band(s), color differentiation is largely in part due to cell density}
+17.3: Taken from region B; figure left is closer to the center of the trunk. layer 3 = cells directly to the right of the red line, layer 4 = cells directly to the left of the blue line, layer 5 = cells directly to the right of the blue line
 
 - [ ] **A.** Layer 1 is the most durable; layer 3 is the youngest
 - [ ] **B.** Layer 1 is the most durable; layers 4 and 5 are the youngest
@@ -158,17 +168,9 @@ IV. Expression of R genes
 
 ### 18. As a new intern at the Department of Developmental Biology, you are tasked with studying pattern formation in chicks. Which of the following conditions would most likely result in the production of extra limb segments in the chick embryo?
 
-I. Addition of a chemical that strongly stimulates ZPA activity and inhibits AER
-
-activity.
-
-II. Addition of a chemical that promotes Sonic hedgehog expression in the
-
-posteriormesenchyme.
-
-III. Addition of a chemical that strongly stimulates fibroblast growth factor
-
-(FGF) expression.
+I. Addition of a chemical that strongly stimulates ZPA activity and inhibits AER activity.
+II. Addition of a chemical that promotes Sonic hedgehog expression in the posteriormesenchyme.
+III. Addition of a chemical that strongly stimulates fibroblast growth factor(FGF) expression.
 
 - [ ] **A.** II only
 - [ ] **B.** III only
@@ -262,11 +264,11 @@ III. Sickle Cell Anemia
 
 ### 29. Inhibition of which of the following neuron ion transporters would most severely impact the formation of the resting membrane potential?
 
-- [ ] **A.** Voltage-gated Na channels
-- [ ] **B.** Na /K ATPase
+- [ ] **A.** Voltage-gated $Na^+$ channels
+- [ ] **B.** $Na^+/K^+$ ATPase
 - [ ] **C.** cAMP-activated $Na^+$ channels
 - [ ] **D.** Leaky K channels
-- [ ] **E.** Leaky Na channels
+- [ ] **E.** Leaky $Na^+$ channels
 
 ### 30. Orlistat is a weight loss drug that works by decreasing lipid absorption through inhibiting lipase, occasionally resulting in steatorrhea, or the increased excretion of fat in feces. Damage to which organ most closely resembles the steatorrhea-like symptoms of Orlistat?
 
@@ -336,7 +338,7 @@ III. Jack Box: Blood Type B
 - [ ] **D.** I and II only
 - [ ] **E.** I and III only
 
-### 38. SABOU is an autosomal, sex-influenced trait that acts recessively in females and dominantly in males. Given that individual II-4 has no family history of SABOU, what is the probability that individuals II-3 and II-4 have a child who does not express SABOU? Image Credit: J. Xu
+### 38. SABOU is an autosomal, sex-influenced trait that acts recessively in females and dominantly in males. Given that individual II-4 has no family history of SABOU, what is the probability that individuals II-3 and II-4 have a child who does not express SABOU?
 
 ![Question 38 figure 1](images/question38_figure1.png)
 
@@ -346,9 +348,15 @@ III. Jack Box: Blood Type B
 - [ ] **D.** Between 0.4 and 0.5
 - [ ] **E.** Greater than 0.5
 
-### 39. You're designing an alternative to rational protein design within the protein engineering space. Using phage display, a technique popular in the 1980s, you
+### 39. You're designing an alternative to rational protein design within the protein engineering space. Using phage display, a technique popular in the 1980s, you wish to make use of the principles of evolution to design a protein-of-interest. Specifically, by using a fusion of a protein-of-interest in a bacteriophage viral coat protein, you can express the protein-of-interest on the viral coat surface and screen for certain chemical properties. A diagram of the steps of phage display is shown below. Based on the above, which of the following best describes the mechanism of phage display?
 
-## wish to make use of the principles of evolution to design a protein-of-interest.
+![Question 39 figure 1](images/question39_figure1.png)
+
+- [ ] **A.** Directional selection
+- [ ] **B.** Disruptive selection
+- [ ] **C.** Stabilizing selection
+- [ ] **D.** Balancing selection
+- [ ] **E.** Artificial selection
 
 ### 40. Which of the following disease inheritance patterns is NOT consistent with the given pedigree? Image Credit: G. Ren
 
@@ -362,17 +370,19 @@ III. Jack Box: Blood Type B
 
 ### 41. Assume that a gene in E. coli has a high observed mutation rate without any corresponding changes in phenotype or fitness. Which of the following best explains this observation?
 
-![Question 41 figure 1](images/question41_figure1.png)
-
 - [ ] **A.** The gene exhibits strong positive selection
 - [ ] **B.** The gene exhibits weak positive selection
 - [ ] **C.** The gene exhibits neutral selection
 - [ ] **D.** The gene exhibits weak negative selection
 - [ ] **E.** The gene exhibits strong negative selection
 
-### 42. R is a measure of how infectious a disease is, where the value of R is the average number of people that someone who has the disease infects. The case fatality rate (CFR) of a disease is the fraction of people who have a disease that die from it. Assume that THEOFFSEASON-2021 (TOS-2021) is a new zoonotic virus that has just spread to the human population. Which of the following best
+### 42. R0 is a measure of how infectious a disease is, where the value of R0 is the average number of people that someone who has the disease infects. The case fatality rate (CFR) of a disease is the fraction of people who have a disease that die from it. Assume that THEOFFSEASON-2021 (TOS-2021) is a new zoonotic virus that has just spread to the human population. Which of the following best describes the evolutionary changes in R0 and CFR as TOS-2021 spreads?
 
-## describes the evolutionary changes in R
+- [ ] **A.** Increased R and Increased CFR
+- [ ] **B.** Increased R and Decreased CFR
+- [ ] **C.** Decreased R and Increased CFR
+- [ ] **D.** Decreased R and Decreased CFR
+- [ ] **E.** There will be no changes in R and CFR
 
 ### 43. An algaecide spill causes the death of 90% of algae in an ocean, but there are no significant population changes in higher trophic levels. This is an example of:
 
@@ -392,7 +402,9 @@ III. Jack Box: Blood Type B
 - [ ] **D.** Species richness decreases, species evenness decreases
 - [ ] **E.** Species richness increases, species evenness stays the same
 
-### 45. Justin, a student at the EEC Department of Ecological Sciences, is studying a species of stuffed animal S. noah. He analyzes the population of S. noah over time, as shown in the graph. Based on this data, categorize S. noah as r-selected or K-selected and identify a change in birth or death rate at the time indicated by the arrow. Image Credit: J.Xu
+### 45. Justin, a student at the EEC Department of Ecological Sciences, is studying a species of stuffed animal S. noah. He analyzes the population of S. noah over time, as shown in the graph. Based on this data, categorize S. noah as r-selected or K-selected and identify a change in birth or death rate at the time indicated by the arrow.
+
+![Question 45 figure 1](images/question45_figure1.png)
 
 - [ ] **A.** K-selected, density-dependent birth rate is decreasing
 - [ ] **B.** K-selected, density-dependent death rate is decreasing
@@ -402,7 +414,6 @@ III. Jack Box: Blood Type B
 
 ### 46. An epiphytic plant is observed to grow on the branches of a fig tree. You notice that the epiphyte performs photosynthesis, its roots wrap around the host plant, and that it emits volatile organic compounds which interact with its environment. The epiphyte’s interaction with the fig tree is best described as:
 
-![Question 46 figure 1](images/question46_figure1.png)
 
 - [ ] **A.** Amensalism
 - [ ] **B.** Commensalism
@@ -445,54 +456,54 @@ III. Jack Box: Blood Type B
 # Answer Key
 
 | Question | Answer |
-| ---: | :--- |
-| 1 | C |
-| 2 | C |
-| 3 | B |
-| 4 | E |
-| 5 | C |
-| 6 | E |
-| 7 | E |
-| 8 | A |
-| 9 | B |
-| 10 | C |
-| 11 | E |
-| 12 | C |
-| 13 | E |
-| 14 | B |
-| 15 | D |
-| 16 | C |
-| 17 | C |
-| 18 | D |
-| 19 | A |
-| 20 | E |
-| 21 | D |
-| 22 | C |
-| 23 | TODO <!-- TODO: verify answer key --> |
-| 24 | D |
-| 25 | TODO <!-- TODO: verify answer key --> |
-| 26 | C |
-| 27 | C |
-| 28 | TODO <!-- TODO: verify answer key --> |
-| 29 | B |
-| 30 | D |
-| 31 | B |
-| 32 | B |
-| 33 | TODO <!-- TODO: verify answer key --> |
-| 34 | E |
-| 35 | C |
-| 36 | B |
-| 37 | TODO <!-- TODO: verify answer key --> |
-| 38 | E |
-| 39 | TODO <!-- TODO: verify answer key --> |
-| 40 | TODO <!-- TODO: verify answer key --> |
-| 41 | TODO <!-- TODO: verify answer key --> |
-| 42 | TODO <!-- TODO: verify answer key --> |
-| 43 | A |
-| 44 | A |
-| 45 | C |
-| 46 | B |
-| 47 | A |
-| 48 | TODO <!-- TODO: verify answer key --> |
-| 49 | E |
-| 50 | TODO <!-- TODO: verify answer key --> |
+| -------: | :----- |
+|        1 | C      |
+|        2 | C      |
+|        3 | B      |
+|        4 | E      |
+|        5 | C      |
+|        6 | E      |
+|        7 | E      |
+|        8 | A      |
+|        9 | B      |
+|       10 | C      |
+|       11 | E      |
+|       12 | C      |
+|       13 | E      |
+|       14 | B      |
+|       15 | D      |
+|       16 | C      |
+|       17 | C      |
+|       18 | D      |
+|       19 | A      |
+|       20 | E      |
+|       21 | D      |
+|       22 | C      |
+|       23 | C      |
+|       24 | D      |
+|       25 | C      |
+|       26 | C      |
+|       27 | C      |
+|       28 | E      |
+|       29 | B      |
+|       30 | D      |
+|       31 | B      |
+|       32 | B      |
+|       33 | C      |
+|       34 | E      |
+|       35 | C      |
+|       36 | B      |
+|       37 | A      |
+|       38 | E      |
+|       39 | E      |
+|       40 | D      |
+|       41 | C      |
+|       42 | B      |
+|       43 | A      |
+|       44 | A      |
+|       45 | C      |
+|       46 | B      |
+|       47 | A      |
+|       48 | B      |
+|       49 | E      |
+|       50 | C      |
