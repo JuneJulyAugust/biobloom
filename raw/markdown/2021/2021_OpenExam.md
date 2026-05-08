@@ -1,9 +1,5 @@
 # USABO 2021 Open Exam
 
-## While students are expected to attempt all questions for a complete examination in
-
-### 50. minutes. 2021 BIO USACN Exam Based on the species and phylogeny shown, which of the following character states shows a
-
 ## CELL BIOLOGY (20%, 10 questions)
 
 ### 1. A sequencing method to characterize eukaryotic genes of interest in which a hyperactive mutant transposon is added to the cell culture. The transposon cleaves genomic DNA and tags it with sequencing adaptors that allow these fragments to be purified, amplified, and read. Which of the following would be sequenced LEAST effectively with this method?
@@ -14,9 +10,11 @@
 - [ ] **D.** Protein-coding region of a gene whose transcriptional activity is high.
 - [ ] **E.** Region that experiences a high rate of spontaneous mutation.
 
-### 2. The year is 2381. The Borg Invasion has begun and has recently been shown to be caused by infection of somatic cells causing them to secrete the protein Borgin, which eventually makes its way to the central nervous system. You are interested in the effects of a new drug called Resistance in not Futile (RNF) which has been shown to reduce the production of Borgin. You treat C2C12 (mouse myoblast) Borgin-producing cells with RNF, and perform a Western blot with an anti-Borgin antibody on cellular extracts: Assuming RNF has a single mechanism of action, which of the following could represent the activity of RNF?
+### 2. The year is 2381. The Borg Invasion has begun and has recently been shown to be caused by infection of somatic cells causing them to secrete the protein Borgin, which eventually makes its way to the central nervous system. You are interested in the effects of a new drug called Resistance in not Futile (RNF) which has been shown to reduce the production of Borgin. You treat C2C12 (mouse myoblast) Borgin-producing cells with RNF, and perform a Western blot with an anti-Borgin antibody on cellular extracts:
 
 ![Question 2 figure 1](images/question02_figure1.png)
+
+Assuming RNF has a single mechanism of action, which of the following could represent the activity of RNF?
 
 - [ ] **A.** RNF binds to Borgin and causes it to be targeted to the proteasome.
 - [ ] **B.** RNF is a transcriptional inhibitor of the borgin gene.
@@ -43,22 +41,36 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **B.** I and III.
 - [ ] **C.** II and III.
 - [ ] **D.** II and IV.
-- [ ] **E.** III and IV. 5. A microorganism is needed to detect toxins affecting humans. You design a genetic circuit in E. coli that dynamically regulates the expression of a reporter protein, green fluorescent protein (GFP), in response to metabolic toxins. You wish for GFP expression to be high in the presence of metabolic toxins and low in the absence of toxins. GFP fluorescent levels are easily visualized in fluorescence microscopy. Which of the following is a valid design consideration for your hypothetical genetic circuit?
+- [ ] **E.** III and IV.
+
+### 5. A microorganism is needed to detect toxins affecting humans. You design a genetic circuit in E. coli that dynamically regulates the expression of a reporter protein, green fluorescent protein (GFP), in response to metabolic toxins. You wish for GFP expression to be high in the presence of metabolic toxins and low in the absence of toxins. GFP fluorescent levels are easily visualized in fluorescence microscopy. Which of the following is a valid design consideration for your hypothetical genetic circuit?
+
 - [ ] **A.** An introduced genetic circuit could place the GFP gene under the control of a repressible promoter using co-repressors that bind to metabolic toxins.
 - [ ] **B.** An introduced genetic circuit should have a constitutive (always active) promoter paired to GFP, which would result in easy visualization due to high GFP expression.
 - [ ] **C.** Eukaryotic proteins like GFP (which was isolated from a jellyfish) cannot be expressed in prokaryotic cells because they lack a rough ER.
 - [ ] **D.** GFP expression is dependent on cellular energy state, so a metabolic toxin could have a false- negative result with your engineered organism. Since E. coli is a Gram-negative bacterium, it will not efficiently take up foreign genetic material
-- [ ] **E.** from the environment, so the genetic circuit will not be integrated and GFP will not be expressed in appreciable amounts. 6. Which of the following amino acids is most likely to be found within, NOT on the surface of, a soluble protein? 1.
-- [ ] **A.**
-- [ ] **C.**
-- [ ] **B.** 2.
-- [ ] **D.**
-- [ ] **E.** 7. A DNA segment is treated with restriction enzymes, pipetted into a well of polyacrylamide gel, and subjected to an electric field. Next, the gel is stained with ethidium bromide and visualized under ultraviolet light. What laboratory technique does this describe?
+- [ ] **E.** from the environment, so the genetic circuit will not be integrated and GFP will not be expressed in appreciable amounts.
+
+### 6. Which of the following amino acids is most likely to be found within, NOT on the surface of, a soluble protein?
+
+| Choice | Amino Acid Structure                       |
+| :----: | :----------------------------------------- |
+|   A    | ![Choice A](images/question06_choiceA.png) |
+|   B    | ![Choice B](images/question06_choiceB.png) |
+|   C    | ![Choice C](images/question06_choiceC.png) |
+|   D    | ![Choice D](images/question06_choiceD.png) |
+|   E    | ![Choice E](images/question06_choiceE.png) |
+
+### 7. A DNA segment is treated with restriction enzymes, pipetted into a well of polyacrylamide gel, and subjected to an electric field. Next, the gel is stained with ethidium bromide and visualized under ultraviolet light. What laboratory technique does this describe?
+
 - [ ] **A.** Enzyme‐linked immunosorbent assay.
 - [ ] **B.** Gel electrophoresis.
 - [ ] **C.** Northern blot.
 - [ ] **D.** Polymerase chain reaction.
-- [ ] **E.** Southern blot. 8. Propose an explanation for the cause of hyperchromicity, a phenomenon where denatured DNA tends to absorb 30-40% more 260 nm UV radiation than double-stranded DNA.
+- [ ] **E.** Southern blot.
+
+### 8. Propose an explanation for the cause of hyperchromicity, a phenomenon where denatured DNA tends to absorb 30-40% more 260 nm UV radiation than double-stranded DNA.
+
 - [ ] **A.** The 3΄ and 5΄ -OH groups force nucleotides into a new conformation with increased conjugation, increasing absorption of 260 nm UV light.
 - [ ] **B.** Denatured DNA only exists in the laboratory setting, where there is increased UV light for absorption.
 - [ ] **C.** Decreased base-stacking interactions increase the average conjugation for each nucleotide, leading to more UV light absorption.
@@ -71,7 +83,10 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **B.** I and III.
 - [ ] **C.** II only.
 - [ ] **D.** II and III.
-- [ ] **E.** III only. 10. Mouse white blood cells were allowed to equilibrate to an extracellular solution with an osmolarity of 300 mOsm/L. The cells are then moved to an extracellular solution with osmolarity 600 mOsm/L and allowed to equilibrate to the new environment. What is closest to the ratio of the final cell volume to the original cell volume? Assume that the membrane is impermeable to solutes.
+- [ ] **E.** III only.
+
+### 10.  Mouse white blood cells were allowed to equilibrate to an extracellular solution with an osmolarity of 300 mOsm/L. The cells are then moved to an extracellular solution with osmolarity 600 mOsm/L and allowed to equilibrate to the new environment. What is closest to the ratio of the final cell volume to the original cell volume? Assume that the membrane is impermeable to solutes.
+
 - [ ] **A.** 4.
 - [ ] **B.** 2.
 - [ ] **C.** 1.
@@ -96,11 +111,13 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **B.** The stromal pH and the pH of the thylakoid space will both decrease.
 - [ ] **C.** The stromal pH will increase, and the pH of the thylakoid space will decrease.
 - [ ] **D.** The stromal pH will decrease, and the pH of the thylakoid space will increase.
-- [ ] **E.** The stromal pH will remain unchanged, and the pH of the thylakoid space will decrease. 5%.
-- [ ] **D.** 25%.
-- [ ] **E.** 50%.
+- [ ] **E.** The stromal pH will remain unchanged, and the pH of the thylakoid space will decrease.
 
-### 13. You are experimenting with a type of Fabaceae, which normally have complete flowers. You wish to create a strain of “super-breeder” flowers that only express a combination of stamens and carpels across all whorls, with no petals or sepals. Based on your knowledge of the ABC hypothesis, which of the following changes would produce a “super-breeder”? I. Deletion of gene A in parts of the flower that normally express gene B. II. Overexpression of A gene throughout the entire flower. III. In a mutant flower with the phenotype “sepal, petal, petal, sepal” (outer whorl to inner whorl), replacement of all gene A expression with gene C expression.
+### 13. You are experimenting with a type of Fabaceae, which normally have complete flowers. You wish to create a strain of “super-breeder” flowers that only express a combination of stamens and carpels across all whorls, with no petals or sepals. Based on your knowledge of the ABC hypothesis, which of the following changes would produce a “super-breeder”?
+
+I. Deletion of gene A in parts of the flower that normally express gene B.
+II. Overexpression of A gene throughout the entire flower.
+III. In a mutant flower with the phenotype “sepal, petal, petal, sepal” (outer whorl to inner whorl), replacement of all gene A expression with gene C expression.
 
 - [ ] **A.** I only.
 - [ ] **B.** III only.
@@ -108,7 +125,12 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** II and III.
 - [ ] **E.** None of these.
 
-### 14. Which of the following plants are most likely to flower? I. A short-day plant that receives a 660-nm light flash in the middle of its dark period. II. A short-day plant that receives a 750-nm light flash in the middle of its dark period. A long-day plant that receives a 660-nm light flash in the middle of its dark period. III. IV. A long-day plant that receives a 750-nm light flash in the middle of its dark period.
+### 14. Which of the following plants are most likely to flower?
+
+I. A short-day plant that receives a 660-nm light flash in the middle of its dark period.
+II. A short-day plant that receives a 750-nm light flash in the middle of its dark period.
+III. A long-day plant that receives a 660-nm light flash in the middle of its dark period.
+IV. A long-day plant that receives a 750-nm light flash in the middle of its dark period.
 
 - [ ] **A.** I and III.
 - [ ] **B.** I and IV.
@@ -116,10 +138,11 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** II and IV.
 - [ ] **E.** III and IV.
 
-### 15. Your favorite fruit are bell peppers (yes - bell peppers are fruits), and you are interested in learning more about them. You obtain the diagrams of the bell pepper flower and fruit shown below. Which of the following best describes the bell pepper flower? Source: Harvest of the month: peppers.
+### 15. Your favorite fruit are bell peppers (yes - bell peppers are fruits), and you are interested in learning more about them. You obtain the diagrams of the bell pepper flower and fruit shown below. Which of the following best describes the bell pepper flower?
+
+Source: Harvest of the month: peppers.
 
 ![Question 15 figure 1](images/question15_figure1.png)
-
 ![Question 15 figure 2](images/question15_figure2.png)
 
 - [ ] **A.** Epigynous with free-central placentation.
@@ -128,11 +151,17 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Hypogynous with parietal placentation.
 - [ ] **E.** Epigynous with axile placentation.
 
-### 16. Your good friend Dr. Zhang needs your help in identifying the characteristics of a particular plant and provides you with the following images, both from the same specimen: Image sources: Figueiredo et al. (2015), Ferreira et al. (2007) Using the images above, identify which of the following statements are TRUE. The plant is a C4 plant. I. II. The plant is a monocot. The structures labeled A are thin-walled parenchyma cells and will lose turgidity in III. response to decreased water potential outside the cell. This plant has a thick cuticle and is well adapted for arid climates. IV. I, III.
+### 16. Your good friend Dr. Zhang needs your help in identifying the characteristics of a particular plant and provides you with the following images, both from the same specimen:
 
 ![Question 16 figure 1](images/question16_figure1.png)
-
 ![Question 16 figure 2](images/question16_figure2.png)
+
+Using the images above, identify which of the following statements are TRUE.
+
+I. The plant is a C4 plant.
+II. The plant is a monocot.
+III. The structures labeled A are thin-walled parenchyma cells and will lose turgidity in response to decreased water potential outside the cell.
+IV. This plant has a thick cuticle and is well adapted for arid climates.
 
 - [ ] **A.** I, II, III.
 - [ ] **B.** I, II, IV.
@@ -140,15 +169,23 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** II, III, IV.
 - [ ] **E.** I, II, III, IV.
 
-### 17. Which of the following intracellular changes in stomatal guard cells is NOT expected following production of abscisic acid in the roots? Increase in cytosolic $Ca^{2+}$ concentrations.
+### 17. Which of the following intracellular changes in stomatal guard cells is NOT expected following production of abscisic acid in the roots?
 
-- [ ] **A.**
+- [ ] **A.** Increase in cytosolic $Ca^{2+}$ concentrations.
 - [ ] **B.** Increase in cell water potential.
-- [ ] **C.** Loss of turgidity and subsequent plasmolysis. Uptake of $K^+$ ions.
-- [ ] **D.**
+- [ ] **C.** Loss of turgidity and subsequent plasmolysis.
+- [ ] **D.** Uptake of $K^+$ ions.
 - [ ] **E.** Raise in cellular pH.
 
-### 18. Equal amounts of xylem, phloem, parenchyma, sclerenchyma, and collenchyma from a plant in your house. You forget to label your samples and want to confirm which tissue is which. You evaluate different relative characteristics of the tissues and obtain the results below. What is the identity of tissue III? Tissue Pressure Water Monosaccharides/ Starch $O_2$ Production Potential Disaccharides Content I Positive Negative Moderate High High II Positive Negative High Low Minimal III Positive Negative Moderate Low Moderate III Negative Negative Low Low None V Zero Zero None Low None
+### 18. Equal amounts of xylem, phloem, parenchyma, sclerenchyma, and collenchyma from a plant in your house. You forget to label your samples and want to confirm which tissue is which. You evaluate different relative characteristics of the tissues and obtain the results below. What is the identity of tissue III?
+
+| Tissue | Pressure Potential | Water Content | Monosaccharides/Disaccharides | Starch | O$_2$ Production |
+| :----- | :----------------- | :------------ | :---------------------------- | :----- | :--------------- |
+| I      | Positive           | Negative      | Moderate                      | High   | High             |
+| II     | Positive           | Negative      | High                          | Low    | Minimal          |
+| III    | Positive           | Negative      | Moderate                      | Low    | Moderate         |
+| IV     | Negative           | Negative      | Low                           | Low    | None             |
+| V      | Zero               | Zero          | None                          | Low    | None             |
 
 - [ ] **A.** Collenchyma.
 - [ ] **B.** Parenchyma.
@@ -174,7 +211,9 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Decreased gut motility.
 - [ ] **E.** Decreased glomerular filtration rate.
 
-### 21. As you are cleaning up the pathology lab, you discover an unlabeled human tissue specimen. To satisfy your curiosity, you stain it, and obtain the image shown below: Which of the following is the most likely function of the tissue sample you obtained?
+### 21. As you are cleaning up the pathology lab, you discover an unlabeled human tissue specimen. To satisfy your curiosity, you stain it, and obtain the image shown below:
+
+Which of the following is the most likely function of the tissue sample you obtained?
 
 ![Question 21 figure 1](images/question21_figure1.png)
 
@@ -200,7 +239,13 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Reduced ACTH, Elevated CRH, can tolerate lower amounts of stress than normal.
 - [ ] **E.** Reduced ACTH, Elevated CRH, can tolerate higher amounts of stress than normal.
 
-### 24. Counterpart cells are mature B lymphocytes that have already undergone immunoglobulin gene rearrangement. Diagnosis of Chronic Lymphocytic Leukemia (CLL) relies on using fluorescently conjugated antibodies to measure expression of surface proteins, which include the following: -Normal B-cell surface antigens such as CD19, CD20, CD22. -An antigen normally expressed on T lymphocytes (CD5). -Immunoglobulin light chain (kappa or lambda). Which of the following is MOST TRUE based on general immunologic and neoplastic principles?
+### 24. Counterpart cells are mature B lymphocytes that have already undergone immunoglobulin gene rearrangement. Diagnosis of Chronic Lymphocytic Leukemia (CLL) relies on using fluorescently conjugated antibodies to measure expression of surface proteins, which include the following:
+
+- Normal B-cell surface antigens such as CD19, CD20, CD22.
+- An antigen normally expressed on T lymphocytes (CD5).
+- Immunoglobulin light chain (kappa or lambda).
+
+Which of the following is MOST TRUE based on general immunologic and neoplastic principles?
 
 - [ ] **A.** Since CLL is a clonal malignancy, it will lack all normal lymphocyte antigens (B cell or T cell), and express neither kappa nor lambda light chains on its membranes.
 - [ ] **B.** Since CLL derives from B-cells, the CLL population will exhibit a mixture of kappa light chain and lambda light chain specificities and cannot express the T-cell marker CD5.
@@ -208,9 +253,11 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Since CLL is a clonal malignancy, it may co-express B-cell antigens (CD19, CD20, CD22) along with proteins not normally expressed in B-cells (CD5) and will be limited to either kappa or lambda light chain expression.
 - [ ] **E.** Since CLL is a clonal malignancy, observation of surface proteins is not a sufficient tool for diagnosis without correlation with DNA sequencing of genes involved in normal B-cell function.
 
-### 25. The following curve represents the affinity of human hemoglobin for oxygen. Refer to the curve as needed when answering the following four questions about a hospitalized patient in septic shock. The monitor shows the following vitals: heart rate 112, oxygen saturation 82%, blood pressure 88/54 mmHg, temperature 38.6 degrees Celsius (101.5 °F). A B C The patient’s organs are not receiving adequate oxygen to perform aerobic cellular respiration, and lactate production rises. What cellular process is resulting in lactate production?
+### 25. The following curve represents the affinity of human hemoglobin for oxygen. Refer to the curve as needed when answering the following four questions about a hospitalized patient in septic shock. The monitor shows the following vitals: heart rate 112, oxygen saturation 82%, blood pressure 88/54 mmHg, temperature 38.6 degrees Celsius (101.5 °F).
 
 ![Question 25 figure 1](images/question25_figure1.png)
+
+The patient’s organs are not receiving adequate oxygen to perform aerobic cellular respiration, and lactate production rises. What cellular process is resulting in lactate production?
 
 - [ ] **A.** Glycolysis.
 - [ ] **B.** Oxidative phosphorylation.
@@ -226,13 +273,18 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** 60mmHg.
 - [ ] **E.** 50mmHg.
 
-### 27. Which of the following statements are TRUE regarding the process of meiosis? I. Segregation of unlinked alleles occurs during meiosis. II. Kinetochores are responsible for aligning chromatids during meiosis I. III. At the end of meiosis, the amount of chromosome in each daughter cell is half of the parental cell. IV. At the end of meiosis, the amount of DNA in each daughter cell is half of the parental cell.
+### 27. Which of the following statements are TRUE regarding the process of meiosis?
 
-- [ ] **A.** I, III. II, III.
-- [ ] **B.** I, II, III.
-- [ ] **C.** II, III, IV.
-- [ ] **D.** I, II, III, IV.
-- [ ] **E.**
+I. Segregation of unlinked alleles occurs during meiosis.
+II. Kinetochores are responsible for aligning chromatids during meiosis I.
+III. At the end of meiosis, the amount of chromosome in each daughter cell is half of the parental cell.
+IV. At the end of meiosis, the amount of DNA in each daughter cell is half of the parental cell.
+
+- [ ] **A.** I, III.
+- [ ] **B.** II, III.
+- [ ] **C.** I, II, III.
+- [ ] **D.** II, III, IV.
+- [ ] **E.** I, II, III, IV.
 
 ### 28. Which of the following is NOT an example of an interaction that happens in the immune response to a virus?
 
@@ -252,9 +304,14 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Multiple functions of the C3 and C4 proteins conserve resources and improve the efficiency of the complement system.
 - [ ] **E.** C1q of the C1qrs complex remains bound to the immune complex to lower reaction time for phagocytosis.
 
-### 30. A thin 25‐year‐old woman presents to her primary care physician stating that her blood pressure was high at 178/114 mmHg when she measured it on a machine at her pharmacy. She is also found to have decreased potassium levels, sodium and water retention, increased aldosterone levels, and decreased plasma renin levels. The diagram below shows the renal nephron. Source: https://commons.wikimedia.org/wiki/File:Gray1128.png Note: The irregular tubule and the 2nd convoluted tubule are also referred to as the distal tubule. Which of the following is the most likely diagnosis?
+### 30. A thin 25‐year‐old woman presents to her primary care physician stating that her blood pressure was high at 178/114 mmHg when she measured it on a machine at her pharmacy. She is also found to have decreased potassium levels, sodium and water retention, increased aldosterone levels, and decreased plasma renin levels. The diagram below shows the renal nephron.
 
 ![Question 30 figure 1](images/question30_figure1.png)
+
+Source: https://commons.wikimedia.org/wiki/File:Gray1128.png
+Note: The irregular tubule and the 2nd convoluted tubule are also referred to as the distal tubule.
+
+Which of the following is the most likely diagnosis?
 
 - [ ] **A.** Ingestion of loop diuretics, which inhibit sodium reabsorption in the loop of Henle.
 - [ ] **B.** Ingestion of thiazide diuretics, which inhibit sodium reabsorption in the distal tubule.
@@ -272,9 +329,14 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Female birds who become helpers gain the ability to lay some of their own eggs in the nest at which they are helping.
 - [ ] **E.** Birds who fail to breed and become helpers in their first breeding season are likely to remain as helpers for the rest of their lifespan without ever successfully breeding.
 
-### 32. A marine biologist conducted a series of time-lapsed photographs that recorded the schooling behavior of the fish Pagrus major. Food was added to water at two different locations via a time released mechanism. The data is shown graphically below. Image source: Cousin et al. Graphs A and B: Fish behavior before the stimuli was added. Graphs C and D: After the food was added at two different locations (shown in dark grey hexagons) of the test area. Which of the following behaviors is demonstrated here?
+### 32. A marine biologist conducted a series of time-lapsed photographs that recorded the schooling behavior of the fish Pagrus major. Food was added to water at two different locations via a time released mechanism. The data is shown graphically below. Image source: Cousin et al.
 
 ![Question 32 figure 1](images/question32_figure1.png)
+
+Graphs A and B: Fish behavior before the stimuli was added.
+Graphs C and D: After the food was added at two different locations (shown in dark grey hexagons) of the test area.
+
+Which of the following behaviors is demonstrated here?
 
 - [ ] **A.** Short-term habituation.
 - [ ] **B.** Collective cognition.
@@ -292,15 +354,27 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 
 ## GENETICS (20%, 10 questions)
 
-### 34. Professor Bonzu studies sky bison, which are very attentive to the high-pitched sound of a bison whistle. Seeking to better understand the inheritance of the whistle-attentive gene, denoted by “W/w”, he crosses a true-breeding whistle-attentive male with a true-breeding non-whistle-attentive female. All offspring of this cross are whistle attentive. Then, Professor Bonzu crosses two F1 bison to produce 1600 F2 offspring. In this F2 generation, there are 1300 whistle-attentive bison and 300 non-whistle-attentive bison. Which of the following mechanisms reasonably explains Professor Bonzu’s results? There is a dominant activator gene (A/a) in addition to the W gene that can reverse the recessive
+### 34. Professor Bonzu studies sky bison, which are very attentive to the high-pitched sound of a bison whistle. Seeking to better understand the inheritance of the whistle-attentive gene, denoted by “W/w”, he crosses a true-breeding whistle-attentive male with a true-breeding non-whistle-attentive female. All offspring of this cross are whistle attentive. Then, Professor Bonzu crosses two F1 bison to produce 1600 F2 offspring. In this F2 generation, there are 1300 whistle-attentive bison and 300 non-whistle-attentive bison. Which of the following mechanisms reasonably explains Professor Bonzu’s results?
 
-- [ ] **A.** phenotype at W. The parental generation male shows the genotype AA, while the parental generation female shows the genotype aa.
+- [ ] **A.** There is a dominant activator gene (A/a) in addition to the W gene that can reverse the recessive phenotype at W. The parental generation male shows the genotype AA, while the parental generation female shows the genotype aa.
 - [ ] **B.** There is a recessive suppressor gene (S/s) in addition to the W gene that can reverse the recessive phenotype at W. The parental generation male shows the genotype ss, while the parental generation female shows the genotype SS.
-- [ ] **C.** The parental generation male shows a normal upstream enhancer sequence for the whistle response gene, but the parental generation female has a loss-of-function mutation in the enhancer sequence. Assume that the enhancer sequence is passed down in a simple Mendelian- like manner in this case.
-- [ ] **D.** The W locus is affected by another gene product (D/d) that acts as a dominant negative mutation. The parental generation male shows the genotype dd, while the parental generation female shows the genotype DD. The w allele is approximately 15% penetrant into the whistle response phenotype.
-- [ ] **E.**
+- [ ] **C.** The parental generation male shows a normal upstream enhancer sequence for the whistle response gene, but the parental generation female has a loss-of-function mutation in the enhancer sequence. Assume that the enhancer sequence is passed down in a simple Mendelian-like manner in this case.
+- [ ] **D.** The W locus is affected by another gene product (D/d) that acts as a dominant negative mutation. The parental generation male shows the genotype dd, while the parental generation female shows the genotype DD.
+- [ ] **E.** The w allele is approximately 15% penetrant into the whistle response phenotype.
 
-### 35. You are studying the morphological differences between humans and chimpanzees and attempting to understand the genetic basis of these differences. Most notably, you believe that several anatomical differences between the two species can be explained by divergent gene regulation in developmental pathways. To test your hypothesis, you decide to create human-chimpanzee tetraploid hybrid induced pluripotent stem cells (iPSC) and cranial neural crest cells (CNCCs) from the NIH/3T3 cell line. Note that exposing NIH/3T3 cells to doxycycline (Dox) induces the expression of Evc2. Upon verifying that the tetraploid cells express a full set of human and chimpanzee chromosomes, you plot the chimpanzee-to-human allele specific expression (ASE) ratio in hybrid iPSCs and CNCCs for all skeleton-related genes that are differentially expressed in both cell types (Figure 1). Additionally, you measure Gli1, a product of a signaling pathway involved in differentiation of embryonic cells induced by Shh, across different levels of Shh and Dox (Figure 2). I. In hybrid cells, alleles from different species may be subject to differential environmental pressures. II. Any allele-specific expression is due to trans-regulatory or epigenetic differences between species in hybrid cells. III. EVC2 is the most down-regulated skeleton-related gene in humans compared with chimpanzees. IV. Evc2 expression promotes the induction of Gli1 expression by Shh. V. Gli1 exerts feedback inhibition on Evc2 expression at low levels of Dox. Figure 1. Figure 2. Choose ALL the above statements that are TRUE.
+### 35. You are studying the morphological differences between humans and chimpanzees and attempting to understand the genetic basis of these differences. Most notably, you believe that several anatomical differences between the two species can be explained by divergent gene regulation in developmental pathways. To test your hypothesis, you decide to create human-chimpanzee tetraploid hybrid induced pluripotent stem cells (iPSC) and cranial neural crest cells (CNCCs) from the NIH/3T3 cell line. Note that exposing NIH/3T3 cells to doxycycline (Dox) induces the expression of Evc2. Upon verifying that the tetraploid cells express a full set of human and chimpanzee chromosomes, you plot the chimpanzee-to-human allele specific expression (ASE) ratio in hybrid iPSCs and CNCCs for all skeleton-related genes that are differentially expressed in both cell types (Figure 1). Additionally, you measure Gli1, a product of a signaling pathway involved in differentiation of embryonic cells induced by Shh, across different levels of Shh and Dox (Figure 2).
+
+![Question 35 figure 1](images/question35_figure1.png)
+
+![Question 35 figure 2](images/question35_figure2.png)
+
+I. In hybrid cells, alleles from different species may be subject to differential environmental pressures.
+II. Any allele-specific expression is due to trans-regulatory or epigenetic differences between species in hybrid cells.
+III. EVC2 is the most down-regulated skeleton-related gene in humans compared with chimpanzees.
+IV. Evc2 expression promotes the induction of Gli1 expression by Shh.
+V. Gli1 exerts feedback inhibition on Evc2 expression at low levels of Dox.
+
+Choose ALL the above statements that are TRUE.
 
 - [ ] **A.** I and II only.
 - [ ] **B.** II, III, IV.
@@ -308,7 +382,16 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** I, III, IV, V.
 - [ ] **E.** III, IV, V.
 
-### 36. Two haploid yeast cells are us. One can grow on a medium without leucine and is resistant to amphotericin. The other cell needs leucine supplemented medium for growth and is sensitive to amphotericin. These two yeast cells are mated to produce diploids, which then sporulate to form a tetrad. Four types of tetrads (all the cells of the tetrads have the same phenotype) are seen: Need Leucine to grow? Amphotericin resistant? Number of tetrads Yes Yes 25 Yes No 27 No Yes 26 No No 28 What can be concluded about the genes coding for leucine synthesis and amphotericin sensitivity in yeast (assume amphotericin resistance is encoded by the chromosomal DNA, not the plasmid DNA)?
+### 36. Two haploid yeast cells are us. One can grow on a medium without leucine and is resistant to amphotericin. The other cell needs leucine supplemented medium for growth and is sensitive to amphotericin. These two yeast cells are mated to produce diploids, which then sporulate to form a tetrad. Four types of tetrads (all the cells of the tetrads have the same phenotype) are seen:
+
+| Need Leucine to grow? | Amphotericin resistant? | Number of tetrads |
+| --------------------- | ----------------------- | ----------------- |
+| Yes                   | Yes                     | 25                |
+| Yes                   | No                      | 27                |
+| No                    | Yes                     | 26                |
+| No                    | No                      | 28                |
+
+What can be concluded about the genes coding for leucine synthesis and amphotericin sensitivity in yeast (assume amphotericin resistance is encoded by the chromosomal DNA, not the plasmid DNA)?
 
 - [ ] **A.** The genes have a distance 25cM between them and are on the same chromosome.
 - [ ] **B.** The genes have a distance 12.5 cM between them and are on the same chromosome.
@@ -351,11 +434,10 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 ### 41. Lesch-Nyhan syndrome is a recessive X-linked disorder. People with Lesch-Nyhan syndrome exhibit high uric acid levels and neurological symptoms like chewing their fingers and lips. A woman whose parents are healthy and whose brother has Lesch-Nyhan syndrome marries a normal man. What is the probability that her first child will have Lesch-Nyhan syndrome?
 
 - [ ] **A.** 0%.
-- [ ] **B.**
-
-### 6. 25%.
-
-- [ ] **C.**
+- [ ] **B.** 6.25%.
+- [ ] **C.** 12.5%.
+- [ ] **D.** 25%.
+- [ ] **E.** 50%.
 
 ### 42. . Your Biology teacher gives you the following pedigree. She asks you to make one change to the pedigree so that it shows the mitochondrial mode of inheritance. Which individual would you change?
 
@@ -385,7 +467,12 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Thermophilic and anaerobic.
 - [ ] **E.** Mesophilic and anaerobic.
 
-### 45. Farmer John has been using inorganic fertilizer containing nitrogen and phosphorus to grow his crops. Recently, a massive rainstorm caused large amounts of fertilizer from his farm to enter a local freshwater ecosystem via runoff. One month later, which of the following values would you expect to have increased in the freshwater ecosystem? I. The dissolved oxygen levels of the freshwater ecosystem. II. The turbidity of the freshwater ecosystem. III. The biodiversity of the freshwater ecosystem. IV. The net primary productivity of the freshwater ecosystem.
+### 45. Farmer John has been using inorganic fertilizer containing nitrogen and phosphorus to grow his crops. Recently, a massive rainstorm caused large amounts of fertilizer from his farm to enter a local freshwater ecosystem via runoff. One month later, which of the following values would you expect to have increased in the freshwater ecosystem?
+
+I. The dissolved oxygen levels of the freshwater ecosystem.
+II. The turbidity of the freshwater ecosystem.
+III. The biodiversity of the freshwater ecosystem.
+IV. The net primary productivity of the freshwater ecosystem.
 
 - [ ] **A.** I, II.
 - [ ] **B.** II, IV.
@@ -421,9 +508,9 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 
 ## Questions49 and 50: Use the following figure.
 
-### 49. Based on the species and phylogeny shown, which of the following species has a complete set of ancestral character states for shape, color, and outline?
-
 ![Question 49 figure 1](images/question49_figure1.png)
+
+### 49. Based on the species and phylogeny shown, which of the following species has a complete set of ancestral character states for shape, color, and outline?
 
 - [ ] **A.** Species 1 and 2.
 - [ ] **B.** Species 3.
@@ -431,59 +518,65 @@ IV. Insufficient transfer time between gel and nitrocellulose membrane.
 - [ ] **D.** Species 5.
 - [ ] **E.** Species 6.
 
-## pattern of convergent evolution?
+### 50. Based on the species and phylogeny shown, which of the following character states shows a pattern of convergent evolution?
+
+- [ ] **A.** Blue color.
+- [ ] **B.** Dashed outline.
+- [ ] **C.** Orange color.
+- [ ] **D.** Solid outline.
+- [ ] **E.** Round shape.
 
 # Answer Key
 
 | Question | Answer |
-| ---: | :--- |
-| 1 | B |
-| 2 | D |
-| 3 | B |
-| 4 | D |
-| 5 | D |
-| 6 | D |
-| 7 | B |
-| 8 | C |
-| 9 | C |
-| 10 | D |
-| 11 | D |
-| 12 | D |
-| 13 | B |
-| 14 | C |
-| 15 | B |
-| 16 | B |
-| 17 | D |
-| 18 | A |
-| 19 | A |
-| 20 | C |
-| 21 | B |
-| 22 | D |
-| 23 | C |
-| 24 | D |
-| 25 | A |
-| 26 | D |
-| 27 | A |
-| 28 | D |
-| 29 | D |
-| 30 | E |
-| 31 | D |
-| 32 | B |
-| 33 | B |
-| 34 | B |
-| 35 | C |
-| 36 | E |
-| 37 | C |
-| 38 | C |
-| 39 | D |
-| 40 | E |
-| 41 | C |
-| 42 | D |
-| 43 | C |
-| 44 | A |
-| 45 | B |
-| 46 | D |
-| 47 | C |
-| 48 | C |
-| 49 | B |
-| 50 | C |
+| -------: | :----- |
+|        1 | B      |
+|        2 | D      |
+|        3 | B      |
+|        4 | D      |
+|        5 | D      |
+|        6 | D      |
+|        7 | B      |
+|        8 | C      |
+|        9 | C      |
+|       10 | D      |
+|       11 | D      |
+|       12 | D      |
+|       13 | B      |
+|       14 | C      |
+|       15 | B      |
+|       16 | B      |
+|       17 | D      |
+|       18 | A      |
+|       19 | A      |
+|       20 | C      |
+|       21 | B      |
+|       22 | D      |
+|       23 | C      |
+|       24 | D      |
+|       25 | A      |
+|       26 | D      |
+|       27 | A      |
+|       28 | D      |
+|       29 | D      |
+|       30 | E      |
+|       31 | D      |
+|       32 | B      |
+|       33 | B      |
+|       34 | B      |
+|       35 | C      |
+|       36 | E      |
+|       37 | C      |
+|       38 | C      |
+|       39 | D      |
+|       40 | E      |
+|       41 | C      |
+|       42 | D      |
+|       43 | C      |
+|       44 | A      |
+|       45 | B      |
+|       46 | D      |
+|       47 | C      |
+|       48 | C      |
+|       49 | B      |
+|       50 | C      |
